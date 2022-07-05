@@ -13,6 +13,7 @@
     ┣ 📜 txt [GENERATED]
     ┣ 📜 raw
     ┣ 📜 scripts
+    ┣ 📜 schemas
 
 The `raw` folder contains the **raw** data from either OCR or double-keyboarding in Kannada script.
 
@@ -21,6 +22,8 @@ The `tei` folder contains the **structured** and **transliterated** data in TEI 
 The `txt` folder contains plain text files that are **automatically generated** from the corresponding TEI files using the scripts in the `scripts` folder. They are not to be edited directly.
 
 The `scripts` folder contains python and XSLT scripts used for either restructuring the raw data or for converting the TEI data into downstream formats (such as plain text).
+
+The TEI files are validated against the `tei_all.rnc` schema in the `schemas` folder.
 
 ## Acknowledgements and license
 
