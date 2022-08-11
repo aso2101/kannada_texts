@@ -124,87 +124,58 @@
 
   <!-- trailers !-->
   <xsl:template match="tei:trailer">
-    <xsl:text>[</xsl:text>
+    <xsl:text></xsl:text>
     <xsl:apply-templates/>
-    <xsl:text>]
+    <xsl:text>
 </xsl:text>
   </xsl:template>
 
   <!-- labels !-->
   <xsl:template match="tei:label">
     <xsl:text>[</xsl:text>
-    <xsl:value-of select="normalize-space(text())"/>
-    <xsl:text>] </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>]
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="tei:ref">
+    <xsl:text>      (- </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>)
+
+</xsl:text>
   </xsl:template>
 
   <!-- verses !-->
   <xsl:template match="tei:lg">
-    <xsl:apply-templates/>
-    <xsl:text>
+    <xsl:if test="@type = 'sūtra'">
+      <xsl:text>SŪTRAṀ </xsl:text>
+      <xsl:value-of select="./ancestor::tei:div[@type='sūtra']/@n"/>
+      <xsl:text>
 </xsl:text>
+    </xsl:if>
+    <xsl:apply-templates/>
+    <xsl:if test="not(following-sibling::tei:ref)">
+      <xsl:text>
+</xsl:text>
+    </xsl:if>
   </xsl:template>
   <xsl:template match="tei:l">
     <xsl:apply-templates/>
-    <xsl:if test="../@n">
-      <xsl:text> // </xsl:text>
-      <xsl:call-template name="make-abbrev">
-	<xsl:with-param name="title" select="$abbrev"/>
-	<xsl:with-param name="chapter" select="./ancestor::tei:div[@n][1]/@n"/>
-	<xsl:with-param name="verse" select="./ancestor::tei:lg[@n][1]/@n"/>
-      </xsl:call-template>
-      <xsl:variable name="dvipada" select="tokenize('gāhā āryā ślōkaḥ ślōka anuṣṭubh anuṣṭup',' ')" />
-      <xsl:if test="../@met">
-	<xsl:choose>
-	  <xsl:when test="index-of($dvipada, ../@met)">
-	    <xsl:choose>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 0">
-		<xsl:text>ab</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 1">
-		<xsl:text>cd</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 2">
-		<xsl:text>ef</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 3">
-		<xsl:text>gh</xsl:text>
-	      </xsl:when>
-	      <xsl:otherwise/>
-	    </xsl:choose>
-	  </xsl:when>
-	  <xsl:when test="ends-with(../@met, 'ragaḷe')">
-	    <xsl:text>.</xsl:text>
-	    <xsl:value-of select="count(preceding-sibling::tei:l) + 1"/>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:choose>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 0">
-		<xsl:text>a</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 1">
-		<xsl:text>b</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 2">
-		<xsl:text>c</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 3">
-		<xsl:text>d</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 4">
-		<xsl:text>e</xsl:text>
-	      </xsl:when>
-	      <xsl:when test="count(preceding-sibling::tei:l) = 5">
-		<xsl:text>f</xsl:text>
-	      </xsl:when>
-	      <xsl:otherwise/>
-	    </xsl:choose>
-	  </xsl:otherwise>
-	</xsl:choose>
+    <xsl:if test="not(following-sibling::tei:l)">
+      <xsl:if test="../@n">
+	<xsl:text> // </xsl:text>
+	<xsl:call-template name="make-abbrev">
+	  <xsl:with-param name="title" select="$abbrev"/>
+	  <xsl:with-param name="chapter" select="./ancestor::tei:div[@n][1]/@n"/>
+	  <xsl:with-param name="verse" select="./ancestor::tei:lg[@n][1]/@n"/>
+	</xsl:call-template>
+	<xsl:if test="../@met">
+	  <xsl:text> [</xsl:text><xsl:value-of select="../@met"/><xsl:text>]</xsl:text>
+	</xsl:if>
       </xsl:if>
     </xsl:if>
-    <xsl:if test="not(following-sibling::tei:l)">
-      <xsl:text> [</xsl:text><xsl:value-of select="../@met"/><xsl:text>]</xsl:text>
-    </xsl:if>
+
     <xsl:text>
 </xsl:text>
   </xsl:template>
@@ -267,6 +238,10 @@
   <!-- titles !-->
   <xsl:template match="tei:title">
       <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="text()">
+    <xsl:value-of select="normalize-space(.)"/>
   </xsl:template>
 
   <xsl:template name="make-label">

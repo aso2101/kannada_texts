@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import sys, os, re, pathlib
+import sys, os, re, pathlib, sanscript
 from lxml import etree
 from natsort import natsorted, ns
 
@@ -23,15 +23,18 @@ Note that this file is generated automatically from the data in `/tei/` by the s
                 text = tree.getroot().attrib['n']
                 title = tree.find("//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title",namespaces).text
                 for target in tree.findall("//tei:*[@met]",namespaces):
-                    parent = target.getparent().attrib['n']
                     met = target.attrib['met']
                     verse = target.attrib['n']
-                    reference = text + "." + parent + "." + verse
+                    if 'n' in target.getparent().attrib:
+                        parent = target.getparent().attrib['n']
+                        reference = text + "." + parent + "." + verse
+                    else:
+                        reference = text + "." + verse
                     if met in intermed:
                         intermed[met].append(reference)
                     else:
                         intermed[met] = [reference]
-                sortednames=sorted(intermed.keys(), key=lambda x:x.lower())
+                sortednames=sorted(intermed.keys(), key=lambda x: sanscript.transliterate(x.lower(),'iso','kannada'))
                 o.write("\n## " + title)
                 o.write("\n| Meter | Count | References |")
                 o.write("\n| :--- | :--- | :--- |")
@@ -46,8 +49,8 @@ Note that this file is generated automatically from the data in `/tei/` by the s
         o.write("\n## Overall")
         o.write("\n| Meter | Count | References |")
         o.write("\n| :--- | :--- | :--- |")
-        sortednames=sorted(meters.keys(), key=lambda x:x.lower())
+        sortednames=sorted(meters.keys(), key=lambda x: sanscript.transliterate(x.lower(),'iso','kannada'))
         for x in meters:
-            references = natsorted(intermed[x], key=lambda y: y.lower())
-            meters[x] = references
-            o.write("\n|" + x + "|" + str(len(references)) + "|" + ", ".join(references) + "|")
+             references = natsorted(meters[x], key=lambda y: y.lower())
+             meters[x] = references
+             o.write("\n|" + x + "|" + str(len(references)) + "|" + ", ".join(references) + "|")
