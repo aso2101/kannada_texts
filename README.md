@@ -3,6 +3,7 @@
 ## Texts included so far
 
 - *Vardhamānapurāṇaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನನ ವರ್ಧಮಾನಪುರಾಣಂ), ca. 1042
+- *Kāvyāvalōkanaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನನ ಕಾವ್ಯಾವಲೋಕನಂ), ca. 1042
 
 ## Directory structure
 
