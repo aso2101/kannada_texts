@@ -1,0 +1,4792 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" n="KaBhāBhū">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="san-Latn">Karṇāṭakabhāṣābhūṣaṇam</title>
+        <author xml:lang="san-Latn">Nāgavarma</author>
+	<principal>
+	  <persName xml:id="AO" ref="http://viaf.org/viaf/372149294434280521495">
+	    <forename>Andrew</forename>
+	    <surname>Ollett</surname>
+	  </persName>
+	</principal>
+	<respStmt>
+	  <resp>Typing and TEI structuration</resp>
+	  <persName ref="#AO">Andrew Ollett</persName>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Kannada Digital Texts Project</authority>
+        <availability status="restricted">
+          <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/" type="url">Creative Commons Attribution-ShareAlike 4.0</ref> license.</p>
+	  <!-- further information here? !-->
+        </availability>
+        <date>2022</date>
+      </publicationStmt>
+      <sourceDesc>
+	<listBibl>
+	  <bibl xml:id="a">
+	    <title xml:lang="eng">Nāgavarmma’s Kāvyāvalōkanam: A standard Kannaḍa work on Poetics, of the 12th century: and the same author’s Karṇāṭaka Bhāshā-bhūshaṇam (Revised Edition): A Kannaḍa Grammar in Sanskrit Sûtras, expanding Śabdasmṛiti, the first chapter of Kâvyâvalôkanam.</title>
+	    <editor xml:lang="eng">
+	      <persName ref="https://viaf.org/viaf/289376294">
+		<forename>R.</forename>
+		<surname>Narasimhachar</surname>
+	      </persName>
+	    </editor>
+	    <publisher>Mysore Government Central Press</publisher>
+	    <pubPlace>Bangalore</pubPlace>
+	    <date when="1903">1903</date>
+	  </bibl>
+	</listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+	<language ident="eng">English</language>
+	<language ident="san-Latn">Sanskrit in Roman transliteration (ISO-15919)</language>
+	<language ident="kan-Latn">Kannada in Roman transliteration (ISO-15919)</language>
+      </langUsage>
+      <textClass>
+	<keywords>
+	  <term><!--each keyword in a <term/> element --></term>
+	</keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p><!-- romanization !-->
+          <!-- orthography !-->
+        <!-- encoding !--></p>
+      </editorialDecl>
+      <refsDecl>
+	<cRefPattern matchPattern="KāBhāBhū.([0-9]+)" replacementPattern="#xpath(//tei:div[@type='sūtra'][@n='$1'])"/>
+	<cRefPattern matchPattern="KāBhāBhū.([0-9]+).([0-9]+)" replacementPattern="#xpath(//tei:div[@type='section'][@n='$1']/tei:div[@type='sūtra'][@n='$2'])"/>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2022-08-23" who="Andrew Ollett">
+	<list>
+	  <item>Initial version.</item>
+	</list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="san-Latn">
+    <body>
+      <head>karṇāṭakabhāṣābhūṣaṇaṁ</head>
+      <lg met="anuṣṭubh">
+	<l>sarvajñaṁ tad ahaṁ vandē parajyōtis tamōpaham</l>
+	<l>pravr̥ttā yanmukhād dēvī sarvabhāṣāsarasvatī</l>
+      </lg>
+      <div type="section" n="1">
+	<head>saṁjñāvidhānaṁ</head>
+        <div type="sūtra" n="1">
+          <ab type="sūtra">atha karṇāṭaka-śabda-siddhiḥ</ab>
+          <p>
+            <s>atha śabdō ’yam ādau māṅgalyārthaḥ.</s>
+            <s>māṅgalyādīni śāstrāṇi pradanta iti prasiddhēḥ.</s>
+            <s>adhikārārthō vā.</s>
+            <s>mayā karṇāṭa-viṣaya-śabda-siddhir adhikriyata ity arthaḥ.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="2">
+          <ab type="sūtra">akārādayaḥ prasiddhā varṇāḥ.</ab>
+          <p>
+            <s>akārādayō varṇā hakāra-paryavasānāḥ prasiddhā eva vēditavyāḥ.</s>
+            <s>tēṣām anādi-kāla-prasiddhatvād anyathā nōpadēṣṭavyāḥ.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="3">
+          <ab type="sūtra">tēṣv ādau caturdaśa svarāḥ.</ab>
+          <p>
+            <s>tēṣv akārādiṣu varṇēṣv ādau caturdaśa-vyavasthitāś caturdaśa-varṇās svara-saṁjñā bhavanti.</s>
+            <s>tē kē?</s>
+            <s>a ā, i ī, u ū, r̥ r̥ r̥̄, l̥ l̥ l̥̄, ē, ai, ō, au.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="4">
+          <ab type="sūtra">ēkadvitrimātrās tē hrasvadīrghaplutāḥ.</ab>
+          <p>
+            <s>tē iti tacchabdōpādānaṁ vyaktyarthaṁ.</s>
+            <s>akārādisvaravyaktyau yē varṇā ēkadvitrimātrāḥ tē khalu yathāsaṅkhyaṁ hrasvadīrghaplutā bhavanti.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>a</item>
+            <item>ā</item>
+            <item>ā3</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>i</item>
+            <item>ī</item>
+            <item>ī3</item>
+          </list>
+	  <p>
+	    <s>ity ādi.</s>
+	  </p>
+	  <p>
+	    <s>sāmānyāpēkṣayā saṅkhyāpi na virudhyatē.</s>
+	  </p>
+        </div>
+        <div type="sūtra" n="5">
+          <ab type="sūtra">ēdōtau hrasvā ca.</ab>
+          <p>
+            <s>ēkaukārau dvāv api kvacid bhāṣāyāṁ hrasvā ca bhavataḥ.</s>
+            <s>nityaṁ sandhyakṣarāṇi dīrghāṇi ity upadēśād idaṁ vacanaṁ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ele</item>
+            <item>ēle</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>sele</item>
+            <item>sēle</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ole</item>
+            <item>ōle</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>gole</item>
+            <item>gōle</item>
+          </list>
+        </div>
+        <div type="sūtra" n="6">
+          <ab type="sūtra">kādayas trayastriṁśad vyañjanāni.</ab>
+          <p>
+            <s>kakāraprabhr̥tayaḥ trayastriṁśatparimitāḥ yē varṇāḥ pratyēkaṁ tē vyañjanasaṁjñā bhavanti.</s>
+            <s>tē kē?</s>
+            <s>k kh g gh ṅ, c ch j jh ñ, ṭ ṭh ḍ ḍh ṇ, t th d dh n, p ph b bh m, y r l v ś ṣ s h.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="7">
+          <ab type="sūtra">vargās tē māntāḥ pañcaśaḥ pañca.</ab>
+          <p>
+            <s>tē punaḥ kakārādayō varṇāḥ makārāntāḥ pañca pañca bhūtvā pañcaiva vargasaṁjṇā vēditavyāḥ.</s>
+            <s>tē kē?</s>
+            <s>k k g gh ṅ, c ch j jh ñ, ṭ ṭh ḍ ḍh ṇ, t th d dh n, p ph b bh m.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="8">
+          <ab type="sūtra">anunāsikās tēṣāṁ pañcamāḥ.</ab>
+          <p>
+            <s>tēṣāṁ vargāṇām antē vyavasthitā varṇās tē anunāsikasaṁjñā bhavanti.</s>
+            <s>tē kē?</s>
+            <s>ṅa-ña-ṇa-na-mā.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="9">
+          <ab type="sūtra">vibhāṣayā yavalāḥ.</ab>
+          <p>
+            <s>yavalā ity ētē varṇāḥ vikalpēna anunāsikasaṁjñā bhavanti.</s>
+	  </p>
+	  <p>tad yathā —</p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>saṁyutaṁ</item>
+            <item>samyutaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>sēṁve</item>
+            <item>sēve</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kaṁlene kanaldu</item>
+            <item>kallene kanaldu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>yaṁlōkaṁ</item>
+            <item>yallōkaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>jaṁvaṁ</item>
+            <item>javaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>gāṁve</item>
+            <item>gāve</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ōṁvaṁ</item>
+            <item>ōvaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kāṁvaṁ</item>
+            <item>kāvaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>oṁlaneyonaldu</item>
+            <item>ollaneyonaldu</item>
+	  </list>
+	  <p>
+	    <s>ity ādi.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="10">
+          <ab type="sūtra">laraḍā ēva ḷaṟaḻāḥ prayatnāśrayāt.</ab>
+          <p>
+            <s>laraḍā ity ētē varṇāḥ prayatnaviśēṣāśrayāt ḷaṟaḻā bhavanti.</s>
+            <s>tēṣāṁ bhāṣāyāṁ pr̥thapkr̥thakprayōgārhatvād ayam ārambhaḥ.</s>
+	  </p>
+	  <p>
+	    <s>tad yathā —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vole</item>
+            <item>voḷe</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kale</item>
+            <item>kaḷe</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>more</item>
+            <item>moṟe</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>mare</item>
+            <item>maṟe</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kaḍal</item>
+            <item>kaḻal</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kūḍi</item>
+            <item>kūḻi</item>
+	  </list>
+	  <p>
+	    <s>ity ādi.</s>
+	  </p>
+	  <p>
+	    <s>saṁskr̥tapadēṣu tēṣām aikyam ēva —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>salilaṁ</item>
+            <item>saḷiḷaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>khaḍgaṁ</item>
+            <item>khaḻgaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="11">
+          <ab type="sūtra">nātra prāyēṇa vargāṇāṁ dvitīyacaturthāḥ.</ab>
+          <p>
+            <s>asmin karṇāṭakaviṣayē vargāṇāṁ dvitīyacaturthākṣarāḥ kha-cha-ṭha-tha-phā gha-jha-ḍha-dha-bhāś ca prāyēṇa na vidyantē.</s>
+            <s>prāyēṇēti vacanēna kvacit saṅkhyānukaraṇādau dr̥śyantē.</s>
+            <s>tat kathaṁ?</s>
+	  </p>
+	  <p>
+	    <s>saṁkhyāyāṁ tāvat —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>irchāsiraṁ</item>
+            <item>eṇchāsiraṁ</item>
+            <item>nūrchāsiraṁ</item>
+	  </list>
+	  <p>
+	    <s>anukaraṇē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>khammene</item>
+            <item>ghaḻelene</item>
+            <item>challene</item>
+            <item>paṭhilene</item>
+            <item>duḍhummene</item>
+            <item>thokkene</item>
+            <item>dhoppene</item>
+            <item>bhōṅkene</item>
+	  </list>
+	  <p>
+	    <s>ādigrahaṇād anyatrāpi —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ghaḻiyaṁ</item>
+            <item>jhaḷaṁ</item>
+            <item>ṭhakku</item>
+            <item>ḍhokkaraṁ</item>
+            <item>dhaḻaṁ</item>
+            <item>bharam</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="12">
+          <ab type="sūtra">śaṣā ca.</ab>
+          <p>
+            <s>śakāraṣakārau dvāv apy asmin karṇāṭakaviṣayē na staḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>sasi</item>
+            <item>sisu</item>
+            <item>sēse</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="13">
+          <ab type="sūtra">r̥kārādayaś catvāraḥ svarāḥ.</ab>
+          <p>
+            <s>r̥, r̥ r̥̄, l̥, l̥ l̥̄ ity ētē catvāraḥ svarāś ca karṇāṭakaviṣayē na santi.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>risi</item>
+            <item>basavaṁ</item>
+	  </list>
+	  <p>
+	    <s>ēvam ādi.</s>
+	  </p>
+
+        </div>
+        <div type="sūtra" n="14">
+          <ab type="sūtra">anusvārō binduḥ.</ab>
+          <p>
+            <s>nistuḷōdāttamuktāphalānukārī binduḥ anusvārasaṁjñō bhavati.</s>
+            <s>kēvalasyāsya bindōḥ prayōgābhāvād akāraḥ sannidhīyatē — aṁ iti.</s>
+          </p>
+
+        </div>
+        <div type="sūtra" n="15">
+          <ab type="sūtra">sa uparyadhastāc ca visargaḥ.</ab>
+          <p>
+            <s>sa ēva binduḥ uparyadhastāc ca vyavasthitō visargasaṁjñō bhavati — aḥ iti.</s>
+          </p>
+
+        </div>
+        <div type="sūtra" n="16">
+          <ab type="sūtra">vibhaktyantaṁ padaṁ.</ab>
+          <p>
+            <s> nāmākhyātavibhaktyantaṁ yacchabdarūpaṁ tat padasaṁjñaṁ bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>keyvolaṁ divadante sasiyindesedattu</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="17">
+          <ab type="sūtra">parasparasannikarṣaḥ saṁhitā.</ab>
+          <p>
+            <s>śliṣṭānāṁ varṇānāṁ parasparamanyōnyaṁ sannikarṣaḥ saṁślēṣaḥ saṁhitā sandhir ity ucyatē.</s>
+          </p>
+	</div>
+
+	<trailer>iti karṇāṭakvyākaraṇavivaraṇē saṁjṇāvidhānaṁ nāma prathamaḥ paricchēdaḥ</trailer>
+
+      </div>
+      <div type="section" n="2">
+	<head>sandhividhānaṁ</head>
+        <div type="sūtra" n="18">
+          <ab type="sūtra">sandhau.</ab>
+          <p>
+            <s>sandhāv ity adhikārō ’yam.</s>
+            <s>ita uttaraṁ yadvakṣatē tatpunaḥ sandhau vivakṣitaṁ bhavatīty avagantavyaṁ.</s>
+          </p>
+
+        </div>
+        <div type="sūtra" n="19">
+          <ab type="sūtra">svarē svarasya lōpaḥ.</ab>
+          <p>
+            <s>svarē paratrāvasthitē pūrvasvarasya lōpō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ennarasaṁ</item>
+            <item>tannāḷiṁ</item>
+            <item>munniṟivaṁ</item>
+            <item>kūrtīvaṁ</item>
+            <item>biṭṭuḻivaṁ</item>
+            <item>keṭṭoḷvaṁ</item>
+            <item>taḷtesevaṁ</item>
+            <item>padedaidugoḷvaṁ</item>
+            <item>biṭṭoḷpaṁ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="20">
+          <ab type="sūtra">prakr̥tēr ud-ētōḥ.</ab>
+          <p>
+            <s>siddhē saty ārabhyamāṇō vidhir na yamāyēti niyamārthō ’yaṁ yōgaḥ.</s>
+            <s>prakr̥tēḥ sambandhinaḥ svarasya lōpō yadi syāt tad ukāraikārayōr ēva.</s>
+            <s>nānyasya.</s>
+            <s>svarādhikārād atra svaralōpō niyamyatē.</s>
+            <s>na punaḥ prakr̥tiḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>mātellaṁ</item>
+            <item>lēsellaṁ</item>
+            <item>nālaguḷḷane bāḻguṁ</item>
+            <item>sēsikkidaṁ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="21">
+          <ab type="sūtra">na nāma-bhāga-pradhvaṁsē.</ab>
+          <p>
+            <s>yasmin nāmabhāgapradhvaṁsaḥ sambhavati ukārasyaikārasya ca lōpō na bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paṭuvītaṁ</item>
+            <item>gāḷuvivaḷ</item>
+            <item>maḍividu</item>
+            <item>aneyoḍḍu</item>
+            <item>kudureyekkatuḷaṁ</item>
+            <item>paḍeyidu</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="22">
+          <ab type="sūtra">ād-ivarṇaikārēbhyō yaḥ.</ab>
+          <p>
+            <s>ākārāntād ivarṇāntād ēkārāntāc ca śabdāt svarē parē yakārō vyavadhāyakō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>āyeḍeyoḷe saṅgatiyiṁ śrīyoḍeyar saleyirvar</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="23">
+          <ab type="sūtra">akārāntāc cāvadhāraṇārthē ē.</ab>
+          <p>
+            <s>akārāntāc chabdarūpād avadhāraṇārthē ēkārē parē yakārō vyavadhāyakō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ātanaye</item>
+            <item>avaḷaye</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="24">
+          <ab type="sūtra">vō vr̥varṇābhyāṁ.</ab>
+          <p>
+            <s>uvarṇāntāt r̥varṇāntād api svarē parē vakārō vyavadhāyakō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>vidhuvilladiruḷ povillada koḷananteseyadu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pitr̥vivaṁ</item>
+            <item>mātr̥vivaḷ</item>
+            <item>r̥̄vittaṁ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="25">
+          <ab type="sūtra">ēd-ōd-antā nipātāḥ svarē parē prakr̥tyā.</ab>
+          <p>
+            <s>ēkārāntā ōkārāntāś ca yē nipātās tē svarē parē prakr̥taiva tiṣṭhanti.</s>
+            <s>na ca sandhivikārān āpnuvantīty arthaḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ele idāvudo</item>
+            <item>antuṭe alte</item>
+            <item>arame aralda</item>
+            <item>are eḍeyoḷ</item>
+            <item>ayyō akkaṭa</item>
+            <item>ōhē iraliṁ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="26">
+          <ab type="sūtra">viśaṅkāvadhāraṇayōḥ.</ab>
+          <p>
+            <s>viśaṅkāyām avadhāraṇē ca vartamānāś śabdāḥ svarē parē prakr̥tyā bhavanti.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>aneyō adriyō</item>
+            <item>rajjavō ahiyō</item>
+            <item>īvanō īyanō</item>
+            <item>akkumo āgado</item>
+            <item>porevane āḷdaṁ</item>
+            <item>kūrpane āptaṁ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="27">
+          <ab type="sūtra">plutāś ca.</ab>
+          <p>
+            <s>trimātrā yē varṇās tē ca svarē parē prakr̥tyaiva tiṣṭhanti.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ele aṇṇā3 itta bā. ku kkū kū3 endu kōḻi kūgittāgaḷ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="28">
+          <ab type="sūtra">vargaprathamānāṁ tr̥tīyāḥ samāsōttarapadādau.</ab>
+          <p>
+            <s>vargaprathamākṣarāṇāṁ samāsōttarapadādau vartamānānāṁ tattr̥tīyavarṇā bhavanti.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paḻagannaḍaṁ</item>
+            <item>aḻigabbaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kendaḷir</item>
+            <item>bāndoṟe</item>
+            <item>nuṇbaral</item>
+            <item>taṇbuḻil</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="29">
+          <ab type="sūtra">nādiṣṭarēphāt.</ab>
+          <p>
+            <s>ādēśavihitaḥ pariṇāmō yō rēphaḥ tasmāt parabhūtānāṁ vargaprathamānāṁ vargatr̥tīyatvaṁ na bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>mārkeral</item>
+            <item>mārtale</item>
+            <item>mārpaḍe</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>orkai</item>
+            <item>ortale</item>
+            <item>orpiḍe</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="30">
+          <ab type="sūtra">caṭavargayōś ca.</ab>
+          <p>
+            <s>cavarga-ṭavargayōḥ prathamākṣarayōś ca tr̥tīyau na bhavataḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>aḷicennaṁ</item>
+            <item>kaḍucāgi</item>
+            <item>uracalli</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>mātuṭepparaṁ</item>
+            <item>posaṭaṅkaṁ</item>
+            <item>māṇikaṭekke</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="31">
+          <ab type="sūtra">svarayaralōbhyō bahuḷaṁ vaḥ pavargasya.</ab>
+          <p>
+            <s>svarāt yakārāt rēphāt lakārāc ca svarasya pavargasya bahuḷaṁ vakārādēśō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>posavesar</item>
+            <item>eḷavidir</item>
+            <item>maravaṇe</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>keyvaṟi</item>
+            <item>meyvesaṁ</item>
+            <item>tāyvane</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>balvaḍe</item>
+            <item>kalvāḻe</item>
+            <item>pulvane</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nīrvāpu</item>
+            <item>nīrveḷasu</item>
+            <item>nīrvāsanaṁ</item>
+          </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt kvacin na bhavati.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>niḍuden</item>
+            <item>uḍuvogaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kemmāḍidaṁ</item>
+            <item>keymaṟiyaṁ</item>
+            <item>perbāgil</item>
+            <item>kārmmugil</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>balmuguḷ</item>
+            <item>pulmaruḷ</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="32">
+          <ab type="sūtra">vyañjanād alayāt sasya caḥ kvacij jatvaṁ.</ab>
+          <p>
+            <s>lakāra-yakāra-varjitāt vyañjanāt paratō ’vas[th]itasya sakārasya cakārādēśō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nuṇcaraṁ</item>
+            <item>iñcaraṁ</item>
+            <item>orcavaḍi</item>
+          </list>
+	  <p>
+	    <s>bahuḷam ity anuvartatē.</s>
+            <s>tataḥ kvacin na bhavati.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kaṇsōlaṁ</item>
+            <item>kīḻsari</item>
+          </list>
+	  <p>
+	    <s>kvacit jakārō ’pi bhavati</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>poñjarige</item>
+            <item>muñjār</item>
+	  </list>
+	  <p>
+	    <s>alayād iti kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>melsaraṁ</item>
+            <item>balsari</item>
+            <item>meysoṅku</item>
+            <item>bāysavi</item>
+            <item>kaysore</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="33">
+          <ab type="sūtra">saṅkhyāyāṁ chatvaṁ.</ab>
+          <p>
+            <s>saṅkhyāviṣayē vartamānasya lakārayakārarahitavyañjanāt parasya sakārasya chakārādēśō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>irchāsiraṁ</item>
+            <item>eṇchāsiraṁ</item>
+          </list>
+	  <p>
+	    <s>alayād iti kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nālsāsiraṁ</item>
+            <item>aysāsiraṁ</item>
+	  </list>
+
+        </div>
+        <div type="sūtra" n="34">
+          <ab type="sūtra">naṇalayaḷā dviḥ svarē hrasvapūrvāḥ.</ab>
+          <p>
+            <s>hrasvākṣarapūrvakāḥ naṇalayaḷakārāḥ svarē parē dvirbhāvam āpadyantē.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ponnuḷḷavane kulīnaṁ</item>
+            <item>maṇṇellaṁ</item>
+            <item>pullillaṁ</item>
+            <item>keyyādudu</item>
+            <item>muḷḷuḷḷuve kēdagegaḷ</item>
+          </list>
+	  <p>
+	    <s>hrasvapūrvā iti kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nān endaṁ</item>
+            <item>jāṇindaṁ</item>
+            <item>mēlāḷgaḷ</item>
+            <item>bāyāṟal</item>
+            <item>kēḷītaṁ</item>
+	  </list>
+
+        </div>
+        <div type="sūtra" n="35">
+          <ab type="sūtra">nānēkākṣarapadē.</ab>
+	  <p>
+	    <s>dvitryādisvarasampannē padē vyavasthitāḥ naṇalayaḷakārāḥ svarē parē dvirbhāvaṁ na prāpnuvanti.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kaḍanillaṁ</item>
+            <item>saraṇāruṁ</item>
+            <item>pavaṇuṇṭu</item>
+            <item>kavalillaṁ</item>
+            <item>todaḷillada nuḍi</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="36">
+          <ab type="sūtra">avyayē ’pi.</ab>
+          <p>
+            <s>avyayaśabdēṣu vartamānāḥ naṇalayaḷāḥ svarē parē dvirbhāvaṁ na prāpnuvanti.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>idudalapūrvaṁ</item>
+            <item>smaranapolītaṁ</item>
+          </list>
+	</div>
+
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē sandhividhānaṁ nāma dvitīyaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="3">
+	<head>vibhaktividhānaṁ</head>
+        <div type="sūtra" n="37">
+          <ab type="sūtra">arthavad akriyāvāci kr̥dantaṁ ca liṅgaṁ.</ab>
+          <p>
+	    <s>kriyāvācinō ’nyad arthavac chabdarūpaṁ kr̥tpratyayāntaṁ ca liṅgasaṁjñaṁ bhavati.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="38">
+          <ab type="sūtra">tatō vibhaktayaḥ.</ab>
+          <p>
+	    <s>tasmāl liṅgasaṁjñāt paratō vibhaktayō vyutpādyantē.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="39">
+          <ab type="sūtra">tās tu mamiṅke adadoḷ.</ab>
+	  <p>
+	    <s>m, am, im, ke, at, at, baḷ, iti tāḥ punaḥ sapta vibhaktayō jñātavyaḥ.</s>
+	  </p>
+	  <p>
+	    <s>tad yathā —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>nelaṁ</item>
+            <item>nelanaṁ</item>
+            <item>neladiṁ</item>
+            <item>nelake</item>
+            <item>neladattaṇiṁ</item>
+            <item>nelada</item>
+            <item>neladoḷ</item>
+	  </list>
+	  <quote xml:lang="kan-Latn">
+	    <lg met="kanda">
+	      <l>maran irdudu koḷ maranaṁ</l>
+	      <l>maradiṁ māḍānemaṁ marakkeṟe nīraṁ</l>
+	      <l>maradattaṇin āṁ bandeṁ</l>
+	      <l>maradadu paṇ maradoḷ iru taḷirttiru maranē</l>
+	    </lg>
+	  </quote>
+        </div>
+        <div type="sūtra" n="40">
+          <ab type="sūtra">d[v]itvabahutvayōr gaḷ ādau.</ab>
+          <p>
+	    <s>tāsāṁ vibhaktīnām ādau d[v]itvabahutvaviṣayē vivakṣitē gaḷāgamō bhavati.</s>
+          </p>
+	  <p>
+	    <s>dvitvē —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>kaṇgaḷ</item>
+            <item>kaṇgaḷaṁ</item>
+            <item>kaṇgaḷiṁ</item>
+            <item>kaṇgaḷge</item>
+            <item>kaṇgaḷattaṇiṁ</item>
+            <item>kaṇgaḷa</item>
+            <item>kaṇgaḷoḷ</item>
+          </list>
+	  <p>
+	    <s>bahutvē —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>kuruḷgaḷ</item>
+            <item>kuruḷgaḷaṁ</item>
+            <item>kuruḷgaḷiṁ</item>
+            <item>kuruḷgaḷge</item>
+            <item>kuruḷgaḷattaṇiṁ</item>
+            <item>kuruḷgaḷa</item>
+            <item>kuruḷgaḷoḷ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="41">
+          <ab type="sūtra">sarvanāmaguṇavacanānām avu tadantē.</ab>
+          <p>
+	    <s>sarvanāmnāṁ guṇavacanānāṁ ca dvitvabahutvaviṣayē vivakṣitē tēṣām antē vibhaktiṣu parabhūtāsu avu bhavati.</s>
+          </p>
+	  <p>
+	    <s>sarvanāmni —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ellavu</item>
+            <item>ellavaṁ</item>
+            <item>ellavaṟiṁ</item>
+            <item>ellavarkke</item>
+            <item>ellavaṟattaṇiṁ</item>
+            <item>ellavaṟa</item>
+            <item>ellavaṟoḷ</item>
+          </list>
+	  <p>
+	    <s>guṇavacanē —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>iniyavu</item>
+            <item>iniyavaṁ</item>
+            <item>iniyavaṟiṁ</item>
+            <item>iniyavarkke</item>
+            <item>ityādi. piriyavu</item>
+            <item>piriyavaṁ</item>
+            <item>piriyavaṟiṁ</item>
+	  </list>
+	  <p>
+	    <s>ityādi</s>
+	  </p>
+	  <p>
+	    <s>prakr̥tatvāt kvacid gaḷ api.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nīṅgaḷ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="42">
+          <ab type="sūtra">strīpuruṣavācakēṣv ir ar dir vir kvacit.</ab>
+          <p>
+	    <s>strīpurūṣavācakēṣu śabdēṣu vartamānānāṁ vibhaktīnām ādau kvacit ir, ar, dir, vir ity ētē gaḷ-apavādā vidhīyantē.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>peṇḍir</item>
+            <item>toḻtir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>naṇṭar</item>
+            <item>nallar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>magaḷdir</item>
+            <item>tammandir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tāyvir</item>
+            <item>tandivir</item>
+          </list>
+	  <p>
+	    <s>gaḷ api kvacit —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ayyaṅgaḷ</item>
+            <item>abbegaḷ</item>
+	  </list>
+	  <p>
+	    <s>kvacid ubhayaṁ —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>māvandir</item>
+            <item>māvaṅgaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>attevir</item>
+            <item>attegaḷ</item>
+	  </list>
+
+        </div>
+        <div type="sūtra" n="43">
+          <ab type="sūtra">svārthē ’taḥ kaḷ.</ab>
+          <p>
+	    <s>ata ētēbhyaḥ svārthē kaḷ bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>paṇḍitarkaḷ</item>
+            <item>sutarkaḷ</item>
+            <item>vicārapararkaḷ</item>
+            <item>tāyvirkaḷ</item>
+          </list>
+	  <p>
+	    <s>kēvalād api kvacid bhavati.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>makkaḷ</item>
+            <item>tāḻkaḷ</item>
+            <item>kōḻkaḷ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="44">
+          <ab type="sūtra">saṅkhyāyāṁ vaḥ.</ab>
+          <p>
+	    <s>saṅkhāvācinaḥ śabdāt parāsāṁ vibhaktīnām ādau vakārāgamō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>orvar</item>
+            <item>irvar</item>
+            <item>mūvar</item>
+          </list>
+        </div>
+        <div type="sūtra" n="45">
+          <ab type="sūtra">atō ’nusvāraḥ prathamaikavacanasya.</ab>
+          <p>
+	    <s>akārāntāt liṅgāt parasya prathamaikavacanasya anusvārādēśō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>maraṁ</item>
+            <item>naraṁ</item>
+            <item>dharmaṁ</item>
+            <item>dānaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="46">
+          <ab type="sūtra">anyasmāl lōpaḥ.</ab>
+          <p>
+	    <s>anakārāntāt liṅgāt uttarasya prathamaikavacanasya lōpō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>hari</item>
+            <item>kari</item>
+            <item>bidi</item>
+            <item>nadi</item>
+            <item>madhu</item>
+            <item>vadhu</item>
+            <item>vidhu</item>
+            <item>sisu</item>
+            <item>pitr̥</item>
+            <item>savitr̥</item>
+            <item>keṟe</item>
+            <item>toṟe</item>
+            <item>tōḷ</item>
+            <item>bāḷ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="47">
+          <ab type="sūtra">guṇōktēr avāv upāntyāvadhēḥ.</ab>
+	  <p>
+	    <s>guṇavacanasya śabdasya avau parē upāntyāvadhēr avayavasya lōpō bhavati.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>kiṟiyavu</item>
+            <item>piriyavu</item>
+            <item>asiyavu</item>
+          </list>
+        </div>
+        <div type="sūtra" n="48">
+          <ab type="sūtra">sarvanāmnas tadādēr api.</ab>
+          <p>
+	    <s>sarvanāmasaṁjñānāṁ avau parē upāntyāvadhēr avuśabdādēś ca lōpō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>avu</item>
+            <item>avaṁ</item>
+            <item>avaṟiṁ</item>
+	  </list>
+	  <p>
+	    <s>ityādi.</s>
+            <s>ivu ityādi.</s>
+            <s>uvu ityādi.</s>
+	  </p>
+        </div>
+        <div type="sūtra" n="49">
+          <ab type="sūtra">adantān nāgamaḥ pūrvasmin gaḷaḥ.</ab>
+	  <p>
+	    <s>akārāntāt śabdarūpāt gaḷaḥ pūrvasmin nakārāgamō bhavati.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>gajaṅgaḷ</item>
+            <item>hayaṅgaḷ</item>
+          </list>
+	  <p>
+	    <s>bahuḷādhikārāt kvacid vikalpaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>maraṅgaḷ</item>
+            <item>maragaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>koḷaṅgaḷ</item>
+            <item>koḷagaḷ</item>
+	  </list>
+	  <p>
+	    <s>akārāntād iti kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>maḍigaḷ</item>
+            <item>maḍugaḷ</item>
+            <item>manegaḷ</item>
+            <item>ūrgaḷ</item>
+            <item>sālgaḷ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="50">
+          <ab type="sūtra">svarādau nāgamaḥ puṁsi.</ab>
+          <p>
+	    <s>akārāntāt śabdāt svarādau vibhaktigaṇē parē pulliṅgavivakṣāyāṁ nakārāgamō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>dēvanaṁ</item>
+            <item>dēvaniṁ</item>
+            <item>dēvanattaṇiṁ</item>
+            <item>dēvana</item>
+            <item>dēvanoḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>arasanaṁ kaṇḍar</item>
+            <item>sacivaniṁ muñce</item>
+            <item>keḷeyana baladoḷ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="51">
+          <ab type="sūtra">napuṁsakaliṅgē daḥ.</ab>
+          <p>
+	    <s>akārāntāt śabdāt napuṁsakaliṅgē vivakṣitē svarādau vibhaktigaṇē parē dakārāgamō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>manadiṁ bēgaṁ</item>
+            <item>vanadattaṇiṁ bandaṁ</item>
+            <item>jagadoḷ sandaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="52">
+          <ab type="sūtra">vibhāṣayām i mnau.</ab>
+          <p>
+	    <s>ami dvitīyaikavacanē parē napuṁsakaliṅgād akārāntāt vibhāṣayā mnau makāranakārau bhavataḥ.</s>
+            <s>saṁskr̥tē makāra ēva.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>polamaṁ</item>
+            <item>polanaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nelamaṁ</item>
+            <item>nelanaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kulamaṁ</item>
+            <item>balamaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="53">
+          <ab type="sūtra">anusvārasya ca.</ab>
+          <p>
+	    <s>padāntē vartamānasyāsyanusvārasya svarē parē makāranakārau bhavataḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ivanadhikabalaṁ</item>
+            <item>haranagamintidu</item>
+          </list>
+        </div>
+        <div type="sūtra" n="54">
+          <ab type="sūtra">udantāt tr̥tīyādiṣv in-āgamō bahuḷaṁ.</ab>
+          <p>
+	    <s>ukārāntālliṅgāt tr̥tīyādivibhaktigaṇē parē bahuḷaṁ ināgamō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>guruviniṁ nītijñaṁ</item>
+            <item>manaviniṁ migil</item>
+            <item>pempinoḷ suranagaṁ</item>
+            <item>guruvina mataṁ</item>
+            <item>manuvina kulaṁ</item>
+          </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt kvacin na bhavati —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>guruva mataṁ</item>
+            <item>manuva kulaṁ</item>
+	  </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt kvacin nityaṁ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>manuvinoḷ</item>
+            <item>guruvinoḷ</item>
+            <item>maḍuvinoḷ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="55">
+          <ab type="sūtra">aṟ ukārasya saṅkhyāsarvanāmaguṇavacanēṣu.</ab>
+          <p>
+	    <s>saṅkhyāsarvanāmaguṇavacanaviṣayē vartamānasya dantasya śabdasya tr̥tīyādivibhaktigaṇē parē aṟādēśō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ondaṟiṁ</item>
+            <item>eraḍaṟiṁ</item>
+            <item>mūraṟiṁ</item>
+            <item>mūṟarke</item>
+            <item>nālkarke</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>adaṟiṁ</item>
+            <item>avaṟiṁ</item>
+            <item>avarke</item>
+            <item>idaṟiṁ</item>
+            <item>ivaṟiṁ</item>
+            <item>ivarke</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>iniyavaṟiṁ</item>
+            <item>iniyavarke</item>
+            <item>iniyavaṟattaṇiṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="56">
+          <ab type="sūtra">digvācibhyō ’ṇ.</ab>
+          <p>
+	    <s>digvācibhyaḥ śabdēbhyaḥ tr̥tīyādivibhaktigaṇē parē antyasya aṇ bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>mūḍaṇiṁ</item>
+            <item>mūḍaṇge</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paḍuvaṇiṁ</item>
+            <item>paḍuvaṇge</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>baḍagaṇiṁ</item>
+            <item>baḍagaṇge</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>teṅkaṇiṁ</item>
+            <item>teṅkaṇge</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>teṅkaṇa deseyiṁ</item>
+            <item>baḍagaṇa mēreyiṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="57">
+          <ab type="sūtra">vāl ataḥ prathamādvitīyayōḥ.</ab>
+          <p>
+	    <s>ataḥ akārāntād digvācinaḥ śabdāt parayōḥ prathamādvitīyayōḥ al vā bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>mūḍal</item>
+            <item>mūḍa</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>teṅkal</item>
+            <item>teṅka</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paḍuval</item>
+            <item>paḍuva</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>baḍagal</item>
+            <item>baḍaga</item>
+          </list>
+        </div>
+        <div type="sūtra" n="58">
+          <ab type="sūtra">saptamyāṁ ca.</ab>
+          <p>
+	    <s>akārāntād digvācinaḥ śabdāt parabhūtāyāḥ saptamyāḥ sthānē tadal vā bhavati.</s>
+            <s>al-abhāva-pakṣē prathamā-dvitīyayōr abhāvāt — digvācibhyō ’ṇ iti aṇ na syāt.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>mūḍalirdaṁ</item>
+            <item>mūḍirdaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>teṅkalirdaṁ</item>
+            <item>teṅkirdaṁ. attalirdaṁ</item>
+            <item>attirdaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ittalirdaṁ</item>
+            <item>ittirdaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="59">
+          <ab type="sūtra">ut ēt.</ab>
+          <p>
+	    <s>ukārāntād digvācinaḥ śabdāt parabhūtāyāḥ saptamyāḥ sthānē ēkārō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>mēgirdudu</item>
+            <item>keḻage polaṁ</item>
+            <item>oḷage jaḷagu</item>
+            <item>poṟage kaḻtale</item>
+          </list>
+	  <p>
+	    <s>digvācinyō ’ṇ — iti aṇi prāptē sākṣāt saptamy-abhāvāt aṇ na syāt.</s>
+            <s>uta iti kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>uttal</item>
+            <item>ittal</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="60">
+          <ab type="sūtra">antē daṁ tr̥tīyāyāḥ.</ab>
+          <p>
+	    <s>tr̥tīyāvibhaktyantasya śabdasyāntē daṁ bhavati svārthē.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>dānadindaṁ</item>
+            <item>dayeyindaṁ</item>
+            <item>gatiyindaṁ</item>
+            <item>matiyindaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="61">
+          <ab type="sūtra">ēdantatā ca.</ab>
+          <p>
+	    <s>tasya tr̥tīyāntasya śabdarūpasya ēkārāntatā ca bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>adaṟinde</item>
+            <item>yadr̥ccheyinde</item>
+            <item>gandhadinde</item>
+          </list>
+	  <p>
+	    <s>napuṁsakē kēvalād api.</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>gandhade</item>
+            <item>nelade</item>
+            <item>polade</item>
+            <item>bagedantāge surēndrariṁ  kramade kalyāṇadvayaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="62">
+          <ab type="sūtra">ataś caturthyās tr̥tīyō ’nusvārapūrvaḥ puṁsi.</ab>
+          <p>
+	    <s>akārāntāt pulliṅgāt parabhūtāyāś caturthīvibhaktēḥ anusvārapūrvas tr̥tīyō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>nr̥paṅge</item>
+            <item>indraṅge</item>
+            <item>candraṅge</item>
+            <item>ayyaṅge</item>
+            <item>appaṅge</item>
+            <item>peṟaṅge</item>
+            <item>avaṅge</item>
+          </list>
+        </div>
+        <div type="sūtra" n="63">
+          <ab type="sūtra">vā napuṁsakē dvitvaṁ.</ab>
+          <p>
+	    <s>akārāntāt parabhūtāyāś napuṁsakaliṅgaviṣayē dvitvaṁ vā bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>kulakke</item>
+            <item>kulage</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>calakke</item>
+            <item>calake</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>manakke</item>
+            <item>manake</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>balakke</item>
+            <item>balake</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nelakke</item>
+            <item>nelake</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tr̥ṇakke</item>
+            <item>tr̥ṇake</item>
+          </list>
+        </div>
+        <div type="sūtra" n="64">
+          <ab type="sūtra">śēṣāt tr̥tīyatvaṁ.</ab>
+          <p>
+	    <s>akārāntād avaśēṣāt śabdarūpāt parasyāḥ caturthyāḥ tr̥tīyatvaṁ ēva bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>yatige</item>
+            <item>matige</item>
+            <item>giḍuge</item>
+            <item>maḍuge</item>
+            <item>manege</item>
+            <item>nelege</item>
+            <item>ūrge</item>
+            <item>nīrge</item>
+            <item>keyge</item>
+            <item>tōḷge</item>
+            <item>pavaṇge</item>
+            <item>kalge</item>
+          </list>
+
+        </div>
+        <div type="sūtra" n="65">
+          <ab type="sūtra">sarvanāmnō ’liṅgād ō vā.</ab>
+          <p>
+	    <s>aliṅgāt sarvanāmnaḥ parasyāś caturthyāḥ pūrvaṁ akārō vā bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>adarke</item>
+            <item>adake</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>idarke</item>
+            <item>idake</item>
+          </list>
+        </div>
+        <div type="sūtra" n="66">
+          <ab type="sūtra">attaṇiṁ tv anusandhēyaḥ pañcamyāḥ.</ab>
+          <p>
+	    <s>pañcamyāntasya śabdasya tadabhivyaktayē punas tadantē attaṇim iti śabdō ’nusandhēyaḥ anuprayujyata ity arthaḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ūrattaṇiṁ bandaṁ</item>
+            <item>avanattaṇiṁ bhayaṁ</item>
+            <item>keṟeyattaṇiṁ tandaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="67">
+          <ab type="sūtra">dīrghādēśaḥ ṣaṣṭhyā yathēṣṭaṁ.</ab>
+          <p>
+	    <s>ṣaṣṭhyāntasya śabdasya dīrghādēśaḥ kāmacāratō vēditavyaḥ.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>narēndranā parijanaṁ</item>
+            <item>esadattā lōkamākānteyā</item>
+            <item>perme dharmadā</item>
+	  </list>
+	  <p>
+	    <s>kāmacārād iha na bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>madanana keybuvellidananaṅgana keypiḍiyellindaṁ</item>
+          </list>
+        </div>
+        <div type="sūtra" n="68">
+          <ab type="sūtra">dvitīyāntasya vā svarē.</ab>
+          <p>
+	    <s>dvitīyāntasya padasya svarē parē vā dīrghō bhavati.</s>
+          </p>
+	  <p>
+	    <s>haripālaprayōgaḥ —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>kallānēṟidaṁ</item>
+            <item>kallanēṟidaṁ</item>
+	    <item>billān ēṟisidaṁ</item>
+            <item>billan ēṟisidaṁ</item>
+	  </list>
+	  <p>
+	    <s>tathā guṇavarmakaviprayōgaḥ —</s>
+	  </p>
+	  <quote xml:lang="kan-Latn">
+	    <lg>
+	      <l>enittan itt’ ambujapatranētreyā</l>
+	      <l>ghanastanaṅgaḷ baḷeguṁ kirāteyā</l>
+	      <l>anittan ittaṁ vanadoḷ vanēcaraṁ</l>
+	      <l>tanattu billān adan otti kīsuguṁ</l>
+	    </lg>
+	  </quote>
+        </div>
+        <div type="sūtra" n="69">
+          <ab type="sūtra">saptamyā alli vā.</ab>
+          <p>
+	    <s>liṅgasaṁjñakād vihitāyāḥ saptamyāḥ sthānē alli vā bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>manadoḷ</item>
+            <item>manadalli</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>banadoḷ</item>
+            <item>banadalli</item>
+          </list>
+        </div>
+        <div type="sūtra" n="70">
+          <ab type="sūtra">āmantraṇē prathamaikavacanasya lōpaḥ.</ab>
+          <p>
+	    <s>āmantraṇārthē vihitasya prathamaikavacanasya lōpō bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ele dēva</item>
+            <item>elē bhūpa</item>
+            <item>ele aṇṇa</item>
+            <item>ele akka</item>
+          </list>
+        </div>
+        <div type="sūtra" n="71">
+          <ab type="sūtra">ētvaṁ vā tadantasya.</ab>
+          <p>
+	    <s>āmantraṇārthē vartamānasya prathamāvibhaktēr ēkavacanasya ētvaṁ vā bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ele mandānilanē</item>
+            <item>tambelarē</item>
+            <item>māvē</item>
+            <item>malligeyē</item>
+            <item>indōḷamē</item>
+	  </list>
+	  <p>
+	    <s>vāśabdō ’yaṁ vyavasthitavibhāṣāyāṁ vartamānō gr̥hyatē.</s>
+            <s>tēna kvacin na bhavati —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>ele dēva</item>
+            <item>ēle bhūpa</item>
+	  </list>
+	  <p>
+	    <s>ity ādi.</s>
+          </p>
+        </div>
+        <div type="sūtra" n="72">
+          <ab type="sūtra">irāślēṣō gaḷaḥ sambōdhanaviṣayē.</ab>
+          <p>
+	    <s>dvitvabahutvayōr vartamānasya gaḷaḥ irāślēṣō bhavati sambōdhanaviṣayē.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>daivaṅgaḷira</item>
+            <item>dēvategaḷira</item>
+            <item>māmaraṅgaḷira</item>
+            <item>nandanaṅgaḷira</item>
+          </list>
+	  <p>
+	    <s>irō gaḷa iti pañcamyā siddhē āślēṣagrahaṇaṁ dvitvabahutvavyaktyarthaṁ.</s>
+            <s>tēna kvacid irō bhavati —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>naṇṭira</item>
+            <item>nallira</item>
+            <item>paṇḍitarkaḷira</item>
+            <item>tāyyirkaḷira</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="73">
+          <ab type="sūtra">dīrghōktir nayasēnasya.</ab>
+          <p>
+	    <s>sambōdhanārthē vartamānasya sarvasyāpi śabdasya nayasēnamunēr matē dīrghōktir bhavati.</s>
+          </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>dēvā binnapaṁ</item>
+            <item>dēva binnapaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>suggī</item>
+            <item>suggi</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>vidhū</item>
+            <item>vidhu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kāntē</item>
+            <item>kānte</item>
+            <item>giḷigaḷirā</item>
+            <item>giḷigaḷira</item>
+          </list>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē vibhaktividhānaṁ nāma tr̥tīyaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="4">
+	<head>kārakavidhānaṁ</head>
+        <div type="sūtra" n="74">
+	  <ab type="sūtra">liṅgārthavacanamātrē prathamā.</ab>
+	  <p>
+	    <s>liṅgārthavacanamātrē vivakṣitē prathamāvibhaktir bhavati.</s>
+	  </p>
+	  <p>
+	    <s>liṅgamātrē tāvat —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>dēvaṁ</item>
+            <item>nr̥paṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nāri</item>
+            <item>nallaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kulaṁ</item>
+            <item>jalaṁ</item>
+	  </list>
+	  <p>
+	    <s>arthamātrē —</s>
+	  </p>
+          <list type="examples" xml:lang="kan-Latn">
+	    <item>uccaṁ</item>
+            <item>nīcaṁ</item>
+	  </list>
+	  <p>
+	    <s>vacanamātrē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ondānuṁ</item>
+            <item>eraḍānuṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="75">
+	  <ab type="sūtra">sambōdhanē ca.</ab>
+	  <p>
+	    <s>sambōdhanam abhimukhīkaraṇaṁ tadarthē ’pi prathamāvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nr̥pēndra</item>
+            <item>kānte</item>
+            <item>koḷanē</item>
+            <item>vaname</item>
+            <item>vasantane</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="76">
+	  <ab type="sūtra">karmaṇi dvitīyā.</ab>
+	  <p>
+	    <s>yat kriyate tat karma ucyatē.</s>
+            <s>tad ēkaṁ nirvaryaṁ vikāryaṁ prāpyaṁ vaiṣayikam iti caturthā bhidyatē.</s>
+            <s>asminn arthē dvitīyāvibhaktir bhavati.</s>
+	  </p>
+	  <p>
+	    <s>nirvartyē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>maneyaṁ māḍidaṁ</item>
+	  </list>
+	  <p>
+	    <s>vikāryē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>paḻuvaṁ kaḍidaṁ</item>
+	  </list>
+	  <p>
+	    <s>prāpyē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ūran eydidaṁ</item>
+	  </list>
+	  <p>
+	    <s>vaiṣayikē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nēsaṟaṁ nōḍidaṁ</item>
+	  </list>
+	  <p>
+	    <s>tac cēpsitamanēpsitam iti dvidhā bhavati.</s>
+	  </p>
+	  <p>
+	    <s>īpsitē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kūḻan aṭṭaṁ</item>
+            <item>bāḍaṁ koydaṁ</item>
+	  </list>
+	  <p>
+	    <s>anīpsitē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pāvaṁ dāṇṭadeṁ. koṟaḍan eḍarpidaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="77">
+	  <ab type="sūtra">kālādhvanōr avicchēdē.</ab>
+	  <p>
+	    <s>kālē adhvani vā avicchēdaḥ kriyāvyāptiḥ tatra dvitīyāvibhaktir bhavati.</s>
+	  </p>
+	  <p>
+	    <s>kālē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ondu barisaman irdaṁ</item>
+            <item>irtiṅgaḷan ōdidaṁ</item>
+	    <item>arejāvamaṁ niddegeydaṁ</item>
+	  </list>
+	  <p>
+	    <s>adhvani —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>orgāvudamaṁ paridaṁ</item>
+            <item>nālgāvudamaṁ naḍedaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="78">
+	  <ab type="sūtra">kartr̥karaṇayōs tr̥tīyā.</ab>
+	  <p>
+	    <s>yaḥ kriyāṁ karōti sa kartā.</s>
+            <s>sādhakatamaṁ karaṇaṁ.</s>
+            <s>tasmin kartari karaṇē ca vivakṣitē tr̥tīyāvibhaktir bhavati.</s>
+	  </p>
+	  <p>
+	    <s>kartari —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>dēvadattaniṁ māḍalpaṭṭudu</item>
+            <item>yajñamitraniṁ bēḍalpaṭṭudu</item>
+	  </list>
+	  <p>
+	    <s>karaṇē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kuḍugōliṁ koydaṁ</item>
+            <item>paraśuviṁ kaḍidaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="79">
+	  <ab type="sūtra">hētāv api.</ab>
+	  <p>
+	    <s>hētur nimittaṁ.</s>
+            <s>tasminn arthē ’pi tr̥tīyāvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ōlagadind’ irdaṁ</item>
+            <item>ōlagadiṁ baḻdaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="80">
+	  <ab type="sūtra">sampradānē caturthē.</ab>
+	  <p>
+	    <s>karmaṇō viṣayabhūtatvēna vivakṣitaṁ sampradānaṁ.</s>
+            <s>tasmin caturthīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>upādhyāyaṅge dakṣiṇeyaṁ koṭṭaṁ</item>
+            <item>brāhmaṇaṅge gōvan ittaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="81">
+	  <ab type="sūtra">rucihitērṣyābhayēṣu ca.</ab>
+	  <p>
+	    <s>rucau hitē īrṣyāyāṁ bhayē ca caturthīvibhaktir bhavati.</s>
+	  </p>
+	  <p>
+	    <s>rucau —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>dēvadattaṅge ruciyāytu mōdakaṁ</item>
+	  </list>
+	  <p>
+	    <s>hitē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>paśuviṅge hitaṁ tr̥ṇaṁ</item>
+	  </list>
+	  <p>
+	    <s>īrṣāyāṁ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>āryaṅge seṇasuguṁ durjanaṁ</item>
+	  </list>
+	  <p>
+	    <s>bhayē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pāpakk’ añjaguṁ takkaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="82">
+	  <ab type="sūtra">manyakarmaṇi cānādarē.</ab>
+	  <p>
+	    <s>anādarē gamyamānē manyatēḥ karmaṇi ca caturthīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>avanaṁ pulge kaṣṭamāge bagedaṁ</item>
+            <item>ātana mātan ond’ aḍakege koḷḷaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="83">
+	  <ab type="sūtra">namaskriyāyāṁ svastyādiṣu ca.</ab>
+	  <p>
+	    <s>namaskaraṇē svastyādiprayōgē ca caturthīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>dēvaṅge namaskāraṅgeydaṁ</item>
+            <item>arasaṅg’ eṟagidaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>prajegellaṁ svastiyakkem bhadraṁ jinaśāsanakke</item>
+	  </list>
+	  <p>
+	    <s>ādiśabdāt svāhā-svadhālaṁ-vaṣaḍ-arthēṣv api caturthīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>agnige svāhākāraṁ</item>
+            <item>pitr̥gaḷge svadhākāraṁ</item>
+            <item>mallaṅge pratimallan alaṁ</item>
+            <item>indraṅge vaṣaṭkāraṁ priyaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="84">
+	  <ab type="sūtra">apādānē pañcamī.</ab>
+	  <p>
+	    <s>apādānam apanayanaṁ.</s>
+            <s>tasmin vivakṣitē pañcamīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ūrattaṇiṁ bandaṁ</item>
+            <item>beṭadattaṇind’ iṟidaṁ</item>
+            <item>kudureyattaṇind’ ōḍidaṁ</item>
+            <item>puliyattaṇiṁ bhayaṁ</item>
+	  </list>
+
+        </div>
+        <div type="sūtra" n="85">
+	  <ab type="sūtra">sambandhē ṣaṣṭhī.</ab>
+	  <p>
+	    <s>svasvāmibhāvādisambandhē  ṣaṣthīvibhaktir bhavati.</s>
+	  </p>
+	  <p>
+	    <s>svasvāmibhāvē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nāḍ’ eṟeyaṁ</item>
+	  </list>
+	  <p>
+	    <s>avayavē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>marada kombu</item>
+	  </list>
+	  <p>
+	    <s>jātau —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pulleya piṇḍu</item>
+	  </list>
+	  <p>
+	    <s>vastuni —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ponna gejje</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="86">
+	  <ab type="sūtra">adhikaraṇē saptamī.</ab>
+	  <p>
+	    <s>ādhārō ’dhikaraṇaṁ.</s>
+            <s>tasmin saptamīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>neladoḷ paṭṭaṁ</item>
+            <item>toṟeyoḷ biḻdaṁ</item>
+            <item>keyyoḷ kaṅkaṇaṁ</item>
+            <item>pūvinoḷ kampu</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="87">
+	  <ab type="sūtra">nirdhāraṇē ca.</ab>
+	  <p>
+	    <s>jātikriyāguṇadravyair ēkadēśapr̥thakkaraṇaṁ nirdhāraṇaṁ.</s>
+            <s>tasmin vivakṣitē ca saptamīvibhaktir bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>puruṣaroḷ kṣatriyaṁ śūraṁ</item>
+            <item>nuḍivaroḷ kaḍujāṇaṁ</item>
+            <item>kaligaḷoḷ meygali</item>
+            <item>nararoḷ uttamaṁ</item>
+	  </list>
+
+        </div>
+        <div type="sūtra" n="88">
+	  <ab type="sūtra">āsāṁ vyatyayō bahuḷaṁ.</ab>
+	  <p>
+	    <s>āsāṁ vibhaktīnāṁ prāyēṇa vyatyayō viparyāsō bhavati uttaratra vivakṣitē ’rthē.</s>
+	  </p>
+	  <p>
+	    <s>saptamyarthē ṣaṣṭhī —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>cāgigaḷa ballahaṁ</item>
+            <item>aṅkamuḷlara dēvaṁ</item>
+	  </list>
+	  <p>
+	    <s>pañcamyarthē tr̥tīyā —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>oṟiyindurcidaṁ</item>
+            <item>saṟeyiṁ barduṅkidaṁ</item>
+            <item>maneyiṁ poṟamaṭṭaṁ</item>
+	  </list>
+	  <p>
+	    <s>ṣaṣṭhyarthē caturthī —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nelakk’ eṟeyaṁ</item>
+            <item>śrīg’ adhīśvaraṁ</item>
+	  </list>
+	  <p>
+	    <s>dvitīyārthē ca —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>śiṣyaṅge śikṣisidaṁ</item>
+            <item>bahutāpakke bigurtu viṣṇu paḍedaṁ matysāvatārakke</item>
+	  </list>
+	  <p>
+	    <s>prathamārthē ṣaṣthī —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ninna pōpuduṁ binnanirdaḷ</item>
+            <item>ninna bare muramathana</item>
+	  </list>
+	  <p>
+	    <s>tr̥tīyārthē saptamī —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>caladoḷ avana doreyāvaṁ</item>
+            <item>koḍaliyoḷ kaḍidaṁ</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="89">
+	  <ab type="sūtra">jātirēkavad bahvākhyāyāṁ bahuḷaṁ.</ab>
+	  <p>
+	    <s>jātivācī śabdaḥ bahvākhyānē ēkavad bahuḷaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kariy ivu</item>
+            <item>karigaḷ ivu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>key beḷeduvu</item>
+            <item>keygaḷ beḷeduvu</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="90">
+	  <ab type="sūtra">saṅkhyēyō saṅkhyāsu ca.</ab>
+	  <p>
+	    <s>saṅkhyēyō saṅkhyāsv api vartamānaḥ śabdaḥ bahvākhyāyām ēkavad bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pattu dese</item>
+            <item>pattu desegaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>mūṟu nālku</item>
+            <item>mūṟu nālkugaḷ</item>
+	  </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt kvacin na bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>padinayyar</item>
+	  </list>
+        </div>
+        <div type="sūtra" n="91">
+	  <ab type="sūtra">bhāvavacanē ’pi.</ab>
+	  <p>
+	    <s>bhāvākhyāyāṁ vartamānō yaḥ śabdaḥ sō ’py ēkavad bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>karpu</item>
+            <item>beḷpu</item>
+            <item>taṇpu</item>
+            <item>tiṇpu</item>
+            <item>kūrme</item>
+            <item>perme</item>
+	  </list>
+	  <p>
+	    <s>bahuḷādhikārāt beḷpugaḷ, teḷpugaḷ, iti bhavati.</s>
+	  </p>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē kārakavidhānaṁ nāmacaturthaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="5">
+	<head>yuṣmadādividhānaṁ</head>
+	<div type="sūtra" n="92">
+	  <ab type="sūtra">nīn-ān-tānaḥ prathamāvibhaktau nin-en-tanāṁ.</ab>
+	  <p>
+	    <s>yuṣmadasmadanyadarthē vartamānānāṁ nin en tan ity ētēṣāṁ prathamāvibhaktau parataḥ nīn ān tān ity ētāni rūpāṇī yathākramaṁ bhavanti.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nīn irday</item>
+            <item>āṁ pōdeṁ</item>
+            <item>tāṁ bandaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="93">
+	  <ab type="sūtra">nina-ena-tanāś caturthyāṁ tr̥tīyatvaṁ cāsyāḥ.</ab>
+	  <p>
+	    <s>nin-en-tan ity ētēṣāṁ punaḥ caturthīvibhaktau parataḥ yathāsaṅkhyaṁ nina ena tana ity ētē ādēśā bhavanti.</s>
+            <s>asyāś caturthyā api tr̥tīyatvaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ninage</item>
+            <item>enage</item>
+            <item>tanage</item>
+	  </list>
+
+	</div>
+	<div type="sūtra" n="94">
+	  <ab type="sūtra">dvibahvōr nasya maḥ.</ab>
+	  <p>
+	    <s>dvitvabahutvayōr viṣayē vivakṣitē nakārasya sthānē makārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nīmuṁ</item>
+            <item>āmuṁ</item>
+            <item>tāmuṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nimage</item>
+            <item>emage</item>
+            <item>tamage</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nimma</item>
+            <item>emma</item>
+            <item>tamma</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nimmoḷ</item>
+            <item>emmoḷ</item>
+            <item>tammoḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="95">
+	  <ab type="sūtra">adu idu udūnām antē vatau puṁsi.</ab>
+	  <p>
+	    <s>adu idu udu ity ētēṣāṁ prakr̥tiviśēṣāṇāṁ pulliṅgavivakṣāyāṁ sarvāsu vibhaktiṣu parabhūtāsu antē vakāratakārau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>avaṁ</item>
+            <item>ivaṁ</item>
+            <item>uvaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ātaṁ</item>
+            <item>ītaṁ</item>
+            <item>ūtaṁ</item>
+	  </list>
+	  <p>
+	    <s>svarādau nāgamaḥ puṁsi —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>avanaṁ</item>
+            <item>ivanaṁ</item>
+            <item>uvanaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>atanaṁ</item>
+            <item>ītanaṁ</item>
+            <item>ūtanaṁ</item>
+	  </list>
+	  <p>
+	    <s>ēvaṁ sarvatra.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="96">
+	  <ab type="sūtra">vaḷ kē ca striyāṁ.</ab>
+	  <p>
+	    <s>tēṣāṁ adu idu udūnāṁ strīvivakṣāyāṁ sarvāsu vibhaktiṣu parabhūtāsu antē vaḷ, kē, ity ētau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>avaḷ</item>
+            <item>ivaḷ</item>
+            <item>uvaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>avaḷaṁ</item>
+            <item>ivaḷaṁ</item>
+            <item>uvaḷaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>āke</item>
+            <item>īke</item>
+            <item>ūke</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ākeyaṁ</item>
+            <item>īkeyaṁ</item>
+            <item>ūkeyaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="97">
+	  <ab type="sūtra">dīrghas takayōḥ.</ab>
+	  <p>
+	    <s>tēṣāṁ aduprabhr̥tīnāṁ takayōḥ parayōḥ pūrvasvarasya dīrghādēśō bhavati.</s>
+	  </p>
+	  <p>
+	    <s>pūrvōktāni udāharaṇāni.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="98">
+	  <ab type="sūtra">strīpuṁsayōr vyatyāsaḥ kvacit.</ab>
+	  <p>
+	    <s>strīliṅgapulliṅgayōḥ kvacit karuṇābhilāṣādau vyatyāsō viparyāsō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>karuṇaṁ</item>
+            <item>abhilāṣe</item>
+            <item>upatyakaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="99">
+	  <ab type="sūtra">nityaṁ kaḷatrādau napuṁsakatvaṁ.</ab>
+	  <p>
+	    <s>kaḷatraprabhr̥tiṣu śabdēṣu nityaṁ napuṁsakatvam ēva bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>idu dharmakaḷatraṁ</item>
+            <item>idu apatyaṁ</item>
+            <item>idu kūsu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="100">
+	  <ab type="sūtra">ātō laghur ēt.</ab>
+	  <p>
+	    <s>liṅgāntasya ākārasya vibhaktiṣu parabhūtāsu laghubhūtaḥ ēkārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vasudhe</item>
+            <item>vanite</item>
+            <item>daye</item>
+            <item>candrike</item>
+            <item>māle</item>
+            <item>śāle</item>
+            <item>dhāre</item>
+            <item>drākṣe</item>
+	  </list>
+	  <p>
+	    <s>ityādi</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="101">
+	  <ab type="sūtra">īdūtōr hrasvaḥ.</ab>
+	  <p>
+	    <s>liṅgāntagatayōḥ īkārayōkārayōḥ hrasvō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>lakṣmi</item>
+            <item>nadi</item>
+            <item>nāri</item>
+            <item>sarasvati</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>sarayu</item>
+            <item>kuhu</item>
+            <item>vadhu</item>
+            <item>vāvōru</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="102">
+	  <ab type="sūtra">naikākṣarapadē.</ab>
+	  <p>
+	    <s>ēkākṣaraṁ yat padaṁ tasmin īkārōkārayōḥ hrasvō na bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>śrī</item>
+            <item>strī</item>
+            <item>bhū</item>
+            <item>bhrū</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="103">
+	  <ab type="sūtra">dhātōs tr̥śabdasya vāraḥ.</ab>
+	  <p>
+	    <s>dhātōr vihitasya tr̥śabdasya vā ārādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kartāraṁ</item>
+            <item>kartr̥</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>dhātāraṁ</item>
+            <item>dhātr̥</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bhartāraṁ</item>
+            <item>bhartr̥</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>dātāraṁ</item>
+            <item>dātr̥</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>hōtāraṁ</item>
+            <item>hōtr̥</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="104">
+	  <ab type="sūtra">rāntō vēdhasi vidhātuḥ.</ab>
+	  <p>
+	    <s>vidhātr̥śabdasya vēdhasy abhidēyē rāntō vā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vidhātraṁ</item>
+            <item>vidhātr̥</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="105">
+	  <ab type="sūtra">arō ’nyatra.</ab>
+	  <p>
+	    <s>kriyāvācinō dhātōr anyatra vartamānasya tr̥śabdasya arō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pitaraṁ</item>
+            <item>pitr̥</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bhrātaraṁ</item>
+            <item>bhrātr̥</item>
+          </list>
+          <p>
+	    <s>ityādi</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="106">
+	  <ab type="sūtra">śvayuvādhvanām ānaḥ.</ab>
+	  <p>
+	    <s>śvan yuvan adhvan ity ētēṣām antasya ānō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>śvānaṁ</item>
+            <item>yuvānaṁ</item>
+            <item>adhvānaṁ</item>
+	  </list>
+
+	</div>
+	<div type="sūtra" n="107">
+	  <ab type="sūtra">sakhyur āyaḥ.</ab>
+	  <p>
+	    <s>sakhiśabdāntasya āyapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sakhāyaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="108">
+	  <ab type="sūtra">vans-yansōr upāntyasya dīrghō vā.</ab>
+	  <p>
+	    <s>vans-yans-pratyayāntayōr upāntyasya dīrghō vā bhavati.</s>
+	  </p>
+	  <p>
+	    <s>uttaratra udāhrīyētē.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="109">
+	  <ab type="sūtra">adantatā ca.</ab>
+	  <p>
+	    <s>tayōḥ vans-yans- pratyayāntayōḥ upāntyasya dīrghō kr̥tō akārāntatā ca bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vidvāṁsaṁ</item>
+            <item>kanīyāṁsaṁ</item>
+	  </list>
+	  <p>
+	    <s>vāgrahaṇānuvartanāt kvacid vikalpaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>jyāyāṁsaṁ</item>
+            <item>jyāyaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>śrēyāṁsaṁ</item>
+            <item>śrēyaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="110">
+	  <ab type="sūtra">virāmē vyañjanasya.</ab>
+	  <p>
+	    <s>virāmē vartamānasya vyañjanasya akārāntatā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sampadaṁ</item>
+            <item>marutaṁ</item>
+            <item>vihāyasaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="111">
+	  <ab type="sūtra">lōpō vibhāṣayā.</ab>
+	  <p>
+	    <s>virāmē sthitasya vyañjanasya vibhāṣayā lōpō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>navavayaṁ</item>
+            <item>navavayasaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>jātavēdaṁ</item>
+            <item>jātavēdasaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>uśanaṁ</item>
+            <item>uśanasaṁ</item>
+	  </list>
+	  <p>
+	    <s>vyavasthitavibhāṣayā kvacil lōpa ēva —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nabhaṁ</item>
+            <item>manaṁ</item>
+	  </list>
+	  <p>
+	    <s>kvacid adantatvam ēva —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>divaṁ</item>
+            <item>kakubhaṁ</item>
+	  </list>
+	  <p>
+	    <s>kvacid udantatvam ēva.</s>
+	  </p>
+	  <p>
+	    <s>virāmē dvitvaṁ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vākku</item>
+            <item>dikku</item>
+            <item>vīruttu</item>
+            <item>pariṣattu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="112">
+	  <ab type="sūtra">manayōr binduḥ.</ab>
+	  <p>
+	    <s>makāranakārayōḥ bindur bhavati virāmē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kulaṁ</item>
+            <item>jalaṁ</item>
+            <item>polaṁ</item>
+            <item>nelaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nīṁ</item>
+            <item>āṁ</item>
+            <item>tāṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="113">
+	  <ab type="sūtra">vargē tadvargāntyaḥ.</ab>
+	  <p>
+	    <s>vargākṣarē parē manayōḥ sthānē tadvargāntyaḥ pañcamō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>biṅkaṅkaṭṭaṁ</item>
+            <item>tāñcalacittaṁ</item>
+            <item>sutteṇṭakkuṁ</item>
+            <item>melpantōrpaṁ</item>
+            <item>balpambisuṭaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="114">
+	  <ab type="sūtra">ṇō nasya ṇēna.</ab>
+	  <p>
+	    <s>ṇakārēṇa yōgē nakārasya ṇatyaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>taṇṇeḻal</item>
+            <item>taṇṇīr</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="115">
+	  <ab type="sūtra">pē hō vā.</ab>
+	  <p>
+	    <s>pakārasya sthānē hakārō vā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>palage</item>
+            <item>halage</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kāpu</item>
+            <item>kāhu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="116">
+	  <ab type="sūtra">śaṣayōḥ saḥ.</ab>
+	  <p>
+	    <s>śakāraṣakārayōḥ sakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sasi</item>
+            <item>sēse</item>
+            <item>sisu</item>
+            <item>masi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="117">
+	  <ab type="sūtra">rēphasaṁyōgē tadantarē tv iḥ.</ab>
+	  <p>
+	    <s>rēphasaṁyōgē sati ṣaṣayōḥ rēphasya cāntarē ikārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>parisaṁ</item>
+            <item>siri</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>harisaṁ</item>
+            <item>barisaṁ</item>
+            <item>sarisapaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="118">
+	  <ab type="sūtra">hakārasyōḥ.</ab>
+	  <p>
+	    <s>rēphasaṁyōgē sati hakārarēphayōr antarē ukārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aruhaṁ</item>
+            <item>baruhaṁ</item>
+            <item>aruhantaṁ</item>
+            <item>gāruhapatyaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="119">
+	  <ab type="sūtra">ḻakāraḥ padavidhau ḍasya vyañjanēṣu.</ab>
+	  <p>
+	    <s>ḍakārasya sthāne vyañjanēṣu parēṣu padavidhau kriyamāṇē ḻakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kāḻpuraṁ</item>
+            <item>kāḻkiccu</item>
+            <item>nāḻpagaraṇaṁ</item>
+            <item>nāḻkaḍe</item>
+            <item>kōḻkuṭṭu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="120">
+	  <ab type="sūtra">ati ṭaḥ.</ab>
+	  <p>
+	    <s>ati pratyayē parē ḍakārasya ṭakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aṭaṁ</item>
+            <item>nōṭaṁ</item>
+            <item>māṭaṁ</item>
+            <item>bēṭaṁ</item>
+            <item>kūṭaṁ</item>
+            <item>ūṭaṁ</item>
+            <item>kāṭaṁ</item>
+            <item>pāṭaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="121">
+	  <ab type="sūtra">ṟakārasya rēphaḥ.</ab>
+	  <p>
+	    <s>ṟakārasya sthānē vyañjanēṣu parēṣu rēphō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mārkaṇe</item>
+            <item>mārkeral</item>
+            <item>mārdani</item>
+            <item>mārpaḍe</item>
+            <item>nūrmaḍi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="122">
+	  <ab type="sūtra">ādēr ūr iḥ.</ab>
+	  <p>
+	    <s>ādibhūtasya r̥-kārasya sthāne rikārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>riṇaṁ</item>
+            <item>ritu</item>
+            <item>risi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="123">
+	  <ab type="sūtra">yavayōr anādisthayōr aijā svarēṇa vā.</ab>
+	  <p>
+	    <s>anādibhūtayōḥ yakāravakārayōḥ sthānē svarēṇa saha aijā vā bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kayvāraṁ</item>
+            <item>kaivāraṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pārayisidaṁ</item>
+            <item>pāraisidaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kavuṅgu</item>
+            <item>kauṅgu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tavudale</item>
+            <item>taudale</item>
+	  </list>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē yuṣmadādividhānaṁ nāma pañcamaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="6">
+	<head>samāsavidhānaṁ</head>
+	<div type="sūtra" n="124">
+	  <ab type="sūtra">nāmnāṁ samāsaḥ saṅgatārthaḥ.</ab>
+	  <p>
+	    <s>nāmnāṁ nāmapadānāṁ saṅgatārthaḥ sambandhārthaḥ samāsō vēditavyaḥ.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="125">
+	  <ab type="sūtra">tatrāntarvartinyō vibhaktayō lōpyāḥ.</ab>
+	  <p>
+	    <s>tatra tasmin samāsē antarvartinyō vibhaktayō lōpyāḥ bhavanti.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="126">
+	  <ab type="sūtra">uttarapadārthavr̥ttis tatpuruṣaḥ.</ab>
+	  <p>
+	    <s>uttarapadārthē vr̥ttimān samāsas tatpuruṣasaṁjñō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aramane</item>
+            <item>soḷegēri</item>
+            <item>māṅgay</item>
+            <item>nīrpīre</item>
+            <item>ānevālu</item>
+            <item>ponnōle</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="127">
+	  <ab type="sūtra">sa ēvaikāśrayaḥ karmadhārayaḥ.</ab>
+	  <p>
+	    <s>sa ēva tatpuruṣaḥ ēkāśrayaś cēt karmadhārayasaṁjñō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>taḷitōḷ</item>
+            <item>kendaḷaṁ</item>
+            <item>teḷpasiṟ</item>
+            <item>permole</item>
+            <item>karnneydil</item>
+            <item>kaṭṭāḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="128">
+	  <ab type="sūtra">saṅkhyādiś cēt dviguḥ.</ab>
+	  <p>
+	    <s>saṅkhyādipadaś cēt sa ēva karmadhārayaḥ dvigusaṁjñō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ortale</item>
+            <item>orpiḍi</item>
+            <item>irkey</item>
+            <item>irkaṇ</item>
+            <item>mūlōkaṁ</item>
+            <item>mukkoḍe</item>
+            <item>nālguvudaṁ</item>
+            <item>aysaraṁ</item>
+            <item>ayveṇḍir</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="129">
+	  <ab type="sūtra">pūrvapadārthapradhānō ’vyayībhāvaḥ.</ab>
+	  <p>
+	    <s>pūrvapadārthamukhyavr̥ttiḥ samāsō ’vyayībhāvasaṁjñō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kiḻkeṟe</item>
+            <item>kiḻpoḍe</item>
+            <item>mēṅgey</item>
+            <item>mēṅgāl</item>
+            <item>aṅgey</item>
+            <item>aṅgāl</item>
+	  </list>
+
+	</div>
+	<div type="sūtra" n="130">
+	  <ab type="sūtra">sarvapadārthapradhānō dvandvaḥ.</ab>
+	  <p>
+	    <s>samastapadānāṁ samuccayō dvandvasamāsasaṁjñō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>keyvanegaḷ</item>
+            <item>keṟetoṟegaḷ</item>
+            <item>kaṟemaṟegaḷ</item>
+            <item>nāḍubīḍugaḷ</item>
+            <item>biṭṭagaṭṭaṅgaḷ</item>
+            <item>keykālgaḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="131">
+	  <ab type="sūtra">anyapadārthapradhānō bahuvrīhiḥ.</ab>
+	  <p>
+	    <s>anyasya padasyārthō vartamānaḥ samāsō bahuvrīhisaṁjñō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>karbuvillaṁ</item>
+            <item>kuḍuvillaṁ</item>
+            <item>kallerdeyaṁ</item>
+            <item>kusigoralaṁ</item>
+            <item>nuccakkivallaṁ</item>
+            <item>kendaleyaṁ</item>
+            <item>mellaḍiyaṁ</item>
+            <item>kuṟugeyyaṁ</item>
+            <item>bisugadiraṁ</item>
+            <item>taṇgadiraṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="132">
+	  <ab type="sūtra">samasaṁskr̥taṁ dēśīyapadēna samaṁ samasyatē.</ab>
+	  <p>
+	    <s>saṁskr̥tapadasamaṁ yat padaṁ tat samasaṁskr̥taṁ.</s>
+            <s>tad dēśīyapadēna samaṁ samasyatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>paradēsaṁ</item>
+            <item>parakottaḻi</item>
+            <item>paraveṇ</item>
+            <item>parameṇḍaḷigaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>oḷgavi</item>
+            <item>beḷgavi</item>
+            <item>aḻigavi</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kūrasi</item>
+            <item>mājanaṁ</item>
+            <item>māpātakaṁ</item>
+            <item>turagadaḻaṁ</item>
+            <item>maṅgaḷārati</item>
+            <item>kaḍurāgaṁ</item>
+            <item>poḍavīśaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="133">
+	  <ab type="sūtra">kārakaṁ parēṇa samarthakriyāpadēna.</ab>
+	  <p>
+	    <s>karmādikaṁ yat kārakaṁ tat paratrāvasthitēna samarthēna kriyāvācinā padēna samaṁ samasyatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ūrēṟal bandaṁ</item>
+            <item>nāḻkaḍepōdaṁ</item>
+            <item>teṟedettaṁ</item>
+            <item>eḻtugoṇḍaṁ</item>
+            <item>seṟeyirdaṁ</item>
+            <item>okkalpōdaṁ</item>
+            <item>billettidaṁ</item>
+            <item>sēdevaḍegaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="134">
+	  <ab type="sūtra">akārāntān maḥ.</ab>
+	  <p>
+	    <s>akārāntāt kārakāt kriyāvācinā samasyamānāt parō makārāgamō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>manaṅgoḷguṁ</item>
+            <item>guṇaṅgoṇḍaṁ</item>
+            <item>jasambaḍedaṁ</item>
+            <item>kaḷasamiṭṭaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="135">
+	  <ab type="sūtra">viśēṣyōttarapadapūrvapadasyōpāntyasvarādēr lōpaḥ.</ab>
+	  <p>
+	    <s>viśēṣyōttarapadasya viśēṣaṇarōpatayāvasthitasya pūrvapadasya upāntyasvarādēr avayavasya lōpō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kārmaḍu</item>
+            <item>kūrvāḷ</item>
+            <item>immāvu</item>
+            <item>innuṇisu</item>
+            <item>nuṇbaraṁ</item>
+            <item>oḷvātu</item>
+            <item>oḷguṇaṁ</item>
+            <item>oḷnuḍi</item>
+            <item>oḷvānasaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="136">
+	  <ab type="sūtra">ikārasyaiddhrasvaḥ.</ab>
+	  <p>
+	    <s>tasminn upāntyasvarādēr lōpē kr̥tē pūrvasvarasya ikārasya laghur ēkārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>permaraṁ</item>
+            <item>permāḷ</item>
+            <item>beḷmugil</item>
+            <item>beḷdiṅgaḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="137">
+	  <ab type="sūtra">na ca kvacana.</ab>
+	  <p>
+	    <s>kvacid ikārasya pūrvōktahrasvaikārō na bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>biṇgone</item>
+            <item>biṇpoṟe</item>
+            <item>niṭṭerde</item>
+            <item>niṭṭerke</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="138">
+	  <ab type="sūtra">svarādau dīrghas tv agurōḥ.</ab>
+	  <p>
+	    <s>svarādau padē parē agurukasya pūrvapadasya dīrghādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kārosaḍu</item>
+            <item>kāriruḷ</item>
+            <item>pēroḍal</item>
+	  </list>
+	  <p>
+	    <s>aguruviśēṣaṇaṁ kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>paccōle</item>
+            <item>paccōti</item>
+	  </list>
+	  <p>
+	    <s>na cakvacanēty anuvartatē.</s>
+            <s>tasmād iha dīrghō bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>īṅgoral</item>
+            <item>īṅcaraṁ</item>
+            <item>īṅgaḍal</item>
+            <item>īmbuḷi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="139">
+	  <ab type="sūtra">ṇaṭaḷanatānāṁ dvirbḥāvaḥ.</ab>
+	  <p>
+	    <s>ṇaṭaḷanatānāṁ varṇānāṁ upāntyasvarādyavayavasya lōpē kr̥tē avaśiṣṭānāṁ svarādipadē parē dvirbhāvō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>taṇṇelar</item>
+            <item>kaṭṭāyaṁ</item>
+            <item>innuṇisu</item>
+            <item>kittaḍi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="140">
+	  <ab type="sūtra">kaḍiduniḍidudvayasyādyaikasvarātparasya ṭaḥ.</ab>
+	  <p>
+	    <s>kaḍidu niḍidu ity ētayōr dvayōḥ ādyaikasvarāt parasyāvayavasya ṭakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kaṭṭāḷ</item>
+            <item>niṭṭaḍakil</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="141">
+	  <ab type="sūtra">naḍōś ca.</ab>
+	  <p>
+	    <s>naḍu ity ētasya ca ḍakārasya ṭakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>naṭṭaruḷ</item>
+            <item>naṭṭaḍavi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="142">
+	  <ab type="sūtra">kiṟidōs taḥ.</ab>
+	  <p>
+	    <s>kiṟiduśabdasya antē punas takārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kittaḍi</item>
+            <item>kittīḷe</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="143">
+	  <ab type="sūtra">tēṣām udantatvaṁ vyañjanēṣu.</ab>
+	  <p>
+	    <s>tēṣāṁ kaḍiduprabhr̥tīnāṁ vyañjanēṣu parēṣu ukārāntatvaṁ bhavati. </s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kaḍugudure</item>
+            <item>kaḍuvāḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>niḍudōḷ</item>
+            <item>niḍuvurvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>naḍuvagal</item>
+            <item>naḍumane</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kiṟunele</item>
+            <item>kiṟumiḍi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="144">
+	  <ab type="sūtra">posatvādīnām adantatvaṁ nipātyatē.</ab>
+	  <p>
+	    <s>pōsatu paḻadu eḷadu ity ēvam ādīnāṁ śabdānāṁ upāntyasvarādyavayavalōpē sati akārāntatvaṁ nipātyatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>posasuggi</item>
+            <item>posa aḍake</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paḻagaḻave</item>
+            <item>paḻa alagu</item>
+            <item>eḷamāvu</item>
+            <item>eḷa añce</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>poṟamāṟu</item>
+            <item>poṟa aḍi</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>oḷejagaḷaṁ</item>
+            <item>oḷe aṭṭaṁ</item>
+	  </list>
+	  <p>
+	    <s>kēcid oḷasya uḷḷādēśam apīcchanti —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>uḷvakkaṁ</item>
+            <item>uḷḷāḷ</item>
+            <item>uḷḷuḍe</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="145">
+	  <ab type="sūtra">keccane beccane paccane śabdānāṁ cādēr matvaṁ.</ab>
+	  <p>
+	    <s>keccane ity ādiśabdānāṁ trayāṇāṁ cakārādēḥ avayavasya vyañjanēṣu parēṣu matvaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>keṅguḍi</item>
+            <item>kendāvare</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bennīr</item>
+            <item>bembūdi</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pandale</item>
+            <item>pandaḷir</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="146">
+	  <ab type="sūtra">svantatā ca.</ab>
+	  <p>
+	    <s>tēṣāṁ keccane prabhr̥tīnāṁ svantatā ca bhavati vyañjanē parē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kisugal</item>
+            <item>kisugāḍu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bisugavir</item>
+            <item>bisugal</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pasuvandar</item>
+            <item>pasuvol</item>
+	  </list>
+	  <p>
+	    <s>yōgavibhāgād iṣṭasiddhir iti kvacit svantatā na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>paccaḍake</item>
+            <item>paccōle</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>beccaḍi</item>
+            <item>beccōḍu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="147">
+	  <ab type="sūtra">ikārō vibhāṣayā caitaḥ.</ab>
+	  <p>
+	    <s>svantatāvidhānē ēkārasya ikārādēśō vibhāṣayā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kisuvol</item>
+            <item>kisusañje</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bisunettar</item>
+            <item>bisusuyil</item>
+	  </list>
+	  <p>
+	    <s>vyavasthitavibhāṣayā kvacid ēkāra ēva nēkāraḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kēsuri</item>
+            <item>kēsaḍi</item>
+            <item>kēsakki</item>
+            <item>kēsugur</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="148">
+	  <ab type="sūtra">tatpuruṣē pūrvapadāntyalōpaḥ prāyō yathōcitāgamaś ca.</ab>
+	  <p>
+	    <s>tatpuruṣasamāsē vartamānasya pūrvapadasya sambandhinaḥ antyavarṇasya lōpaḥ prāyēṇa bhavati.</s>
+            <s>yathōcitāgamaś ca vidhēyaḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aramane</item>
+            <item>māmaraṁ</item>
+            <item>pūgoñcal</item>
+            <item>jīney</item>
+            <item>māṅgāy</item>
+            <item>māndaḷir</item>
+            <item>tembelar</item>
+            <item>dāṅguḍi</item>
+	  </list>
+	  <p>
+	    <s>prāyōgrahaṇāt kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>arasuguṇaṁ</item>
+            <item>arasāḷtanaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="149">
+	  <ab type="sūtra">ātvam ellasya.</ab>
+	  <p>
+	    <s>samāsē pūrvapadabhūtasya ellaśabdasya ātvaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ellā ratnaṅgaḷ</item>
+            <item>ellā kāryaṅgaḷ</item>
+            <item>elḷā mātugaḷ</item>
+	  </list>
+	  <p>
+	    <s>prāyō ’nuvr̥ttyā kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ella teṟaṁ</item>
+            <item>ella dhanaṁ</item>
+            <item>elleḍe</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="150">
+	  <ab type="sūtra">bahuvrīhāv adantē.</ab>
+	  <p>
+	    <s>bahuvrīhisamāsē kr̥tē tadantē akārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>keṅgaṇṇaṁ</item>
+            <item>baṭṭadoḍeyaṁ</item>
+            <item>nēldakiviyaṁ</item>
+            <item>kusiroralaṁ</item>
+            <item>konevallaṁ</item>
+            <item>kāroḍalaṁ</item>
+	  </list>
+	  <p>
+	    <s>kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kallerde</item>
+            <item>aḷḷerde</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="151">
+	  <ab type="sūtra">illasyēliḥ.</ab>
+	  <p>
+	    <s>tasmin bahuvrīhau illaśabdasya ilirādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nāṇilivānasaṁ</item>
+            <item>pallilivāyaṁ</item>
+            <item>kūrilikuḍugol</item>
+            <item>agililigandhaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="152">
+	  <ab type="sūtra">dvigau saṅkhyāvācinām upāntyavyañjanādēr lōpaḥ.</ab>
+	  <p>
+	    <s>dvigusamāsē saṅkhyāvāciśabdānāṁ upāntyavyañjanādēḥ avayavasya lōpō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mūlōkaṁ</item>
+            <item>nālgēṇ</item>
+            <item>nāldese</item>
+            <item>aygaṇḍugaṁ</item>
+            <item>ayparaṁ</item>
+            <item>eṇgavudaṁ</item>
+            <item>eṇdese</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="153">
+	  <ab type="sūtra">ēkārthavācakasya rō ’ntē.</ab>
+	  <p>
+	    <s>ēkārthavācakō yaḥ śabdaḥ tasya antē rēphō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>orkey</item>
+            <item>ortale</item>
+            <item>oreñjalanaṁchaṁ</item>
+            <item>orandada mānasaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="154">
+	  <ab type="sūtra">irādēśō dvyarthasya.</ab>
+	  <p>
+	    <s>dvyarthavācakasya dvigusamāsē pūrvapadasya irādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>irmey</item>
+            <item>irvakkaṁ</item>
+            <item>īraydu</item>
+            <item>īroḷḷidar</item>
+	  </list>
+	  <p>
+	    <s>atra kvacit svabhāvō vaktavyaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>eraḻmātu</item>
+            <item>eraḻmūṟu</item>
+            <item>eraḻkey</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="155">
+	  <ab type="sūtra">kapavargayōs tryākhyasya tāvāgamau bahuḷaṁ hrasvapūrvau ca.</ab>
+	  <p>
+	    <s>trisaṅkhyāvācinaḥ śabdasya kapavargayōḥ parayōḥ tāvāgamau hrasvapūrvau bahuḷaṁ bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mukkoḍe</item>
+            <item>muppuri</item>
+            <item>muppoḻal</item>
+            <item>mummaḍi</item>
+	  </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mūgēṇ</item>
+            <item>mūgāvudaṁ</item>
+            <item>mūvaṇṇaṁ</item>
+            <item>mūvaḷasu</item>
+	  </list>
+	  <p>
+	    <s>kvacid anyad ēva —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>muyyēṟasoḻ</item>
+            <item>muyyāraḍi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="156">
+	  <ab type="sūtra">tryādīnāṁ vyañjanēṣv ēva.</ab>
+	  <p>
+	    <s>tryādīnāṁ saṅkhyāvācināṁ upāntyavyañjanādēr avayavasya lōpō bhavati vyañjanēṣu parēṣu.</s>
+            <s>na punaḥ svarādau.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mūlōkaṁ</item>
+            <item>mūdeṟaṁ</item>
+	  </list>
+	  <p>
+	    <s>vyañjanēṣv iti kiṁ?</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mūṟaḍi</item>
+            <item>mūṟāne</item>
+            <item>mūṟoḍḍu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="157">
+	  <ab type="sūtra">na ṣaḍarthavācakasyāpi tu hrasvas tadādēḥ.</ab>
+	  <p>
+	    <s>ṣaḍarthavācakasya śabdasya upāntyavyañjanādēr avayavasya prāguktalōpō na bhavati.</s>
+            <s>api tu tadādēḥ hrasvō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aṟudiṅgaḷ</item>
+            <item>aṟuveral</item>
+            <item>aṟugēṇ</item>
+            <item>aṟuvattu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="158">
+	  <ab type="sūtra">saptārthabhidhāyinaś ca.</ab>
+	  <p>
+	    <s>saptasaṅkhyābhidhāyinaḥ śabdasya upāntyavyañjanasya lōpō na bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ēḻkaḍal</item>
+            <item>ēḻpore</item>
+            <item>ēḻmoḻaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="159">
+	  <ab type="sūtra">navākhyāyās tōmādēśaḥ paṅtihatau.</ab>
+	  <p>
+	    <s>navākhyāyāḥ saṅkhyāyāḥ daśahatau tom ity ayam ādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>tombattu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="160">
+	  <ab type="sūtra">ombay śatē.</ab>
+	  <p>
+	    <s>navākhyāyāḥ śatavācini śabdē parē ombay ity ayam ādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ombaynūṟu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="161">
+	  <ab type="sūtra">sahasrē ca.</ab>
+	  <p>
+	    <s>navākhyāyāḥ sahasravācini śabdē parē ombay bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ombaysāsiraṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="162">
+	  <ab type="sūtra">daśākhyāyāḥ payin.</ab>
+	  <p>
+	    <s>daśākhyāyāḥ sahasravācini parē payin ity ayam ādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>payiñjāsiraṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="163">
+	  <ab type="sūtra">pannēkadvyarthayōḥ.</ab>
+	  <p>
+	    <s>daśākhyāyāḥ ēkadvyarthayōḥ parayōḥ pan ity ayam ādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pannondu</item>
+            <item>panneraḍu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="164">
+	  <ab type="sūtra">anyatra padiḥ.</ab>
+	  <p>
+	    <s>daśākhyāyāḥ ēkadvyarthābhyām anyatra saṅkhyāśabdē parē padir ādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>padimūṟu</item>
+            <item>padinālku</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="165">
+	  <ab type="sūtra">svarādau nāgamaḥ.</ab>
+	  <p>
+	    <s>daśākhyāyāḥ svarādisaṅkhyāyāṁ parāyāṁ padir bhavati, nakārāgamaś ca.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>padinaydu</item>
+            <item>padināṟu</item>
+            <item>padinēḻu</item>
+            <item>padineṇṭu</item>
+	  </list>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē samāsavidhānaṁ nāma ṣaṣṭhaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="7">
+	<head>taddhitavidhānaṁ</head>
+	<div type="sūtra" n="166">
+	  <ab type="sūtra">tad asya paṇyaṁ śilpaṁ niyōgaś cēty asminn igaḥ</ab>
+	  <p>
+	    <s>tad asya paṇyaṁ tad asya śilpaṁ sō ’sya niyōga ity ētasminn arthē tad iti prathamāntāt prakr̥tiviśēṣāt parataḥ igapratyayō bhavati.</s>
+	  </p>
+	  <p>
+	    <s>paṇyē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>tambuligaṁ</item>
+            <item>gandigaṁ</item>
+            <item>davasigaṁ</item>
+	  </list>
+	  <p>
+	    <s>śilpē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>saṁvaṁvigaṁ</item>
+            <item>paṭṭasāligaṁ</item>
+            <item>cippigaṁ</item>
+	  </list>
+	  <p>
+	    <s>niyōgē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>bhanḍārigaṁ</item>
+            <item>bāṇasigaṁ</item>
+            <item>koṭṭārigaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="167">
+	  <ab type="sūtra">tad vētty adhītē vā.</ab>
+	  <p>
+	    <s>tad vētti tad adhītē ity ētasminn arthē igapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>jōyisigaṁ</item>
+            <item>gaṇitigaṁ</item>
+            <item>siddhāntigaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="168">
+	  <ab type="sūtra">tad ācarati.</ab>
+	  <p>
+	    <s>tad iti dvitīyāntāt ācarati ity ētasminn arthē igapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>paḍisaṇigaṁ</item>
+            <item>suṅkigaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="169">
+	  <ab type="sūtra">icas tatra jātē bhavē vā.</ab>
+	  <p>
+	    <s>tatrēti saptamyantāt tatra jātaḥ tatra bhavaḥ ity ētasminn arthē icapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>poṟalicaṁ</item>
+            <item>alaricaṁ</item>
+            <item>karahaḍicaṁ</item>
+            <item>kāluricaṁ</item>
+	  </list>
+	  <p>
+	    <s>atra yathālakṣyaṁ hrasvō vaktavyaḥ.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="170">
+	  <ab type="sūtra">vaḷavaḷḷau tatrādhikr̥tē.</ab>
+	  <p>
+	    <s>tatrēti saptamtyantāt adhikr̥ta ity ētasminn arthē vaḷa, vaḷḷa, ity ētau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aḍapavaḷaṁ</item>
+            <item>aḍapavaḷḷaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>maḍivaḷaṁ</item>
+            <item>maḍivaḷḷaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>sejjevaḷaṁ</item>
+            <item>sejjevaḷḷaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paḍevaḷaṁ</item>
+            <item>paḍevaḷḷaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="171">
+	  <ab type="sūtra">vyāpr̥tē pravaṇē ca kāṟaḥ.</ab>
+	  <p>
+	    <s>tatrētyadhikārō vartatē.</s>
+            <s>tatrēti saptamyantāt vyāpr̥taḥ pravaṇaḥ ity ētayōr arthayōḥ kāṟapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vagekāṟaṁ</item>
+            <item>bagekāṟaṁ</item>
+            <item>naḍevaḷikāṟaṁ</item>
+            <item>diṇḍukāṟaṁ</item>
+            <item>bilkāṟaṁ</item>
+            <item>monekāṟaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="172">
+	  <ab type="sūtra">tad asyāstīti vantaḥ.</ab>
+	  <p>
+	    <s>tad iti prathamāntāt tad asyāstīty ētasminn arthē vantapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sirivantaṁ</item>
+            <item>guṇavantaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="173">
+	  <ab type="sūtra">upamānē pōl.</ab>
+	  <p>
+	    <s>upamānārthē vivakṣitē śabdāt parataḥ pōl-pratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>karivōl bhadraguṇaṁ</item>
+            <item>girivōl susthiraṁ</item>
+            <item>harivōl dhīraṁ</item>
+            <item>manuvōl nayajñaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="174">
+	  <ab type="sūtra">hrasvō ’pi vā.</ab>
+	  <p>
+	    <s>api cāsya vōlpratyayasya hrasvō vā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>harivol indrajanāntire bhītiyiṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="175">
+	  <ab type="sūtra">akārāntān māgamō baśrutiś ca.</ab>
+	  <p>
+	    <s>akārāntāt śabdāt upamānārthē pōl-pratyayē parē makārāgamō bhavati.</s>
+            <s>vakārasya baśrutiś ca.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nigaḷambōl toḍardudu</item>
+            <item>candrambōl toḷagittu</item>
+	  </list>
+	  <p>
+	    <s>tathā prayōgō guṇavarmaṇaḥ —</s>
+	  </p>
+	  <quote xml:lang="kan-Latn">
+	    <lg>
+	      <l>śrī rājāvartadiṁ kaṇḍarisida sativōl kaustubhaṁ mēghamālā-</l>
+	      <l>kārāmbōl śaṅkhamammaṅgoḍaliya muguḷvōl nābhikūpōpajātaṁ</l>
+	      <l>nīrējaṁ nīḷda kanneydilavolire tanucchāyeyiṁ mikka lōkā-</l>
+	      <l>dhāraṁ rakṣippanakkībhuvanabhavanamaṁ gāṅgacakrāyudhāṅkaṁ.</l>
+	    </lg>
+	  </quote>
+	</div>
+	<div type="sūtra" n="176">
+	  <ab type="sūtra">saṅkhyāyāḥ pūraṇē ’neyaḥ.</ab>
+	  <p>
+	    <s>saṅkhyāyāḥ pūraṇē ’rthē aneyapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aydaneya cakravarti</item>
+            <item>jinamadanaroḷage padināṟaneyaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="177">
+	  <ab type="sūtra">vārārthē me vā.</ab>
+	  <p>
+	    <s>saṅkhyāvācināṁ vārārthē mepratyayō vā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>orme</item>
+	    <item>irme</item>
+            <item>mūme</item>
+            <item>nālme</item>
+            <item>nūrme</item>
+            <item>sāsirme</item>
+	  </list>
+	  <p>
+	    <s>pakṣē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ondusūḻ</item>
+            <item>eraḍusūḻ</item>
+            <item>mūṟusūḻ</item>
+	  </list>
+	  <p>
+	    <s>ity ādi.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="178">
+	  <ab type="sūtra">bhāvē kepū.</ab>
+	  <p>
+	    <s>bhāvārthē ke, pu ity ētau pratyayau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kāṇke</item>
+            <item>teraḷke</item>
+            <item>pūṇke</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tiṇpu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>guṇpu</item>
+            <item>sompu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="179">
+	  <ab type="sūtra">cētanēṣv ike-u-me-tanāni.</ab>
+	  <p>
+	    <s>cētanaviṣayē bhāve vivakṣitē punaḥ ike, u, me, tana, ity ētē pratyayā bhavanti.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mānanike</item>
+            <item>āyatike</item>
+            <item>urku</item>
+            <item>sorku</item>
+            <item>kūrme</item>
+            <item>perme</item>
+            <item>kalitanaṁ</item>
+            <item>āḷtanaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="180">
+	  <ab type="sūtra">kriyārthād aT.</ab>
+	  <p>
+	    <s>kriyāvācinaḥ śabdāt bhāvē aT-pratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nōṭaṁ</item>
+            <item>ōṭaṁ</item>
+            <item>ūṭaṁ</item>
+            <item>śēṭaṁ</item>
+            <item>sōlaṁ</item>
+            <item>sālaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="181">
+	  <ab type="sūtra">adu-idu-ēn-bhyaḥ pramāṇē nituḥ.</ab>
+	  <p>
+	    <s>adu idu ēn ity ētēbhyaḥ pramāṇārthē nitupratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>anitu</item>
+            <item>initu</item>
+            <item>enitu</item>
+	  </list>
+	  <p>
+	    <s>atra takārasya d[v]itvaṁ kēcid icchanti —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>anittu</item>
+            <item>inittu</item>
+            <item>enittu</item>
+	  </list>
+	  <p>
+	    <s>tathā ca prayōgaḥ —</s>
+	  </p>
+	  <quote xml:lang="kan-Latn">
+	    <lg>
+	      <l>enittanittambujapatranētrayā-</l>
+	      <l>ghanastanaṅgaḷ baḷeguṁ kirāteyā-</l>
+	      <l>anittanittaṁ vanadoḷ vanēcaraṁ</l>
+	      <l>tanattu billānadanante kettuguṁ</l>
+	    </lg>
+	  </quote>
+	</div>
+	<div type="sūtra" n="182">
+	  <ab type="sūtra">prakārakālārthē ntundū.</ab>
+	  <p>
+	    <s>adu, idu, ēn, ity ētēbhyaḥ prakārārthē kālārthē ca yathāsaṅkhyaṁ ntu, ndu, ity ētau pratyayau bhavataḥ.</s>
+	  </p>
+	  <p>
+	    <s>prakārārthē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>antu</item>
+            <item>intu</item>
+            <item>entu</item>
+	  </list>
+	  <p>
+	    <s>kālārthē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>andu</item>
+            <item>indu</item>
+            <item>endu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="183">
+	  <ab type="sūtra">āḷis tācchīlyē.</ab>
+	  <p>
+	    <s>tācchīlyē vivakṣitē āḷipratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ōdāḷi</item>
+            <item>jādāḷi</item>
+            <item>mātāḷi</item>
+            <item>siggāḷi</item>
+            <item>ēṟāḷi</item>
+            <item>paḍapāḷi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="184">
+	  <ab type="sūtra">kuḷaś ca.</ab>
+	  <p>
+	    <s>tācchīlyē vivakṣitē kuḷipratyayō ’pi bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aṭakuḷi</item>
+            <item>añjakuḷi</item>
+            <item>ōḍukuḷi</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="185">
+	  <ab type="sūtra">tat karōtīty asmād gāṟaḥ.</ab>
+	  <p>
+	    <s>tat kārōtīty ētasmin arthē tad iti dvitīyāntāt gāṟapratyayō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>maṇigāṟaṁ</item>
+            <item>kañcagāṟaṁ</item>
+            <item>baḷegāṟaṁ</item>
+            <item>mālegāṟaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="186">
+	  <ab type="sūtra">udantān māgamō bahuḷaṁ.</ab>
+	  <p>
+	    <s>ukārāntāt śabdāt gāṟapratyayē kr̥tē bahuḷaṁ makārāgamō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pāḍuṅgāṟaṁ</item>
+            <item>jāduṅgāṟaṁ</item>
+	  </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sompugāṟaṁ</item>
+            <item>kampugāṟaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="187">
+	  <ab type="sūtra">apabhraṁśē ’py ēvaṁ kārasya.</ab>
+	  <p>
+	    <s>saṁskr̥tād apabhraṁśaviṣayē kāraśabdasya gāṟādēśō bhavati.</s>
+            <s>yathālakṣyaṁ makārāgamaś ca.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mālegāṟaṁ</item>
+            <item>sammagāṟaṁ</item>
+	  </list>
+	  <p>
+	    <s>bahuḷagrahaṇāt karmādau ādilōpō dr̥śyatē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>karmāṟaṁ</item>
+            <item>kammaṟaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kumbāṟaṁ</item>
+            <item>kumbaṟaṁ</item>
+	  </list>
+	  <p>
+	    <s>tathā ca bhāratē hampasya prayōgaḥ —</s>
+	  </p>
+	  <quote xml:lang="kan-Latn">
+	    <lg met="kandaṁ">
+	      <l>madagajaveraḍaṟa bālada</l>
+	      <l>modalaṁ piḍidettiyetti nurguttireyā</l>
+	      <l>syadinuguva raktamuriyene</l>
+	      <l>tidiyottuva kammaṟambolirdaṁ bhīmaṁ</l>
+	    </lg>
+	  </quote>
+	</div>
+	<div type="sūtra" n="188">
+	  <ab type="sūtra">striyām iti ca.</ab>
+	  <p>
+	    <s>bahuḷagrahaṇam anuvartatē.</s>
+            <s>striyāṁ vivakṣitāyāṁ pūrvōktapratyayāt iti ca bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>bāṇasigiti</item>
+            <item>maḍivaḷiti</item>
+            <item>ghaṭṭavaḷiti</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="189">
+	  <ab type="sūtra">ilōpaḥ pariṇāminaḥ.</ab>
+	  <p>
+	    <s>ādēśinaḥ śabdād uttarasya itipratyayasya ikāralōpō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mālegārti</item>
+            <item>baḷegārti</item>
+            <item>gellagārti</item>
+            <item>aṭagāti</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="190">
+	  <ab type="sūtra">aḷē ca guṇavacanēbhyaḥ.</ab>
+	  <p>
+	    <s>guṇavacanēbhyaḥ śabdēbhyaḥ strīvivakṣāyāṁ aḷ ē ca pratyayau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>oḷḷidaḷ</item>
+            <item>nallaḷ</item>
+            <item>pollaḷ</item>
+            <item>iniyaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>camare</item>
+            <item>pāṇpe</item>
+            <item>sitage</item>
+            <item>jāṇe</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="191">
+	  <ab type="sūtra">idudantaṁ puṁsi vā.</ab>
+	  <p>
+	    <s>ikārāntam ukārāntaṁ yac chabdarūpaṁ tat pulliṅgēna samāsaṁ vā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nāṇili</item>
+            <item>mātāḷi</item>
+            <item>sondi</item>
+            <item>gāḷu</item>
+            <item>pāṟu</item>
+	  </list>
+	  <p>
+	    <s>kvacid vyañjanāntaṁ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>maruḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="192">
+	  <ab type="sūtra">vīpsānukaraṇābhīkṣṇyakriyāsamabhihārasāmīpyacāpalādau padasya dvirvacanaṁ.</ab>
+	  <p>
+	    <s>vīpsādyarthēṣu vivakṣitēṣu padasya dvirvacanaṁ bhavati.</s>
+	  </p>
+	  <p>
+	    <s>vīpsāyāṁ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ūrūr</item>
+            <item>manemane</item>
+            <item>kērikēri</item>
+            <item>nāḍunāḍu. </item>
+	  </list>
+	  <p>
+	    <s>anukaraṇē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>bhōbhōr ene</item>
+            <item>ghulghullene</item>
+            <item>gaḷagaḷene</item>
+	  </list>
+	  <p>
+	    <s>abhīkṣṇyē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nōḍinōḍi</item>
+            <item>ōdiyōdi</item>
+            <item>pāḍipāḍi</item>
+            <item>āḍiyāḍi</item>
+	  </list>
+	  <p>
+	    <s>kriyāsamabhihārē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>naḍenaḍeyendu naḍedar</item>
+            <item>koykoyyendu koydar</item>
+	  </list>
+	  <p>
+	    <s>sāmīpyē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>keṟakēṟage</item>
+            <item>kelakeladoḷ</item>
+            <item>ide ide</item>
+	  </list>
+	  <p>
+	    <s>cāpalē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>oppisoppisu</item>
+            <item>māṇmāṇ</item>
+            <item>idircidircu</item>
+            <item>aṇmaṇmu</item>
+	  </list>
+	  <p>
+	    <s>ādigrahaṇād anyatrāpi bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ene ene</item>
+            <item>nuḍiye nuḍiye</item>
+            <item>antante</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="193">
+	  <ab type="sūtra">atrāpi lōpādikāryaṁ samāsavat.</ab>
+	  <p>
+	    <s>atra asmin prakaraṇē taddhitē kr̥tē ca lōpādikāryaṁ padavidhānaṁ samāsavat draṣṭavyaṁ.</s>
+            <s>tathaivōdāhr̥taṁ.</s>
+	  </p>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē taddhitavidhānaṁ nāma saptamaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="8">
+	<head>ākhyātavidhānaṁ</head>
+	<div type="sūtra" n="194">
+	  <ab type="sūtra">kriyārthō dhātuḥ.</ab>
+	  <p>
+	    <s>kriyā ēva arthō yasyāsau kriyārthaḥ.</s>
+            <s>sa dhātusaṁjñō bhavati.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="195">
+	  <ab type="sūtra">tasmād am-ar-ay-ir-en-evū vibhaktayaḥ.</ab>
+	  <p>
+	    <s>tasmād dhātursaṁjñāt parāḥ am, ar, ay, ir, en, ev, ity ētā vibhaktayō bhavanti.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>māḍaṁ</item>
+            <item>māḍar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḍay</item>
+            <item>māḍir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḍen</item>
+            <item>māḍevu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="196">
+	  <ab type="sūtra">da-dapa-vakārādyās tu bhūtavatī-vartamānā-bhaviṣyantyaḥ.</ab>
+	  <p>
+	    <s>tās tu vibhaktayaḥ dadapavakārādyāḥ yathākramaṁ bhūtavatī-vartamānā-bhaviṣyantī-saṁjñā jñātavyaḥ.</s>
+	  </p>
+	  <p>
+	    <s>bhūtavatyāḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>dam</item>
+            <item>dar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>day</item>
+            <item>dir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>den</item>
+            <item>devu</item>
+	  </list>
+	  <p>
+	    <s>vartamānā[yāḥ] —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item> dapam</item>
+            <item>dapar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>dapay</item>
+            <item>dapir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>dapen</item>
+            <item>dapevu</item>
+	  </list>
+	  <p>
+	    <s>bhaviṣyantyāḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>vam</item>
+            <item>var</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>vay</item>
+            <item>vir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ven</item>
+            <item>vevu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="197">
+	  <ab type="sūtra">naivaṁ nañarthē.</ab>
+	  <p>
+	    <s>pratiṣēdhārthē gamyamānē ēvaṁ da-dapa-va-kārād yās ttā vibhaktayō na bhavanti.</s>
+            <s>kēvalaṁ svarūpatas tiṣṭhanti.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>māḍaṁ</item>
+            <item>māḍar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḍay</item>
+            <item>māḍir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḍen</item>
+            <item>māḍevu.</item>
+	  </list>
+
+	</div>
+	<div type="sūtra" n="198">
+	  <ab type="sūtra">tāsu dvē dvē prathamamadhyamōttamapuruṣāḥ.</ab>
+	  <p>
+	    <s>tāsu tridhā vibhajyamānāsu vibhaktiṣu dvē dvē vacanē bhūtvā prathamapuruṣamadhyamapuruṣōttamapuruṣasaṁjñā bhavanti.</s>
+	  </p>
+	  <p>
+	    <s>prathamapuruṣaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>am</item>
+            <item>ar</item>
+	  </list>
+	  <p>
+	    <s>madhyamapuruṣaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ay</item>
+            <item>ir</item>
+	  </list>
+	  <p>
+	    <s>uttamapuruṣaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>en</item>
+            <item>evu</item>
+	  </list>
+
+	</div>
+	<div type="sūtra" n="199">
+	  <ab type="sūtra">anyārthē prathamaḥ.</ab>
+	  <p>
+	    <s>anyārthē vivakṣitē kriyāvacanād dhātōḥ paraḥ prathamapuruṣō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>tāṁ māḍidaṁ</item>
+            <item>tāṁ māḍidar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tāṁ māḍidapaṁ</item>
+            <item>tāṁ māḍidapar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tāṁ māḍuvaṁ</item>
+            <item>tāṁ māḍuvar</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="200">
+	  <ab type="sūtra">yuṣmad-asmadōr madhyamōttamau.</ab>
+	  <p>
+	    <s>yuṣmadarthē asmadarthē ca yathāsaṅkhyaṁ madhyamōttamapuruṣā bhavataḥ.</s>
+	  </p>
+	  <p>
+	    <s>madhyamapuruṣē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>āḍiday</item>
+            <item>āḍidir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>āḍidapay</item>
+            <item>āḍidapir</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>āḍuvay</item>
+            <item>āḍuvir</item>
+	  </list>
+	  <p>
+	    <s>uttamapuruṣē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>āḍideṁ</item>
+            <item>āḍidevu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>āḍidapeṁ</item>
+            <item>āḍidapevu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>āḍuveṁ</item>
+            <item>āḍuvevu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="201">
+	  <ab type="sūtra">yugapatprayōgē paras tēṣāṁ.</ab>
+	  <p>
+	    <s>tēṣāṁ prathamamadhyamōttamapuruṣāṇāṁ yugapatprayōgē sati yaḥ paraḥ sa ēva puruṣō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ātanuṁ nīnuṁ māḍidir, māḍidapir, māḍuvir</item>
+	    <item>ātanum ānuṁ māḍidevu, māḍidapevu, māḍuvevu</item>
+	    <item>nīnum ānuṁ māḍidevu, māḍidapevu māḍuvevu</item>
+	    <item>ātanuṁ nīnum ānuṁ kūḍi māḍidevu, māḍidapevu, māḍuvevu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="202">
+	  <ab type="sūtra">svārthē kālē.</ab>
+	  <p>
+	    <s>svasyārthē kālē bhūtavatyādayō vidhātavyāḥ.</s>
+            <s>ētad uktaṁ bhavati.</s>
+            <s>bhūtakālē bhūtavatī.</s>
+            <s>vartamānakālē vartamānā.</s>
+            <s>bhaviṣyatkālē bhaviṣyantī vidhātavyā.</s>
+            <s>tad yathā —</s>
+	  </p>
+	  <p>
+	    <s>bhūtē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>puṭṭidaṁ</item>
+            <item>puṭṭidar</item>
+	  </list>
+	  <p>
+	    <s>vartamānē —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>puṭṭidapaṁ</item>
+            <item>puṭṭidapar</item>
+	  </list>
+	  <p>
+	    <s>bhaviṣyati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>puṭṭuvaṁ</item>
+            <item>puṭṭuvar</item>
+	  </list>
+	  <p>
+	    <s>ēvaṁ madhyamōttamayōr api.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="203">
+	  <ab type="sūtra">ēkasminn ēkavacanaṁ.</ab>
+	  <p>
+	    <s>ēkasmin ēkārthē vivakṣitē ēkavacanam ēva bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ātan orvane māḍidaṁ, māḍidapaṁ, māḍuvaṁ</item>
+	    <item>nīn orvane māḍiday, māḍidapay, māḍuvay</item>
+	    <item>ān orvane māḍideṁ, māḍidapeṁ, māḍuveṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="204">
+	  <ab type="sūtra">dvitvabahutvayōr anyat.</ab>
+	  <p>
+	    <s>dvitvē bahutvē ca tadanyat bahuvacanam ēva bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>avar māḍidar, māḍidapar, māḍuvar</item>
+	    <item>nīṁ māḍidir, māḍidapir, māḍuvir</item>
+            <item>āṁ māḍidevu, māḍidapevu, māḍuvevu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="205">
+	  <ab type="sūtra">udu uvu nap[uṁs]i prathamasya.</ab>
+	  <p>
+	    <s>napuṁsakaliṅgaviṣayē prathamapuruṣasya ēkānēkavacanayōḥ kramēṇa udu, uvu ity ētāv ādēśau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ādudu</item>
+            <item>āduvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>ādapudu</item>
+            <item>ādapuvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>appudu</item>
+            <item>appuvu</item>
+	  </list>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pōdudu</item>
+            <item>pōduvu</item>
+	  </list>
+	  <list type="examples" xml:lang="kan-Latn">
+            <item>pōdapudu</item>
+            <item>pōdapuvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pōpudu</item>
+            <item>pōpuvu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="206">
+	  <ab type="sūtra">bhāvē ca.</ab>
+	  <p>
+	    <s>bhāvārthē vivakṣitē prathamapuruṣasya udu, uvu ity ētau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>irpudu</item>
+            <item>irpuvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḻpudu</item>
+            <item>māḻpuvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kūrpudu</item>
+            <item>kūrpuvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>barpudu</item>
+            <item>barpuvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nōḍidudu</item>
+            <item>nōḍiduvu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bēḍidudu</item>
+            <item>bēḍiduvu</item>
+	  </list>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>māḍidudu</item>
+            <item>māḍidudaṁ</item>
+            <item>māḍidudaṟiṁ</item>
+            <item>māḍidudarke</item>
+            <item>māḍidudaṟattaṇiṁ</item>
+            <item>māḍidudaṟa</item>
+            <item>māḍidudaṟoḷ. nōḍiduvu</item>
+            <item>nōḍiduvaṁ</item>
+            <item>nōḍiduvaṟiṁ</item>
+            <item>nōḍiduvarke</item>
+            <item>nōḍiduvaṟattaṇiṁ</item>
+            <item>nōḍiduvaṟa</item>
+            <item>nōḍuduvaṟoḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="207">
+	  <ab type="sūtra">tadēkavacanasya tuttū vānyēṣāṁ.</ab>
+	  <p>
+	    <s>napuṁsakaliṅgavihitasya prathamapuruṣaikavacanasya anyēṣāṁ matēna tu-tū vā bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>puṭṭitu</item>
+            <item>puṭṭittu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>sogayisitu</item>
+            <item>sogayisittu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>aḷkitu</item>
+            <item>aḷkittu. vyavasthitavibhāṣayā kvacid anyad ēva — kēṭṭattu</item>
+            <item>sattattu</item>
+            <item>ādattu</item>
+            <item>pōdattu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="208">
+	  <ab type="sūtra">striyām aḷ antē.</ab>
+	  <p>
+	    <s>strīvivakṣāyāṁ prathamapuruṣaikavacanasya antē aḷ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aṟidaḷ</item>
+            <item>aṟidapaḷ</item>
+            <item>aṟivaḷ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>janiyisidaḷ</item>
+            <item>janiyisidapaḷ</item>
+            <item>janiyisuvaḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="209">
+	  <ab type="sūtra">gum-kumau bhaviṣyantyāḥ sarvatra.</ab>
+	  <p>
+	    <s>prathamapuruṣasya bhaviṣyantyāḥ sarvatra liṅgavacanē lakṣyānusārēṇa gum-kumau ādēśau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mōṟugum ātaṁ</item>
+            <item>mōṟugum āke</item>
+            <item>mōṟugum adu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>irkum ātaṁ</item>
+            <item>irkum āke</item>
+            <item>irkum adu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="210">
+	  <ab type="sūtra">dādāv iDāgamō bahuḷaṁ.</ab>
+	  <p>
+	    <s>dakārādau vibhaktigaṇē parē ikārāgamō bahuḷaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>meccidaṁ</item>
+            <item>meccidapaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>meccidar</item>
+            <item>meccidapar</item>
+	  </list>
+	  <p>
+	    <s>bahuḷagrahaṇād anyatrāpi bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>urcitu</item>
+            <item>urcittu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bercitu</item>
+            <item>bercittu</item>
+	  </list>
+	  <p>
+	    <s>kvacid anyad ēva —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>naḍedattu</item>
+            <item>oḍedaṁ</item>
+            <item>naḍedaṁ</item>
+            <item>kaḷedaṁ</item>
+            <item>beḷedaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="211">
+	  <ab type="sūtra">yū ca vē.</ab>
+	  <p>
+	    <s>vakārādau vibhaktigaṇē parē iś ca uś ca āgamau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>jaḍivaṁ</item>
+            <item>niḍuvaṁ</item>
+            <item>baḍivaṁ</item>
+            <item>kuḍivaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḍuvaṁ</item>
+            <item>bēḍuvaṁ</item>
+            <item>āḍuvaṁ</item>
+            <item>pāḍuvaṁ</item>
+	  </list>
+	  <p>
+	    <s>cakārād anyad api —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>seḷevaṁ</item>
+            <item>deḷevaṁ</item>
+            <item>eḻevaṁ</item>
+	  </list>
+	  <p>
+	    <s>kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>īvaṁ</item>
+            <item>kāvaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="212">
+	  <ab type="sūtra">raḻābhyāṁ vasya paḥ.</ab>
+	  <p>
+	    <s>rēphaḻakārābhyāṁ parasya vakārasya pakārādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>barpaṁ</item>
+            <item>barpar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>irpaṁ</item>
+            <item>irpar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nōḻpaṁ</item>
+            <item>nōḻpar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bēḻpaṁ</item>
+            <item>bēḻpar</item>
+	  </list>
+	  <p>
+	    <s>ōkārād api vaktavyaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ōpaṁ</item>
+            <item>ōpar</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="213">
+	  <ab type="sūtra">dhātōr anēkākṣarādisuḥ.</ab>
+	  <p>
+	    <s>anēkākṣarāt dhātōḥ vibhaktigaṇē parē isur bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sogayisuguṁ</item>
+            <item>sogayisidaṁ</item>
+            <item>sogayisidaḷ</item>
+            <item>sogayisidar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>rañjisuguṁ</item>
+            <item>rañjisidaṁ</item>
+            <item>rañjisidaḷ</item>
+            <item>rañjisidar</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="214">
+	  <ab type="sūtra">prayōjakē ca.</ab>
+	  <p>
+	    <s>prayōjakē cārthē vivakṣitē dhātōḥ paraḥ isur bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>meccisidaṁ</item>
+            <item>pāḍisidaṁ</item>
+            <item>kaṇgoḷisidaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="215">
+	  <ab type="sūtra">geke vā prathamasyāśiṣi vidhyādiṣu ca.</ab>
+	  <p>
+	    <s>tāsāṁ vibhaktīnāṁ prathamapuruṣasya sthānē āśiṣi vidhyādyarthēṣu ca ge-ke vā bhavataḥ></s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>āyumaṁ siriyumaṁ māḍuge</item>
+            <item>āyuṁ siriyum akke</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tān adaṁ māḍuge</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tānadaṁ māḻke</item>
+	  </list>
+	  <p>
+	    <s>ity ādi.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="216">
+	  <ab type="sūtra">madhyamaikavacanasyēdudētaḥ prāyō lōpaś ca.</ab>
+	  <p>
+	    <s>āśīrvidhyādiṣu arthēṣu madhyamapuruṣaikavacanasya it, ut, ēt ity ētē ādēśā bhavanti.</s>
+            <s>prāyō yathālakṣyaṁ lōpaś ca bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kuḍi</item>
+            <item>piḍi</item>
+            <item>jaḍi</item>
+            <item>kaḍi</item>
+            <item>kuḍu</item>
+            <item>pāḍu</item>
+            <item>māḍu</item>
+            <item>poḍu</item>
+            <item>kaḷe</item>
+            <item>tege</item>
+            <item>bage</item>
+            <item>tage</item>
+            <item>nil</item>
+            <item>koḷ</item>
+            <item>pēḻ</item>
+            <item>māṇ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="217">
+	  <ab type="sūtra">kriyāsamabhihārē ca.</ab>
+	  <p>
+	    <s>paunaḥpunyaṁ bhr̥śārthō vā kriyāsamabhihāraḥ.</s>
+            <s>tasminn arthē vivakṣitē madhyamapuruṣaikavacanasya it, ut, ēt ity ētē ādēśā bhavanti.</s>
+            <s>prāyō lōpaś ca.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kuḍi kuḍiy endu kuḍiyisidar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pugu pugu endu pugisidar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>naḍe naḍey endu naḍeyisidar</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>koy koy endu koyisidar. piḍi piḍi</item>
+            <item>biḍu biḍu</item>
+            <item>tage tage</item>
+            <item>nil nil</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="218">
+	  <ab type="sūtra">dvitvabhutvayōr im.</ab>
+	  <p>
+	    <s>dvitvē bahutvē ca vivakṣitē madhyamapuruṣasya im bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nuḍiyiṁ</item>
+            <item>nōḍiṁ</item>
+            <item>irisiṁ</item>
+            <item>pēḻiṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="219">
+	  <ab type="sūtra">am uttamasaikavacanād anyatra.</ab>
+	  <p>
+	    <s>tēṣu vidhyādyarthēṣu uttamapuruṣasya ēkavacanād anyatra dvitvabhutvayōḥ am-ādēśō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>māḻpaṁ</item>
+            <item>māḍuvaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nōḻpaṁ</item>
+            <item>nōḍuvaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>bēḻpaṁ</item>
+            <item>bēḍuvaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>pōpaṁ</item>
+            <item>barpaṁ</item>
+            <item>kūḍuvaṁ</item>
+            <item>āḍuvaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="220">
+	  <ab type="sūtra">hētāv isuḥ.</ab>
+	  <p>
+	    <s>hētuḥ prayōjakaḥ kartā.</s>
+            <s>tasmin kriyārthād dhātōḥ isur bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>māḍisidaṁ</item>
+            <item>pāḍisidaṁ</item>
+            <item>irisidaṁ</item>
+            <item>barisidaṁ</item>
+            <item>biḍisidaṁ</item>
+            <item>tarisidaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="221">
+	  <ab type="sūtra">kriyāyāṁ kriyārthāyām al.</ab>
+	  <p>
+	    <s>kriyāyāṁ kriyārthāyāṁ dhātōḥ al bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nōḍal bagedaṁ</item>
+            <item>kūḍal sārdaṁ</item>
+            <item>pāḍal toḍagidaṁ</item>
+            <item>kēḷal eḷasidaṁ</item>
+            <item>pōgal oḍarccidaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="222">
+	  <ab type="sūtra">pratiṣēdhē ca.</ab>
+	  <p>
+	    <s>pratiṣēdhārthē ’pi dhātōḥ al bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nuḍiyal bēḍa</item>
+            <item>miḍukal bēḍa</item>
+            <item>pōgal bāradu</item>
+            <item>usiral bāradu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="223">
+	  <ab type="sūtra">saṅgatāntarē bahuḷam allōpaḥ.</ab>
+	  <p>
+	    <s>saṅgatāntarē bahuḷam alantē lōpō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nuḍiyal bāradu</item>
+            <item>nuḍiyabāradu</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>taral vēḻ</item>
+            <item>taravēḻ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>baral vēḻvudu</item>
+            <item>barabēḻvudu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="224">
+	  <ab type="sūtra">utumuttumantē tadātvē.</ab>
+	  <p>
+	    <s>tadātvē vartamānakriyārthāyāṁ kriyāyāṁ antē utuṁ uttuṁ ity ētau bhavataḥ</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kedaṟutuṁ</item>
+            <item>kedaṟuttuṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>nōḍutuṁ</item>
+            <item>nōḍuttuṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="225">
+	  <ab type="sūtra">paurvakālakriyāyām idutau yathālakṣyaṁ.</ab>
+	  <p>
+	    <s>pūrvasmin kālē kriyāyāṁ satyāṁ dhātōḥ idutau lakṣyānusārēṇa bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nōḍi pōdaṁ</item>
+            <item>ōḍi bandaṁ</item>
+            <item>mecci koṭṭaṁ</item>
+            <item>mind’ uṇḍaṁ</item>
+            <item>bandu kaṇḍaṁ</item>
+            <item>kaṇḍu nindaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="226">
+	  <ab type="sūtra">dhātōr idutōr upāntyayōr ēdōdatu prāyaḥ.</ab>
+	  <p>
+	    <s>dhātōḥ sambandhinōḥ upāntyē vartamānayōḥ idutōḥ sthānē ēdōtau prāyēṇa bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>eccaṁ</item>
+            <item>beccaṁ</item>
+            <item>gettaṁ</item>
+            <item>keṭṭaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>okkaṁ</item>
+            <item>pokkaṁ</item>
+            <item>toṭṭaṁ</item>
+            <item>koṭṭaṁ</item>
+	  </list>
+	  <p>
+	    <s>prāyōgrahaṇāt kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>biṭṭaṁ</item>
+            <item>iṭṭaṁ</item>
+            <item>uṭṭaṁ</item>
+            <item>suṭṭaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="227">
+	  <ab type="sūtra">itō dīrghō ’nāgamēṣu.</ab>
+	  <p>
+	    <s>dhātōḥ akārasya anāgamēṣu vibhaktiṣu dīrghō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>tāraṁ</item>
+            <item>tārar</item>
+            <item>bāraṁ</item>
+            <item>bārar</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="228">
+	  <ab type="sūtra">tr̥tīyānāṁ vyañjanādau prathamatvaṁ.</ab>
+	  <p>
+	    <s>dhātōḥ sambandhināṁ tr̥tīyānāṁ vyañjanādau prathamatvaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pokkaṁ</item>
+            <item>okkaṁ</item>
+            <item>mikkaṁ</item>
+            <item>nakkaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>paṭṭaṁ</item>
+            <item>naṭṭaṁ</item>
+            <item>aṭṭaṁ</item>
+            <item>toṭṭaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="229">
+	  <ab type="sūtra">ṟaḍayōs taḻau.</ab>
+	  <p>
+	    <s>dhātōḥ ṟakāraḍakārayōḥ vyañjanādiṣu vibhaktiṣu yathākramaṁ takāraḻakārau bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pettaṁ</item>
+            <item>pottaṁ</item>
+            <item>tettaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>māḻkuṁ</item>
+            <item>bēḻkuṁ</item>
+            <item>nōḻkuṁ</item>
+	  </list>
+	  <p>
+	    <s>ṟasya rēphō vaktavyaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>artaṁ</item>
+            <item>artar</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="230">
+	  <ab type="sūtra">vakārasya paḥ.</ab>
+	  <p>
+	    <s>dhātōh vakārasya pakārō bhavati vyañjanādau parataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>tappaṁ</item>
+            <item>tappar</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="231">
+	  <ab type="sūtra">ā-pōbhyāṁ dasya tē yaḥ.</ab>
+	  <p>
+	    <s>ā-pōbhyāṁ parasya dakārasya yakārō bhavati takārē parataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>āytu</item>
+            <item>pōytu</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="232">
+	  <ab type="sūtra">hiṁsāgatyarthayōr lō naḥ.</ab>
+	  <p>
+	    <s>hiṁsārthasya gatyarthasya ca dhātōḥ lakārasya vyañjanē parē nakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kondaṁ</item>
+            <item>sandaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="233">
+	  <ab type="sūtra">vā sthityarthakasya.</ab>
+	  <p>
+	    <s>sthityarthakasya dhātōḥ sambandhinaḥ lakārasya vā nakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nindaṁ</item>
+            <item>niltaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="234">
+	  <ab type="sūtra">ānayanāgamanārthavartinō rēphasya.</ab>
+	  <p>
+	    <s>ānayanārthē āgamanārthē ca vartamānayōḥ dhātvōḥ rēphasya nakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>tandaṁ</item>
+            <item>bandaṁ</item>
+	  </list>
+	  <p>
+	    <s>atra ḷakāradakārayōh ṇaḍau vaktavyau —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>koṇḍaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="235">
+	  <ab type="sūtra">sasya caḥ.</ab>
+	  <p>
+	    <s>dhātōḥ sakārasya cakārō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>eccaṁ</item>
+            <item>beccaṁ</item>
+            <item>peccaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="236">
+	  <ab type="sūtra">mr̥tidānārthayōs tō ’ntē hrasvaś ca.</ab>
+	  <p>
+	    <s>mr̥tyarthadānārthayōḥ antē takārō bhavati.</s>
+            <s>pūrvasvarasya hrasvaś ca bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sattaṁ</item>
+            <item>ittaṁ</item>
+	  </list>
+	  <p>
+	    <s>caśabdād anyatrāpi hrasvaḥ —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aḻdaṁ</item>
+            <item>eḻdaṁ</item>
+            <item>biḻdaṁ</item>
+            <item>mindaṁ</item>
+            <item>kaṇḍaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="237">
+	  <ab type="sūtra">tōṣṭunā ṭuḥ.</ab>
+	  <p>
+	    <s>tavargasya ṭavargēṇa yōgē ṭur bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>uṇḍaṁ</item>
+            <item>kaṇḍaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="238">
+	  <ab type="sūtra">kacaṭatapēbhyō dasya pūrvarūpaṁ.</ab>
+	  <p>
+	    <s>kacaṭatapēbhyō vargaprathamākṣarēbhyaḥ parasya dakārasya pūrvarūpaṁ bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>pekkaṁ</item>
+            <item>mikkaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>eccaṁ</item>
+            <item>beccaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>toṭṭaṁ</item>
+            <item>paṭṭaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tettaṁ</item>
+            <item>pottaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>tappaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="239">
+	  <ab type="sūtra">laḷakārābhyāṁ dasya tō vā.</ab>
+	  <p>
+	    <s>lakāraḷakārābhyāṁ parasya dakārasya takārō vā bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>sōltaṁ</item>
+            <item>kaltaṁ</item>
+            <item>taḷtaṁ</item>
+	  </list>
+	  <p>
+	    <s>vāgrahaṇāt kvacin na bhavati —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>poldaṁ</item>
+            <item>jōldaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>kaḷdaṁ</item>
+            <item>kēḷdaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="240">
+	  <ab type="sūtra">abhidhānatō vyavasthitā siddhiḥ.</ab>
+	  <p>
+	    <s>abhidhānalakṣaṇataḥ siddhir bhavati.</s>
+            <s>tathā cōdāhr̥taṁ.</s>
+	  </p>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇa ākhyātavidhānaṁ nāma aṣṭamaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="9">
+	<head>avyayavidhānaṁ</head>
+	<div type="sūtra" n="241">
+	  <ab type="sūtra">asaṅkhyam avyayaṁ.</ab>
+	  <p>
+	    <s>asaṅkhyaṁ yac cbhadarūpaṁ tad avyayasaṁjñaṁ bhavati.</s>
+            <s>athavā ēkavacanadvivacanabahuvacanarahitaṁ avyayasaṁjñitam.</s>
+            <s>tathācōdāhariṣyatē. </s>
+	  </p>
+	</div>
+	<div type="sūtra" n="242">
+	  <ab type="sūtra">ādam atyarthē.</ab>
+	  <p>
+	    <s>ādam ity avyayaṁ atyarthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ādam oppidaṁ</item>
+            <item>ādam oppidaḷ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="243">
+	  <ab type="sūtra">ēgaṁ viniścayē.</ab>
+	  <p>
+	    <s>ēgam ity avyayaṁ viniścayārthē prayujyatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>antē ēgaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="244">
+	  <ab type="sūtra">huṁ pr̥cchāyāṁ vitarkāvadhāraṇanivāraṇēṣu va.</ab>
+	  <p>
+	    <s>huṁśabdaḥ pr̥cchāyāṁ vitarkē avadhāraṇē nivāraṇē ca nirdēśyō bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>huṁ pēḻ</item>
+            <item>huṁ adentu? huṁ ante</item>
+            <item>huṁ nil</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="245">
+	  <ab type="sūtra">ciḥ kutsanē.</ab>
+	  <p>
+	    <s>ciḥ iti śabdaḥ garhaṇē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ciḥ pollaeydaṁ</item>
+            <item>ciḥ kaṣṭan ivaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="246">
+	  <ab type="sūtra">matte kaṇṭha-samīkr̥tau bhūyōrthē ’pi.</ab>
+	  <p>
+	    <s>matte śabdaḥ kaṇṭhasamīkaraṇē punararthē ’pi vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mattadentu</item>
+            <item>matte maguḻdaṁ</item>
+	  </list>
+	  <p>
+	    <s>apiśabdāt pādapūraṇē ’pi —</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>adu mattentene</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="247">
+	  <ab type="sūtra">kennaṁ tatvākhyānē.</ab>
+	  <p>
+	    <s>kennam ity avyayaṁ tatvākhyānē yathārthakathanē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kennam enage ballidar ārpare</item>
+            <item>kennam ennaṁ janaṁ nuḍiguṁ</item>
+	  </list>
+
+	</div>
+	<div type="sūtra" n="248">
+	  <ab type="sūtra">bhōṅkal toṭṭene sahasā.</ab>
+	  <p>
+	    <s>bhōṅkal toṭṭene śabdau sahasārthē vartētē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>bhōṅkal māḍidaṁ</item>
+            <item>toṭṭene koṭṭaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="249">
+	  <ab type="sūtra">vōl ivārthē.</ab>
+	  <p>
+	    <s>vōl ity ayaṁ śabdaḥ ivārthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>girivōl sthiraṁ</item>
+            <item>kēsarivōl kali</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="250">
+	  <ab type="sūtra">mēṇ vikalpē.</ab>
+	  <p>
+	    <s>mēṇ ity ayaṁ śabdaḥ vikalpē bōddhavyaḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>adu mēṇ idu mēṇ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="251">
+	  <ab type="sūtra">veṟaṁ valaṁ vispaṣṭārthē.</ab>
+	  <p>
+	    <s>vispaṣṭārthē veṟaṁ valaṁ iti dvayaṁ prayōktavyaṁ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aduve veṟaṁ</item>
+            <item>iduve valaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="252">
+	  <ab type="sūtra">gaḍa-gaḷa vārtāsambhāṣaṇayōḥ</ab>
+	  <p>
+	    <s>gaḍa gaḷa śabdau dvāv api vārtāsambhāṣaṇayōḥ pravartētē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>mecce gaḍaṁ</item>
+            <item>muḷiye gaḍaṁ</item>
+            <item>adentu gaḍa</item>
+            <item>antu gaḷaṁ</item>
+            <item>adentu gaḷa</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="253">
+	  <ab type="sūtra">amumau samuccayē.</ab>
+	  <p>
+	    <s>aṁ, uṁ ity ētau śabdau samuccayārthē vartētē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ātaṅgam ākegaṁ</item>
+            <item>tannoḷam ātanoḷaṁ</item>
+            <item>enagaṁ tanagaṁ</item>
+          </list>
+          <list type="examples" xml:lang="kan-Latn">
+            <item>anuṁ nīnuṁ</item>
+            <item>aneyuṁ kudureyuṁ</item>
+            <item>eḻtuṁ kaḻteyuṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="254">
+	  <ab type="sūtra">akkaṭa viṣādē.</ab>
+	  <p>
+	    <s>akkaṭa ity ayaṁ śabdaḥ viṣādārthē prayōktavyaḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>akkaṭa keṭṭeṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="255">
+	  <ab type="sūtra">kaḻkane ākasmikē.</ab>
+	  <p>
+	    <s>kaḻkane śbadaḥ ākasmikārthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>kaḻkane bandaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="256">
+	  <ab type="sūtra">neṭṭane parisphuṭārthē.</ab>
+	  <p>
+	    <s>neṭṭane ity ayaṁ śabdaḥ parisphuṭārthē bhavati.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>neṭṭane nuḍidaṁ</item>
+            <item>neṭṭane mūḍal</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="257">
+	  <ab type="sūtra">dal vākyālaṅkārapādapūraṇaviniścayēṣu.</ab>
+	  <p>
+	    <s>dal ity avyayaṁ vākyālaṅkārē pādapūraṇē viniścayē ca vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>idu dal manuṣyaviddham appud’ altu</item>
+            <item>tāṁ dal pēḻguṁ</item>
+            <item>adu dal niścayaṁ</item>
+            <item>karaṁ dal cōdyaṁ</item>
+	  </list>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē avyayavidhānaṁ nāma navamaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section" n="10">
+	<head>nipātavidhānaṁ</head>
+	<div type="sūtra" n="258">
+	  <ab type="sūtra">imē nipātāḥ.</ab>
+	  <p>
+	    <s>iti ūrdhvaṁ yē vakṣyantē tē nipātasaṁjñā vēditavyāḥ.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="259">
+	  <ab type="sūtra">ē ity abhyupagamē.</ab>
+	  <p>
+	    <s>ē ity ayaṁ śabdaḥ abhyupagamē anumatārthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ē adakkuṁ</item>
+            <item>ē adantuṭe</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="260">
+	  <ab type="sūtra">laghur ēṣō ’vadhāraṇē.</ab>
+	  <p>
+	    <s>ēṣa ēkārō laghuś cēt avadhāraṇārthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ātane</item>
+            <item>ākaeye</item>
+            <item>aduve</item>
+            <item>ātanaye</item>
+            <item>avaḷaye</item>
+            <item>adaṟaye</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="261">
+	  <ab type="sūtra">elē vitarkabhāvanāmantraṇēṣu.</ab>
+	  <p>
+	    <s>elē ity ayaṁ śabdaḥ vitarkē bhāvanāyāṁ āmantraṇē ca draṣṭavyaḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>elē iḍāvudu</item>
+            <item>elē adakkuṁ</item>
+            <item>elē aṇṇā</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="262">
+	  <ab type="sūtra">hrasvāntō ’pi ca.</ab>
+	  <p>
+	    <s>sa ēva hrasvāntō ’pi tēṣv arthēṣu bhavati.</s>
+            <s>tāny ēvōdāharaṇāni.</s>
+	  </p>
+	</div>
+	<div type="sūtra" n="263">
+	  <ab type="sūtra">aḥ sampraharṣāśōbhanakhēdavismayēṣu.</ab>
+	  <p>
+	    <s>aḥ iti śabdaḥ sampraharṣē aśōbhanē khēdē vismayē ca vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>aḥ oḷḷitāytu</item>
+            <item>aḥ polladāytu</item>
+            <item>aḥ pātaka vidhiyē</item>
+            <item>aḥ cōdyaṁ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="264">
+	  <ab type="sūtra">a aḥ duḥkhasūcanē.</ab>
+	  <p>
+	    <s>a aḥ iti śabdaḥ duḥkhasūcanē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>a aḥ vidhātrā</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="265">
+	  <ab type="sūtra">uḥ avajñāyāṁ.</ab>
+	  <p>
+	    <s>uḥ iti śabdaḥ avajñārthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>uḥ adētarke</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="266">
+	  <ab type="sūtra">ayyō viṣādānukampāpahāsēṣu.</ab>
+	  <p>
+	    <s>ayyō iti nipātaḥ viṣādē anukampāyāṁ apahāsē ca vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ayyō anyāyaṁ</item>
+            <item>ayyō prāṇi biḻdaṁ</item>
+            <item>ayyō ēṁ saypo</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="267">
+	  <ab type="sūtra">ōhē nivāraṇē.</ab>
+	  <p>
+	    <s>ōhē ity ayaṁ śabdaḥ nivāraṇārthē vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>ōhē sālguṁ</item>
+            <item>ōhē iraliṁ</item>
+            <item>ōhē māṇ</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="268">
+	  <ab type="sūtra">are arame kvacit-kadācid-arthayōḥ.</ab>
+	  <p>
+	    <s>are arame ity ētau śabdau kvacit-kadācid-arthayōr bhavataḥ.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>are eḍeyoḷ</item>
+            <item>are uḻi</item>
+            <item>arame ettānum orme</item>
+            <item>arame aralda bayaldāvare</item>
+	  </list>
+	</div>
+	<div type="sūtra" n="269">
+	  <ab type="sūtra">alte sapraśnānumānayōḥ.</ab>
+	  <p>
+	    <s>alte ity ayaṁ śabdaḥ sampraśnē anumānē ca vartatē.</s>
+	  </p>
+	  <list type="examples" xml:lang="kan-Latn">
+	    <item>nīn idaṁ pēḻday alte</item>
+            <item>id’ alte āṁ māḍida sūtraṁ</item>
+	  </list>
+	</div>
+	<trailer>iti karṇāṭakavyākaraṇavivaraṇē nipātavidhānaṁ nāma daśamaḥ paricchēdaḥ</trailer>
+      </div>
+      <div type="section">
+	<lg met="anuṣṭubh">
+	  <l>karṇāṭaśabdasūtrāṇi lōkavyutpattihētavē</l>
+	  <l>racitāni sphuṭārthāni kr̥tinā nāgavarmaṇā</l>
+	</lg>
+	<lg met="anuṣṭubh">
+	  <l>tadbhavas-tatsamō dēśīty anēkakramataḥ sthitāḥ</l>
+	  <l>śabdāḥ karṇāṭabhāṣāyāṁ diṅmātraṁ sūcitaṁ kiyat</l>
+	</lg>
+	<lg met="anuṣṭubh" cert="low">
+	  <l>jīyād asā mahāprōktā nāgavarmabudhōttamaḥ</l>
+	  <l>yatprajñayā jagaty uccair yāti karṇāṭalakṣaṇaṁ<note xml:lang="eng"><p>This verse is found only in the Kannada <foreign xml:lang="kan-Latn">ṭīke</foreign>.</p></note></l>
+	</lg>
+      </div>
+    </body>
+  </text>
+</TEI>

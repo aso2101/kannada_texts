@@ -2,6 +2,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:fn="http://www.tei-c.org/ns/1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="tei">
   <xsl:output method="text" encoding="UTF-8" omit-xml-declaration="yes" indent="no"/>
   <xsl:strip-space elements="*"/>
@@ -13,7 +14,7 @@
     <xsl:value-of select="//tei:TEI/@n"/>
   </xsl:variable>
   <xsl:variable name="cRefPattern">
-    <xsl:value-of select="//tei:cRefPattern/@replacementPattern"/>
+    <xsl:value-of select="//tei:cRefPattern[1]/@replacementPattern"/>
   </xsl:variable>
 
 
@@ -65,6 +66,24 @@
     <xsl:text>]</xsl:text>
   </xsl:template>
 
+  <!-- ab elements !-->
+  <xsl:template match="tei:ab[@type='sūtra']">
+    <xsl:text>
+</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:if test="../@n">
+      <xsl:text> // </xsl:text>
+      <xsl:call-template name="make-abbrev">
+	<xsl:with-param name="title" select="$abbrev"/>
+	<xsl:with-param name="chapter" select="./ancestor::tei:div[@type='section'][@n][1]/@n"/>
+	<xsl:with-param name="verse" select="./ancestor::tei:div[@type='sūtra'][@n][1]/@n"/>
+      </xsl:call-template>
+    </xsl:if>
+    <xsl:text>
+
+</xsl:text>
+  </xsl:template>
+
   <!-- section divisions !-->
   <xsl:template match="tei:body/tei:div">
     <xsl:apply-templates/>
@@ -80,6 +99,10 @@
   <!-- headers !-->
   <xsl:template match="tei:head[not(@type='toc')]">
     <xsl:text>[</xsl:text>
+      <xsl:if test="parent::tei:div[@type='section'][@n]">
+	<xsl:value-of select="parent::tei:div[@type='section']/@n"/>
+	<xsl:text>. </xsl:text>
+      </xsl:if>
       <xsl:apply-templates/>
       <xsl:text>]
 
@@ -92,8 +115,11 @@
   <xsl:template match="tei:p">
     <xsl:apply-templates/>
     <xsl:text>
-
 </xsl:text>
+    <xsl:if test="not(./following-sibling::tei:list[@type='examples'])">
+    <xsl:text>
+</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <!-- line breaks !-->
@@ -102,6 +128,17 @@
 </xsl:text>
   </xsl:template>
   <xsl:template match="tei:lb[not(@break='no')]">
+    <xsl:text>
+</xsl:text>
+  </xsl:template>
+
+  <!-- lists !-->
+  <xsl:template match="tei:list[@type='examples']">
+    <xsl:apply-templates/>
+  </xsl:template>
+  <xsl:template match="tei:item">
+    <xsl:text> - </xsl:text>
+    <xsl:apply-templates/>
     <xsl:text>
 </xsl:text>
   </xsl:template>
@@ -116,15 +153,26 @@
 
   <!-- sentences !-->
   <xsl:template match="tei:s">
+    <xsl:variable name="precedingchar">
+      <xsl:value-of select="normalize-space(./preceding-sibling::tei:s[1]/text())[last()]"/>
+    </xsl:variable>
+    <xsl:if test="ends-with($precedingchar,'.') or ends-with($precedingchar,'?')">
+      <xsl:text> </xsl:text>
+    </xsl:if>
     <xsl:apply-templates/>
     <xsl:if test="not(ends-with(normalize-space(text()[last()]),'—'))">
-      <xsl:text>. </xsl:text>
+      <xsl:if test="not(ends-with(normalize-space(text()[last()]),'.'))">
+	<xsl:if test="not(ends-with(normalize-space(text()[last()]),'?'))">
+	  <xsl:text>. </xsl:text>
+	</xsl:if>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
   <!-- trailers !-->
   <xsl:template match="tei:trailer">
-    <xsl:text></xsl:text>
+    <xsl:text>
+</xsl:text>
     <xsl:apply-templates/>
     <xsl:text>
 </xsl:text>
@@ -277,10 +325,17 @@
     <xsl:param name="chapter"/>
     <xsl:param name="verse"/>
     <xsl:value-of select="$title"/>
+    <xsl:variable name="sutraregex" as="xs:string">
+      //tei:div
+    </xsl:variable>
     <xsl:text>.</xsl:text>
     <xsl:choose>
       <!-- if first number is verse number !-->
       <xsl:when test="matches($cRefPattern,'\(//tei:lg\[@n=')">
+	<xsl:value-of select="$verse"/>
+      </xsl:when>
+      <!-- if first number is a sūtra number !-->
+      <xsl:when test="matches($cRefPattern,'\(//tei:div')">
 	<xsl:value-of select="$verse"/>
       </xsl:when>
       <!-- if first number is chapter number !-->
