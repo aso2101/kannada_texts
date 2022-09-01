@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" n="RaNi">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="san-Latn">Rannanighaṇṭu</title>
+        <author xml:lang="san-Latn">Ranna</author>
+	<principal>
+	  <persName xml:id="AO" ref="http://viaf.org/viaf/372149294434280521495">
+	    <forename>Andrew</forename>
+	    <surname>Ollett</surname>
+	  </persName>
+	</principal>
+	<respStmt>
+	  <resp>Typing and TEI structuration</resp>
+	  <persName ref="#AO">Andrew Ollett</persName>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Kannada Digital Texts Project</authority>
+        <availability status="restricted">
+          <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/" type="url">Creative Commons Attribution-ShareAlike 4.0</ref> license.</p>
+	  <!-- further information here? !-->
+        </availability>
+        <date>2022</date>
+      </publicationStmt>
+      <sourceDesc>
+	<!-- According to Kalburgi,
+	     Narasimhachar had only one broken manuscript, which contained 12 kandas.
+	     In 1946, an additional manuscript was found at the Mysore Govt Oriental Library,
+	     which Śāmarāyaru published in the Kannada Sahitya Parishat Patrike (31-3 and 31-4).
+	     This contained 11 verses, and Kalburgi guesses that it was the same that
+	     Narasimhachar had used.
+	     Kalburgi found two additional manuscripts at Kolhapur (at the Śrī Lakṣmīsēna Jaina
+	     Maṭha) on the basis of which this was edited (no. 67 and no. 119 is their kramasaṅkhā).
+	     !-->
+	<listWit>
+	  <witness xml:id="a">
+	    A palm-leaf manuscript bundle of the Lakṣmīsēna Jaina Maṭha in Kolhapur, numbered 67, containing:
+	    <list>
+	      <item>vaidyaviṣaya</item>
+	      <item>vibhaktyartha</item>
+	      <item>rannanighaṇṭu</item>
+	      <item>karnāṭakasaṁjīvini</item>
+	      <item>kavijihvābandha</item>
+	    </list>
+	    It is described as “old” by Kalburgi.
+	  </witness>
+	  <witness xml:id="ā">
+	    A palm-leaf manuscript bundle of the Lakṣmīsēna Jaina Maṭha in Kolhapur, numbered 119, containing:
+	    <list>
+	      <item>śabdamaṇidarpaṇa</item>
+	      <item>karnāṭka nighaṇṭu</item>
+	      <item>caturāsya nighaṇṭu</item>
+	      <item>karnāṭaka śabdasāra</item>
+	      <item>rannanighaṇṭu</item>
+	      <item>karnāṭaka saṁjīvini</item>
+	    </list>
+	    119 is more recent than 67.
+	  </witness>
+	</listWit>
+	<listBibl>
+	  <biblStruct xml:id="K">
+	    <analytic>
+	      <title level="a" xml:lang="kan-Latn">Rannanighaṇṭu</title>
+	      <editor xml:lang="eng">
+		<persName ref="http://viaf.org/viaf/70264050">
+		  <forename>M. M..</forename>
+		  <surname>Kalburgi</surname>
+		</persName>
+	      </editor>
+	    </analytic>
+	    <monogr>
+	      <title level="m" xml:lang="kan-Latn">Mārga</title>
+	      <imprint>
+		<publisher xml:lang="eng">Naresh and Company</publisher>
+		<pubPlace xml:lang="kan-Latn">Beṅgaḷūru</pubPlace>
+		<date when="1988">1988</date>
+	      </imprint>
+	      <biblScope unit="page" from="469" to="480">469–480</biblScope>
+	      <extent>4 vols.</extent>
+	      <biblScope unit="part">1</biblScope>
+	    </monogr>
+	  </biblStruct>
+	</listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+	<language ident="eng">English</language>
+	<language ident="kan-Latn">Kannada in Roman transliteration (ISO-15919)</language>
+      </langUsage>
+      <textClass>
+	<keywords>
+	  <term><!--each keyword in a <term/> element --></term>
+	</keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p><!-- romanization !-->
+          <!-- orthography !-->
+        <!-- encoding !--></p>
+      </editorialDecl>
+      <refsDecl>
+	<cRefPattern matchPattern="RaNi.([0-9]+)" replacementPattern="#xpath(//tei:lg[@n='$1'])"/>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2022-09-01" who="Andrew Ollett">
+	<list>
+	  <item>Initial version.</item>
+	</list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+  <body>
+    <head>rannanighaṁṭu</head>
+    <lg n="1" met="kandaṁ">
+      <l>kuḷir ene <app><lem>śai</lem><rdg wit="#a #ā">sai</rdg></app>tyaṁ miḷir ene</l>
+      <l>poḷedudu billen<app><lem>dena</lem><rdg wit="#a">desa</rdg><rdg wit="#ā">dina</rdg></app>lke mā<app><lem>ra</lem><rdg wit="#ā">rge</rdg></app>mbarthaṁ</l>
+      <l>baḷedun enalk’ eṟagiduduṁ</l>
+      <l>keḷir ene vāji<app><lem>ya</lem><rdg wit="#ā"/></app> ninādam ele kaviratnā</l>
+    </lg>
+    <lg n="2" met="kandaṁ">
+      <l>barey enal atyarthaṁ <app><lem>muṁ</lem><rdg wit="#a #ā">paṁ</rdg></app></l>
+      <l><app><lem>mu</lem><rdg wit="#a #ā">ma</rdg></app>riy ene kāsida maḷala<app><lem>lkiḷa</lem><rdg wit="#a">lkiḷi</rdg><rdg wit="#ā">lkeḷa</rdg></app>ṅg’ ene geḷa<app><lem>saṁ</lem><rdg wit="#a">suṁ</rdg></app></l>
+      <l>mu<app><lem>ri</lem><rdg wit="#a">ḷi</rdg></app>p’ ene maraḷid’ abhāvaṁ</l>
+      <l>sirivantikey end’ enalke huriyōḍ’ akkuṁ</l>
+    </lg>
+    <lg n="3" met="kandaṁ">
+      <l>hakkiy ena<app><lem>l vihagaṁ neṟe</lem><rdg wit="#a">l vihaṅgaṁ neṟe</rdg><rdg wit="#ā">gaṇḍilel</rdg></app></l>
+      <l>pakkey enal pāsu <app><lem>vu</lem><rdg wit="#ā">kuṅku</rdg></app>ṇḍey end’ ene moḷakā</l>
+      <l><app><lem>lku</lem><rdg wit="#ā">ku</rdg></app>kkene be<app><lem>ḷḷa</lem><rdg wit="#ā">ḷpe</rdg></app>kkiye <app><lem>tā</lem><rdg wit="#ā">tatā</rdg></app>nē</l>
+      <l><app><lem>ke</lem><rdg wit="#ā">kke</rdg></app>kk’ ene diṇḍuviḍidu bappu<app><lem>du</lem><rdg wit="#ā">da</rdg></app>d’ akkuṁ</l>
+    </lg>
+    <lg n="4" met="kandaṁ">
+      <l>balag’ ene bisuḍ’ emb’ arthaṁ</l>
+      <l><app><lem>bala</lem><rdg wit="#ā">balamada</rdg></app>mard’ene aṅkadauṣadhaṁ tān akkuṁ</l>
+      <l>polig’ ene bi<app><lem>rcu</lem><rdg wit="#a">ccu</rdg></app>geya te<app><lem>ṟaṁ</lem><rdg wit="#ā">ṭhaṁ</rdg></app></l>
+      <l>kelaka<app><lem>n ena</lem><rdg wit="#ā">nakke</rdg></app>lkikkum alla<app><lem>n e</lem><rdg wit="#a">m e</rdg></app>lekaviratnā</l>
+    </lg>
+    <lg n="5" met="kandaṁ">
+      <l>a<app><lem>ñca</lem><rdg wit="#a">ṅka</rdg></app>m enal kañji<app><lem>ke</lem><rdg wit="#a">ge</rdg></app>yati</l>
+      <l>bañcaney ene <app><lem>marasiḍakku beḷakene dīpaṁ</lem><rdg wit="#ā">vaṁśaṁ</rdg></app></l>
+      <l><app><lem>poñc’ ene pordidabagevā</lem><rdg wit="#a">eṇṇele lekkipuduṁ</rdg></app></l>
+      <l><app><lem>neñcal enalk’ añjakal appud ele kaviratnā</lem><rdg wit="#a">bisugaṇe nalgoravanappanele kaviratnā</rdg></app></l>
+    </lg>
+    <lg n="6" met="kandaṁ">
+      <l><app><lem>sa</lem><rdg wit="#a #ā">so</rdg></app>ṇṇad’ enadalkiṟid’ akkuṁ</l>
+      <l>paṇṇ’ ene māḍ’ emba vāci baḷiy ene vaṁśaṁ</l>
+      <l>eṇṇ’ ene lekkipuduṁ bisu</l>
+      <l>gaṇṇ’ ene nalgoravan appan ele kaviratnā</l>
+    </lg>
+    <lg n="7" met="kandaṁ">
+      <l>kō<app><lem>si</lem><rdg wit="#ā">visi</rdg></app>t’ enal vōṇisidudu ।</l>
+      <l>sūsidud’ ene <app><lem>tu</lem><rdg wit="#a">ta</rdg></app>ḷḷit’ embuduṁ parimaḷamuṁ</l>
+      <l>bāsata<app><lem>m e</lem><rdg wit="#ā">ye</rdg></app>ne kampuṁ mige</l>
+      <l>sāsavam ene sammad’ artham ele kaviratnā</l>
+    </lg>
+    <lg n="8" met="kandaṁ">
+      <l>sugipapum ene sulihaṁ tā</l>
+      <l>tegaḷ ene pegaḷu<app><lem>ḷmi</lem><rdg wit="#ā">ṇisi</rdg></app>t’ end’ enalpudu<app><lem>maṁ tā</lem><rdg wit="#ā">duntā</rdg></app></l>
+      <l><app><lem>baga</lem><rdg wit="#ā">ge</rdg></app>s’ ene mana<app><lem>vi</lem><rdg wit="#ā">mi</rdg></app>ṭṭudumuṁ</l>
+      <l>nega<app><lem>ma</lem><rdg wit="#a">du</rdg></app>d’ enal doḍḍit’ appu<app><lem>d e</lem><rdg wit="#ā">ve</rdg></app>le kaviratnā</l>
+    </lg>
+    <lg n="9" met="kandaṁ">
+      <l>aṟil ene tārage <app><lem>tiṭṭ’ en</lem><rdg wit="#a">viṭṭaṁ</rdg></app></l>
+      <l>du<app><lem>ṟe balbaiguḷinisu nanasen</lem><rdg wit="#a">rere bilgaḷminasuviyamen</rdg><rdg wit="#ā">rkebelgaḷenasudheyamen</rdg></app>d’ ene diṭamuṁ</l>
+      <l>gaṟavū<app><lem>v e</lem><rdg wit="#a">vende</rdg></app>ne <app><lem>kē</lem><rdg wit="#a #ā">gē</rdg></app>dage <app><lem>paḍi</lem><rdg wit="#a">geppapaḍi</rdg></app></l>
+      <l>yaṟavakkiy eney enalke kōkilan akkuṁ</l>
+    </lg>
+    <lg n="10" met="kandaṁ">
+      <l>kaivaṭṭa<app><lem>l sa</lem><rdg wit="#ā">le</rdg></app>ṭṭuge muḍi</l>
+      <l>poyivekkal poyigilaṁ maḍanta<app><lem>ḷe</lem><rdg wit="#ā">le</rdg></app>jōḷaṁ</l>
+      <l>kaivale kaṇbale <app><lem>ja</lem><rdg wit="#ā">ba</rdg></app>ṟasuḷi</l>
+      <l>kaipiḍiy embudane tiḷiye kabbigararasā</l>
+    </lg>
+    <lg n="11" met="kandaṁ">
+      <l>balaya<app><lem>ram e</lem><rdg wit="#ā">mme</rdg></app>ne ta<app><lem>levāgi</lem><rdg wit="#ā">lavāga</rdg></app>lu</l>
+      <l>ka<app><lem>la</lem><rdg wit="#a">le</rdg></app>galam ene kū<app><lem>ḍi</lem><rdg wit="#ā">ḍe</rdg></app> berasid’ akkuṁ nailaṁ |</l>
+      <l>galam ene cilvike sa<app><lem>le</lem><rdg wit="#a">la</rdg></app> sai</l>
+      <l>gelam ene tāṁ puṇyaśaktiyale kaviratnā</l>
+    </lg>
+    <lg n="12" met="kandaṁ">
+      <l>tōrp’ e<app><lem>ne</lem><rdg wit="#ā"/></app> kāṇke musurp’ ene</l>
+      <l>vārp ene kaiviḍidud’ akkum iḷip’ e<app><lem>nesōlaṁ</lem><rdg wit="#ā">sōla</rdg></app></l>
+      <l>kūrp’ ene niluverag’ ene mō</l>
+      <l>lārp’ ene su<app><lem>snapa</lem><rdg wit="#ā">sniha</rdg></app>m appud’ elē kaviratnā</l>
+    </lg>
+    <lg n="13" met="kandaṁ">
+      <l>ūrp’ ene kīlisi<app><lem>du</lem><rdg wit="#a">da</rdg></app> ka</l>
+      <l><app><lem>ṇṇārp’ e</lem><rdg wit="#a">ṇgoppe</rdg></app>ne nōmpijjugaṁ miḷirp’ ene muripaṁ</l>
+      <l>kā<app><lem>rpoṟe</lem><rdg wit="#a">ppoṟe</rdg><rdg wit="#ā">rpore</rdg></app>y ene maḷegalaṁ</l>
+      <l><app><lem>nērpo</lem><rdg wit="#a">ppo</rdg></app>ṟey ene aṟime<app><lem>yeḷē</lem><rdg wit="#ā"/></app>y elē kaviratnā</l>
+    </lg>
+    <lg n="14" met="kandaṁ">
+      <l>bhaṇḍaṇam e<app><lem>ne</lem><rdg wit="#ā">nal</rdg></app> puyyalvala</l>
+      <l>baṇḍene jēn perebaḷiyan end’ ene pāṇbaṁ<note xml:lang="kan-Latn">ī caraṇadalli chandōdōṣavide.</note></l>
+      <l>guṇḍ’ ene neravi tuḷilba<app><lem>ṟi</lem><rdg wit="#a">ṟe</rdg></app></l>
+      <l>goṇḍ’ ene na<app><lem>lvī</lem><rdg wit="#ā">lbī</rdg></app>ra-rasan elē kaviratnā</l>
+    </lg>
+    <lg n="15" met="kandaṁ">
+      <l>eṟeya<app><lem>ṟe</lem><rdg wit="#ā">ṟeṟe</rdg></app>yaṁ toḷa</l>
+      <l><app><lem>rpaṟivaṟivaṁ</lem><rdg wit="#ā">pirivarivaṁ</rdg></app> saggigara piriyanuru baḷigaṁ pā</l>
+      <l>leṟaki<app><lem>luṇi</lem><rdg wit="#ā">ṇa</rdg></app>vakkide<app><lem>ṟaṁ</lem><rdg wit="#ā">raṁ</rdg></app></l>
+      <l>niṟubaṟegaṁ ponnabasuṟan ele bidi ratnā</l>
+    </lg>
+    <lg n="16" met="campakamāle">
+      <label><app><lem>vr̥॥</lem><rdg wit="#a"/></app></label>
+      <l>mugilala<app><lem>rē</lem><rdg wit="#a">ṟē</rdg></app>ṟidaṁ sirimagaṁ neleveṇṇara<app><lem>saṁ</lem><rdg wit="#a">su</rdg></app> nelakkaraṁ</l>
+      <l>bagediḷigaṁ mardum<app><lem>baliga</lem><rdg wit="#ā">biligi</rdg></app><app><lem>n a</lem><rdg wit="#ā">nama</rdg></app>ccaram ormodal ō<app><lem>di</lem><rdg wit="#ā">ḍi</rdg></app>gaṁ suḷuṁ</l>
+      <l>begaḍaṟigaṁ sogaṁboṟeganeccaravāḷiga vāḷavāḷigaṁ</l>
+      <l>tega<app><lem>lu</lem><rdg wit="#ā">ḷu</rdg></app>ḍegaṁ poga<app><lem>ḷpu</lem><rdg wit="#ā">ḷpa</rdg></app>ḍigan end’ ene nīṁ tiḷi bomman embudaṁ</l>
+    </lg>
+    <lg n="17" met="kandaṁ">
+      <l>sompuve<app><lem>ṟe</lem><rdg wit="#ā">re</rdg></app>yiṁpuga<app><lem>ḷe</lem><rdg wit="#ā">re</rdg></app>va<app><lem>li</lem><rdg wit="#ā">ri</rdg></app></l>
+      <l>gampuḷili<app><lem>ge</lem><rdg wit="#ā">gekāge</rdg></app> yuṇi<app><lem>su</lem><rdg wit="#ā">susāsu</rdg></app> sāsadaḍi<app><lem>kiṁ</lem><rdg wit="#ā">ki</rdg></app></l>
+      <l>lgeṁ piḍike bevetuḷirvaḍi</l>
+      <l>gump’ e<app><lem>ne</lem><rdg wit="#ā"/></app> tiḷi kaipevaran enippudu ratnā</l>
+    </lg>
+    <lg n="18" met="kandaṁ">
+      <l>aṟiyameya<app><lem>de</lem><rdg wit="#ā">jhe</rdg></app>ya sompuse<app><lem>de</lem><rdg wit="#ā">di</rdg></app>ya</l>
+      <l>poṟageḷeyaḷa jē<app><lem>ṭa</lem><rdg wit="#ā">ṭavā</rdg></app>dāṇadoṟe kaṇni<app><lem>tu</lem><rdg wit="#ā">ru</rdg></app>va</l>
+      <l>lgu<app><lem>ṟi</lem><rdg wit="#ā"/></app>pasaḍikō<app><lem>lge</lem><rdg wit="#ā">lke</rdg></app> banave</l>
+      <l>ṇguṟipen āṁ nelli<app><lem>ma</lem><rdg wit="#ā">va</rdg></app>ran enippudu ratnā</l>
+    </lg>
+    <lg n="19" met="kandaṁ">
+      <l>taḷirgaṇeyana balbasadiya</l>
+      <l>ba<app><lem>ḷi</lem><rdg wit="#ā">ḷe</rdg></app>gava<app><lem>ṟi</lem><rdg wit="#ā">ti</rdg></app>ge baḷasi naṟake iṅgōli<app><lem>rpiṁ</lem><rdg wit="#ā">rpaṁ</rdg></app></l>
+      <l><app><lem>geḷe</lem><rdg wit="#ā">giḷe</rdg></app>mugi<app><lem>lē</lem><rdg wit="#ā"/></app>ḷdoṟey end’ ene</l>
+      <l>tiḷakabbendeyde beḷḷivesarāṁta<app><lem>va</lem><rdg wit="#a"/></app>nē</l>
+    </lg>
+    <lg n="20" met="kandaṁ">
+      <l>sāsavadoṭṭilmellaḍi</l>
+      <l>bānarpe<app><lem>ṇe</lem><rdg wit="#ā">ṇa</rdg></app>vakkivāḍamagalidareḍe kaṁ</l>
+      <l>ṇbāsa<app><lem>ṇi</lem><rdg wit="#ā">li</rdg></app>ke<app><lem>ne</lem><rdg wit="#a">nene</rdg></app>lana<app><lem>be</lem><rdg wit="#ā">ba</rdg></app>ṭṭo</l>
+      <l>ḷbāsu<app><lem>ṭi</lem><rdg wit="#a"/></app> taṇṇuḷil enipud’ elē kaviratnā</l>
+    </lg>
+    <lg n="21" met="kandaṁ">
+      <l>ma<app><lem>ṟun ele</lem><rdg wit="#a">rul ene</rdg></app> sāsavadāṇaṁ</l>
+      <l>niṟubeḷagene bāyakempu mogasiri pordiṁ</l>
+      <l>garakeya<app><lem>rala</lem><rdg wit="#ā">lara</rdg></app>mba neravige</l>
+      <l>tuṟugippene tiḷige vī<app><lem>ḷe</lem><rdg wit="#ā">ḷi</rdg></app>yaṁ kaviratnā</l>
+    </lg>
+    <lg n="22" met="kandaṁ">
+      <l>toḷgidan ene poḍavaṭṭaṁ</l>
+      <l>giḷgidan ene giḍḍanaviḷan end’ ene kuṟubaṁ</l>
+      <l><app><lem>puḷgḷidan ene</lem><rdg wit="#a">puḷgidanendene</rdg><rdg wit="#ā">pupuḷginene</rdg></app> kuṟubantaḷa</l>
+      <l>va<app><lem>ḷgi</lem><rdg wit="#ā">ḷi</rdg></app>dan ene begaḍugoṇḍavaṁ kaviratnā</l>
+    </lg>
+    <lg n="23" met="kandaṁ">
+      <l>dōṣaviniteḷasadiru nīṁ</l>
+      <l>lēsāgire pēḷda kannaḍaṅgaḷa tiḷiya<app><lem>l</lem><rdg wit="#ā">lu</rdg></app></l>
+      <l>kāmarama <app><lem>piḍi</lem><rdg wit="#ā">paḷi</rdg></app>doḍ’ āvaṁ</l>
+      <l>māsaṟasuḷiniṭṭi sadoḍenēsargiḷide</l>
+    </lg>
+    <lg n="24" met="kandaṁ">
+      <l>be<app><lem>ḷāya</lem><rdg wit="#ā">ḷkā</rdg></app>lkuḍu beḷa<app><lem>ga</lem><rdg wit="#a"/></app></l>
+      <l>lteḷā<app><lem>ṟavu</lem><rdg wit="#ā">ṟgal</rdg></app> beḷasu modalanōṭam enal miṁ</l>
+      <l>cuḷābal <app><lem>ba</lem><rdg wit="#ā">pa</rdg></app>sadiya bage</l>
+      <l>guḷḷāgal nai<app><lem>da</lem><rdg wit="#ā">di</rdg></app>laṟige nīṁ kaviratnā</l>
+    </lg>
+    <lg n="25" met="kandaṁ">
+      <l>mugilaralogegaigūṭaṁ</l>
+      <l>bagedoṟe pālo<app><lem>ṟe</lem><rdg wit="#ā">ṟa</rdg></app>ge takka<app><lem>g’ e</lem><rdg wit="#ā">de</rdg></app>ney oḷd’ āvare</l>
+      <l>mugu<app><lem>ḷ’ e</lem><rdg wit="#ā">ḷi</rdg></app>ndaṟi negaḷdavene</l>
+      <l>mige jājiya beḷḷi<app><lem>gū</lem><rdg wit="#ā">sū</rdg></app>rtavesarānta<app><lem>va</lem><rdg wit="#ā"/></app>nē</l>
+    </lg>
+    <lg n="26" met="kandaṁ">
+      <l>gor<app><lem>b’ e</lem><rdg wit="#a">rpe</rdg></app>ne gaṁbhīraṁ pa<app><lem>ṟe</lem><rdg wit="#ā">re</rdg></app></l>
+      <l>parbidud’ ene baḷḷi varidud’ akkuṁ dai<app><lem>tyaṁ</lem><rdg wit="#ā">tya</rdg></app></l>
+      <l>marbusuḷikā<app><lem>ra</lem><rdg wit="#ā">ṟa</rdg></app>r ene po<app><lem>ḷa</lem><rdg wit="#ā">ge</rdg></app></l>
+      <l>durb’ ene siḍil appud’ amala-nijakaviratnā</l>
+    </lg>
+    <lg n="27" met="kandaṁ">
+      <l>jhaḷam end’ ena<app><lem>l u</lem><rdg wit="#ā">lū</rdg></app>ṣṇaṁ bā</l>
+      <l>guḷam end’ ene <app><lem>duḥkham</lem><rdg wit="#ā">duḥkhaṁ</rdg></app> allaṇikey ene mēḷaṁ ।</l>
+      <l>pa<app><lem>ḷa</lem><rdg wit="#a">ṇa</rdg></app>g’ end’ ene oṇagidayele</l>
+      <l>maḷagene <app><lem>biṭṭiya</lem><rdg wit="#a">vigiya</rdg></app> baṭṭa<app><lem>gasil ene</lem><rdg wit="#ā">galtene</rdg></app> śaṁkhiṁ</l>
+    </lg>
+    <lg n="28" met="kandaṁ">
+      <l>baddaran ene ba<app><lem>du</lem><rdg wit="#ā">di</rdg></app>kida<app><lem>paṁ</lem><rdg wit="#a">piṁ</rdg></app></l>
+      <l>kaddaran ene <app><lem>kaḷḷanedda</lem><rdg wit="#a">kaḷanendaraneda</rdg></app>r enal ōḍida<app><lem>paṁ</lem><rdg wit="#ā">vaṁ</rdg></app></l>
+      <l>biddiganene naṇṭaṁ kai</l>
+      <l>guddigar ene mallar embud’ ele kaviratnā</l>
+    </lg>
+    <lg n="29" met="campakamāle">
+      <l>beḷavaravimpu jāgila giḷirpoḍe <app><lem>iṅ</lem><rdg wit="#ā">ya</rdg></app>galeyū<app><lem>nma</lem><rdg wit="#ā">nna</rdg></app>dāva<app><lem>ḷi</lem><rdg wit="#ā">ḷmi</rdg></app></l>
+      <l><app><lem>ga</lem><rdg wit="#ā">ge</rdg></app>yaga<app><lem>ldi</lem><rdg wit="#ā">lda</rdg></app>rāḷdavane pū<app><lem>ca</lem><rdg wit="#ā">ba</rdg></app>ra balli isājenailaverccu</l>
+      <l>gaḷogedā<app><lem>ro</lem><rdg wit="#ā"/></app>māmpanane golgone vēṭada nīṟam endena</l>
+      <l><app><lem>lka</lem><rdg wit="#ā">lca</rdg></app>ḷeyad kāṇke malligeyenippuda beḷḷivesarge <app><lem>takka</lem><rdg wit="#a">tataka</rdg><rdg wit="#ā">taka</rdg></app>nē</l>
+    </lg>
+    <lg n="30" met="kandaṁ">
+      <l>callada nele illada muḷi</l>
+      <l>sollada bageyaṟake bella baḷi ballara sōṁ</l>
+      <l>kellara ge<app><lem>la</lem><rdg wit="#a">lda</rdg></app>vallada nuḍi</l>
+      <l><app><lem>so</lem><rdg wit="#ā">sa</rdg></app>lladu pūvi<app><lem>llaḍi</lem><rdg wit="#a">ḍi</rdg></app>r enippudu ratnā</l>
+    </lg>
+    <lg n="31" met="kandaṁ">
+      <l>siriyogedāṇaṁ nailaṁ</l>
+      <l>bare baṇgoḍi puṭṭu bānvaruṇi <app><lem>siṅgaḍale</lem><rdg wit="#ā">siṅgaḍare</rdg></app></l>
+      <l>ccaṟa bageyaramogasaccara</l>
+      <l>diriyene <app><lem>paya</lem><rdg wit="#ā">pasāya</rdg></app>sābdhi beḷḷivesarāntavanē</l>
+    </lg>
+    <lg n="32" met="kandaṁ">
+      <l>kāyi <app><lem>pa</lem><rdg wit="#ā">pu</rdg></app>ṇṇu dāṇamiḷipina</l>
+      <l>tāyi poḷeniroṭṭinilge bisuḍi bekkaṁ</l>
+      <l>jāyipu soḍarmaiṅ<app><lem>gāṇke</lem><rdg wit="#ā">gāṇkegāṇke</rdg></app></l>
+      <l>lāyipu<app><lem>de</lem><rdg wit="#a">ḍe</rdg></app> jhaḷavāḷke peraḷurvidi ratnā</l>
+    </lg>
+    <lg n="33" met="kandaṁ">
+      <l>navilaragārtiya <app><lem>naḍe</lem><rdg wit="#ā">nannanaḍe</rdg></app>do<app><lem>ḷe</lem><rdg wit="#ā">re</rdg></app></l>
+      <l>saviyuḷi<app><lem>maigo</lem><rdg wit="#ā">meyiko</rdg></app>ḍuvakki mella<app><lem>di</lem><rdg wit="#ā">ḍi</rdg></app> be<app><lem>ḷga</lem><rdg wit="#ā">ḷguṁ</rdg></app>ñca</l>
+      <l>valu<app><lem>ve</lem><rdg wit="#ā">re</rdg></app>su sa<app><lem>re</lem><rdg wit="#ā">ri</rdg></app>na ilpaḷasuva</l>
+      <l><app><lem>giḷi</lem><rdg wit="#ā">ya</rdg></app> ena<app><lem>lañce</lem><rdg wit="#ā">lgaṁ</rdg></app> beḷḷivesarāntavanē</l>
+    </lg>
+    <lg n="34" met="kandaṁ">
+      <l>sababāsaneyirpoḍe se</l>
+      <l>sabeya<app><lem>da</lem><rdg wit="#ā"/></app> pūnailabaggu <app><lem>biḷiggina</lem><rdg wit="#ā">baggina beḷagina</rdg></app> beḷagiṁ</l>
+      <l>pubasane bā<app><lem>nba</lem><rdg wit="#ā">npa</rdg></app>ḷiyarakaṁ</l>
+      <l>ṇgaba<app><lem>le tiḷi</lem><rdg wit="#ā">ttige</rdg></app> ene dēvabhūruhaṁ kaviratnā</l>
+    </lg>
+    <lg n="35" met="kandaṁ">
+      <l>sogabaḷigi<app><lem>supu</lem><rdg wit="#ā">sūsu</rdg></app>va<app><lem>rarge</lem><rdg wit="#ā">raṅge</rdg></app></l>
+      <l>bagasolapige nailasirige mellaḍi bore</l>
+      <l><app><lem>i</lem><rdg wit="#ā">yi</rdg></app>ge tagadaḷa seṟavige kaṇbera</l>
+      <l>loge basa<app><lem>ni</lem><rdg wit="#ā">vi</rdg></app>yenalke lalaneyar kaviratnā</l>
+    </lg>
+    <lg n="36" met="kandaṁ">
+      <l>baḷigelayaṁ badagaṁ nā</l>
+      <l>ḷgiḷivāḍaṁ nanniḍigaḷanuḷigantaḷegaṁ</l>
+      <l>saḷiboḷegaḷiyaṁ sājuḷi</l>
+      <l>geḷeyanenalsagga nuḷidan ele kaviratnā</l>
+    </lg>
+    <lg n="37" met="kandaṁ">
+      <l>nelabalalaṁ niṟi beḷalaṁ</l>
+      <l>balasolahaṁ baccabaṇise balbaṇivā<app><lem>daṁ</lem><rdg wit="#ā">ḍaṁ</rdg></app></l>
+      <l>polage susilpeḷagili bā</l>
+      <l>ḷtolege<app><lem>le</lem><rdg wit="#ā">la</rdg></app>yuṇisārke<app><lem>ya</lem><rdg wit="#ā"/></app> sokey ele kaviratnā</l>
+    </lg>
+    <lg n="38" met="kandaṁ">
+      <l>konarviḍi suḷidāḷkailaṁ</l>
+      <l>gone nuṇbi<app><lem>su</lem><rdg wit="#ā">sa</rdg></app>gāṇke bagasunile bambalpā</l>
+      <l>lpane nailasarige pārdeṁ</l>
+      <l>dene tiḷi<app><lem>niṁ</lem><rdg wit="#ā">giṁ</rdg></app> pa<app><lem>cca</lem><rdg wit="#ā">ce</rdg></app>d’ eney enippudu ratnā</l>
+    </lg>
+    <lg n="39" met="kandaṁ">
+      <l>mīnā<app><lem>ṇma</lem><rdg wit="#a">ṇa</rdg></app>nadaḷe<app><lem>yi</lem><rdg wit="#a">i</rdg></app>ṅgai</l>
+      <l>bānaṁ bopavargaluṇisu ka<app><lem>ṇḍerde</lem><rdg wit="#ā">delder</rdg></app> bāḷ nī</l>
+      <l><app><lem>vuṁ</lem><rdg wit="#ā">u</rdg></app> nāṇkeya <app><lem>kollā</lem><rdg wit="#ā">kālpu</rdg></app>lpeḷe</l>
+      <l>tān ene beḷdiṅgaḷ embud’ ele kaviratnā</l>
+    </lg>
+    <lg n="40" met="kandaṁ">
+      <l>ā<app><lem>lena</lem><rdg wit="#ā">rene</rdg></app> balsaravalaga<app><lem>la</lem><rdg wit="#ā"/></app></l>
+      <l>vā<app><lem>liṅga</lem><rdg wit="#ā">riga</rdg></app>ḷe<app><lem>len</lem><rdg wit="#ā">ven</rdg></app>du pakkavane bilneraṁ</l>
+      <l>kōlāṅke tān enal maṟu</l>
+      <l>gōl ene billāriy embu<app><lem>daṁ</lem><rdg wit="#ā">dal</rdg></app> tiḷi ratnā</l>
+    </lg>
+    <lg n="41" met="kandaṁ">
+      <l>sūḍa<app><lem>gure</lem><rdg wit="#ā">ḷuṟu</rdg></app> se<app><lem>kke</lem><rdg wit="#ā">rke</rdg></app> beṅgone</l>
+      <l>gūḍaḷa<app><lem>ṟa</lem><rdg wit="#ā">ṟu</rdg></app>l suḷibedarcu pē<app><lem>ṟe</lem><rdg wit="#ā">ṟal</rdg></app> be<app><lem>ṅgi</lem><rdg wit="#ā">nmi</rdg></app></l>
+      <l><app><lem>ḷḷoḍe</lem><rdg wit="#ā">rāḷkoḍu</rdg></app> muṭṭaṟi<app><lem>me</lem><rdg wit="#ā">l</rdg></app> kaḷalaḍi</l>
+      <l>vāḍene <app><lem>biṅ</lem><rdg wit="#">be</rdg></app>gey embudaṁ <app><lem>tiḷi</lem><rdg wit="#ā">kavi</rdg></app> ratnā</l>
+    </lg>
+    <lg n="42" met="campakamāle">
+      <l>miḷirele pōpa<app><lem>rā</lem><rdg wit="#ā">lā</rdg></app>ṇmana<app><lem>ḻe</lem><rdg wit="#ā">lel</rdg></app>vaṭṭigaricchegana<app><lem>ṇpu</lem><rdg wit="#ā">ṇbu</rdg></app>vāḍigaṁ</l>
+      <l>poḷaṟikeyilladaṁ savalan ecca<app><lem>ṟa</lem><rdg wit="#ā">ṟo</rdg></app>meya<app><lem>ṟa</lem><rdg wit="#ā">r</rdg></app>nailava<app><lem>ḷke</lem><rdg wit="#ā">ḷki</rdg></app>gaṁ</l>
+      <l>jha<app><lem>ḷa</lem><rdg wit="#ā">ḷaṁ</rdg></app>viligaṁ miḷirvalalanende<app><lem>na</lem><rdg wit="#ā"/></app>lindrana rañcu tu<app><lem>ḷtu</lem><rdg wit="#ā">ḷti</rdg></app>gaṁ</l>
+      <l><app><lem>piḷi</lem><rdg wit="#ā">baḷa</rdg></app>vaḷigōlan end’ ene khalaṁ bage sāsava cannavāḷavāḷ</l>
+      <l>kuḷirale<app><lem>vaṭṭi</lem><rdg wit="#ā">veṭṭu</rdg></app>dōrke magaḷ end’ ene munnaṟigauriyembudaṁ</l>
+    </lg>
+    <lg n="43" met="kandaṁ">
+      <l><app><lem>peṟa</lem><rdg wit="#ā">peṟapeṟa</rdg></app>ge baḷa<app><lem>kka</lem><rdg wit="#ā">rke</rdg></app>yesurpaḍe</l>
+      <l><app><lem>ya</lem><rdg wit="#ā">ye</rdg></app>ṟada<app><lem>ḷe</lem><rdg wit="#ā"/></app> ma<app><lem>gu</lem><rdg wit="#ā">gu</rdg></app>ḷaḷate kāṇbe <app><lem>iṁ</lem><rdg wit="#ā">yiṁ</rdg></app>naḍe</l>
+      <l>neṟedā<app><lem>ḷaḷaraḷike</lem><rdg wit="#ā">giḷiḷaraḷike</rdg></app> poḷtuḷadikeyeṁ</l>
+      <l>daṟigo<app><lem>ḷmalt’ en</lem><rdg wit="#ā">ḷate</rdg></app>du beḷḷivesarāntavanē</l>
+    </lg>
+    <lg n="44" met="kandaṁ">
+      <l>potti<app><lem>kk’ e</lem><rdg wit="#a">ke</rdg></app>ne poredāḷdiha</l>
+      <l>ruttikk’ ene kūḍebāḷdapa<app><lem>r</lem><rdg wit="#ā">ṁ</rdg></app> poṟe<app><lem>pā</lem><rdg wit="#ā">vā</rdg></app>ḷaṁ</l>
+      <l>patti<app><lem>kk’ e</lem><rdg wit="#a">ke</rdg></app>ne sārdapareṁ</l>
+      <l>bu<app><lem>tti</lem><rdg wit="#ā">ti</rdg></app>ya nīṁ tiḷi<app><lem>yo</lem><rdg wit="#ā">ya</rdg></app> beḷḷivesarāntavanē</l>
+    </lg>
+    <lg n="45" met="campakamāle">
+      <l>suḷivaḷisāre gālsara<app><lem>na</lem><rdg wit="#ā">la</rdg></app> nā<app><lem>ḷke</lem><rdg wit="#ā">ṇke</rdg></app>ya kaṇbasenai<app><lem>li</lem><rdg wit="#ā">la</rdg></app>dō<app><lem>ṟu</lem><rdg wit="#ā">ṟo</rdg></app>pe</l>
+      <l><app><lem>cca</lem><rdg wit="#ā">ccha</rdg></app>ḷage<app><lem>ṟe</lem><rdg wit="#a">gga</rdg></app>y end’ enaldyuna<app><lem>di</lem><rdg wit="#a">ḍi</rdg></app> kēḷkēnirdumba<app><lem>ḷa</lem><rdg wit="#ā">la</rdg></app> so<app><lem>lde</lem><rdg wit="#ā">lge</rdg></app>baṁṇaṇaṁ</l>
+      <l>ku<app><lem>ḷire</lem><rdg wit="#ā">ḷḷira</rdg></app>de kailana<app><lem>ṇpa</lem><rdg wit="#ā">ṇba</rdg></app>gare tiṅgaḷavaṭṭa<app><lem>ra</lem><rdg wit="#ā">le</rdg></app></l>
+    </lg>
+    <trailer>rannanighaṁṭu samāpta maṁgaḷa mahāśrī</trailer>
+  </body>
+</text>
+</TEI>
