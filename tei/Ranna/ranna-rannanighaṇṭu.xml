@@ -3,8 +3,8 @@
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title type="main" xml:lang="san-Latn">Rannanighaṇṭu</title>
-        <author xml:lang="san-Latn">Ranna</author>
+        <title type="main" xml:lang="kan-Latn">Rannanighaṇṭu</title>
+        <author xml:lang="kan-Latn">Ranna</author>
 	<principal>
 	  <persName xml:id="AO" ref="http://viaf.org/viaf/372149294434280521495">
 	    <forename>Andrew</forename>
