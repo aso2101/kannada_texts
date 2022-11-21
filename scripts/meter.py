@@ -23,17 +23,18 @@ Note that this file is generated automatically from the data in `/tei/` by the s
                 text = tree.getroot().attrib['n']
                 title = tree.find("//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title",namespaces).text
                 for target in tree.findall("//tei:*[@met]",namespaces):
-                    met = target.attrib['met']
-                    verse = target.attrib['n']
-                    if 'n' in target.getparent().attrib:
-                        parent = target.getparent().attrib['n']
-                        reference = text + "." + parent + "." + verse
-                    else:
-                        reference = text + "." + verse
-                    if met in intermed:
-                        intermed[met].append(reference)
-                    else:
-                        intermed[met] = [reference]
+                    if 'n' in target.attrib:
+                        met = target.attrib['met']
+                        verse = target.attrib['n']
+                        if 'n' in target.getparent().attrib:
+                            parent = target.getparent().attrib['n']
+                            reference = text + "." + parent + "." + verse
+                        else:
+                            reference = text + "." + verse
+                        if met in intermed:
+                            intermed[met].append(reference)
+                        else:
+                            intermed[met] = [reference]
                 sortednames=sorted(intermed.keys(), key=lambda x: sanscript.transliterate(x.lower(),'iso','kannada'))
                 o.write("\n## " + title)
                 o.write("\n| Meter | Count | References |")

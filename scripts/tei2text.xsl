@@ -14,7 +14,7 @@
     <xsl:value-of select="//tei:TEI/@n"/>
   </xsl:variable>
   <xsl:variable name="cRefPattern">
-    <xsl:value-of select="//tei:cRefPattern[1]/@replacementPattern"/>
+    <xsl:value-of select="//tei:cRefPattern[1]/@matchPattern"/>
   </xsl:variable>
 
 
@@ -325,27 +325,16 @@
     <xsl:param name="chapter"/>
     <xsl:param name="verse"/>
     <xsl:value-of select="$title"/>
-    <xsl:variable name="sutraregex" as="xs:string">
-      //tei:div
-    </xsl:variable>
     <xsl:text>.</xsl:text>
     <xsl:choose>
-      <!-- if first number is verse number !-->
-      <xsl:when test="matches($cRefPattern,'\(//tei:lg\[@n=')">
-	<xsl:value-of select="$verse"/>
-      </xsl:when>
-      <!-- if first number is a sūtra number !-->
-      <xsl:when test="matches($cRefPattern,'\(//tei:div')">
-	<xsl:value-of select="$verse"/>
-      </xsl:when>
-      <!-- if first number is chapter number !-->
-      <xsl:when test="matches($cRefPattern,'\(//tei:div\[@n=')">
+      <xsl:when test="count(tokenize($cRefPattern,'\.')) = 3">
 	<xsl:value-of select="$chapter"/>
 	<xsl:text>.</xsl:text>
-	<xsl:if test="matches($cRefPattern,'/tei:lg\[@n=')">
-	  <xsl:value-of select="$verse"/>
-	</xsl:if>
+	<xsl:value-of select="$verse"/>
       </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="$verse"/>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
