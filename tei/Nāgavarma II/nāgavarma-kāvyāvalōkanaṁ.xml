@@ -138,7 +138,7 @@
 	<pb n="4"/>
 	<head>prathamādhikaraṇaṁ: śabda smr̥ti</head>
 	<div type="introduction">
-	  <lg n="6" met="mahāsragdharē">
+	  <lg n="6" met="mahāsragdhare">
 	    <l>paramārthaṁ pēḻepaṭṭirdadhikaraṇamivintaydaḻoḷ śabdasiddhi</l>
 	    <l>smaraṇakkā<app><lem>dyakkudātta</lem><rdg wit="#i #ca">dattupātta</rdg></app>prakaraṇa gaṇanāvr̥tti<app><lem>yiṁ</lem><rdg wit="#ga #ma">yaṁ</rdg></app> pordi nilkuṁ</l>
 	    <l>taradindaṁ sandhi nāmasthiti vitata samāsakramaṁ taddhitaṁ vi</l>
@@ -1043,7 +1043,7 @@
 		  <l>peṇḍatiyenādenadaṟiṁ</l>
 		  <l>peṇḍirpeṇḍiroḷadentu kūḍuvarabalē</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.1.76">pampabhārata 1-76</ref>
+		<ref resp="#ed" cRef="ViVi.1.76">pampabhārata 1-76</ref>
 	      </quote>
 	    </div><!-- sūtra !-->
 	    <div type="sūtra" n="22">
@@ -1213,7 +1213,7 @@
 	      <label>adalladeyuṁ:</label>
 	      <label><add resp="#ed">prathamārthada ṣaṣṭhige</add></label>
 	      <quote>
-		<lg n="122" met="svāgata">
+		<lg n="122" met="svāgataṁ">
 		  <l>teṅka<app><lem>vaṅka</lem><rdg wit="#i #ma">vakka</rdg></app>doḷasaṅkhyabalaṁ ni</l>
 		  <l>śśaṅkeyiṁ nr̥<app><lem>pana</lem><rdg wit="#ga">paṁ</rdg></app> pēḻe viruddhā</l>
 		  <l>taṅkanaḷkuṟe suśarmanr̥paṁ vī</l>
@@ -1234,7 +1234,7 @@
 	      <label>aparārdhakke :</label>
 	      <label><add resp="#ed">svāmitvada caturthige</add></label>
 	      <quote>
-		<lg n="124" met="svāgata">
+		<lg n="124" met="svāgataṁ">
 		  <l>ītanī nelananāḷvarasaṁ kē</l>
 		  <l>ḷītanī dharaṇigīśvaranēmā</l>
 		  <l>tītanī viṣaya nāyakanī tō</l>
@@ -1312,7 +1312,7 @@
 	      <label>prayōgaṁ:</label>
 	      <label>hasvakke</label>
 	      <quote>
-		<lg n="132" met="svāgata">
+		<lg n="132" met="svāgataṁ">
 		  <l>kēḷa mādhava bhavanmathitavyā</l>
 		  <l>ḷōḷa dānavakulāmbudhi labdhō</l>
 		  <l>nmīḷanaṁ <app><lem>bhuvanasaṁhr̥</lem><rdg wit="#ka">yavana saṁha</rdg></app>ti mūlaṁ</l>
@@ -1322,7 +1322,7 @@
 	      <pb n="31"/>
 	      <label>dīrghakke :</label>
 	      <quote>
-		<lg n="133" met="svāgata">
+		<lg n="133" met="svāgataṁ">
 		  <l>vāraṇēndra maṇihēmavarastrī</l>
 		  <l>sāravastucayamaṁ kramadiṁ kai</l>
 		  <l>sāralāṭisu<app><lem>voḍiṁ taḍavaltē</lem><rdg wit="#i">vudiṁ taḍamaltē</rdg><rdg wit="#ka">vadiṁ taḍavaltē</rdg><rdg wit="#ga">vodiṁ taḍamene</rdg><rdg wit="#ca">vūḍiṁ taḍamaltēṁ</rdg></app></l>
@@ -1400,7 +1400,7 @@
 		  <l>tāṁ gaḍamēṟipanī pā</l>
 		  <l>rvaṅgakkaṭa meyyoḷondu maruḷuṇṭakkuṁ</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.3.62">pampabhārataṁ 3-62</ref>
+		<ref resp="#ed" cRef="ViVi.3.62">pampabhārataṁ 3-62</ref>
 	      </quote>
 	      <label><add resp="#ed">viśēṣaṇa - viśēṣyagaḷa vibhakti ondē ādudakke</add></label>
 	      <quote>
@@ -1486,7 +1486,7 @@
 	      </quote>
 	      <label>saṅkhyājātivyatyayakke :</label>
 	      <quote>
-		<lg n="151" met="svāgata">
+		<lg n="151" met="svāgataṁ">
 		  <l>santamirpude navagrahamāśā</l>
 		  <l>dantigaḷ paduḷamē divadoḷ ni</l>
 		  <l>ścintamirpare surar ditiputrā</l>
@@ -1527,7 +1527,7 @@
 		  <l>ḷenatu tandeya śōkamuni<app><lem>rvemuṁ</lem><rdg wit="#ka">rvamuṁ</rdg><rdg wit="#i #ca">rvaruṁ</rdg></app></l>
 		  <l>munivaraṁ tave koṇḍo<app><lem>ḍanīguvaṁ</lem><rdg wit="#i #ca">ḍenīguveṁ</rdg></app></l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.12.36">pampabhārata 12-36</ref>
+		<ref resp="#ed" cRef="ViVi.12.36">pampabhārata 12-36</ref>
 	      </quote>
 	      <quote>
 		<lg n="156" met="drutavilambitaṁ">
@@ -1779,7 +1779,7 @@
 	      </quote>
 	      <label><add resp="#ed"><q rend="single">yuvāna</q> kke</add></label>
 	      <quote>
-		<lg n="184" met="svāgata">
+		<lg n="184" met="svāgataṁ">
 		  <l>īyuvānaranavadyavidyarā</l>
 		  <l>mnāyaśuddharavadātakīrtigaḷ</l>
 		  <l>tōyajākṣi naḍe nōḍa manmatha</l>
@@ -2407,7 +2407,7 @@
 	      </lg>
 	      <label>prayōgaṁ:</label>
 	      <label><add resp="#ed"><q rend="single">ellā</q> rūpakke</add></label>
-	      <lg n="252" met="mandākrānta">
+	      <lg n="252" met="mandākrāntaṁ">
 		<l>ballantentuṁ guṇamanoḷa<app><lem>keydā</lem><rdg wit="#i #ca">koḷgā</rdg></app>rpanārpandadindi</l>
 		<l>nnellirduṁ pollameyanugugembuktiyaṁ nanni māḻpaṁ</l>
 		<l>tellā <app><lem>ratnaṁ</lem><rdg wit="#ka #ma">lōkaṁ</rdg><rdg wit="#ga">rannaṁ</rdg></app>gaḷumanoḷakoṇḍoḷpanambhōdhi lōka</l>
@@ -2664,7 +2664,7 @@
 		  <l>paḍuveṇgāvudavō<app><lem>ge</lem><rdg wit="#ka">gi</rdg></app> pōga<app><lem>li</lem><rdg wit="#ka #ga">ḍi</rdg></app> suveṁ niccaṁ dharādhīśaraṁ</l>
 		  <l>paḍaliṭṭantire <app><lem>māḻpe</lem><rdg wit="#ka #ma">nōḻda</rdg></app> nōvade payiñjāsirvaraṁ yuddhadoḷ</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.10.25">pampabhārata 10-25</ref>
+		<ref resp="#ed" cRef="ViVi.10.25">pampabhārata 10-25</ref>
 	      </quote>
 	      <label>aparārdhakke</label>
 	      <quote>
@@ -2904,7 +2904,7 @@
 		  <l>risideṁ ninnaya nanniginnevaregaṁ duśśāsanōraḥsthalō</l>
 		  <l>cchvasitāsr̥gjalapānamaṁ bayasi bāytēraise sai<app><lem>tirpe</lem><rdg wit="#ka #ma">rippe</rdg></app>nē</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.7.58">pampabhārata 7.58</ref>
+		<ref resp="#ed" cRef="ViVi.7.58">pampabhārata 7.58</ref>
 	      </quote>
 	      <label>nakārada ṇatvakke</label>
 	      <quote>
@@ -2975,7 +2975,7 @@
 		</lg>
 	      </quote>
 	      <quote>
-		<lg n="314" met="svāgata">
+		<lg n="314" met="svāgataṁ">
 		  <l>ēḷidaṅgeyalimīgaḍe nammo</l>
 		  <l>ḷḷāḷanoḷgudureyaṁ ratha<app><lem>kaṭyā</lem><rdg wit="#i #ca">patti</rdg></app></l>
 		  <l>vyāḷadantikulamaṁ samakaṭṭiṁ</l>
@@ -4482,7 +4482,7 @@
 		</lg>
 	      </quote>
 	      <quote>
-		<lg n="481" met="mandākrānta">
+		<lg n="481" met="mandākrāntaṁ">
 		  <l>intī pē<app><lem>ḻdā</lem><rdg wit="#ca">ḻdirdā</rdg></app>nr̥paguṇavibhēdaṅgaḷaṁ tāḷdinindā</l>
 		  <l>taṁ tannoḷ tāḷdugumakhiḷalōkaikasāmrājyamaṁ vi</l>
 		  <l>bhrāntēṁ bhūmyantararipugaḷaṁ geldu vikrāntadiṁ ka</l>
@@ -4551,7 +4551,7 @@
 		</lg>
 	      </quote>
 	      <quote>
-		<lg n="489" met="drutavilambita">
+		<lg n="489" met="drutavilambitaṁ">
 		  <l>toḷage ponnarathaṁ rathavāji<app><lem>ga</lem><rdg wit="#ka #ca #ma">yo</rdg></app>ḷ</l>
 		  <l>kiḷiṟe vīrarasaṁ karegaṇmekaṁ</l>
 		  <l>ṭaḷise meynaviraggaḷamoppidaṁ</l>
@@ -5077,7 +5077,7 @@
 	      <label>udāharaṇe:</label>
 	      <label>parivr̥ttakke</label>
 	      <quote>
-		<lg n="547" met="mandākrānta">
+		<lg n="547" met="mandākrāntaṁ">
 		  <l>tārātārāmaḷina guḷikāhāranīhāranīkā</l>
 		  <l>śōrusphūrjatpra<app><lem>vita</lem><rdg wit="#i #ca">kaṭi</rdg></app>ta yaśōrañjitāśēṣalōkaṁ</l>
 		  <l>sārāsārādhyanugata vicārōcitātmīya cittō</l>
@@ -5168,7 +5168,7 @@
 		</lg>
 	      </quote>
 	      <quote>
-		<lg n="557" met="mandākrānta">
+		<lg n="557" met="mandākrāntaṁ">
 		  <l>sōḍambāḍaṁ kariya mugilaṁ dantigaḷgettu miñcaṁ</l>
 		  <l>nōḍal nīḍuṁ poḷeva nitiśāstrāḷigettetta<app><lem>me</lem><rdg wit="#i #ca">li</rdg></app>ttaṁ</l>
 		  <l>kāḍuṁ kōḍuṁ hayamayamegettuda <app><lem>gēhaṅgaḷoḷ saṁ</lem><rdg wit="#i #ca">vāhaṅgaḷaṁ</rdg></app></l>
@@ -6018,7 +6018,7 @@
 		  <l>vōvidu madanana sōdana</l>
 		  <l>dīvigeyene toḷagi beḷagidaṁ tuhinakaraṁ</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.4.52">pampabhārataṁ 4-52</ref>
+		<ref resp="#ed" cRef="ViVi.4.52">pampabhārataṁ 4-52</ref>
 	      </quote>
 	      <label>kriyādīpakakke</label>
 	      <quote>
@@ -6994,7 +6994,7 @@
 	    </div><!-- sūtra !-->
 	    <div type="sūtra" n="177">
 	      <label>ślēṣabhēdaṅgaḷ :</label>
-	      <lg n="754" met="mandākrānta" type="sūtra">
+	      <lg n="754" met="mandākrāntaṁ" type="sūtra">
 		<l><note>rudraṭa X 2</note>tatvaṁ vyājastutiyavaya<app><lem>vasthaṁ virōdhā</lem><rdg wit="#i">vitvaṁ viruddhā</rdg><rdg wit="#ca">vatvaṁ viruddhā</rdg></app>vabhāsā</l>
 		<l>rthatvaṁ mikkirdadhikamaviśēṣātmakaṁ va<app><lem>stva</lem><rdg wit="#ka">stu</rdg></app>sambhā</l>
 		<l>vyatvaṁ vakrōktyanugatamumendintu tātparyadindaṁ</l>
@@ -7470,7 +7470,7 @@
 	      <note>sāḷva III-140</note>
 	      <pb n="176"/>
 	      <quote>
-		<lg n="804" met="khaplu">
+		<lg n="804" met="khacaraplutaṁ">
 		  <l>piṅge pūsida bhasmaparāgaṁ poṇmuva dharmajalaṅgaḷā</l>
 		  <l>pāṅgu gaṅgeya śīkaramembantāgire kaṇḍume śambhuvaṁ</l>
 		  <l>gaṅge dal bigidappidaḷeṁ<app><lem>dā</lem><rdg wit="#ka">bā</rdg></app> śaṅkege bhōṅkane mōde mu</l>
@@ -7620,7 +7620,7 @@
 		  <l>goḍeveṁ tadratnaraśmiprakaṭamakuṭamaṁ nambu nambenna kaṇṇiṁ</l>
 		  <l>kiḍiyuṁ keṇḍaṅgaḷuṁ sūsidapuvahitaraṁ nōḍi paṅkējavaktrē</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.7.13">pampa bhārataṁ 7-13</ref>
+		<ref resp="#ed" cRef="ViVi.7.13">pampa bhārataṁ 7-13</ref>
 	      </quote>
 	      <pb n="180"/>
 	      <quote>
@@ -8283,7 +8283,7 @@
 		  <l>gadu posa suggi mūguvaḍadilliya kōgile banda māvu bī</l>
 		  <l>yada kusumāstranājñe tavadelliyumilliya nandanaṅgaḷoḷ</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.4.21">pampabhārataṁ 4-21</ref>
+		<ref resp="#ed" cRef="ViVi.4.21">pampabhārataṁ 4-21</ref>
 	      </quote>
 	      <label>idu dravyaṁ</label>
 	    </div><!-- sūtra !-->
@@ -8466,10 +8466,10 @@
 		  <l>kṣatrakulapūjyanamalaca</l>
 		  <l>ritraṁ prōddāma sōmavaṁśalalāmaṁ</l>
 		</lg>
-		<ref resp="#ed" cRef="Vikrama.1.61">pampabhārataṁ 1-61</ref>
+		<ref resp="#ed" cRef="ViVi.1.61">pampabhārataṁ 1-61</ref>
 	      </quote>
 	      <quote>
-		<lg n="910" met="mandākrānta">
+		<lg n="910" met="mandākrāntaṁ">
 		  <l>pārāvāraṁ tuhinakiraṇaṁ kunde kundittu mattaṁ</l>
 		  <l>tōrondōrondamr̥takaḷeyuṁ perce percal taguḷda</l>
 		  <l>ttāruṁ makkaḷgeṟaguvanitaṁ bandhugaḷgōyaroḷ po</l>
