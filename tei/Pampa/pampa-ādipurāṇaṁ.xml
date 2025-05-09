@@ -81,9 +81,10 @@
     </revisionDesc>
   </teiHeader>
   <text>
-    <pb n="3"/>
-    <head>pampamahākaviviracitaṁ<lb/>
-    ādipurāṇaṁ</head>
+    <body>
+      <head>pampamahākaviviracitaṁ<lb/>
+      ādipurāṇaṁ</head>
+      <pb n="3"/>
     <div n="1" type="āśvāsaṁ">
       <head>prathamāśvāsaṁ</head>
       <lg n="1" met="śārdūlavikrīḍitaṁ">
@@ -13439,5 +13440,6 @@
       ṣōḍaśāśvāsaṁ</trailer>
     </div>
     <trailer>ādipurāṇaṁ sampūrṇaṁ</trailer>
+    </body>
   </text>
 </TEI>
