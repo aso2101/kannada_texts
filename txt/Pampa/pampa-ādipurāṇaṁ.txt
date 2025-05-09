@@ -1,8 +1,8 @@
-
-[p. 3]
 [pampamahākaviviracitaṁ
 ādipurāṇaṁ]
 
+
+[p. 3]
 [prathamāśvāsaṁ]
 
 śrīdēvēndramunīndravanditaguṇavrātaṁ jagatsvāmi saṁ
@@ -538,6 +538,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa-
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 mahābaḷakumārōdayavarṇanaṁ
 prathamāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 18]
 [dvitīyāśvāsaṁ]
@@ -1251,6 +1254,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamāḷākīrṇa-
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 lalitāṅgadēvavarṇanaṁ
 dvitīyāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 38]
 [tr̥tīyāśvāsaṁ]
@@ -2065,6 +2071,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamāḷākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 vajrajaṅghadarśanavyāvarṇanaṁ
 tr̥tīyāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 60]
 [caturthāśvāsaṁ]
@@ -2961,6 +2970,9 @@ kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 cāraṇayugaḷadānōtsavavarṇanaṁ
 caturthāśvāsaṁ
 
+
+---------------------------------------------------------------------
+
 [p. 84]
 [pañcamāśvāsaṁ]
 
@@ -3738,6 +3750,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 suvidhimahimōtpattivarṇanaṁ
 pañcamāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 105]
 [ṣaṣṭhāśvāsaṁ]
@@ -4582,6 +4597,9 @@ vākcandrikāprasaraprāsādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 nābhirājarājyalābhavarṇanaṁ
 ṣaṣṭhāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 128]
 [saptamāśvāsaṁ]
@@ -5650,6 +5668,9 @@ kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 mahēndranānandanr̥tyaṁ
 saptamāśvāsaṁ
 
+
+---------------------------------------------------------------------
+
 [p. 156]
 [aṣṭamāśvāsaṁ]
 
@@ -6414,6 +6435,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 karmabhūminiyōga7nirūpaṇaṁ
 aṣṭamāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 178]
 [navamāśvāsaṁ]
@@ -7301,6 +7325,9 @@ kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 pariniṣkramaṇakalyāṇavarṇanaṁ
 navamāśvāsaṁ
 
+
+---------------------------------------------------------------------
+
 [p. 202]
 [daśamāśvāsaṁ]
 
@@ -7959,6 +7986,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 kēvalajñānōtpattiprakaraṇaṁ
 daśamāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 221]
 [ēkādaśāśvāsaṁ]
@@ -9060,6 +9090,9 @@ kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 digvijayaprārambhanirūpaṇaṁ
 ēkādaśāśvāsaṁ
 
+
+---------------------------------------------------------------------
+
 [p. 250]
 [dvādaśāśvāsaṁ]
 
@@ -9981,6 +10014,9 @@ kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 māgadhadarpadaḷanaṁ
 dvādaśāśvāsaṁ
 
+
+---------------------------------------------------------------------
+
 [p. 274]
 [trayōdaśāśvāsaṁ]
 
@@ -10779,6 +10815,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 ṣaṭkhaṇḍamaṇḍaḷavijayaṁ
 trayōdaśāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 296]
 [caturdaśāśvāsaṁ]
@@ -11850,6 +11889,9 @@ kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 digvijayadhvajārōhaṇaṁ
 caturdaśāśvāsaṁ
 
+
+---------------------------------------------------------------------
+
 [p. 325]
 [pañcadaśāśvāsaṁ]
 
@@ -12295,6 +12337,9 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 upāsakādhyayanavarṇanaṁ
 pañcadaśāśvāsaṁ
+
+
+---------------------------------------------------------------------
 
 [p. 338]
 [ṣōḍaśāśvāsaṁ]
@@ -12830,5 +12875,6 @@ vākcandrikāprasaraprasādōdīrṇasūktikallōlamālākīrṇa
 kavitāguṇārṇavapraṇītamappādipurāṇadoḷ
 parinirvāṇakalyāṇavarṇanaṁ
 ṣōḍaśāśvāsaṁ
+
 
 ādipurāṇaṁ sampūrṇaṁ
