@@ -2,8 +2,10 @@
 
 ## Texts included so far
 
-- *Vikramārjunavijayaṁ* of Pampa (ಪಂಪನ ವಿಕ್ರಮಾರ್ಜುನವಿಜಯಂ), 943
+- *Ādipurāṇaṁ* of Pampa (ಪಂಪನ ಆದಿಪುರಾಣಂ), 941
+- *Vikramārjunavijayaṁ* of Pampa (ಪಂಪನ ವಿಕ್ರಮಾರ್ಜುನವಿಜಯಂ), 941
 - *Śāntipurāṇaṁ* of Ponna (ಪೊನ್ನನ ಶಾಂತಿಪುರಾಣಂ), 953
+- *Rannanighaṇṭu* of Ranna (ರನ್ನನ ನಿಘಂಟು)
 - *Vardhamānapurāṇaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನ ವರ್ಧಮಾನಪುರಾಣಂ), ca. 1042
 - *Kāvyāvalōkanaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನ ಕಾವ್ಯಾವಲೋಕನಂ), ca. 1042
 - *Karṇāṭakabhāṣābhūṣaṇaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನ ಕರ್ಣಾಟಕಭಾಷಾಭೂಷಣಂ), ca. 1042 (note that this text is in *Sanskrit* with Kannada examples)
