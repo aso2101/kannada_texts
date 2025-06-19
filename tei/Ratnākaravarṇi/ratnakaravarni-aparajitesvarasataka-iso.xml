@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" n="ApaŚa">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+	<title type="main" xml:lang="kan-Latn">Aparājitēśvaraśataka</title>
+        <author xml:lang="kan-Latn">Ratnākaravarṇi</author>
+	<principal>
+	  <persName xml:id="GBH">
+	    <forename>Gil</forename>
+	    <surname>Ben-Herut</surname>
+	  </persName>
+	</principal>
+	<respStmt>
+	  <resp>Typing and proofreading</resp>
+	  <!--
+	      <orgName>Adishila Publications</orgName>
+	      <persName>Krishnaprasada G.</persName>
+	      !-->
+	</respStmt>
+	<respStmt>
+	  <resp>TEI structuration</resp>
+	  <persName ref="#AO">Andrew Ollett</persName>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Kannada Digital Texts Project</authority>
+        <availability status="restricted">
+          <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/" type="url">Creative Commons Attribution-ShareAlike 4.0</ref> license.</p>
+	  <!-- further information here? !-->
+        </availability>
+        <date>2025</date>
+      </publicationStmt>
+      <sourceDesc>
+	<!--
+	    <listBibl>
+	    <biblStruct xml:id="ed">
+	    <monogr>
+	    <title level="m" type="main" xml:lang="kan-Latn">Ponna-Kamalabhava Sampuṭa</title>
+	    <title level="m" type="sub" xml:lang="kan-Latn">Śāntipurāṇaṁ, Śāntīśvara purāṇaṁ</title>
+	    <editor>
+	    <persName xml:lang="kan-Latn">
+	    <forename>Hampa</forename>
+	    <surname>Nāgarājayya</surname>
+	    </persName>
+	    </editor>
+	    <imprint>
+	    <publisher xml:lang="eng">Kannaḍa Viśvavidyālaya</publisher>
+	    <pubPlace xml:lang="kan-Latn">Hampi</pubPlace>
+	    <date when="2006">2006</date>
+	    </imprint>
+	    </monogr>
+	    </biblStruct>
+	    </listBibl>
+	    !-->
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+	<language ident="eng">English</language>
+	<language ident="kan-Latn">Kannada in Roman transliteration (ISO-15919)</language>
+	<language ident="san-Latn">Sanskrit in Roman transliteration (ISO-15919)</language>
+      </langUsage>
+      <textClass>
+	<keywords>
+	  <term><!--each keyword in a <term/> element --></term>
+	</keywords>
+      </textClass>
+    </profileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p><!-- romanization !-->
+          <!-- orthography !-->
+        <!-- encoding !--></p>
+      </editorialDecl>
+      <refsDecl>
+	<cRefPattern matchPattern="ApaŚa.([0-9]+)" replacementPattern="#xpath(//tei:lg[@n='$2'])"/>
+      </refsDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2025-06-19" who="Andrew Ollett">
+	<list>
+	  <item>Initial version.</item>
+	</list>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <body>
+      <head>aparājitēśvara śataka</head>
+      <label>utpalamāle/caṁpakamāle</label>
+      <lg n="1">
+	<l>śrīkulamāptagōtramamalāṁgamataṁdrate samyagāyu vi</l>
+	<l>dyākuśalatvamādoḍamidennadidanyamenutte kaṁḍu ni</l>
+	<l>rvyākulanāgi yellarinagaldu maṇitrayasaṁpadakke ra</l>
+	<l>tnākaranādavaṁ tava kr̥pātmanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="2">
+	<l>naṁbuvudēḷu tattvamanaduttamadr̥ṣṭi tadarthamaṁ nayā</l>
+	<l>rthaṁ bare nōḍi bhēdipudaduttamabōdhamahiṁseyalli mā</l>
+	<l>rga0 biḍadirpuduttamacaritramiviṁtu maṇitrayaṁ tadī</l>
+	<l>yāṁbudhi yāvuduttamatapaṁgaḷalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="3">
+	<l>mūjagaveṁba gēhadoḷe tuṁbida vastugaḷāru kāyavai</l>
+	<l>dōjeya tattvavēḷu navabhēdapadārthamivaṁ tapasvi saṁ</l>
+	<l>yōjisi kūḍekūḍe paribhāvisi tannane kāṇbudarke cē</l>
+	<l>tōjayanāgabēku modaleṁdeyalā! aparājītēśvarā!</l>
+      </lg>
+      <lg n="4">
+	<l>baḷikaṇupekke panneraḍaralli catuṣkada dammajānadoḷ</l>
+	<l>suḷisuḷidāḍi kūḍe gurupaṁcakadoḷpoḷedāḍi cittada</l>
+	<l>ggaḷamanaḍaṁgisuttoḍane tannaya dēhadoḷātmanalli niṁ</l>
+	<l>daḷalaḷidirdavaṁ tava kr̥pātmanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="5">
+	<l>ā padadoḷ kṣaṇakṣaṇake karmasamūhake hāni sadguṇō</l>
+	<l>dīpikeyappudōdina pariśramamuṁ tapadubbeyuṁ sudhā</l>
+	<l>rūpamaneydutirkumadariṁdadanē sakala prayatnadiṁ</l>
+	<l>sthāpisi muktiyaṁ paḍevudeṁdeyalā! aparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="6">
+	<l>adu laghukarmigātmatanubhēdavicāradoḷaḷtiyuḷḷavaṁ</l>
+	<l>gudayipudalladē sakalaśāstramanōdidoḍaṁ tapaṁgaḷo</l>
+	<l>ḷḷudidoḍamāgadaṁtadarinā ruciyuḷḷavanē bhavatprasā</l>
+	<l>dada sukhayeṁdu mecci parikīrtipenānaparājitēśvarā!</l>
+      </lg>
+      <lg n="7">
+	<l>bhēda vicārameṁto tanumūravaralliye karmaveṁṭivē!</l>
+	<l>vēdanegiṁbugaḷkaḍegacētanarūpigaḷātmanilli mi</l>
+	<l>trōdayanāgi bāḷdapanavaṁ sukhi cinmayaneṁdu buddhiyiṁ</l>
+	<l>bhēdisi bērugeydoḷage nōḷpudalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="8">
+	<l>poragidu dhāturūpadoḍalinneraḍuṁṭoḷagoṁdu tējadiṁ</l>
+	<l>turugida taijasāṁgamoḍanaṣṭamalā śritakārmaṇāṁgamoṁ</l>
+	<l>dure pesariṁde bērpaḍisabarpudu rūpade miśritaṁgaḷī</l>
+	<l>seremane mūraroḷpudidanātmanahō! aparājitēśvarā!</l>
+      </lg>
+      <lg n="9">
+	<l>āguta pōgutirpudidu bāhyaśarīramanēkarūpadiṁ</l>
+	<l>yōgaviyōgiyappa padinālku guṇasthalakālakallade</l>
+	<l>pōgadu taijasaṁ pudida kārmaṇamuṁ sale bhēdabhāvanō</l>
+	<l>dyōgamaniṁdutoṭṭasagavēḷkumadarkaparājitēśvarā!</l>
+      </lg>
+      <lg n="10">
+	<l>kaḷedu samastabāhyaratiyaṁ manadutsavadiṁde gūḍhasu</l>
+	<l>sthaḷadoḷagirdu tannoḷage tannaya rūpane nimma rūpinā</l>
+	<l>paḷukina boṁbeyaṁdavenutuṁ nenedīkṣisuvaṁge cittadoḷ</l>
+	<l>poḷeyade māṇbudē paramasiddhana rūpaparājitēśvarā!</l>
+      </lg>
+      <lg n="11">
+	<l>tanu jinagēhaveṁbudoḷagirdu nijātmane dēvaneṁbudā</l>
+	<l>tanuparimāṇaneṁbuda śarīrakaneṁbudu bōdhadarśanaṁ</l>
+	<l>tanuvenisirdaneṁbudakalaṁkanabādhanakhaṁḍaneṁba bhā</l>
+	<l>vaneyane bhāvisuttire bhavacyuti tānaparājitēśvarā!</l>
+      </lg>
+      <lg n="12">
+	<l>moda modalāsarappudoḍanoppire saṁtavappudaṁtu mā</l>
+	<l>ṇade paribhāvisuttire mahāsukhamappudu bāhyadāṭadoḷ</l>
+	<l>bedarikeyappudātmanoḷe meccugeyappudu lōkamella mā</l>
+	<l>yada maruḷāgi tōrpudu nijātmarataṁgaparājitēśvarā!</l>
+      </lg>
+      <lg n="13">
+	<l>nuḍi kiridappudūṭadoḷarōcakamappudu bāhyagōṣṭhiyoḷ!</l>
+	<l>siḍimiḍiyappudaṁte bahiraṁgada nōṭake kaṇgoḷollavā</l>
+	<l>kaḍupina kālgaḷāṭavaḍakakkoḷagappudu buddhi muktiyaṁ</l>
+	<l>tuḍukutamirpudalte paramātmarataṁgaparājitēśvarā!</l>
+      </lg>
+      <lg n="14">
+	<l>porage tapaṁgaḷārara sahāyate bēku śarīra mōhamaṁ</l>
+	<l>toreyale bēku bhāvaneya śāstra vilōkite bēku niccaluṁ</l>
+	<l>nereva virakti bēku ripubaṁdhugaḷoḷsarigāṇabēku ka</l>
+	<l>ṇṇaridu nijātmanaṁ calisadīkṣisuvaṁgaparājitēśvarā!</l>
+      </lg>
+      <lg n="15">
+	<l>meyyoḷagennegaṁ mamateyaṁṭavananne gamugra kālanā</l>
+	<l>keyyoḷagirda pakki viṣayaṁgaḷa meccidavaṁ viṣāgniyoḷ</l>
+	<l>cuyyane beṁdavaṁ bahukaṣāyamanotti kaḷaljadātana</l>
+	<l>yyayyo!muḷuṁgidaṁ narakadoḷpalavēnaparājitēśvarā!</l>
+      </lg>
+      <lg n="16">
+	<l>tanupageyeṁbavaṁ vratayutaṁ viṣayaṁ viṣaveṁdu biṭṭavaṁ</l>
+	<l>vinutatapasvi kōpaviḍidirda kaṣāyake dūranāda śāṁ</l>
+	<l>tane sakalātmarakṣakaninituṁ guṇasaṁtatigūḍi tattva bhā</l>
+	<l>vaneyoḷe bāḷvanē śivanavaṁgeṇeyāraparājitēśvarā!</l>
+      </lg>
+      <lg n="17">
+	<l>uṁbanitarke koṭṭu pageyoḷpavuṁ teradiṁde sēveyaṁ</l>
+	<l>koṁba vivēkiyaṁte virasānnamanē tanuviṁge jōkeyiṁ</l>
+	<l>tuṁbi japaṁ tapaṁ paramaśāstra rahasyadoḷātma kāryamaṁ</l>
+	<l>beṁbiḍadāvagaṁ negaḷvavaṁgeṇeyāraparājitēśvarā!</l>
+      </lg>
+      <lg n="18">
+	<l>uṁbudu nīrasaṁ porevudoṁdoḍalirpudu gūḍhavāsavā</l>
+	<l>ḍuṁbolanēḷutattva moḷuvātu sarasvatiyoḷniraṁtaraṁ</l>
+	<l>haṁbalaghapraṇāśadoḷagīkṣaṇamātmanoḷāgi bāḷvadhī</l>
+	<l>raṁ bahukarmamaṁ kṣaṇake khaṁḍisanē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="19">
+	<l>tannoḷe tanna nōḷpa r̥ṣiganyara nōṭamadēke cidguṇō</l>
+	<l>tpanna sudhānnamuṇba munigoḷḷuṇiseṁba vivakṣeyēke si</l>
+	<l>ddhaṁ nama eṁba vākyamire bērnuḍiyēke nijātmarūpadoḷ</l>
+	<l>ninnoḍanāḍuvaṁguḷida gōṣṭhigaḷēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="20">
+	<l>biḍade kaṣāyamaṁ suḍade yiṁdriyatr̥ṣṇegaḷaṁ parīṣaha</l>
+	<l>kkoḍanidirāgi gellade suguptigaḷu pugadātmanaṁ malaṁ</l>
+	<l>biḍidoḍaliṁde bērpaḍisi nōḍade summane karmaśatruvē</l>
+	<l>biḍu biḍu pōgenalnuḍige pōdapudē! aparājitēśvarā !</l>
+      </lg>
+      <lg n="21">
+	<l>puruparamēśanādiyene tīrthakararmodalāgi kānanāṁ</l>
+	<l>taradoḷagadriyoḷ caḷiyoḷātapadoḷmaḷeyoḷ kṣudhātr̥ṣā</l>
+	<l>bharamanaḍartu gellade jinēśvararādare kōḍi bāḍi jō</l>
+	<l>karipenagetta nirjareya mātu jaḍaṁgaparājitēśvarā!</l>
+      </lg>
+      <lg n="22">
+	<l>ōdida tattva milla paridiṭṭa parigrahamilla taggitaṁ</l>
+	<l>pāda kaṣāyamilla nere gella parīṣahamilla sadguṇā</l>
+	<l>mōdateyilla māḍiduru dharmavikāsateyilla nimmoḷa</l>
+	<l>tyādarabhaktiyilla sukhiyāguveneṁtaparājitēśvarā!</l>
+      </lg>
+      <lg n="23">
+	<l>bōdhipeneṁbellarumanāgamapaddhati bāradāytu ba</l>
+	<l>lṭādheyanāṁtu sairisutamātmanoḷirda malīmasaṁgaḷaṁ</l>
+	<l>sōdipeneṁbenaḷḷedetanaṁ biḍadāytu nijātma dr̥ṣṭiyiṁ</l>
+	<l>sādhipeneṁbenoṁdoḍe manaṁ caḷamāytaparājitēśvarā</l>
+      </lg>
+      <lg n="24">
+	<l>bhūrimataṁgaḷaṁ tiḷivuduṁ palaraṁ matidōri dharmadoḷ</l>
+	<l>sēripuduṁ mahōgratapadoḷpaṭuvappudumātmanaṁ manō</l>
+	<l>rāgoḷīkṣisutte bhavabaṁdhamanikkuva buddi summane</l>
+	<l>bāradadarke nimma karuṇōnnatibēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="25">
+	<l>kuḍuva samartharārakhaḷalōkake nīṁ poragāgi mānavaṁ</l>
+	<l>paḍeva padaṁgaḷāvuvu tapaṁ śrutamuṁ poragāgi ballavaṁ</l>
+	<l>piḍiva suvastuvāvudu maṇitritayaṁ poragāgi sōlu ka</l>
+	<l>ṇṇiḍuveḍeyāvudātmavibhavaṁ poragāgaparājitēśvarā!</l>
+      </lg>
+      <lg n="26">
+	<l>puṭaviḍuvalli kiccinurigaṁjidoḍā kanakakke kūḍidā</l>
+	<l>kuṭilate pōkumē malakalaṁkamanūdi kaḷalji kāṁtisaṁ</l>
+	<l>puṭadoḷagātmanaṁ nilisi nirmalanāguveneṁba bhavyanu</l>
+	<l>tkaṭatapadubbegaḷkidoḍe siddhipudē! aparājitēśvarā !</l>
+      </lg>
+      
+      <lg n="27">
+	<l>rāgake rōṣakāgi lalanādiviyōgadoḷugrayuddhadoḷ</l>
+	<l>nīgidenaṁgakōṭigaḷanaṁtadariṁ bhavarōgiyādenā</l>
+	<l>rōgada mūlamaṁ suḍuva ghōratapaṁdaḷedoṁdukāyamaṁ</l>
+	<l>tyāgisalaṁjutirdapenalā dhr̥tidōraparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="28">
+	<l>pōgade pōda pōda bhavakōṭigaḷoḷmaḷisaṁdu koṁdu tāṁ</l>
+	<l>kūguva mōharākṣasananugratapōbharadhīranāgi nāṁ</l>
+	<l>tāguveneṁdu taḷtiridu gelvenadeṁdu jagakke mitranā</l>
+	<l>nāguveneṁdu ninneḍeyaneyduveneṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="29">
+	<l>hēvaramaṁ kṣaṇāṁtarake tōrpa sukhakkolaviṁdo nāḷeyō</l>
+	<l>sāva janaṁgaḷoḷmamate matsaravīgaḷo baigināgaḷō</l>
+	<l>bēva śarīradoḷbardukuvāse viraktiyoḷātmatattvamaṁ</l>
+	<l>bhāvisi mukta nāgalaridāytukaṭā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="30">
+	<l>rōgigapathyamē ruciyenippudu vaidyame kaipeyādoḍā</l>
+	<l>rōgavināśakāvudu hitaṁ manujaṁgadaraṁte bhōgamē</l>
+	<l>rājisutirkumādoḍamadaṁ kaḍegotti tapōvratāgamō</l>
+	<l>dyōgadoḷāḍadirdoḍavanēṁ kiḍanē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="31">
+	<l>nāganarāmarēṁdrara sukhaṁ siriyuṁ nijadiṁde bhāvisal</l>
+	<l>jōgimahēṁdrajālada kumaṁtrade tōrida māmaraṁgaḷoḷ</l>
+	<l>tūguva paṇgaḷaṁ savideneṁbana saṁbhramadaṁte karmasaṁ</l>
+	<l>yōgadināytu pōytenisuguṁ piridēnaparājitēśvarā!</l>
+      </lg>
+      <lg n="32">
+	<l>muktiyoḷalladilla sukhavaṁtadu karmavināśavillade</l>
+	<l>vyaktige bāradā duritanāśake dīkṣeye bēku mōhadā</l>
+	<l>śaktiyoḷirdavaṁge rucidōradu dīkṣeyadarke nimma sa</l>
+	<l>dbhaktiye bījamoyyanadanīvudu muṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="33">
+	<l>śaktige takka dāna gurupūjana suvrata parvakālani</l>
+	<l>rbhuktigaḷaṁ negaḷcute jināgamagōṣṭhigaḷalli dharmasaṁ</l>
+	<l>yuktara mēḷadoḷ kaḷeyutuṁ dinamaṁ naḍevaṁge mōhadā</l>
+	<l>śakti saḍildu pōpudidu bhaktiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="34">
+	<l>māḍuvudarke śakti tanagoccatamilladoḍoldu dharmamaṁ</l>
+	<l>māḍuvarilli nōḍi pariṇāmavaneyduvudorme nōḷpuduṁ</l>
+	<l>kūḍadoḍaṁte kēḷu sukhiyappudu nimmane naṁbi dharmamaṁ</l>
+	<l>jōḍisikoṁbudarke birisuṁṭe! janakkaparājitēśvarā!</l>
+      </lg>
+      <lg n="35">
+	<l>havaṇisi koṁbudoyyane parigrahamaṁ gatinālkaraṁdamaṁ</l>
+	<l>śivapadadaṁdamaṁ tiḷiyutirpudu kāyada kaṣṭamaṁ nijā</l>
+	<l>tmavipulaśuddhiyaṁ neneyutirpudu kūḍe virakti tāne saṁ</l>
+	<l>bhavipudu dēhigeṁdorevudōjeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="36">
+	<l>mikka parigrahagrahitananyarinādupadēśalēśamaṁ</l>
+	<l>lekkipanē virōdhigaḷa ballane mellerdeyuṁṭe mattavaṁ</l>
+	<l>nakkudu nakkudē muniduduṁ munisē avanāṭadellavuṁ</l>
+	<l>makkaḷa mēḷa dāṭavolirpudalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="37">
+	<l>grahaveḍegoṁḍavaṁge maravorme vivēkavadorme kūḍe saṁ</l>
+	<l>grahisutamirkumallade yathāsthitiyuṁṭe niraṁtaraṁ pari</l>
+	<l>gradoḷagirdavaṁge nuḍiyuṁ naḍeyuṁ kṣaṇikaṁgaḷalladē</l>
+	<l>sahaja caritradoḷniruge yettaṇa mātaparājēśvarā!</l>
+      </lg>
+      <lg n="38">
+	<l>sorki śarīra nāridhanavennaviveṁdavaralli kaṇmanaṁ</l>
+	<l>sirkivivēkigaḷnuḍida dharmamanollade kūḷa korbinoḷ</l>
+	<l>karkaśavr̥ttiyoḷnaḍeva kāmukaraṁtakanoyva kāladoḷ</l>
+	<l>markaṭanaṁte palgirivarētara bāyaparājitēśvarā!</l>
+      </lg>
+      <lg n="39">
+	<l>racceya saṁbhramakke kuṇidiccheya kūḷuṇutaṁ kṣaṇāṁtadoḷ</l>
+	<l>kiccina koṁḍamaṁ puguva raṁḍeyavolviṣayaṁgaḷiccheyaṁ</l>
+	<l>mecci manakke baṁda teradoḷnaḍedollade suvrataṁgaḷaṁ</l>
+	<l>huccaro durgatisthaḷake bīḷvaradēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="40">
+	<l>piṁdaṇa janma janmadoḷagellidanī bhavadatta tannanā</l>
+	<l>rtaṁdaradella muṁde tanaginneḍe puṭṭida tāṇatāṇadoḷ</l>
+	<l>kuṁdadupārjisirda dhanamaṁ tanumaṁ barutoṁdanuṁ manaṁ</l>
+	<l>taṁdude nimma naccirade ciṁtipudēkaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="41">
+	<l>ittoḍe barpudē baḍatanaṁ kuḍadirdoḍe lakṣmi nilvudē</l>
+	<l>sattoḍe jīvanaṁte layavādane jīvisutirdoḍirdanē</l>
+	<l>ettaṇa māḍivella barutaṁ bayalāgutamirpuvaise ni</l>
+	<l>mmattaṇa bhaktiyoṁde nijasiddhiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="42">
+	<l>ninna padābjabhakti viṣayārthavirakti tapōbharakke saṁ</l>
+	<l>pannatevetta śakti tanuvaṁ sale bhēdisi tanna rūpana</l>
+	<l>cchinnade kāṇba yukti guṇadallanurakki ivāge mukti jī</l>
+	<l>vaṁ naranāgivaṁ paḍeyadirdoḍadēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="43">
+	<l>ninnoḷagāda bhakti gaḍa nirvr̥ti bēku gaḍaṁ viśuddhadiṁ</l>
+	<l>tanniravuṁ bhavatpati gaḍāṁtudu dīkṣe gaḍaṁ baḷikkahō</l>
+	<l>sanni gaḍaṁ bisilgaḍa bhayaṁgaḍa bāysaviyāseyuṁ gaḍaṁ</l>
+	<l>nanna manōvikārateyanāḍuvenēnaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="44">
+	<l>nālagegāvudicche tava nāmarasāyanamoṁde nanna ci</l>
+	<l>ttālayadoḷbeḷarpa maṇidīpamadāvudu ninna rūpe po</l>
+	<l>ymāleya meyya bhāraṇeya hiṁgisuvauṣadhiyāvudenna ci</l>
+	<l>tpālaka ninna mārgada tapaṁgaḷalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="45">
+	<l>togala pasuṁbeyoḷpolasinōvariyoḷrujeyeṁba cēḷgaḷā</l>
+	<l>pagavinoḷirpavolta nuvinoḷkavidirdapanātmaneṁbudaṁ</l>
+	<l>bageyada kāraṇaṁ barduku raṁjisitallade tūgi nōḷpinaṁ</l>
+	<l>nagaleḍeyuṁṭe tuttiḍe manaṁbahudē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="46">
+	<l>māsu musuṁki tāyoḍaloḷeṁtiravarpudu mūtramārgadoḷ</l>
+	<l>hēsade barpudeṁtu moradoḷmalamūtradoḷāḷutēḷutaṁ</l>
+	<l>kūsenisirpudeṁtuṭadanāṁ maredāgaḷe ṭhakku javvanaṁ</l>
+	<l>sāsadaveṁdu naccidenalā matidōraparājitēśvarā!</l>
+      </lg>
+      <lg n="47">
+	<l>pageya vaśakke silki sereyirda mahānubhavaṁge nidretā</l>
+	<l>nogevudo bhōgadiccheye viḍāyave maccaravuṁṭe divyayō</l>
+	<l>gige ripumōhamaṁ jayisi meydereyaṁ kaḷevaṁdu jōkeyu</l>
+	<l>jjugavade ciṁteyaise peratoṁdihudē! aparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="48">
+	<l>ōduva pēḷva kēḷva paribhāvipa ballanitaṁ perarge tā</l>
+	<l>nōdipa mūru saṁjegaḷanāru suparvadinaṁgaḷaṁ sadā</l>
+	<l>sādhisi takkatatkriyegaḷaṁ negaḷdiṁtuṭu daṁdugaṁgaḷiṁ</l>
+	<l>pōdoḍe kālamella śubhakālavalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="49">
+	<l>nuḍivoḍe dēva nimmaya mahāsabheyoḷnuḍivaṁtirōjeyiṁ</l>
+	<l>nuḍivudu pōguvalli muḷuvaṭṭeyoḷeyduvanaṁtirōjeyiṁ</l>
+	<l>naḍevudu kuḷḷitirporaguvuṇbeḍeyoḷsere silkidātanaṁ</l>
+	<l>toḍane nijātmaciṁteyoḷihaṁgaghavēnaparājitēśvarā!</l>
+      </lg>
+      <lg n="50">
+	<l>lōkada vārteyoḷbadhiranātmahitaṁ poragāda mātinoḷ</l>
+	<l>mūkate tanna dēhaparadēhada nōṭadoḷaṁdhakaṁ pramā</l>
+	<l>daikade kaṁḍu rāgisidoḍaṁ suḍu māṁsavikāraveṁdu me</l>
+	<l>ygōkaripātanaṁtakananaṁjisanē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="51">
+	<l>nōḍidoḍelliyuṁ tanuvinoḷmatisōlade śuddhajīvanaṁ</l>
+	<l>nōḍuva mātanāḍidoḍe śāṁti śubhaṁ pavaṇāge pēḷva tāṁ</l>
+	<l>pāḍidoḍattalitta tonedāḍade ninnoḷe naṭṭa citradiṁ</l>
+	<l>pāḍuvanāgiyuṁ kaḍu virāgiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="52">
+	<l>kaṇmalaraḷkariṁdosare nimmane nōḍutamaṁtaraṁgadoḷ</l>
+	<l>poṇme virōdhi bhāvisute nālage rāgise pāḍutaṁgadoḷ</l>
+	<l>uṇmire rōmajālaveraguttanukaṁpanavetta keygaḷiṁ</l>
+	<l>daṇmi tavāṁghrigaḷgalaranarcipeneṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="53">
+	<l>mātina māleyēke jina ninnaḍe tanneḍeyalladanyaroḷ</l>
+	<l>prītiyanāvaneydidanavaṁ taḷuvēnaḷaleydidaṁ mahā</l>
+	<l>bhītiyaneydidaṁ bhavasamudramaneydidaneṁdoḍātmasa</l>
+	<l>dbūtige nīne mānya perariṁ phalavēnaparājitēśvarā!</l>
+      </lg>
+      <lg n="54">
+	<l>avanumakke nimmaḍigaḷaṁ nenevātane nanna baṁdhu sa</l>
+	<l>dbhāvade pūjipātane sakhaṁ śrutayōgasamr̥ddhanenna saṁ</l>
+	<l>jīvakaneṁbenēkinitu pakṣavideṁbeya nanna meccinā</l>
+	<l>dēvana naccidātanenaganyane pēḷaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="55">
+	<l>lōkamidellavuṁ smarapiśāca vijr̥ṁbhitamiṁdrajālavi</l>
+	<l>dyākathanaṁ yamāsurana dīpanadāhutiyalli pakṣadiṁ</l>
+	<l>śōkamanārge māḷpenolidirpenadārge kanalvenārgenal</l>
+	<l>mūkateyuṁ dayōkti yeraḍē hitaminnaparājitēśvarā!</l>
+      </lg>
+      <lg n="56">
+	<l>monne barutte kaṁḍenavanaṁ mr̥tavādane yādanakkaṭā!!</l>
+	<l>ninne sugōṣṭhigeydanivanoḷ layavādane yādanayyō! iṁ</l>
+	<l>dennoḍavaṁdanītanakaṭā! kaḍegaṁḍane kaṁḍaneṁba mā</l>
+	<l>taṁ nere kēḷutennoḍalanaccuveneṁtaparājitēśvarā!</l>
+      </lg>
+      <lg n="57">
+	<l>eleyele ittalirda mogavattoledīkṣisi munna kaṁḍaroḷ</l>
+	<l>kelabaranalli kāṇalaridiṁtuṭu tōruta māyamappa me</l>
+	<l>ybaleyoḷe bāḷveneṁba manavallade tattanuvaṁ tapaṁgaḷoḷ</l>
+	<l>salisi nijatvamaṁ paḍeyalaṁjuvenēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="58">
+	<l>pēḷave vēḷe vēḷegiḷivāyuvanī gaḷiyārasanneyuṁ</l>
+	<l>kōḷiyumōdutirpa tithipāṭhakaghōṣaṇe taḷtu pēḷeyuṁ</l>
+	<l>kēḷutamaṁtavakkagiyadaṁgavidaṁ sthirameṁde nacci ni</l>
+	<l>nnoḷigadicceyaṁ maredu keṭṭenalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="59">
+	<l>pokku samāna cittavane sādhisi karmanibaṁdhamaṁ laya</l>
+	<l>kikkuveneṁdu tāḷdu tapamaṁ naḍeyutteḍeyoḷkelaṁbaroḷ</l>
+	<l>nakku kelaṁbaroḷmunidu bāḷvudidēṁ biḍapōgi mūrugaṁ</l>
+	<l>cikkida gādeyādenupaśāṁtiyanīyaparājitēśvarā!</l>
+      </lg>
+      <lg n="60">
+	<l>tuṭṭida paṭṭaṇakke payaṇaṁ barutirdavanalligalli tāṁ</l>
+	<l>biṭṭeḍeyoḷpalaṁbaroḷageṁtu samaṁbaḍedirpanaṁte ka</l>
+	<l>ṇṇiṭṭu nijātmasiddhige tapaṁbaḍevaṁ palaralli muṭṭiyuṁ</l>
+	<l>muṭṭada bhāvadiṁ naḍeyavēḷkumalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="61">
+	<l>avanoḷādoḍaṁ kumati kāḷnuḍi kīḷnaḍe tōrutirdoḍā</l>
+	<l>jīvane naijavennade tadīyakaṣāyaguṇaṁgaḷeṁdavaṁ</l>
+	<l>bhāvisi yā kaṣāyatati tannoḷagāgadavol nijātmanaṁ</l>
+	<l>kāvutamirpavaṁ svaparavēdiyalā aparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="62">
+	<l>guṇiyenisutte tāṁ naḍeyutirdoḍamannara durguṇaṁgaḷaṁ</l>
+	<l>gaṇiyisidaṁdu tāṁ guṇavihīnaneyaṁtadariṁda sarvaroḷ</l>
+	<l>guṇavane kāṇboḍuttamaguṇakkavaraṁ taralāroḍellaraṁ।</l>
+	<l>gaṇiyipudalladaṁdavara ciṁteyadēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="63">
+	<l>sarvaguṇaṁgaḷoḷsulabharār jina nīṁ poragāgi lōkadoḷ</l>
+	<l>parvida mithyeyoḷviṣamakāladoḷī narakīṭakaṁgaḷoḷ</l>
+	<l>orvaroḷirdudoṁdu guṇamaṁ guṇakōṭiyenutte kaṁḍu tā</l>
+	<l>nurvuvavaṁge ninna guṇamolliravē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="64">
+	<l>durviṣayagaḷeṁba viṣamaṁ kuḍidārtavirōdhamōhameṁ</l>
+	<l>burvina vatsanābhiyane mecci kiḍuttide lōkavakkaṭā!</l>
+	<l>sarvara meyyoḷā viṣanivāraṇegātmanijasvarūpadā</l>
+	<l>nirviṣamuṁṭadaṁ maredu nōvaradēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="65">
+	<l>ariyale citramīyadaghasaṁtiyātmananetta lānumo</l>
+	<l>ldaridoḍeyastabestavane māḍuvudorme yathārthavāgi tā</l>
+	<l>naridoḍamēno tannoḷage tannane chēdisi śuddha siddhaneṁ</l>
+	<l>darivinoḷīkṣisalke biḍadaccari nōḍaparājitēśvarā!</l>
+      </lg>
+      <lg n="66">
+	<l>gaḷisuvaneyde pāpasukr̥taṁgaḷanuṇbaneraḷpalaṁgaḷaṁ</l>
+	<l>maḷavaśanāgi dēhi sukhi duḥkhi kaṣāyi vināśi kāmi pu</l>
+	<l>lbuḷu sati gaṁḍu ṣaṁḍalenaliṁtu bahusthitiyappanātmanā</l>
+	<l>maḷakuḷamaṁ kaḷalve sukhiyappanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="67">
+	<l>karmanibaṁdhanāgiyumabaṁdhanamūrtane mūrtanāgiyuṁ</l>
+	<l>kūrme viṣādavirdumamalaṁ nabhadaṁtire śūnyanāgiyuṁ</l>
+	<l>dharmaguṇātiśāyikanidātmana vartaneyadbhutakke sā</l>
+	<l>sirmaḍiyadbhutaṁ tiḷiyaballidanāraparājitēśvarā!</l>
+      </lg>
+      <lg n="68">
+	<l>ēkananēkanalpanadhikaṁ kṣayanakṣayanasti nāsti mū</l>
+	<l>lōkamitaṁ svadēhamitanuttamabōdhasudarśanaṁgaḷiṁ</l>
+	<l>lōkakalōkakaṁ nerevanaṁgada nōṭade baddhanātmanā</l>
+	<l>lōkanadiṁde muktanidu śakyamadārgaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="69">
+	<l>mānavarātmatatva mariyalke kuvādivivarjanakke nā</l>
+	<l>nānayamuṁ pramāṇanidhisaṁgrahamuṁ neredirduvalladē</l>
+	<l>dhyānisuvāgaḷī bahuvikalpateyilla maṇitrayātmaneṁ</l>
+	<l>bī nutabhāvamoṁde beḷagirpudalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="70">
+	<l>vyavahr̥tiyeṁdu niścayateyeṁdu maṇitrayamakkumalli dē</l>
+	<l>va vacana tāpasarkaḷavadhāraṇe tāṁ vyavahāradalli dō</l>
+	<l>ṣamanuḷivilladē gelide nīne mama prabhu ninna vāṇiyē</l>
+	<l>śivamatavastasaṁgane tapasviyalā! aparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="71">
+	<l>modaloḷe tattvasaptakadi pēḷdu maṇitrayamaṁ baḷikkidē</l>
+	<l>nidanusirda0damennadirimāptanoḷāgamadoḷtapasviyoḷ</l>
+	<l>pudidudu tattvavargamadariṁderavillamaduṁ nijātma sā</l>
+	<l>dhyada sahakāriyeṁbudu tavājñeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="72">
+	<l>niścayadiṁdamātmane sudarśanamātmane śuddha bōdhamaṁ</l>
+	<l>taścaritaṁ nijātmane maṇitrayarūpanumātmaneṁbuduṁ</l>
+	<l>niścalavāgi naṁbi nijamaṁ tiḷidalliye līnavāgi cī</l>
+	<l>taściramaṁ negaḷce śivameṁdeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="73">
+	<l>ninnane naṁbu naṁbidoḍe nannane naṁbide śuddha dr̥ṣṭiyiṁ</l>
+	<l>ninnane nōḍu nōḍidoḍe nannane nōḍidanaṁ sucittadiṁ</l>
+	<l>ninnoḷagaikyavāgaduve nannoḷagēkateyādudeṁdu ra</l>
+	<l>tōnnatiyiṁtuṭeṁdorede nīne budhaṁgaparājitēśvarā!</l>
+      </lg>
+      <lg n="74">
+	<l>varagurupaṁcakaṁ varatapaścaraṇaṁgaḷirpuvalli sa!</l>
+	<l>dguru guṇaśīlasaṁyamatīrthapavitrateyalli tōrkumu</l>
+	<l>ttara guṇarāśi mūlaguṇavr̥ṁdamirdapudalli ninna ci</l>
+	<l>tpariṇateyalli niṭṭisoḷageṁdeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="75">
+	<l>arivariviṁgaḍarpumarivātanumaṁtade kāṇe kāṇkegaṁ</l>
+	<l>guriyumaḍaṁgi kāṇbanumadē śaraṇaṁ śaraṇārthi sārvuduṁ</l>
+	<l>erakaveraṁguvātanerakakkadhidaivamumātmatatvavē।</l>
+	<l>poragarasalkevēḍa nijaveṁdeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="76">
+	<l>adanaridātanellamaridātanadoṁdane kaṁḍanellamaṁ</l>
+	<l>sadarade kaṁḍanallige manaṁ vaśamādoḍe mukti sādhyamā</l>
+	<l>dudu halavēkadoṁdu poragādoḍe kalta samasta śāstradiṁ</l>
+	<l>cadurarenikkumātmapada sādhakarē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="77">
+	<l>udgata dr̥ṣṭiyiṁ sakalamaṁ poragīkṣisavarpudātmanaṁ</l>
+	<l>hr̥dgata dr̥ṣṭiyiṁdoḷage niṭṭisabāradu janma janmadoḷ</l>
+	<l>pudgalarūpadāru rasamaṁ sukhisalbahudātmarūpasaṁ</l>
+	<l>vidguṇadā rasānnavanuṇalkaridiṁtaparājitēśvarā!</l>
+      </lg>
+      <lg n="78">
+	<l>taḍetaḍedōḍutirpa manamaṁ piḍidātma noḷiṭṭu tanna tāṁ</l>
+	<l>nuḍinuḍidātmanoḷ svaparatattva rahasyamanātmarūpamaṁ</l>
+	<l>aḍigaḍigoldu nōḍuta śamāmr̥tamaṁ sale pīrdu pīrdu taṁ</l>
+	<l>paḍarda tapasviyē sukhi peraṁ sukhiyē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="79">
+	<l>manamanidoṁdanē tanuvinoḷnelasirda nijātmanalli ne</l>
+	<l>ṭṭane nilisalke sāku bhayavattaṇadettaṇadārtaraudramī</l>
+	<l>tanusukhadāseyettaṇadu tīvraparīṣahavetta mōhama</l>
+	<l>llina kurupāṭavetta palavuṁ kosarēkaparājitēśvarā!</l>
+      </lg>
+      <lg n="80">
+	<l>manada vikalpamiṁdriyakaṣāyamanāgipudaṁtavādoḍā</l>
+	<l>tanuvacanaṁgaḷāḍuvavu tānadariṁdave karalabdhiyā</l>
+	<l>manave nijātmarūpadoḷe magnavaneydida mēle karmabaṁ</l>
+	<l>dhanadeḍeyetta nirjaregidoṁdeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="81">
+	<l>manada kubhāvamē duritamalli subhāvame puṇyamīyera</l>
+	<l>ḷmanadoḷagillavā manave tanna nijātmanoḷaikyavāgi su</l>
+	<l>mmane nile mōkṣamaṁtadarinātmane tāṁ page tāne baṁdhuvuṁ</l>
+	<l>tanage viniścayakke guru tāneyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="82">
+	<l>iṣṭarumennoḷirdaparaniṣṭarumennoḷe irdapar jinō</l>
+	<l>ddiṣṭamidirda mēle poragēnanabhikṣipenēna māḍuveṁ</l>
+	<l>aṣṭa guṇaṁgaḷoḷnalivutottarisuttoḍanaṣṭa karmamaṁ</l>
+	<l>dr̥ṣṭiyanennoḷāṁ nirisi niṁdapeninnaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="83">
+	<l>arasuvevenna dēhadoḷagennane kāṇbenamūrtasiddhanaṁ</l>
+	<l>poragoḷagellamaṁ toḷedu tiṁgaḷa puttaḷi māḍi nōḍuveṁ</l>
+	<l>tarubuvenalliyē manamanāgaḷa bāhya samastaciṁteyaṁ</l>
+	<l>marevenanaṁtasaukhyadoḷagāḷdapenānaparājitēśvarā!</l>
+      </lg>
+      <lg n="84">
+	<l>bāgade tūgadōre pugadoyyane saikane kuḷḷitakke niṁ</l>
+	<l>dāgali dēha mūṣeyanupāyadoḷāṁtu tapōgnigoḍḍi bhē</l>
+	<l>rāgire sōrci karmamayaṇākr̥tiyaṁ baḷikalli tōruti</l>
+	<l>rpāgasameṁdu kāṇbenoḷagennanenāparājitēśvarā!</l>
+      </lg>
+      <lg n="85">
+	<l>cētananātmanāgasamacētanameṁdinitalladē svarū</l>
+	<l>pātiśayakke bhēdaviḍalilla nabhakke yumātmatattvakaṁ</l>
+	<l>ōtadariṁdamāgasave tāṁ puruṣākr̥tiyāyto eṁbupā</l>
+	<l>yāturaviṭṭu nōḷpenoḷagennane nānaparājitēśvarā!</l>
+      </lg>
+      <lg n="86">
+	<l>siddhara rūpinoḷmodale nōṭada sādhane māḍi māḍi saṁ</l>
+	<l>śuddhadoḷānumiṁte yenutāgaḷe tannane nōḍi nōḍiyā</l>
+	<l>siddharumānumeṁberaḍu bhēdavaḍaṁgi nijātmanalli sa</l>
+	<l>nnaddhadoḷaikyavāguvane siddhanalā। aparājitēśvarā!</l>
+      </lg>
+      <lg n="87">
+	<l>nāsikadagradoḷnelasi dr̥ṣṭigaḷoppe manaṁ lalāṭadoḷ</l>
+	<l>sūsade kūrmanaṁtoḷagaḍaṁgisi mattuḷidiṁdriyaṁgaḷaṁ</l>
+	<l>śvāsamadoyyanāgadoḷagenne nāṁ pariyaṁka caṁdra bha</l>
+	<l>drāsanamāḍiyādavarōḷīkṣipeninnaparājitēśvarā!</l>
+      </lg>
+      <lg n="88">
+	<l>kalige mahābalaṁge mukhakukkuṭakūrmasarōjavajrakuṁ</l>
+	<l>ḍalika mayūravīramakarōtkuṭikāsanamādiyādivuṁ</l>
+	<l>phalisugumalpaśaktigeseguṁ pariyaṁkamadoṁdu magguloḷ</l>
+	<l>malagiyumātmadr̥ṣṭiyahudāradavaṁgaparājitēśvarā!</l>
+      </lg>
+      <lg n="89">
+	<l>āsanasaṁkulaṁgaḷanubaṁdhadi jāḍyaharaṁ paṭutvave</l>
+	<l>llōsarikuṁ purāṇaruje pūrakakuṁbhakarēcikaṁgaḷa</l>
+	<l>bhyāsame cittamaṁ sthirate māḍi vikalamanuttuguṁ samaṁ</l>
+	<l>tī samakaṭṭu bēku nijamaṁ bagevaṁgaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="90">
+	<l>poḷe kareyottu vārdhitaṭamarhadagāramaraṇyamuṁ vanaṁ</l>
+	<l>puḷilacaḷaṁ bilaṁ guhe niṣīdike pāḷmane rudrabhūmiyi</l>
+	<l>nnuḷida viviktamakke paśu ṣaṁḍa vadhū khaḷajaṁtu dārigar</l>
+	<l>suḷiyada tāṇamādoḍivu jānake lēsaparājitēśvarā!</l>
+      </lg>
+      <lg n="91">
+	<l>bārada jānamaṁ barisikoṁba susādhujanakkivalladē</l>
+	<l>ghōratapōdhanaṁ bagevanē maḷe gāḷi siḍilbisilgaḷaṁ</l>
+	<l>sīruḍu pāvu perbuligaḷaṁ perariṭṭu pasargamaṁ manō</l>
+	<l>dhīrade geldu nityapadanappanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="92">
+	<l>raṁbheyu baṁdu tāṁ koralanappidoḍaṁ puḷakaṁgaḷāgadē</l>
+	<l>kuṁbhi camūru br̥ṁhisute garjisutaṁ bare balpuguṁdadē</l>
+	<l>jr̥ṁbhisi kāḷugiccu kaviyuttire buddhi kalaṁkadē śilā</l>
+	<l>staṁbhavenalkeyennoḷage nilvenadeṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="93">
+	<l>irutirutirdu ciṁtisi śarīrada karmada rūpanaṁte ko</l>
+	<l>kkarisi tapōgniyiṁ suḍuvenī bhavabaṁdhamaneṁdu dhairyamaṁ</l>
+	<l>kurisi parīṣahaṁ barisi dēhamanoḍḍi nijātmadr̥ṣṭiyoḷ</l>
+	<l>teraḷade niṁdu gelvavane dhanyanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="94">
+	<l>oppisi dēhamaṁ tapada tāpake tanna nabhasvarūpamaṁ</l>
+	<l>napparidappikoṁḍu nile lōkada kaṇgidu yōgivēṣamō</l>
+	<l>leppada rūpo kalla parijō ene tōrpinamaṣṭakarmamuṁ</l>
+	<l>kappane kaṁdi beṁdu tapanaṁbugavē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="95">
+	<l>ādiya vajrakāyadavargallade tāḷvudaśakyamuṣṇavā</l>
+	<l>tādiparīṣahaṁgaḷanadēṁ bisavaṁdamo īgaḷuṁ kelar</l>
+	<l>ī doremeyyoḷugrataraghōramahātapamaṁ negaḷcuguṁ</l>
+	<l>mēdinigī munīṁdrare jinēṁdraralā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="96">
+	<l>narakadoḷaṭṭi meṭṭi kaḍu kāsuva kīsuva sarvabādheyaṁ</l>
+	<l>smarisidoḍotti hēri paśuvaṁ mr̥gavādoḍe yeccu kocci gō</l>
+	<l>ṇarivudanabbeyubbarada gabbadoḷubbasadiṁ baḷalda ta</l>
+	<l>nniravane ciṁtipaṁge tapadoḷbirisēkaparājitēśvarā!</l>
+      </lg>
+      
+      <lg n="97">
+	<l>svāmikumāranā gajakumāranā sukumāranātma ciṁ</l>
+	<l>tāmaya saṁjayaṁta gurudatta cilātaja dharmaputrarā</l>
+	<l>svāmisuvarṇabhadra śivabhūti sudarśana pārśvanātharā</l>
+	<l>nēmavideṁdu niṁdoḍedeyoḷbhayavē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="98">
+	<l>meyya nirāśe ghōratapamuttamasaṁyamamātmatattva maṁ</l>
+	<l>keyyoḷagirda kannaḍiya noḷpavolīkṣipa bōdhe kūḍidā</l>
+	<l>saṁyamigelli kāṁkṣeyidiriṁ kṣaṇadoḷbhavavr̥kṣa mūlamaṁ</l>
+	<l>kuyyane suṭṭu tūri śivanāgiranē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="99">
+	<l>kavida mugilgaḷē pareyaleṁdure ciṁtisavēḷkumalladē</l>
+	<l>ravigadhikaprakāśaguṇavāgali yeṁdenavēḷke yātmanuṁ</l>
+	<l>bhavavikr̥tāṣṭakarmavane naṣṭamaneydipaneṁbudalladē</l>
+	<l>śivasukhameṁbudaṁ bayasalēke nijakkaparājitēśvarā!</l>
+      </lg>
+      <lg n="100">
+	<l>śuddha nijātmanaṁ biḍade kāṇba subhavyana saukhyaveṁbudā</l>
+	<l>siddhara saukhyadaṁśamenavēḷkumallade nāgadēvama</l>
+	<l>rtyōddhatasaukhyadalli sarihōlisalāgadēke karmasaṁ</l>
+	<l>baddhavadiṁtidastamalamappudariṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="101">
+	<l>ciṁteyoḷoṁdidāva bardukuṁ bahuduḥkhame yeṁbareṁdumā</l>
+	<l>ciṁteya bāḷoḷē bardukutirparadēke sukhasthaḷāṁdhakar</l>
+	<l>ciṁtipa māḷpa mātuliva daṁdugavillade tanna rūpinoḷ</l>
+	<l>śāṁtade teppagirpa bagedōradalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="102">
+	<l>nōḍidu citramīkṣisuvudenna nijatvamadarke dēhama</l>
+	<l>llāḍade kuḷḷitirpa kelasaṁ dorekoṁbudu mōkṣamiṁtidaṁ</l>
+	<l>māḍuvudarke nānalasi meymana mātugaḷaṁ bayalge rō</l>
+	<l>ḍāḍisi karmamaṁ karevenajñateyiṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="103">
+	<l>ciṁtisavēḷpoḍaṁ biḍade ciṁtike dēhada kaṣṭamaṁ su</l>
+	<l>bhrāṁtiyanaidu bhēdabhavamaṁ navabhēdapadārthamaṁ vratā</l>
+	<l>naṁtavanarhadādigaḷanātmana karmada rūpanēkenal</l>
+	<l>ciṁte yidastaciṁteyane māḷpudariṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="104">
+	<l>aḷedirisirdudaṁ kuḍuvanaṁte pavaṇnuḍiyiṁde bhavyaraṁ</l>
+	<l>tiḷipuva summanirpa nijakāryake puruṣamr̥gaṁbolurviyoḷ</l>
+	<l>poḷeva viviktamaṁ puguva baita nidhānavanīkṣipātanaṁ</l>
+	<l>toḷagane kāṇṇanē saphalajanmanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="105">
+	<l>maḷe suridāgaḷeṁtu pani gāḷi siḍildanigaḷki bāhyadoḷ</l>
+	<l>suḷiyade dēhadoḷśiśugaḷirdapuvaṁtele yōgi nīnuma</l>
+	<l>ggaḷipa vikārajr̥ṁbhaṇada duṣṭamadoḷporagāḍabēḍa pa</l>
+	<l>jjaḷasute ninnoḷirdu jayiseṁdeyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="106">
+	<l>nīḍu dinaṁ nijātmanane bhāvisi saṁskr̥tanāda mēle tāṁ</l>
+	<l>nōḍuvudalliyē tiḷivudalliye porduvudalliyē priyaṁ</l>
+	<l>māḍuvudalliyē sukhipudalliye arcipudalliyē mara</l>
+	<l>ldāḍuvudalliyē porage meccanalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="107">
+	<l>siriyoḷagaṁtadē siri sukhakkade saukhyavanēkatattvadā</l>
+	<l>tiruḷade tāne kaṭṭakaḍe sarvavicārake yeṁtanalke sa</l>
+	<l>dgurugaḷumaivarirdaradaroḷvaradarśanabōdhavr̥ttigaḷ</l>
+	<l>paramatapaṁgaḷalli nelegoṁḍudariṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="108">
+	<l>bahuvacanaṁgaḷēke bhuvanatrayasāramidātmatattvamu</l>
+	<l>tsahaparanāgi tānadane bhāvisutirdoḍe muktiyeyduguṁ</l>
+	<l>sahajamidoṁde innuḷiduvellavavēṁ vyavahāravātmanaṁ</l>
+	<l>vahisi bhavaṁgaḷoḷbarisutirpuvalā! aparājitēśvarā !</l>
+      </lg>
+      <lg n="109">
+	<l>āva tapaṁgaḷuṁ śrutamumācaraṇaṁgaḷumakke tanna ci</l>
+	<l>ddhāvada nōṭadoḷpudidu baṁdoḍe nirjare māḷkumaṣṭaka</l>
+	<l>rmāvaḷiyaṁ baḷikke śivamappudu tāne yadalladirdoḍā</l>
+	<l>jīvake puṇyabaṁdhavane māḷpudalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="110">
+	<l>bhavyanabhavyanirvarumudagratapōvrataśāstradoḷsamā</l>
+	<l>navyavasāyarapparadariṁ surasaṁpadamappudalladē</l>
+	<l>avyayasiddhiyāgadadu tannaya cittavanātmarūpadoḷ!</l>
+	<l>bhavyatapasvi yōjisidoḍappudalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="111">
+	<l>maneyoḷe pūḷda tannoḍaveyuṁ tegeduḷkoḍe puṇyamilladaṁ</l>
+	<l>dhanikara pordi bēḍidoḍe īvare ittoḍuṇalke sālvanē</l>
+	<l>tanuvinoḷirda tannanure kāṇboḍe bhavyateyilladirdavaṁ</l>
+	<l>munimataveydiyuṁ śivavaneyduvanē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="112">
+	<l>aśubhaśubhaṁgaḷeṁberaḍu yōgamivavratasuvrataṁgaḷoḷ</l>
+	<l>viśadamiviṁtu saṁskr̥tiya māḷpuvu duḥkhasukhasvarūpadoḷ</l>
+	<l>aśubhavanolladā śubhadoḷirdadanuṁ toredātmanoḷmanō</l>
+	<l>vaśanene śuddhayōgamidu siddhiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="113">
+	<l>vratatatiyilladaṁdu pavaṇilla manakkadariṁde pāpamā</l>
+	<l>vratatatiyuḷḷoḍaṁtadane pālipenavratamaṁ keḍippeneṁ</l>
+	<l>batimatiyuḷḷinaṁ sukr̥tamakkumaduṁ bhavabījamī manaḥ</l>
+	<l>kṣate kiḍe tannoḷirdoḍe siddhiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="114">
+	<l>adhyayanaṁgaḷiṁ vrataciṁtaneyiṁ stutiyiṁ prabōdheyiṁ</l>
+	<l>sādhyamanaskanāgi nijarūpanappidavaṁge bēre ma</l>
+	<l>ttadhyayanādigaḷmereyavāda vikalpamumilla lōkakā</l>
+	<l>rādhyanavaṁge pūjyaguṇarillavalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="115">
+	<l>pagaraṇadāṭameṁdu jagamaṁ sale nōḍute durvikalpamaṁ</l>
+	<l>tegedu bisāḍutaṁ nijacidātmananīkṣisutaṁ viśōdhiyoḷ</l>
+	<l>mige muḷugāḍutaṁ śamarasāmr̥tamaṁ saviyutte tanna tā</l>
+	<l>nagute viḷāsadiṁ tapisuvaṁgeṇeyāraparājitēśvarā!</l>
+      </lg>
+      <lg n="116">
+	<l>mūru śarīradoḷtaḍeyadaṁtaradātmanoḷaikyavāgi baṁ</l>
+	<l>dēruva duṣparīṣahavadaṁgakenuttupaśāṁtanappu duṁ</l>
+	<l>jārugumoyyanoyyane cidāvaraṇādigaḷātmasiddhi me</l>
+	<l>ya6yōrugumoyyanoyyanide yuktiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="117">
+	<l>nōḍuva nōḍi lālisuva lālisutātma sukhakke vismayaṁ</l>
+	<l>māḍuva māḍi meccuva nijātmanoḷāgale meccutaikyadiṁ</l>
+	<l>kūḍuva kūḍi meymareva tanmayanāgute tāne tannoḷō</l>
+	<l>lāḍuva jōgiyē amr̥tabhāgiyalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="118">
+	<l>iṁgaḍaloḷmuḷuṁgidavolirpudu mēghavaḍaṁgidaccave</l>
+	<l>ḷdiṁgaḷa kāṁtiyoḷberasidaṁtevolirpudu siddharāśiyoḷ</l>
+	<l>saṁgatavāda volmerevudātmanōḷātmananātmaniṁde kaṁ</l>
+	<l>ḍaṁgaripaṁdadiṁ nuḍiyalennaḷavē! aparājitēśvarā!</l>
+      </lg>
+      <lg n="119">
+	<l>avana barduṁke tāṁ barduku janmavadē saphalaṁ viśiṣṭalā</l>
+	<l>bhavumade sarvasiddigadu mottamodalsuvicārakōṭige</l>
+	<l>llavaroḷadoṁde kaṭṭakaḍe tannoḷetannane tāne kaṁḍu bā</l>
+	<l>hyavanuḷidirdavaṁge bhavavettaṇadinnaparājitēśvarā!</l>
+      </lg>
+      <lg n="120">
+	<l>tanuvinoḷirda siddhasadr̥śātmananīkṣisutaṁ viśōdhi saṁ</l>
+	<l>janitadoḷēnanāḍidanadellavumāgamamellaricche he</l>
+	<l>ccina kaḷe karmanirjare jagattrayavallabhanappa kajjavi</l>
+	<l>nninitiniteṁdadarke mitimāḍuvarāraparājitēśvarā!</l>
+      </lg>
+      <lg n="121">
+	<l>ravi naḍedattalella beḷagallade kattaleyuṁṭe yātmata</l>
+	<l>ttvave manadalli naṭṭu nuḍivātana mātugaḷella mōkṣamā</l>
+	<l>rgave yavanelli niṁdanadu tīrthavavaṁ naḍedu sarvaru</l>
+	<l>tsavamidu ninna mārgada rahasyavalā! aparājitēśvarā!</l>
+      </lg>
+      <lg n="122">
+	<l>āridanoldu kai viḍidarāridanīkṣisidar yathārthadiṁ</l>
+	<l>dāridaralliyē layavaneydi nijaṁbaḍedar jagakkidaṁ</l>
+	<l>āranuśāsanaṁgoḷisida‌r jina nīne jagattrayaikavi</l>
+	<l>stāritavastuvaṁ beḷagidai kr̥peyiṁdaparājitēśvarā!</l>
+      </lg>
+      <lg n="123">
+	<l>celuvara celva cennigara cenna suvīrara vīra satkalā</l>
+	<l>balara balāḍhya ballidara ballaha dēvara dēva nītini</l>
+	<l>rmalara nidhāna nicca madavakkaḷa māṇikakāṁti śāṁti śī</l>
+	<l>talara śirōmaṇī ninage pāsaṭiyāraparājitēśvarā!</l>
+      </lg>
+      <lg n="124">
+	<l>jaḍamatiyaise nāṁ parama ninna guṇaṁgaḷanellamaṁ manaṁ</l>
+	<l>biḍiye samarthanallenadariṁ kiridaṁ piḍidirpeneṁtenal</l>
+	<l>koḍadoḷageṣṭu nilvudu samudrajalaṁ varakāṁcanādri ka</l>
+	<l>nnaḍiyoḷageṣṭu tōrpudavadhārisu nīnaparājitēśvarā!</l>
+      </lg>
+      <lg n="125">
+	<l>baṁdolaviṁde ninnidiroḷoppade niṁdu karaṁgaḷaṁ nosa</l>
+	<l>lgoṁdisi dēvadēva karuṇākara binnapavātmasiddhiyi</l>
+	<l>nneṁdenagappudeṁdoḍele kaṁda kaḍaṁgadiriṁdu nāḷe ye</l>
+	<l>mmaṁdave yappeyeṁba nuḍigēḷvenadeṁdaparājitēśvarā!</l>
+      </lg>      
+      <lg n="126">
+	<l>munna manēkaraṁ bhavadinetti yaśōnidhiyāde yādoḍēṁ</l>
+	<l>ninna dayāguṇakkadu viśēṣame mūrkhananārtaraudranaṁ</l>
+	<l>nanna pavitra māḍidoḍe doḍḍa pesarghanakīrti dēva bhū</l>
+	<l>tennadiroppugaḷnagadirai śaraṇāgaparājitēśvarā!</l>
+      </lg>
+      <lg n="127">
+	<l>śrīśubhavetta mērunagadiṁdradiśāsthitavatsakāvatī</l>
+	<l>dēśadoḷirdapai vijitaghāticatuṣka jagat‌trayārcitā</l>
+	<l>lēśamadādoḍaṁ pudida pudgaladalliralārenayya sa</l>
+	<l>rvēśa śaraṇya gaṇya taḷuvēṁ śaraṇāgaparājitēśvarā!</l>
+      </lg>
+      <lg n="128">
+	<l>trijagatsvāmigaḷirdapardhareyoḷīgaḷdūravallirdoḍī</l>
+	<l>vijayārdhaṁ himavadvayaṁ niṣadhameṁbī nālku pergoḍegaḷ</l>
+	<l>prajegaḍḍaisidavaise kāṇbirimaḍartārādhanaṁ māḍirō</l>
+	<l>nijadiṁdemmaparājitēśvaranumaṁ śrī maṁdarasvāmiyaṁ</l>
+      </lg>
+      <trailer>
+	<label>gadya</label>
+	śrī maddēvēṁdrakīrtiyōgīśvarapādāṁbhōjabhr̥ṁgāyamāna <lb/>
+	śr̥ṁgārakavihaṁsarājaviracimappa aparājitēśvara sapādaśatakaṁ<lb/>
+	samāptaṁ.
+      </trailer>
+    </body>
+  </text>
+</TEI>
