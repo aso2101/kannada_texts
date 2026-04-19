@@ -1377,10 +1377,10 @@ para kaṇṭhadhvanigaḷ śravassubhagamāṣeytandu tattatparī
 saravēlladdaruḍīśramānugativēgaṁ rāgadoḷ tappe ta
 dduruhastaśramadaṇḍacaṇḍahatiyantakkuṁ kumārarkaḷoḷ // Ananta.3.15
 
-suṭiva turaṅgavāhaḷiya pūvaliyoḷ poredaṅkadāneya
-gr̥ṭiya madāmbukardamadoḷardu banaṅgaḷoḷimbuvetta ta
-ṇṇuṭiloḷagollu kūḍuviniyarge teraḷḷida kampu taṇṇu poṁ
-puṭiyanalarci tīḍuvudu tatpurabāhiramandamārutaṁ // Ananta.3.16
+suḻiva turaṅgavāhaḷiya pūvaliyoḷ poredaṅkadāneya
+gr̥ḻiya madāmbukardamadoḷardu banaṅgaḷoḷimbuvetta ta
+ṇṇuḻiloḷagollu kūḍuviniyarge teraḷḷida kampu taṇṇu poṁ
+puḻiyanalarci tīḍuvudu tatpurabāhiramandamārutaṁ // Ananta.3.16
 
 nayanōnmādamanīye nuṇṇarijugaḷ kaṇṇīṭadiṁ dvāraśā
 kheya kāḷāgarudhūpadhūmavisaraddhaṅgīnikr̥ṣṭārthadū
@@ -6249,7 +6249,7 @@ pamitaṁ jyōtiranantakalpajaroḷāyuḥ piṇḍavembāgaḷa
 yya manuṣyarkaḷa jātimr̥tyusamayaṁ pōlekkisalakkudē // Ananta.9.26
 
 [va.]
-antu malladeyuṁ
+antum alladeyuṁ
 
 adanēgaḷ piraṇṇa nārakaranantānantaduḥkhaṅgaḷoḷ
 kudiyuttirpa durantadusthitigaḷaṁ pēḷveṅge meynōḍe pē

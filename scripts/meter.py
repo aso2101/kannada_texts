@@ -21,8 +21,9 @@ Note that this file is generated automatically from the data in `/tei/` by the s
             with open(tei,'r') as f:
                 tree = etree.parse(f)
                 text = tree.getroot().attrib['n']
-                title = tree.find("//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title",namespaces).text
-                for target in tree.findall("//tei:*[@met]",namespaces):
+                title = tree.find(".//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title",namespaces).text
+                print("Processing "+title)
+                for target in tree.findall(".//tei:*[@met]",namespaces):
                     if 'n' in target.attrib:
                         met = target.attrib['met']
                         verse = target.attrib['n']
