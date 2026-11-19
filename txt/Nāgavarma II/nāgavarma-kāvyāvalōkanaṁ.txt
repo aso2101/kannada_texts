@@ -2782,6 +2782,7 @@ vitarkadiṁ mattamuktaśēṣamanidaṟoḷ // Kāvyāva.421 [kandaṁ]
 
 
 idu śabdasmr̥tiyoḷ ākhyātaprakaraṇaṁ pañcamaṁ
+
 intire śabdaṁ sandēha
 dhvāntaughaṁ piṅgire jalakanāge budha
 santatigappantu pēḻdanidaṁ
@@ -3253,6 +3254,7 @@ vyaccitanay triśaktiyutanay vijigīṣuvayasta vairiyay // Kāvyāva.494 [utpal
 
 idu kāvyamalavyāvr̥ttiyoḷ vākyavākyārtha dōṣānukīrtanaṁ
 dvitīyaṁ prakaraṇaṁ
+
 ī pēḻda māḻkeyiṁ dōṣā
 lēpaṁ pordadantire sannibandha
 vyāpr̥tanakke guṇavadarthaṁ

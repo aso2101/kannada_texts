@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../Schemas/tei.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" n="Chandō">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="kan-Latn">Chandōmbudhi</title>
+        <title xml:lang="kan-Knda">ಛಂದೋಂಬುಧಿ</title>
+        <author><persName>Nāgavarma</persName></author>
+        <respStmt>
+          <persName xml:id="Claude">Claude</persName>
+          <resp>transcription of the verses from the page images (chandombudhi-text.pdf), conversion to ISO, structure; not proofread</resp>
+        </respStmt>
+        <respStmt>
+          <persName xml:id="AO">Andrew Ollett</persName>
+          <resp>checks and corrections (pōḻa for pōṭa, pēḻv- for pēḻb-)</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt><p>Placeholder</p></publicationStmt>
+      <sourceDesc><p>Kannada edition of the Chandōmbudhi with modern Kannada paraphrase (PDF chandombudhi-text.pdf, 146 pp.); only the verses of the text are transcribed, all six adhikāras.</p></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Only the verses (lines aligned at the left, with the verse number between double bars at the end of the last line) are kept; the word-order prose and the modern paraphrase of the edition are not transcribed. The Kannada was converted to ISO transliteration (ಱ = ṟ, ೞ = ḻ, ಳ = ḷ, ಎ/ಒ = e/o, ಏ/ಓ = ē/ō). The attribute <att>met</att> of a verse is the metre name printed before the verse; verses are grouped by the number of syllables of the pāda, read from the scan of the lines. A word with <gi>unclear</gi> contains a letter that the transcribers could not read with certainty.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <body>
+    <div type="adhikāra" n="1">
+      <head>sañjñāprakaraṇaṁ</head>
+      <head>prathamādhikāraṁ</head>
+      <lg n="1" xml:id="Cb.1.v001">
+        <l>śrī-vadhuvaṁ payōdhi-mathanōdbhava-vastu-samūhadoḷ mahā-</l>
+        <l>dēva-samētar ird’ asuraruṁ suraruṁ kuḍe tanna maccugoṇḍ’</l>
+        <l>āvan aśēṣabhū-bhuvana-maṇḍala-vallabhanāda<supplied>nāta</supplied>nī</l>
+        <l>gāvagam emma bēḻpa varamaṁ dayeyiṁ sukavīndra-vallabhaṁ</l>
+      </lg>
+      <lg n="2" xml:id="Cb.1.v002">
+        <l>jaḍegaḷa bambaloppuvalakāvaḷi bhīṣaṇam appa pāvin oḷḍ’</l>
+        <l>uḍuge podaḷda ponduḍuge śakti virājita-śakti śūlavo</l>
+        <l>ḷpiḍida karāsi gauri nija-vallabhey āgire mikka nāki sa</l>
+        <l>yyaḍiya pināki kūrtu namag’ īge varaṅgaḷan utsavaṅgaḷaṁ</l>
+      </lg>
+      <lg n="3" xml:id="Cb.1.v003">
+        <l>sakala-kalāgamābharaṇanīśvara-sūnu-samasta-vastu-rū-</l>
+        <l>pakan akalaṅkan abhyudaya-kāraṇa-vāraṇa-vaktran āpta-lau-</l>
+        <l>kika-matan anvitāgama-padārtha-paramparan ādanā vinā</l>
+        <l>yaka-gaṇa-nāyakaṁ kr̥tige nāyakan akke negaḻteg’ ōjanā</l>
+      </lg>
+      <lg n="4" xml:id="Cb.1.v004">
+        <l>nagemogamaṁ podaḷda posajavvanamaṁ migil appa gāḍiyaṁ</l>
+        <l>sogayipa muddugeyyuman oṟaldu nisaṁ manavāṟi nōḍi to-</l>
+        <l>ṭṭuge koḷe mēlevāyda mahiṣāsuranaṁ tave kondaḷ āvaḷ ā</l>
+        <l>bhagavati kūrtu bīrasiriy īge bhujāsige nāgavarmanā</l>
+      </lg>
+      <lg n="5" xml:id="Cb.1.v005">
+        <l>odavida kairavaṁ mugiye dhāriṇiyoḷ kaḍumundam āgi pa</l>
+        <l>rvida tamamellam ōsarise tannane kīrtipa śiṣyakōṭig’ a-</l>
+        <l>bhyudaya-varaṅgaḷaṁ nijakaraṁ dayeg’ eydire tāne dēvanā</l>
+        <l>dudaya-divākaraṁ karam alarcuge namma mukhāravindamaṁ</l>
+      </lg>
+      <lg n="6" xml:id="Cb.1.v006">
+        <l>atimadhura-prasanna-paripūrṇa-rasōcite rañjitārthasaṁ</l>
+        <l>yute sakalāgamōkti-yuta-lakṣaṇa-lakṣya-samasta-vastu-saṁ-</l>
+        <l><supplied>ga</supplied>te sarasīja-garbhana mukhāmbujadindam agaldu bandu bhā</l>
+        <l>rati nelasirke kūrtu mukha-paṅkajadoḷ kavi nāgavarmanā</l>
+      </lg>
+      <lg n="7" xml:id="Cb.1.v007">
+        <l>ballara bageyiṁ kaltudan</l>
+        <l>ellaman ēgoṇḍ’ oldu pēḻalkītaṁ</l>
+        <l>ballan enalk’ eṟavikkida</l>
+        <l>beldadavol apūrvam āge pēḻdaṁ kr̥tiyaṁ</l>
+      </lg>
+      <lg n="8" xml:id="Cb.1.v008">
+        <l>karam arthākaram ucitā-</l>
+        <l>kṣaram avalamba-prasanna-mati-madhuram alaṁ-</l>
+        <l>karaṇa-yutam enisi pēḻal</l>
+        <l>dhareyoḷ kavi-rāja-haṁsan orvane ballaṁ</l>
+      </lg>
+      <lg n="9" xml:id="Cb.1.v009">
+        <l>prāsānuprāsakk’ adu</l>
+        <l>lēs’ āge pesar kaḍaṅ<supplied>ge</supplied> kannaḍadiṁ pē-</l>
+        <l>ḻd’ āsukara-kaviya balmeyan</l>
+        <l>ā sukavi-prakaram aṟidu meccugum altē</l>
+      </lg>
+      <lg n="10" xml:id="Cb.1.v010">
+        <l>jagadoḷag’ id’ ondu migil ene</l>
+        <l>negaḻdirpudu veṅgi-viṣayam ā viṣayadoḷ o-</l>
+        <l>ḷpagaṇitam ene saptagrā</l>
+        <l>magaḷoḷam ā veṅgipaḻu karaṁ sogayisuguṁ</l>
+      </lg>
+      <lg n="11" xml:id="Cb.1.v011">
+        <l>ā veṅgipaḻuvinoḷ vibhu-</l>
+        <l>dēva-samānaṁ vidagdhan ambuja-bhavan’ ant’</l>
+        <l>āvagamoḷ guṇanidhiy end’</l>
+        <l>ī vasudheyoḷ enisi veṇṇamayyaṁ negaḻdaṁ</l>
+      </lg>
+      <lg n="12" xml:id="Cb.1.v012">
+        <l>vēdadoḷ anugatar enisuva</l>
+        <l>vēdigaḷoḷ nipuṇan āgi negaḻdaṁ gambhī-</l>
+        <l>rōdanvat-parivēṣṭita-</l>
+        <l>mēdiniyoḷ veṇṇamayyan akalaṅka-guṇaṁ</l>
+      </lg>
+      <lg n="13" xml:id="Cb.1.v013">
+        <l>sakala-jñāna-vinandita-</l>
+        <l>sukara-guṇa-prabhavan ā manōbhava-rūpā</l>
+        <l>dhikan ambuja-sambhava-mū-</l>
+        <l>rti karaṁ kauṇḍinyagōtran anupamacaritaṁ</l>
+      </lg>
+      <lg n="14" xml:id="Cb.1.v014">
+        <l>vitata-yaśaṅg’ ā vipraṅ-</l>
+        <l>ge tat-priya-sabhājita-dvijanmaṅge guṇā</l>
+        <l>nvite sati saj-janikeg’ arun-</l>
+        <l>dhatige migil kauṇḍikabbey embaḷ pesariṁ</l>
+      </lg>
+      <lg n="15" xml:id="Cb.1.v015">
+        <l>ā kauṇḍikabbegaṁ mahi</l>
+        <l>mā-karan ene negaḻdu veṇṇamayyaṅga-manaṅg’</l>
+        <l>ākāran āgi puṭṭiye</l>
+        <l>lōka-stutan āgi dāmamayyaṁ negaḻdaṁ</l>
+      </lg>
+      <lg n="16" xml:id="Cb.1.v016">
+        <l>ātana kula-vanite jagat-</l>
+        <l>khyāta guṇa-vrāte rūpa-lāvaṇya-rasō</l>
+        <l>pēte gurujāyegaṁ migil</l>
+        <l>ētaṟoḷaṁ kundakabbey embaḷ pesariṁ</l>
+      </lg>
+      <lg n="17" xml:id="Cb.1.v017">
+        <l>ene negaḻda kundakabbegam</l>
+        <l>anindya-guṇan enipa dāmamayyaṅgaṁ bhū-</l>
+        <l>vinuta-yaśaṁ dvija-vandyaṁ</l>
+        <l>manu-mārgaṁ veṇṇamayyan agratanūjaṁ</l>
+      </lg>
+      <lg n="18" xml:id="Cb.1.v018">
+        <l>śrī-kāntā-pati-sakala-ka</l>
+        <l>lā-kōvidan advitīyan atulacaritraṁ</l>
+        <l>laukika-vaidika-śāstra-vi</l>
+        <l>vēki kalābhijñan enisi negaḻdaṁ dhareyoḷ</l>
+      </lg>
+      <lg n="19" xml:id="Cb.1.v019">
+        <l>ant’ enipa veṇṇamayyana</l>
+        <l>kānte guṇa-vrāte dharaṇisutegaṁ migil emb’</l>
+        <l>ant’ odavida pati-bhaktiyan</l>
+        <l>āntesevaḷ pōḻakabbey embaḷ pesariṁ</l>
+      </lg>
+      <lg n="20" xml:id="Cb.1.v020">
+        <l>ā pōḻakabbegaṁ vi-</l>
+        <l>dyā-pariṇatan enipa veṇṇumayyaṅgaṁ vāk-</l>
+        <l>śrī-pati satya-vitattva-gu-</l>
+        <l>ṇōpētaṁ nāgavarman agratanūjaṁ</l>
+      </lg>
+      <lg n="21" xml:id="Cb.1.v021">
+        <l>hara-hāsakk’ ond’ eraḻ dik-kari-radanak’ eraḻ mūṟu nākādhinātha-</l>
+        <l>dviradakkaṁ mūṟunālkinduvina rucige nālkaydu dugdhābdhigayd’ ā</l>
+        <l>ṟavindakk’ attal āṟ ēḻamaranadigam ēḻ eṇṭu kailāsa-dhātrī-</l>
+        <l>dharak’ eṇṭombattu mēl āyt’ ene pasarisidaṁ kīrtiyaṁ nāgavarmaṁ</l>
+      </lg>
+      <lg n="22" xml:id="Cb.1.v022">
+        <l>kuntī-putraṁ poṇarda raṇadoḷ padma-jaṁ śāstradoḷ śr-ī</l>
+        <l>kāntaṁ mattaṁ piriya siriyoḷ sindhujaṁ śaucadoḷ ka</l>
+        <l>rṇaṁ tapp’ ill’ end’ enipa nuḍiyoḷ vikramādityan’ ant’ ō-</l>
+        <l>rantānt’ audārateyoḷ esedaṁ kanda-kandarpan enduṁ</l>
+      </lg>
+      <lg n="23" xml:id="Cb.1.v023">
+        <l>tanuvind’ ondu guṇaṅgaḷind’ eraḍu sāhityaṅgaḷiṁ mūṟu san-</l>
+        <l>manadiṁ nālk’ amaḷatvadaydu vilasac-cāritradind’ āṟu saj-</l>
+        <l>janadind’ ēḻu sutattvadinde taḷed’ eṇṭ’ aṅgaṁ bhuja-dvandvadoḷ</l>
+        <l>tanaginnār sari nāgavarma-kr̥tig’ endaṁ kāḷidāsambaraṁ</l>
+      </lg>
+      <lg n="24" xml:id="Cb.1.v024">
+        <l>mativantar saman emboḍ’ āv eḍeyoḷaṁ matt’ orvar ill’ abdhi-vē-</l>
+        <l>ṣṭita-bhū-cakradoḷ entu mēru-girigaṁ matt’ ondu śailēndram u-</l>
+        <l>nnatam ill’ entuṭe nākigaṅg’ enutum ā mattēbhavikrīḍitaṁ</l>
+        <l>pratiyend’ intu taguḷdu koṇḍukoneguṁ viśvambharā-maṇḍalaṁ</l>
+      </lg>
+      <lg n="25" xml:id="Cb.1.v025">
+        <l>arasaṁ rakkasa-gaṅgaṁ</l>
+        <l>gurugaḷ negaḷd’ ajitasēna-paṇḍita-dēvar</l>
+        <l>poreda nr̥pan’ aṇṇan ene ma-</l>
+        <l>ccarisuvar ār nākiy iruḷoḷ ēṁ puṭṭidanē</l>
+      </lg>
+      <lg n="26" xml:id="Cb.1.v026">
+        <l>gaṇḍara mūkutiy enisida</l>
+        <l>maṇḍali-kara-mantri sandhivigrahi rāyaṁ</l>
+        <l>koṇḍāḍi poredan ene dhare</l>
+        <l>koṇḍāḍade koṇḍukoneyudē nākiganaṁ</l>
+      </lg>
+      <lg n="27" xml:id="Cb.1.v027">
+        <l>ene negaḻda nāgavarmaṁ</l>
+        <l>vinutātiviśiṣṭa-sēvyan aṅgaja-rūpaṁ</l>
+        <l>jana-nutan aśēṣa-vidya</l>
+        <l>jñana-hitamaṁ chandamaṁ manaṅgoḷe pēḻdaṁ</l>
+      </lg>
+      <lg n="28" xml:id="Cb.1.v028">
+        <l>indudharanum ege pēḻd’ ā</l>
+        <l>chandaṁ piṅgaḷanin avaniyoḷ paridoḍ’ ā</l>
+        <l>chandōmburāśiyoḷ moge</l>
+        <l>tandudanaṅganege nāgavarmaṁ pēḻdaṁ</l>
+      </lg>
+      <lg n="29" xml:id="Cb.1.v029">
+        <l>vidhu-bimbānane chandōm-</l>
+        <l>budhiy embud’ id’ enna pesara chandam idaṁ kēḷ</l>
+        <l>budhasamiti mecce pēḻveṁ</l>
+        <l>madhura-rasa-pracura-vacana-racanegaḷindaṁ</l>
+      </lg>
+      <lg n="30" xml:id="Cb.1.v030">
+        <l>ogeduvu ma-ya-ra-sa-ta-ja-bha-na-</l>
+        <l>la-gākṣaraṁ kaustubhādi nānāvidha-va</l>
+        <l>stugaḷuṁ payōmburāśiyoḷ</l>
+        <l>ogevantire candra-vadane chandōmbudhiyoḷ</l>
+      </lg>
+      <lg n="31" xml:id="Cb.1.v031">
+        <l>bared’ aydaṟa lekkaman ā</l>
+        <l>daradiṁ guru-laghu-vibhēdamaṁ bhāvisu nīṁ</l>
+        <l>guru pinte koṅki tōrpudu</l>
+        <l>bare muntaṇa saytan appa bare laghu kēḷadī</l>
+      </lg>
+      <lg n="32" xml:id="Cb.1.v032">
+        <l>guruv akkuṁ munt’ ott’ a-</l>
+        <l>kkaram āgire pinte ninda sayt’ akkaramuṁ</l>
+        <l>guruvottugaḷind’ akkuṁ</l>
+        <l>paramārthaṁ pīna-pīvara-stana-yugaḷē</l>
+      </lg>
+      <lg n="33" xml:id="Cb.1.v033">
+        <l>bindu visargaṁ vyañjanav</l>
+        <l>ondida dvyakṣaraṁ padāntyaṁ dīrghaṁ</l>
+        <l>bandoḍal vanaja-mukhi guruv</l>
+        <l>enduṁ sayyaḍiya nāgavarmana matadiṁ</l>
+      </lg>
+      <lg n="34" xml:id="Cb.1.v034">
+        <l>nayadiṁ guruv embudu kēḷ</l>
+        <l>triyambakaṁ laghu murāntakaṁ mr̥ga-nayanē</l>
+        <l>ma-ya-ra-sa-ta-ja-bha-na-la-ga-vini</l>
+        <l>cayam emb’ ivu niyamadiṁ gaṇākṣaram akkuṁ</l>
+      </lg>
+      <lg n="35" xml:id="Cb.1.v035">
+        <l>guru-laghu-miśraṁ mūṟ’ a-</l>
+        <l>kṣaradiṁ gaṇam idu latāṅgi baral eṇṭu gaṇaṁ</l>
+        <l>dharaṇi jalāgni marud-vyō</l>
+        <l>ma-ravi-śaśāṅkēndra-nilayam ivu gaṇanāmaṁ</l>
+      </lg>
+      <lg n="36" xml:id="Cb.1.v036">
+        <l>guru mūṟ’ āgire dhātri munt’ eraḍu binnaṁ tōyam ādyantadoḷ</l>
+        <l>bare vakraṁ śikhiy ondu koṅku kaḍeyind’ ā mārutaṁ vyōmam o-</l>
+        <l>ppire binnant’ eraḍ’ ādiyoḷ naḍuve koṅkādityan abjāri ta</l>
+        <l>ḷtire vakraṁ modalal mūṟu laghuviṁ nākaṁ vilōlēkṣaṇē</l>
+      </lg>
+      <lg n="37" xml:id="Cb.1.v037">
+        <l>guruvin aḍi modale laghuvaṁ</l>
+        <l>bare muntaṁ kūḍe tatsamaṁ bare pintaṁ</l>
+        <l>guruvinde tīvu mattaṁ</l>
+        <l>doreyal tān eyde sarva-laghuv appinegaṁ</l>
+      </lg>
+      <lg n="38" xml:id="Cb.1.v038">
+        <l>guruv ondaṁ laghuv ondan eṇṭuvaregaṁ prastārisant’ ādiyoḷ</l>
+        <l>guru-yugmaṁ laghu-yugmamaṁ bare catu<supplied resp="#AO">ḥ</supplied>sthānambaraṁ madhyadoḷ</l>
+        <l>guru nālkuṁ laghu nālkum eyde bare nīn antyaṅgaḷoḷ santataṁ</l>
+        <l>niravadyōnnata-cāru-pīvara-kuṭī prastāram ant’ ī kramaṁ</l>
+      </lg>
+      <lg n="39" xml:id="Cb.1.v039">
+        <l>yatiy embudu gaṇa-niyama-</l>
+        <l>pratītam usirdāṇam appudadu dāṇṭalyā</l>
+        <l>yati kiḍuguṁ dāṇṭidoḍ’ ā</l>
+        <l>yati kiḍe kavitābhimānam ēn esedapudō</l>
+      </lg>
+      <lg n="40" xml:id="Cb.1.v040">
+        <l>yatiy embudu gaṇa-niyama-</l>
+        <l>pratītam endarebaro<supplied>lpa</supplied>rantadane kelar</l>
+        <l>śruti-subhagaṁ svacchandaṁ</l>
+        <l>yatiy endar kapiḷa-piṅgaḷādigaḷ o<supplied>lla</supplied>r</l>
+      </lg>
+      <lg n="41" xml:id="Cb.1.v041">
+        <l>madanavatiy akkaraṁ cau</l>
+        <l>padi gītikey ēḷe tivadiy utsāhaṁ ṣa</l>
+        <l>ṭpadiy akkarike karaṁ celv’</l>
+        <l>odavida chandōvataṁsam abjadaḷākṣī</l>
+      </lg>
+      <lg n="42" xml:id="Cb.1.v042">
+        <l>ondondu jātig’ immaḍi</l>
+        <l>kundade tān ukteyādiy āgire sampū</l>
+        <l>rṇēndu-mukhi tiḷiye pēḻveṁ</l>
+        <l>sand’ utpattiy eyduvinegam int’ ī kramadiṁ</l>
+      </lg>
+      <lg n="43" xml:id="Cb.1.v043">
+        <l>int’ aṟipid’ ubhaya-bhāṣeyo</l>
+        <l>ḷaṁ toḍarade sarva-viṣaya-bhāṣādigaḷaṁ</l>
+        <l>muṁ tiḷipidapeṁ ninag’ ā-</l>
+        <l>nantarisade kēḷidaṁ payōruha-vadanē</l>
+      </lg>
+      <trailer>idu paramēśvaracaraṇakāravinda<choice resp="#AO"><sic>maranda</sic><corr>makaranda</corr></choice>madhukarāyamāṇa vibudhajanamanapadmanīrājahaṁsa kavirājahaṁsaviracitamappa chandōmbudhiyoḷ sañjñāprakaraṇaṁ prathamādhikāraṁ</trailer>
+    </div>
+    <div type="adhikāra" n="2">
+      <head>samavr̥ttaprakaraṇaṁ</head>
+      <div type="introduction">
+        <lg n="1" xml:id="Cb.2.v001" met="kandaṁ">
+          <l>śrī-padamaṁ sama-vr̥ttani-</l>
+          <l>rūpaṇa-samayadoḷe tandu modal iṭṭen adaṁ</l>
+          <l>cāpalalōcane bahvā</l>
+          <l>lāpadoḷ ēṁ keḷadi kēḷa ninag’ abhyudayaṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="1">
+        <lg n="1" met="śrī" xml:id="Cb.2.v002">
+          <l><name>śrī</name></l>
+          <l>śaṁ</l>
+          <l>kāṁ</l>
+          <l>tē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="2">
+        <lg n="2" met="giridharaṁ" xml:id="Cb.2.v003">
+          <l>mura</l>
+          <l>hara</l>
+          <l>giri</l>
+          <l>dhara</l>
+        </lg>
+        <lg n="3" met="digantagaṁ" xml:id="Cb.2.v004">
+          <l>lagō</l>
+          <l>pagaṁ</l>
+          <l>digaṁ</l>
+          <l>tagaṁ</l>
+        </lg>
+        <lg n="4" met="garvaṁ" xml:id="Cb.2.v005">
+          <l>śarvaṁ</l>
+          <l>gīrvā</l>
+          <l>ṇōrvī</l>
+          <l><name>garvaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="3">
+        <lg n="5" met="śyāmāṅgaṁ" xml:id="Cb.2.v006">
+          <l>bhūmiprō</l>
+          <l>dyāmaṁ kēḷ</l>
+          <l>śyāmāṅgī</l>
+          <l><name>śyāmāṅgaṁ</name></l>
+        </lg>
+        <lg n="6" met="pravaraṁ" xml:id="Cb.2.v007">
+          <l>pavanō</l>
+          <l>dbhavadiṁ</l>
+          <l><name>pravaraṁ</name></l>
+          <l>pravarē</l>
+        </lg>
+        <lg n="7" met="pāvanaṁ" xml:id="Cb.2.v008">
+          <l>pāvakō</l>
+          <l>dbhāvadiṁ</l>
+          <l>śrīvadhū</l>
+          <l><name>pāvanaṁ</name></l>
+        </lg>
+        <lg n="8" met="paraṁ" xml:id="Cb.2.v009">
+          <l>surara</l>
+          <l>neravi</l>
+          <l>nereye</l>
+          <l><name>parame</name></l>
+        </lg>
+        <lg n="9" met="ratāntaṁ" xml:id="Cb.2.v010">
+          <l>yatāntaṁ</l>
+          <l>nitāntaṁ</l>
+          <l><name>ratāntaṁ</name></l>
+          <l>latāntē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="4">
+        <head>pratiṣṭheyemba chandadoḷ nālkakkaraṁ pādamāgi puṭṭuva 16 vr̥ttaṅgaḷoḷage</head>
+        <lg n="10" met="saundaraṁ" xml:id="Cb.2.v011">
+          <l>induharar</l>
+          <l>bandire kēḷ</l>
+          <l><name>saundaramaṁ</name></l>
+          <l>sundari nīṁ</l>
+        </lg>
+        <lg n="11" met="janōdayaṁ" xml:id="Cb.2.v012">
+          <l>dinēśaru-</l>
+          <l>draniścitaṁ</l>
+          <l><name>janōdayaṁ</name></l>
+          <l>tanūdarī</l>
+        </lg>
+        <lg n="12" met="dēvaramtaṁ" xml:id="Cb.2.v013">
+          <l>pāvakāgraṁ</l>
+          <l>dēvadēvaṁ</l>
+          <l>bhāvanīyaṁ</l>
+          <l><name>dēvaramyaṁ</name></l>
+        </lg>
+        <lg n="13" met="mr̥ganētraṁ" xml:id="Cb.2.v014">
+          <l>lagayugmaṁ</l>
+          <l>negaḻvāgaḷ</l>
+          <l>mr̥ganētrē</l>
+          <l><name>mr̥ganētraṁ</name></l>
+        </lg>
+        <lg n="14" met="surataru" xml:id="Cb.2.v015">
+          <l>surahari</l>
+          <l>neredire</l>
+          <l>varavadhu</l>
+          <l><name>surataru</name></l>
+        </lg>
+        <lg n="15" met="kāmāṅgaṁ" xml:id="Cb.2.v016">
+          <l>vyōmaṁ haraṁ</l>
+          <l>tām āgiral</l>
+          <l>śyāmāṅgi kēḷ</l>
+          <l><name>kāmāṅgamaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="5">
+        <lg n="16" met="nandakaṁ" xml:id="Cb.2.v017">
+          <l>bandu vahniyoḷ</l>
+          <l>nindoḍ’ ā lagaṁ</l>
+          <l>sundarāṅgi kēḷ</l>
+          <l>sanda <name>nandakaṁ</name></l>
+        </lg>
+        <lg n="17" met="kāñcanamālā" xml:id="Cb.2.v018">
+          <l>miñcuva candraṅg’</l>
+          <l>añcitarudrar</l>
+          <l>cañcalanētrē</l>
+          <l><name>kāñcanamālē</name></l>
+        </lg>
+        <lg n="18" met="sanmr̥ganētraṁ" xml:id="Cb.2.v019">
+          <l>sagayugmaṅgaḷ</l>
+          <l>negaḻvāgaḷ kēḷ</l>
+          <l>mr̥ganētrē san-</l>
+          <l><name>mr̥ganētraṁ</name> tāṁ</l>
+        </lg>
+        <lg n="19" met="tilakaṁ" xml:id="Cb.2.v020">
+          <l>vyōmaṁ hari mund’</l>
+          <l>ā māraharaṁ</l>
+          <l>tām āge sakhī</l>
+          <l>nāmaṁ <name>tilakaṁ</name></l>
+        </lg>
+        <lg n="20" met="anaṅgaṁ" xml:id="Cb.2.v021">
+          <l>dinēśanind’ a-</l>
+          <l>tta nīlakaṇṭhar</l>
+          <l>tanūdarī nilk’</l>
+          <l><name>anaṅgam</name> akkuṁ</l>
+        </lg>
+        <lg n="21" met="prēmaṁ" xml:id="Cb.2.v022">
+          <l>sōmahariyuṁ</l>
+          <l>kāmaharanuṁ</l>
+          <l>tām ire pesar</l>
+          <l><name>prēmam</name> abalē</l>
+        </lg>
+        <lg n="22" met="sarasiruhaṁ" xml:id="Cb.2.v023">
+          <l>suragaṇamuṁ</l>
+          <l>harihararuṁ</l>
+          <l>bare keḷadī</l>
+          <l><name>sarasiruhaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="6">
+        <lg n="23" met="śālinīvitānaṁ" xml:id="Cb.2.v024">
+          <l>jvāḷe tōyameyduṁ</l>
+          <l>dōḷivettoḍakkuṁ</l>
+          <l>nīḷakuntaḷē kēḷ</l>
+          <l><name>śālinīvitānaṁ</name></l>
+        </lg>
+        <lg n="24" met="udāttaṁ" xml:id="Cb.2.v025">
+          <l>nayagaṇadindaṁ</l>
+          <l>niyatam id’ akkuṁ</l>
+          <l>priyalalanē kēḷ</l>
+          <l>nayadin <name>udāttaṁ</name></l>
+        </lg>
+        <lg n="25" met="śaśikāntaṁ" xml:id="Cb.2.v026">
+          <l>śītakaratōyaṁ</l>
+          <l>dyōtisire nīlā</l>
+          <l>bjātanayanē kē</l>
+          <l>ḷōtu <name>śaśikāntaṁ</name></l>
+        </lg>
+        <lg n="26" met="vicitraṁ" xml:id="Cb.2.v027">
+          <l>payōyugmadindaṁ</l>
+          <l>payōjāyatākṣī</l>
+          <l>prayōgaprasiddhaṁ</l>
+          <l>niyuktaṁ <name>vicitraṁ</name></l>
+        </lg>
+        <lg n="27" met="tanumadhyaṁ" xml:id="Cb.2.v028">
+          <l>vyōmādi jalāntaṁ</l>
+          <l>tāmāge nitāntaṁ</l>
+          <l>śrīmānini kēḷā</l>
+          <l>nāmaṁ <name>tanumadhyaṁ</name></l>
+        </lg>
+        <lg n="28" met="kumudaṁ" xml:id="Cb.2.v029">
+          <l>aniladvitayaṁ</l>
+          <l>ghanam elliyumeṁ</l>
+          <l>binam ondire kēḷ</l>
+          <l>vanitē <name>kumudaṁ</name></l>
+        </lg>
+        <lg n="29" met="mukuḷaṁ" xml:id="Cb.2.v030">
+          <l>urvyagraṁ marutaṁ</l>
+          <l>parvirdandabalē</l>
+          <l>sarvādyantadoḷaṁ</l>
+          <l>nirvādaṁ <name>mukuḷaṁ</name></l>
+        </lg>
+        <lg n="30" met="sulalitaṁ" xml:id="Cb.2.v031">
+          <l>kuliśabhūyugmaṁ</l>
+          <l>nelasidand’ akkuṁ</l>
+          <l>jalajapatrākṣī</l>
+          <l><name>sulalitaṁ</name> vr̥ttaṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="7">
+        <lg n="31" met="viśāḷaṁ" xml:id="Cb.2.v032">
+          <l>tridaśapavanēśar</l>
+          <l>pudidu nile pādān-</l>
+          <l>tyadoḷ aṟi vidagdhē</l>
+          <l>sadamaḷa-<name>viśāḷaṁ</name></l>
+        </lg>
+        <lg n="32" met="amaḷaṁ" xml:id="Cb.2.v033">
+          <l>induyugaṅgaḷa mund’</l>
+          <l>indudharaṁ bare tān</l>
+          <l>endum idarke pesar</l>
+          <l>saundari kēḷ <name>amaḷaṁ</name></l>
+        </lg>
+        <lg n="33" met="vinimnaṁ" xml:id="Cb.2.v034">
+          <l>śītakarāgnicētō</l>
+          <l>jātaharar kaḷirdand’</l>
+          <l>ētodalōpaḷē nā</l>
+          <l>mātiśayaṁ <name>vinimnaṁ</name></l>
+        </lg>
+        <lg n="34" met="jagadvibhūti" xml:id="Cb.2.v035">
+          <l>tējam arkan īśaniṁ</l>
+          <l>ōjavettu nindoḍaṁ</l>
+          <l>bhōjapatranētra kēḷ</l>
+          <l>ī <name>jagadvibhūtiyaṁ</name></l>
+        </lg>
+        <lg n="35" met="citraṁ" xml:id="Cb.2.v036">
+          <l>dhātrī candrēndudharaṁ</l>
+          <l>sūtrārthāyattagaṇaṁ</l>
+          <l>dhātrīpūjyaṁ pesariṁ</l>
+          <l><name>citraṁ</name> paṅkējamukhī</l>
+        </lg>
+        <lg n="36" met="śaśāṅkavaktraṁ" xml:id="Cb.2.v037">
+          <l>suragaṇāgniśarvaṁ</l>
+          <l>karamapūrvamāgu</l>
+          <l>ttire śaśāṅkavaktraṁ</l>
+          <l>sarasijāyatākṣī</l>
+        </lg>
+        <lg n="37" met="saralaṁ" xml:id="Cb.2.v038">
+          <l>marutaṁ jātavēdaṁ</l>
+          <l>haranuṁ kūḍibandaṁ</l>
+          <l>daravindāyatākṣī</l>
+          <l><name>saralaṁ</name> vr̥ttanāmaṁ</l>
+        </lg>
+        <lg n="38" met="sulabhaṁ" xml:id="Cb.2.v039">
+          <l>nanabhavayutadiṁ</l>
+          <l>vanaruhavadanē</l>
+          <l>ninag’ aṟipuven āṁ</l>
+          <l>jananuta-<name>sulabhaṁ</name></l>
+        </lg>
+        <lg n="39" met="naragaṁ" xml:id="Cb.2.v040">
+          <l><name>naragam</name> emba vr̥ttā-</l>
+          <l>kṣarame pādam āgu</l>
+          <l>ttire śaśāṅkavaktrē</l>
+          <l>naraganāmavr̥ttaṁ</l>
+        </lg>
+        <lg n="40" met="kōmalaṁ" xml:id="Cb.2.v041">
+          <l>satagaṅgaḷ kūḍi pa</l>
+          <l>ddhatiyuṁ pādākṣaraṁ</l>
+          <l>satataṁ bandirdoḍ’ ā</l>
+          <l>yatanētrē <name>kōmalaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="8">
+        <lg n="41" met="vidyunmālā" xml:id="Cb.2.v042">
+          <l>pint’ urvīyugmaṅgaḷ barpuṁ</l>
+          <l>munt’ īśānadvandvaṁ nilpuṁ</l>
+          <l>santaṁ nī kēḷ ambhōjākṣī</l>
+          <l>kāntaṁ <name>vidyunmālā</name>vr̥ttaṁ</l>
+        </lg>
+        <lg n="42" met="māṇavakaṁ" xml:id="Cb.2.v043">
+          <l>kāntaśaśi vyōmalagaṁ</l>
+          <l>muntire nīṁ kēḷ keḷadī</l>
+          <l>bhrāntiyoḷ ēṁ nākigan end’</l>
+          <l>ante pesar <name>māṇavakaṁ</name></l>
+        </lg>
+        <lg n="43" met="citrapadaṁ" xml:id="Cb.2.v044">
+          <l>induyugaṅgaḷa mundaṁ</l>
+          <l>bandu haradvitayaṅgaḷ</l>
+          <l>nindoḍe <name>citrapadaṁ</name> nā</l>
+          <l>maṁ dalitāmbujanētrē</l>
+        </lg>
+        <lg n="44" met="pramāṇikaṁ" xml:id="Cb.2.v045">
+          <l>dinēśvarāgni-viṣṇu-ru</l>
+          <l>dran end’ iv’ ellav ondi ni</l>
+          <l>lke niścayaṁ sarōjalō</l>
+          <l>canē <name>pramāṇikā</name>hvayaṁ</l>
+        </lg>
+        <lg n="45" met="sumālatī" xml:id="Cb.2.v046">
+          <l>naralagaṅgaḷondiyā</l>
+          <l>daradoḷ irdoḍ’ int’ iduṁ</l>
+          <l>dhareyoḷā sunāmadiṁ</l>
+          <l>gurukucē <name>sumālatī</name></l>
+        </lg>
+        <lg n="46" met="śrutānandaṁ" xml:id="Cb.2.v047">
+          <l>pāvakadvandvadiṁ muntaṁ</l>
+          <l>dēvadēvadvayaṁ santaṁ</l>
+          <l>kēvalaṁ bandoḍ’ ā vr̥ttaṁ</l>
+          <l>bhāvanīyaṁ <name>śrutānandaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="9">
+        <lg n="47" met="utsukaṁ" xml:id="Cb.2.v048">
+          <l>induyugaṅgaḷa munde band’</l>
+          <l>ondire vahni-padāntadoḷ</l>
+          <l>sundari nākigan iṣṭadiṁ</l>
+          <l>sandudid’ <name><choice><sic>utsukaṁ</sic><corr resp="#AO">utsuka-</corr></choice></name>nāmadiṁ</l>
+        </lg>
+        <lg n="48" met="udayaṁ" xml:id="Cb.2.v049">
+          <l>kōkanadavairi dinapaṅg’</l>
+          <l>ā kaḍege vāyu bare kēḷ</l>
+          <l>ā kamalalōcane pesar</l>
+          <l>nākiganin ādud’ <name>udayaṁ</name></l>
+        </lg>
+        <lg n="49" met="vanajaṁ" xml:id="Cb.2.v050">
+          <l>āgaḷ agnimarudvaya-saṁ</l>
+          <l>yōgam āgire bhāvisu bhū-</l>
+          <l>bhāgadoḷ mr̥galōcane nīṁ</l>
+          <l>nāgavarmanin ī <name>vanajaṁ</name></l>
+        </lg>
+        <lg n="50" met="vinutaṁ" xml:id="Cb.2.v051">
+          <l>nanayugam ire pādapā</l>
+          <l>śananidir ire bandu kō</l>
+          <l>kanadanayane lōkadoḷ</l>
+          <l><name>vinutam</name> iduve nāmadiṁ</l>
+        </lg>
+        <lg n="51" met="bhadrakaṁ" xml:id="Cb.2.v052">
+          <l>raudra-vahni-sura-pāvakaṁ</l>
+          <l>kṣudram alladire nāmadiṁ</l>
+          <l><name>bhadrakaṁ</name> sarasijānanē</l>
+          <l>sadrasaṁ padanayakramaṁ</l>
+        </lg>
+        <lg n="52" met="bhujagaśiśusr̥taṁ" xml:id="Cb.2.v053">
+          <l>sr̥jiyise nanamaṁ mādyad-</l>
+          <l>gajapatigamanē vr̥ttaṁ</l>
+          <l>trijagadoḷ idu saṁsiddhaṁ</l>
+          <l><name>bhujagaśiśusr̥taṁ</name> nāmaṁ</l>
+        </lg>
+        <lg n="53" met="mayūraṁ" xml:id="Cb.2.v054">
+          <l>amaragaṇavātatōyaṁ</l>
+          <l>samanisire nāmadindaṁ</l>
+          <l>gamisit’ idu nākiyindaṁ</l>
+          <l>ramaṇey aṟi nīṁ <name>mayūraṁ</name></l>
+        </lg>
+        <lg n="54" met="br̥hatyā" xml:id="Cb.2.v055">
+          <l>jalaṁ kōmalaṁ vāriyindaṁ</l>
+          <l>alaṅkāram āgirdoḍ’ ettaṁ</l>
+          <l>vilōlākṣi kēḷ ant’ id’ akkuṁ</l>
+          <l>nila<supplied>lkā</supplied> <name>br̥hatyā</name>khya vr̥ttaṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="10">
+        <head>paṅktiy emba chandadoḷ patt’ akkaraṁ pādam āgi puṭṭuva 1024 vr̥ttaṅgaḷoḷage–</head>
+        <lg n="55" met="paṇavakaṁ" xml:id="Cb.2.v056">
+          <l>bhūnākāntadoḷire tōyēśaṁ</l>
+          <l>tān enduṁ <name>paṇavaka</name>nāmaṁ kēḷ</l>
+          <l>nīn ant’ ī teṟan aṟidōd’ enduṁ</l>
+          <l>mīnākṣī yati giriyoḷ nilkuṁ</l>
+        </lg>
+        <lg n="56" met="mandānilaṁ" xml:id="Cb.2.v057">
+          <l>śītakarōrvīmārutacētō</l>
+          <l>jātaharar bandirdoḍ’ ad’ antuṁ</l>
+          <l>bhūtaḷak’ ellaṁ sandud’ id’ ettaṁ</l>
+          <l>nītiyutē <name>mandānila</name>vr̥ttaṁ</l>
+        </lg>
+        <lg n="57" met="mattaṁ" xml:id="Cb.2.v058">
+          <l>munnaṁ dhātrī śaśi pavanēśōt-</l>
+          <l>pannaṁ nilkuṁ yati yugadoḷ sē</l>
+          <l>vyaṁ navyaṁ bhūtaḷak’ idu pūjyaṁ</l>
+          <l>bhinnābjākṣī pesar aṟi <name>mattaṁ</name></l>
+        </lg>
+        <lg n="58" met="citrapadaṁ" xml:id="Cb.2.v059">
+          <l>candragaṇaṅgaḷe mūṟeḍeyoḷ</l>
+          <l>candradharaṁ barey ā kaḍeyoḷ</l>
+          <l>sāndrayatisthiti <supplied>ṣaṣṭhama</supplied>doḷ</l>
+          <l>candramukhī bage citrapadaṁ</l>
+        </lg>
+        <lg n="59" met="maṇiraṅgaṁ" xml:id="Cb.2.v060">
+          <l>pādapāśana mārutayugmaṁ</l>
+          <l>pādad’ antadoḷ īśvaran oḷpaṁ</l>
+          <l>kādiral yati bhūtadoḷ irduṁ</l>
+          <l>dōdi <supplied>kallaba</supplied>lē <name>maṇiraṅgaṁ</name></l>
+        </lg>
+        <lg n="60" met="kalyāṇaṁ" xml:id="Cb.2.v061">
+          <l>kṣōṇīvāyudinēśan īśvaraṁ</l>
+          <l>bāṇasthānadoḷ āge viśramaṁ</l>
+          <l>jāṇiṁ niltire sandud’ alte ka</l>
+          <l>lyāṇaṁ paṅkajalōlalōcanē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="11">
+        <head>triṣṭup emba chandadoḷ pannondakkaraṁ pādamāgi puṭṭuva 2048 vr̥ttaṅgaḷoḷage–</head>
+        <lg n="61" met="indravajraṁ" xml:id="Cb.2.v062">
+          <l>vyōmadvayaṁ bhānu-kapardiyugmaṁ</l>
+          <l>tām āgiralk’ eṇṭaṟoḷā virāmaṁ</l>
+          <l>ī māḻkeyind’ ōdidoḍ’ <name>indravajraṁ</name></l>
+          <l>nāmaṁ vilōlāmburuhāyatākṣī</l>
+        </lg>
+        <lg n="62" met="upēndravajraṁ" xml:id="Cb.2.v063">
+          <l>dinādhipavyōmaravīśayugmaṁ</l>
+          <l>ghanaṁ nilalk’ eṇṭaṟoḷ ā virāmaṁ</l>
+          <l>pinākiyuṁ nākiyum enda pāṅgiṁ</l>
+          <l>ghanastanē kēḷ id’ <name>upēndravajraṁ</name></l>
+        </lg>
+        <lg n="63" met="sēnikaṁ" xml:id="Cb.2.v064">
+          <l>pādapāśan ārkapāvakaṁ lagaṁ</l>
+          <l>pādam aḻkinaṁ virāmam āṟaṟoḷ</l>
+          <l>mēdinīprasiddham āgi nindoḍ’ ā-</l>
+          <l>mōdagandhi kēḷ id’ intu <name>sēnikaṁ</name></l>
+        </lg>
+        <lg n="64" met="dōdhakaṁ" xml:id="Cb.2.v065">
+          <l>indugaṇaṅgaḷe mūṟ’ avaṟ’ indaṁ</l>
+          <l>munde gurudvayam āge virāmaṁ</l>
+          <l>bandu rasāspadadoḷ nile sampū</l>
+          <l>rṇēndumukhī bage <name>dōdhaka</name>vr̥ttaṁ</l>
+        </lg>
+        <lg n="65" met="rathōddhatā" xml:id="Cb.2.v066">
+          <l>mārutēṣyadivijāgniyuṁ lagaṁ</l>
+          <l>sāreyāge rasadalli viśramaṁ</l>
+          <l>dūram alladire kēḷ <name>rathōddhatō</name></l>
+          <l>dāranāmam eseguṁ ratōddhatē</l>
+        </lg>
+        <lg n="66" met="bhadrikā" xml:id="Cb.2.v067">
+          <l>amarayugamum agniyuṁ lagaṁ</l>
+          <l>kramadin oḍane bandu nilke vi-</l>
+          <l>śramaṇameseye dikpradēśadoḷ</l>
+          <l>kamalavadane <name>bhadrikā</name>khyayaṁ</l>
+        </lg>
+        <lg n="67" met="svāgataṁ" xml:id="Cb.2.v068">
+          <l>ēgaḷuṁ yati diśāgajadoḷ nind’</l>
+          <l>āgaḷ agnidivijēnduharar saṁ-</l>
+          <l>yōgam āgire payōruhavaktrē</l>
+          <l><name>svāgataṁ</name> negaḻda nākiganindaṁ</l>
+        </lg>
+        <lg n="68" met="bhramaravilasitaṁ" xml:id="Cb.2.v069">
+          <l>ēmāturvīśaśidivijalagaṁ</l>
+          <l>tām ettaṁ bandire yati caturō-</l>
+          <l>ddhāmaṁ vr̥ttaṁ ghanajaghanayugē</l>
+          <l>nāmaṁ śrīmad<name>bhramaravilasitaṁ</name></l>
+        </lg>
+        <lg n="69" met="śālinī" xml:id="Cb.2.v070">
+          <l>bhūmivyōmadvandvarudradvayaṅgaḷ</l>
+          <l>tām ettaṁ celvāge śailaṅgaḷoḷ vi-</l>
+          <l>śrāmaṁ niltand’ akkum ā nākiyindaṁ</l>
+          <l>bhūmikhyātaṁ <name>śālinī</name>nāmavr̥ttaṁ</l>
+        </lg>
+        <lg n="70" met="māṇikyaṁ" xml:id="Cb.2.v071">
+          <l>kṣōṇī-vāyu-dinēśa-śambhuyugmaṁ</l>
+          <l>mēṇ ond’ āgire bandu nindoḍ’ ettaṁ</l>
+          <l>jāṇē nīn adan ōdu bēgadindaṁ</l>
+          <l><name>māṇikyaṁ</name> pesar embud’ āytu celviṁ</l>
+        </lg>
+        <lg n="71" met="sāndrapadaṁ" xml:id="Cb.2.v072">
+          <l>candranin abhraṁ surapuram īśar</l>
+          <l>rundrapadaṁ tāṁ rasayatiyindaṁ</l>
+          <l><name>sāndrapadaṁ</name> kēḷ dhareyoḷ id’ akkuṁ</l>
+          <l>candramukhī ōdidan olavindaṁ</l>
+        </lg>
+        <lg n="72" met="layagrāhi" xml:id="Cb.2.v073">
+          <l>vyōmaṁ nabhadvandvamīśadvayaṅgaḷ</l>
+          <l>tām ondiralk’ āgaḷ ambhōjanētrē</l>
+          <l>nāmaṁ <name>layagrāhiy</name> endā mahēśaṁ</l>
+          <l>tām unnagōdbhūteg’ and’ oldu pēḻdaṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="12">
+        <head>jagatiyemba chandadoḷ panneraḍakkaraṁ pādamāgi puṭṭuva 4096 vr̥ttaṅgaḷoḷage</head>
+        <lg n="73" met="drutavilambitaṁ" xml:id="Cb.2.v074">
+          <l>nabhabharaṅgaḷum ondire pādadoḷ</l>
+          <l>śubhakaraṁ yati niltire randhradoḷ</l>
+          <l>prabhukavīndrasahāyanin ādudiṁ</l>
+          <l>ibhagatī <name>drutapūrvavilambitaṁ</name></l>
+        </lg>
+        <lg n="74" met="tōṭakaṁ" xml:id="Cb.2.v075">
+          <l>pavamāna-catuṣka-yutaṁ yatiyuṁ</l>
+          <l>divasādhiparoḷ nile vastu-kavi</l>
+          <l>pravara-stutam appudu <name>tōṭakam</name> end’</l>
+          <l>avadhārisu nīn idan abjamukhī</l>
+        </lg>
+        <lg n="75" met="bhujaṅgaprayātaṁ" xml:id="Cb.2.v076">
+          <l>kuśaṁ vārdhiparyāyam akkuṁ virāmaṁ</l>
+          <l>diśāsaṅkhyey akkuṁ payōjāyatākṣī</l>
+          <l>viśēṣaṁ kavīndr-astutaṁ nākigambōl</l>
+          <l>praśastaṁ samastaṁ <name>bhujaṅgaprayātaṁ</name></l>
+        </lg>
+        <lg n="76" met="vaṁśasthaṁ" xml:id="Cb.2.v077">
+          <l>divākarākāśadinēśapāvakar</l>
+          <l>suviśramaṁ bandire saptasaṅkhyeyoḷ</l>
+          <l>savistaraṁ niltire sandud’ int’ udā-</l>
+          <l>ttavaṁśe <name>vaṁśastham</name> enippa nāmadiṁ</l>
+        </lg>
+        <lg n="77" met="indravaṁśaṁ" xml:id="Cb.2.v078">
+          <l>vyōmadvayaṁ munte divākarāgnigaḷ</l>
+          <l>tām onde diggantiyoḷāge viśramaṁ</l>
+          <l>śrīmāninī saymaḍiyātan int’ idaṁ</l>
+          <l>nāmōpamaṁ māḍidan <name>indravaṁśamaṁ</name></l>
+        </lg>
+        <lg n="78" met="sragviṇī" xml:id="Cb.2.v079">
+          <l>jātavēdōgaṇaṅgaḷ catuḥsthānasaṁ</l>
+          <l>jātamāguttumirdandidaṁ teṅkanā</l>
+          <l>ḍātaniṁ <name>sragviṇī</name>vr̥ttam embar jagat</l>
+          <l>khyātam ambhōjapatrōpamānēkṣaṇē</l>
+        </lg>
+        <lg n="79" met="mattakōkilaṁ" xml:id="Cb.2.v080">
+          <l>surapurēndudivasādhipāgnigaḷ</l>
+          <l>bare diśāgajadoḷ ā virāmam āg’</l>
+          <l>ire pesar negaḻda nākiyantevōl</l>
+          <l>nirupamaṁ keḷadi <name>mattakōkilaṁ</name></l>
+        </lg>
+        <lg n="80" met="drutapadaṁ" xml:id="Cb.2.v081">
+          <l>śatamakhēndu ravi tōyagaṇaṁ pa</l>
+          <l>ddhatiyoḷ āge yati dantiyoḷ akkuṁ</l>
+          <l>śatadaḷāyatavilōcane vr̥ttaṁ</l>
+          <l><name>drutapadaṁ</name> mr̥dupadōktigaḷindaṁ</l>
+        </lg>
+        <lg n="81" met="lalitapadaṁ" xml:id="Cb.2.v082">
+          <l>kuliśadharārkayugaṅgaḷa mund’ ā</l>
+          <l>jalagaṇam oppire sandu virāmaṁ</l>
+          <l>kulagiriyoḷ nile nākaganindaṁ</l>
+          <l><name>lalitapadaṁ</name> pesariṁ lalitāṅgī</l>
+        </lg>
+        <lg n="82" met="haṁsamattaṁ" xml:id="Cb.2.v083">
+          <l>induyugāgnipayōgaṇaṅgaḷ ettaṁ</l>
+          <l>bandire pādadoḷ ondi rājisuttuṁ</l>
+          <l>sundari nākagan iṣṭadinde vr̥ttaṁ</l>
+          <l>sandudu nāmadoḷ oppi <name>haṁsamattaṁ</name></l>
+        </lg>
+        <lg n="83" met="pravarākṣaraṁ" xml:id="Cb.2.v084">
+          <l>pavanārka-māruta-samīraṇar on-</l>
+          <l>duvinaṁ virāmam esev’ āṟaṟoḷaṁ</l>
+          <l>kavirājahaṁsamatadiṁ negaḻd’ ī</l>
+          <l><name>pravarākṣarā</name>hvayaman ōd’ abalē</l>
+        </lg>
+        <lg n="84" met="puṭaṁ" xml:id="Cb.2.v085">
+          <l>nanamayagaṇam int’ ī nālkum ettaṁ</l>
+          <l>janiyise yati saptasthānadindaṁ</l>
+          <l>ninag’ aṟipuven int’ ī pāṅginoḷ kā-</l>
+          <l>mini bage <name>puṭam</name> endaṁ nāgavarmmaṁ</l>
+        </lg>
+        <lg n="85" met="vaiśvadēvī" xml:id="Cb.2.v086">
+          <l>bhūmidvandvakk’ attal jaladvandvam ittaṁ</l>
+          <l>tām app’ ant’ imb’ āgilli bandoppe kēḷ vi-</l>
+          <l>śrāmaṁ kāmāstrasthānadoḷ nindoḍ’ akkuṁ</l>
+          <l>kāmaprākārē <name>vaiśvadēvī</name>-prasiddhaṁ</l>
+        </lg>
+        <lg n="86" met="candravartmaṁ" xml:id="Cb.2.v087">
+          <l><name>candravartmak’</name> ele barpa gaṇacayaṁ</l>
+          <l>rudra-vahni-sura-candra-śikhisakhaṁ</l>
+          <l>candra-bimba-mukhi kēḷ id’ akhila-bhū</l>
+          <l>pēndrar iṣṭam idu nākigana mataṁ</l>
+        </lg>
+        <lg n="87" met="jalōddhatagataṁ" xml:id="Cb.2.v088">
+          <l>guṇāgraṇi-dinēśa-vāyugaḷ avuṁ</l>
+          <l>poṇarkeyoḷ kīṟi bandoḍe gaṇaṁ</l>
+          <l>guṇābharaṇaniṁ prasiddham idu ru</l>
+          <l>kmiṇīsadr̥śe kēḷ <name>jalōddhatagataṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="13">
+        <lg n="88" met="ruciraṁ" xml:id="Cb.2.v089">
+          <l>dinēśa-candra-pavana-bhānu-rudrar on-</l>
+          <l>di nilvuduṁ vilasita-padma-patra-lō</l>
+          <l>canē pinākiyum ege pēḻda māḻkeyiṁ</l>
+          <l>suniścitaṁ <name>ruciram</name> id’ āgamōktiyiṁ</l>
+        </lg>
+        <lg n="89" met="abhyudayaṁ" xml:id="Cb.2.v090">
+          <l>naga-harēndu-gaṇa-tritayaṅgaḷa muṁ</l>
+          <l>dagalad’ īśvaran irdoḍe viśramaṇaṁ</l>
+          <l>negaḻda nandaroḷ ondire nākiganiṁ</l>
+          <l>mr̥ganibhēkṣaṇe nāmadoḷ <name>abhyudayaṁ</name></l>
+        </lg>
+        <lg n="90" met="aṅgarucaṁ" xml:id="Cb.2.v091">
+          <l>sōmagaṇaṅgaḷe nālk’ eḍeyoḷ bare tat-</l>
+          <l>sōmadharaṁ baḻik’ ā kaḍeyoḷ nile vi-</l>
+          <l>śrāmam aduṁ nidhisaṅkhyeyoḷ ondire kēḷ</l>
+          <l>kōmalam ādud’ id’ <name>aṅgarucaṁ</name> keḷadī</l>
+        </lg>
+        <lg n="90*" met="saundaraṁ" xml:id="Cb.2.v092">
+          <l>indu nabhōrkēndu-gaṇa-vrajaṅgaḷa mund’</l>
+          <l>indudharaṁ bandire nindu viśramam ā</l>
+          <l>nandadin ettaṁ munisaṅkhyeyoḷ negaḻvuṁ</l>
+          <l>sundari kēḷ int’ idu <name>saundaraṁ</name> pesaraṁ</l>
+        </lg>
+        <lg n="91" met="prabhātaṁ" xml:id="Cb.2.v093">
+          <l>bala-ripu-bhānu-yugaṁ hutāśanaṁ piṁ</l>
+          <l>galajaṭan emba gaṇaṅgaḷindam ettaṁ</l>
+          <l>nile vasuviśramam ā <name>prabhāta</name>-<supplied>vr̥ttaṁ</supplied></l>
+          <l>sulalitam ōd’ idan abjapatranētrē</l>
+        </lg>
+        <lg n="92" met="mattamayūraṁ" xml:id="Cb.2.v094">
+          <l>ettaṁ dhātrīvyōmapayōvāyuhararkaḷ</l>
+          <l>patrirdāgaḷ bandu virāmaṁ nidhiyoḷ me</l>
+          <l>ytettopputtuṁ bandire sandirdudu vr̥ttaṁ</l>
+          <l>mattēbhēndrōdgāmini kēḷ <name>mattamayūraṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="14">
+        <lg n="93" met="vasantatilakaṁ" xml:id="Cb.2.v095">
+          <l>vyōmendu-bhānu-gaṇa-yugmadin attal akkuṁ</l>
+          <l>sōmēśvara-dvitayam ant’ avaṟoḷ virāmaṁ</l>
+          <l>sāmānyam alladu padārthadoḷ anvitārthaṁ</l>
+          <l>nāmaṁ <name>vasantatilakaṁ</name> kamalāyatākṣī</l>
+        </lg>
+        <lg n="94" met="praharaṇakalitaṁ" xml:id="Cb.2.v096">
+          <l>na-na-bha-na-la-gam emb’ ivu gaṇa-nivahaṁ</l>
+          <l>janiyise yati niltire hayatatiyoḷ</l>
+          <l>ninag’ idan’ aṟivantire viracisideṁ</l>
+          <l>vana-ruha-vadanē <name>praharaṇakalitaṁ</name></l>
+        </lg>
+        <lg n="95" met="kusumāṅghripaṁ" xml:id="Cb.2.v097">
+          <l>tridaśa-candra-hutāśanānilaruṁ lagaṁ</l>
+          <l>pudidukoṇḍire viśramaṁ nidhiyoḷ beḍaṅg’</l>
+          <l>odavi nindire nāgavarmanin ādud’ a-</l>
+          <l>bhyudayakāraṇam ōpaḷē <name>kusumāṅghripaṁ</name></l>
+        </lg>
+        <lg n="96" met="vanamayūraṁ" xml:id="Cb.2.v098">
+          <l>bandire śaśāṅka-divasēśa-marud-indrar</l>
+          <l>mandaradharātmajaharar kaḍeyoḷ irdand’</l>
+          <l>indu-vadanē yati padārthadoḷe nindaṁ</l>
+          <l>dendumidu kēḷa pesariṁ <name>vanamayūraṁ</name></l>
+        </lg>
+        <lg n="97" met="sundaraṁ" xml:id="Cb.2.v099">
+          <l>śītakara-dvitayaṁ kr̥śānu marul-lagō-</l>
+          <l>pētam agēndradoḷ āge viśramaṇaṁ jagat-</l>
+          <l>khyātam id’ ā kavirājahaṁsavinirmitaṁ</l>
+          <l>sātiśayōktiya <name>sundaraṁ</name> bage sundarī</l>
+        </lg>
+        <lg n="98" met="vasantaṁ" xml:id="Cb.2.v100">
+          <l>amara-pura-yugaṁ vyōmam ākāśam īśar</l>
+          <l>samanisal ubhayaṁ saptatāṇaṁ virāmaṁ</l>
+          <l>kramadoḷ iral iduṁ nāmadindaṁ <name>vasantaṁ</name></l>
+          <l>ramaṇiy aṟiy idaṁ nāgavarmōktiyindaṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="15">
+        <lg n="99" met="mālinī" xml:id="Cb.2.v101">
+          <l>amara-gaṇa-yugaṅgaḷ munte bhū-tōya-yugmaṁ</l>
+          <l>kramade nile beḍaṅgaṁ tāḷdu band’ ā virāmaṁ</l>
+          <l>vimalam enisal eṇṭ’ emballi niltandoḍ’ akkuṁ</l>
+          <l>samada-gaja-gatī kēḷ <name>mālinī</name>nāmavr̥ttaṁ</l>
+        </lg>
+        <lg n="100" met="maṇiguṇanikaraṁ" xml:id="Cb.2.v102">
+          <l>sura-pura-gaṇam esadire jala-nidhiyoḷ</l>
+          <l>maru-tanum avaṟoḷe berasire tudiyoḷ</l>
+          <l>suracita-maṇiguṇa-nikara-vilasitē</l>
+          <l>suruciram idan aṟi <name>maṇi<supplied>gu</supplied>ṇanikaraṁ</name></l>
+        </lg>
+        <lg n="101" met="maṇivibhūṣaṇaṁ" xml:id="Cb.2.v103">
+          <l>pāvakēndra-śaśi-yugmadin atta hutāśanaṁ</l>
+          <l>bhāvisuttire padārthadoḷ āgire viśramaṁ</l>
+          <l>pīvara-stana-bharānat-amadhye kavīndrasaṁ</l>
+          <l>bhāvitaṁ <name>maṇivibhūṣaṇam</name> end’ aṟi nīn idaṁ</l>
+        </lg>
+        <lg n="102" met="sukēsaraṁ" xml:id="Cb.2.v104">
+          <l>amaragaṇārkaśītakarabhānupāvakō</l>
+          <l>ttamagaṇapañcakaṁ nereye celvuvetta vr̥</l>
+          <l>ttamanidanēgaḷuṁ kavigaḷōdutirpare</l>
+          <l>nna manake matte kānte śubhadaṁ sukēsaraṁ</l>
+        </lg>
+        <lg n="103" met="navanalinaṁ" xml:id="Cb.2.v105">
+          <l>divija-dinādhipa-yugma-śītakarāgniy end’</l>
+          <l>ivu nered’ imbine bandoḍ’ ā yati <supplied>pa</supplied>ttaṟatt’</l>
+          <l>avatarisirdoḍam ambujāyata-lōcanē</l>
+          <l><name>navanalinaṁ</name> kavi-rāja-haṁsa-vinirmitaṁ</l>
+        </lg>
+        <lg n="104" met="vicitralalitaṁ" xml:id="Cb.2.v106">
+          <l>tridaśa-marud-indra-pura-candra-salilaṅgaḷ</l>
+          <l>tudiyoḷ ire taḷtu harar alli yati nilkuṁ</l>
+          <l>viditam idu dhāriṇiyoḷ abjadaḷanētrē</l>
+          <l>sad-amala-<name>vicitra-lalitaṁ</name> lalitagātrē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="16">
+        <head>aṣṭiy emba chandadoḷ padināṟ’ akkaraṁ pādam āgi puṭṭuva 65536 vr̥ttaṅgaḷoḷage—</head>
+        <lg n="105" met="maṅgaḷaṁ" xml:id="Cb.2.v107">
+          <l>śata-makhēndu-dinapa-tritayāgradoḷ ēgaḷuṁ</l>
+          <l>cyuta-manōja-haranuṁ bare dantiyoḷ ondi pa</l>
+          <l>ddhatiyoḷ oppi yatiyuṁ nile <name>maṅgaḷa</name>nāmadiṁ</l>
+          <l>kṣitige sandud’ idan ōd’ aravindadalēkṣaṇē</l>
+        </lg>
+        <lg n="106" met="lalitapadaṁ" xml:id="Cb.2.v108">
+          <l>kuliśa-dhara-pura-dinapa-māruta-harāntaṁ</l>
+          <l>nelasi nile yati daśadoḷ irdoḍe nitāntaṁ</l>
+          <l>sale nelake paredud’ idan ōd’ abale santaṁ</l>
+          <l><name>lalitapadam</name> ucita-pada-yuktam atikāntaṁ</l>
+        </lg>
+        <lg n="107" met="padmamukhī" xml:id="Cb.2.v109">
+          <l>indu-gaṇaṁ śara-saṅkhyeyoḷ ondire candra-dharaṁ</l>
+          <l>bandu padāntadoḷ irdoḍe bhāskaranoḷ yatiyuṁ</l>
+          <l>endu virājise nākiganiṁ paḍed’ attu jagad-</l>
+          <l>vanditam abjamukhī nijanāmade <name>padmamukhī</name></l>
+        </lg>
+        <lg n="108" met="vijayānandaṁ" xml:id="Cb.2.v110">
+          <l>vanaṁ dhātrī-cakraṁ surapa-pavanaṁ jātavēdaṁ</l>
+          <l>manōjanma-dhvaṁsaṁ padada kaḍeyoḷ <unclear resp="#Claude">celvanālke</unclear></l>
+          <l><unclear resp="#Claude">ydu</unclear> nilkuṁ viśrāmaṁ divasa-karanoḷ kānte vidvaj-</l>
+          <l>janānandaṁ chandaṁ negaḻda <name>vijayānandam</name> akkuṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="17">
+        <head>atyaṣṭiyemba chandadoḷ padinēḻakkaraṁ pādamāgi puṭṭuva 1,31,072 vr̥ttaṅgaḷoḷage</head>
+        <lg n="109" met="mandākrāntaṁ" xml:id="Cb.2.v111">
+          <l>kāntaṁ dhātrī-himakr̥d-amarākāśa-yugmēśa-yugmā</l>
+          <l>krāntaṁ tōrkuṁ pada-daśakadoḷ viśramaṁ <choice resp="#AO"><sic>satataṁ</sic><corr>santataṁ</corr></choice> tāṁ</l>
+          <l>kāntē mattadviradagamanē mallikāmōde mandā</l>
+          <l>krāntaṁ vr̥ttaṁ negaḻd’ udiḷeyoḷ nāgavarmapraṇītaṁ</l>
+        </lg>
+        <lg n="110" met="pr̥thvī" xml:id="Cb.2.v112">
+          <l>inānila-dinēśa-māruta-payō-la-gaṅgaḷ beḍaṅ-</l>
+          <l>gan āḷdu nile viśramaṁ masugaḷ alli celv’ āge nī-</l>
+          <l>la-nīraja-vilōcanē bagedu kēḷ idaṁ <name>pr̥thviy</name> em-</l>
+          <l>ba nāmadin id’ alli sandudu nirantaraṁ pr̥thviyoḷ</l>
+        </lg>
+        <lg n="111" met="kanakābjanī" xml:id="Cb.2.v113">
+          <l>kuliśa-dharaṁ dinēśan amr̥tāṁśu-dinēśa-yugaṁ</l>
+          <l>jalaruha-nābhan aṅgaja-vimardanan emba gaṇaṁ</l>
+          <l>nelasire nāgavarma-kavi-nirmitam āyatamaṁ</l>
+          <l>jalaruhalōcanē bageye kēḷ <name>kanakābjaniyaṁ</name></l>
+        </lg>
+        <lg n="112" met="śikhariṇī" xml:id="Cb.2.v114">
+          <l>vanaṁ dhātrī-cakraṁ surapa-pavanaṁ-śītakaran a-</l>
+          <l>bjanābhaṁ bhūtēśaṁ nelasi nile viśrāntiy avaṟoḷ></l>
+          <l>manaṅgoṇḍ’ āṟ’ emballi nelasire karṇāmr̥ta-rasaṁ</l>
+          <l>janānandaṁ chandaṁ <name>śikhariṇi</name> madēbhēndragamanē</l>
+        </lg>
+        <lg n="113" met="hariṇīplutaṁ" xml:id="Cb.2.v115">
+          <l>kuliśa-dhara-vātōrvī-vaiśvānarānilar antyadoḷ</l>
+          <l>nelase hariyuṁ kāma-pradhvaṁsiyuṁ yati ṣaṭkadoḷ</l>
+          <l>nile bagedu kēḷ vr̥ttaṁ vr̥tta-stana-dvaya-rājitē</l>
+          <l>lalita-hariṇī-nētrē karṇāmr̥taṁ <name>hariṇīplutaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="18">
+        <head>dhr̥tiyemba chandadoḷ padineṇṭakkaraṁ pādamāgi huṭṭuva 2,62,144 vr̥ttaṅgaḷoḷage</head>
+        <lg n="114" met="mallikāmāle" xml:id="Cb.2.v116">
+          <l>jvāli-vāyu-dinēśa-yugma-śaśāṅka-pāvaka remb’ ivar</l>
+          <l>līleyiṁ bare viśramaṁ vasu-saṅkhyeyoḷ nile mallikā-</l>
+          <l>lōla-nīla-sahasra-kuntaḷe sandud’ int’ idu mallikā</l>
+          <l>māley embudu niścAyaṁ kavi-rāja-haṁsa-vinirmitaṁ</l>
+        </lg>
+        <lg n="115" met="kusumitalatāvēllitaṁ" xml:id="Cb.2.v117">
+          <l>bhūmi-vyōmāṅka-divija-nilayaṁ munte tōya-trayaṅgaḷ</l>
+          <l>tām ettaṁ bandondire virati kāmāstradoḷ nindoḍ’ akkuṁ</l>
+          <l>kṣēmārōgyaṁ kēḷ ninag’ id’ ucitaṁ kanda-kandarpa-jātaṁ</l>
+          <l>nāmaṁ prōddāmaṁ <name>kusumitalatāvēllitaṁ</name> kañjanētrē</l>
+        </lg>
+        <lg n="116" met="aravindaṁ" xml:id="Cb.2.v118">
+          <l>sura-pura-yuga-pavana-dvitayākāśāmbu-gaṇaṅgaḷ</l>
+          <l>neradire yati nidhiyoḷ sale nilt’ ānandadin enduṁ</l>
+          <l>niratiśayadoḷ idan ōd’ ele nīlābjāmbake nīnuṁ</l>
+          <l>suruciram enisida lakṣaṇadindaṁ sand’ <name>aravindaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="19">
+        <lg n="117" met="taraḷaṁ" xml:id="Cb.2.v119">
+          <l>surapa-śītakarāgni-māruta-bhānu-yugma-gaṇaṅgaḷaṁ</l>
+          <l>paradoḷ oppe himāṁśu-śēkharan irdu viśramaṇaṁ diśā</l>
+          <l>kariyoḷ āgire sandud’ int’ idu nāgavarma-vinirmitaṁ</l>
+          <l>taraḷa-lōcana nāmadiṁ <name>taraḷaṁ</name> kavīndra-jana-stutaṁ</l>
+        </lg>
+        <lg n="118" met="mēghavisphūrjitaṁ" xml:id="Cb.2.v120">
+          <l>vana-kṣmā-nākēndraṁ hutavaha-sakhaṁ vahni-yugmaṁ virūpā</l>
+          <l>kṣan emb’ ī sandōhaṁ nelasi nile mārtaṇḍaroḷ viśramaṅgaḷ</l>
+          <l>manaṅgoṇḍirdāgaḷ cakita-hariṇī-nētre lōka-prasiddhaṁ</l>
+          <l>jana-khyātaṁ nūtnaṁ budha-jana-hitaṁ <name>mēghavisphūrjitākhyaṁ</name></l>
+        </lg>
+        <lg n="119" met="śārdūlavikrīḍitaṁ" xml:id="Cb.2.v121">
+          <l>urvī-māruta-bhāskarānila-viyad-dvandvaṁ padāntaṅgaḷoḷ</l>
+          <l>śarvaṁ viśramaṇaṁ dinēśar eḍeyoḷ nilkuṁ manaṅgoḷvinaṁ</l>
+          <l>nirvyājaṁ bhuvana-trayaṅgaḷoḷag’ ī vr̥ttaṁ prasiddhaṁ karaṁ</l>
+          <l>cārvambhōruha-patra-nētre pesaraṁ <name>śārdūlavikrīḍitaṁ</name></l>
+        </lg>
+        <lg n="120" met="khacaraplutaṁ" xml:id="Cb.2.v122">
+          <l>vāta-mitra-marut-pavanaṁ vyōmārka-yugaṁ tripurāntakō-</l>
+          <l>pētam āgire viśramaṇaṅgaḷ pakṣadoḷ ondire sāmadiṁ</l>
+          <l>śātakumbha-ghaṭōpama-vr̥ttōttuṅga-payōdhara-yugme dhā-</l>
+          <l>trī-taḷakk’ esedatt’ idu lōkānanda-karaṁ <name>khacaraplutaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="20">
+        <lg n="121" met="mattēbhavikrīḍitaṁ" xml:id="Cb.2.v123">
+          <l>śvasan ēndu jvalanaṁ divaṁ dhare jalaṁ daityāri-kāmāntaka-</l>
+          <l>prasarōdyad-gaṇadiṁ trayōdaśa-yati prastāram āgirdoḍ’ ī</l>
+          <l>vasudhācakradoḷ eydu sandudu karaṁ <name>mattēbhavikrīḍitaṁ</name></l>
+          <l>pesar āyt’ int’ idu nāgavarma-kaviyiṁ vyālōla-nīlāḷakē</l>
+        </lg>
+        <lg n="122" met="anavadyaṁ" xml:id="Cb.2.v124">
+          <l>animiṣēndra-puraṁ śaśi-yugmaṁ bhū-taḷa-vāyu-yugaṅgaḷiṁ</l>
+          <l>vanaja-lōcanan īśanum antuṁ niltire rudrara saṅkhyeyoḷ</l>
+          <l>vinamitaṁ yati nindire vr̥ttaṁ tuṅga-payōdhara-rājitē</l>
+          <l>kanaka-kuṇḍala-maṇḍita-gaṇḍē nīn aṟid’ ōd’ <name>anavadyamaṁ</name></l>
+        </lg>
+        <lg n="123" met="utpalamāle" xml:id="Cb.2.v125">
+          <l>śītakarānalēndrapura-candra-śaśāṅka-hutāśanar lagō</l>
+          <l>pētam oḍambaḍuttum ire rudrara saṅkhyeyoḷ āge viśramaṁ</l>
+          <l>sātiśayōktiyind’ idu virājisuguṁ kavi-rāja-haṁsanaṁ</l>
+          <l>bhū-taladoḷ negaḻtavaḍed’ <name>utpalamāle</name> vilōla-lōcanē</l>
+        </lg>
+        <lg n="124" met="nagarañjitaṁ" xml:id="Cb.2.v126">
+          <l>rājacatuṣṭayam ōḷiyoḷ aitare pāvakānilaralli matt’</l>
+          <l>ōjeyoḷ ondi harīśvarar āgire viśramaṁ dinanātharoḷ</l>
+          <l>rājisutuṁ nile nākiganind’ uru rūḍhivettire sandud’ int’</l>
+          <l>ī jagadoḷ <name>nagarañjitam</name> embudu rañjitādhara-pallavē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="21">
+        <lg n="125" met="campakamāle" xml:id="Cb.2.v127">
+          <l>tridaśa-ravīndu-bhāskara-gaṇa-tritayāgradoḷ agni celvuve</l>
+          <l>ttudayipinaṁ trayōdaśadoḷ ondire viśramaṇaṁ nirantarā</l>
+          <l>bhyudayakaraṁ karaṁ ninag’ aśōka-mahīruha-pallavōllasat-</l>
+          <l>pada-yuge niccam ōdu gaḍa <name>campakamāleyan</name> oldu līleyiṁ</l>
+        </lg>
+        <lg n="126" met="taraṅgaṁ" xml:id="Cb.2.v128">
+          <l>pāvakaṁ tridaśa-pāvakaṁ divija-pāvakaṁ surapa-pāvakaṁ</l>
+          <l>tīvi bandu padad’ āva meyyoḷ amadāvagaṁ nelasi nilpinaṁ</l>
+          <l>dēvadēvakr̥tam ī vidhānadoḷ iḷā-vinūtayati randhradoḷ</l>
+          <l>bhāvisuttam ire bhāvis’ int’ idane tīvara-stane <name>taraṅgamaṁ</name></l>
+        </lg>
+        <lg n="127" met="sragdharā" xml:id="Cb.2.v129">
+          <l>bhūmi-jvālēndu-dēvādhipapura-gaṇamuṁ munte tōya-trayaṅgaḷ</l>
+          <l>tām ettaṁ bandu celv’ āgire yati turagānīkadoḷ rañjisirkuṁ</l>
+          <l>śyāmē kāmābhirāmē ghana-kuca-yugaḷē mallikācārupuṣpō</l>
+          <l>ddāma-prōddāma-kēśānvite bage pesariṁ <name>sragdharā</name>-nāma-vr̥ttaṁ</l>
+        </lg>
+        <lg n="128" met="lalitagati" xml:id="Cb.2.v130">
+          <l>sura-divija-sura-jala-nikāyaṁ jalōdāyaṁ vyōma-bhū-prāyaṁ</l>
+          <l>neredu bare raviyoḷe virāmaṁ rasōddāmaṁ kēḷ kavi-prēmaṁ</l>
+          <l>viracisidud’ idu janahitārthaṁ kr̥tisvārthaṁ nāmam anvarthaṁ</l>
+          <l>gurujaghane <name>lalitagatiy</name> enduṁ janānandaṁ nākigaṁ pēḻdaṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="22">
+        <lg n="129" met="mahāsragdharā" xml:id="Cb.2.v131">
+          <l>marud-ākāśa-dvayēndrānila-hutavaha-yugmāṅga-jārātiyarkaḷ</l>
+          <l>bare pakṣa-sthānadoḷ niltire virati <name>mahāsragdharā</name>-nāma0vr̥ttaṁ</l>
+          <l>guru-vr̥ttōttuṅga-vakṣōruha-bhara-vilasan-madhya-rēkhā-vilāsa-</l>
+          <l>sphurita-prōddāma-kāñcī-khacita-maṇi-nitamba-sthalābhōga-bhārē</l>
+        </lg>
+        <lg n="130" met="bhadrakaṁ" xml:id="Cb.2.v132">
+          <l>ādiyoḷ indu-vaktra-divijaṁ kr̥śānu-vibudhāgniyindra-niḷayaṁ</l>
+          <l>pādade munde candra-dharan imbuvettu nile pakṣadoḷ virati band’</l>
+          <l>ādam ad’ ōjeyuṁ nelasi baṁ<supplied>dha</supplied>m oppe kavi-rāja-haṁsa-matadiṁ</l>
+          <l>mēdiniyoḷ karaṁ paredu sanda <name>bhadrakam</name> id’ āytu paṅkajamukhī</l>
+        </lg>
+        <lg n="131" met="vanamañjari" xml:id="Cb.2.v133">
+          <l>śītakara-prakaraṅgaḷa vēḻ eḍey ōḷiyoḷ eydal anukramadiṁ</l>
+          <l>bhūta-gaṇādhipanuṁ paded’ ā kaḍeyoḷ nile viśramaṇaṁ turaga-</l>
+          <l>vrāta-gaja-vrajadoḷ bare sandudu nākiganindam id’ ī sakaḷō</l>
+          <l>rvī-taḷadoḷ <name>vanamañjariy</name> embudu nāmadoḷ ōd’ idan abjamukhī</l>
+        </lg>
+        <lg n="132" met="cūtakujaṁ" xml:id="Cb.2.v134">
+          <l>anilaṁ bhū-cakraṁ pāvakaṁ śvasanaṁ śītakarāgni-yugmaṅgaḷiṁ mun-</l>
+          <l>de nilal bhūtēśaṁ dēvanā kaḍeyoḷ viśramaṇōdayaṁ padminī-mi-</l>
+          <l>tranoḷ opputtirdandāgaḷuṁ pared’ ī bhū-tala-madhyadoḷ nākiyindaṁ</l>
+          <l>janatānandaṁ śrī-kāminī-pratimē <name>cūtakujā</name>hvayaṁ vr̥ttam akkuṁ</l>
+        </lg>
+      </div>
+      <div type="chandas" n="23">
+        <lg n="133" met="haṁsagati" xml:id="Cb.2.v135">
+          <l>divija-ṣaḍ-ambuja-mitra-gaṇaprakaraṁ lagamuṁ kramadiṁ padadoḷ</l>
+          <l>vivarise bandu virājise viśramaṇaṁ vasu-saṅkhyegaḷoḷ nayadind’</l>
+          <l>avicaḷitaṁ rasa-vr̥ttiyan āḷd’ esevr̥ttire kēḷ kaḷa-haṁsa-gatī</l>
+          <l>bhuvanadoḷ ī teṟadindame sandudu nākiganind idu <name>haṁsagati</name></l>
+        </lg>
+        <lg n="134" met="mattākrīḍā" xml:id="Cb.2.v136">
+          <l>munnaṁ bhūmi-dvandvākāśaṁ sura-pura-gaṇam esadire gati-tatiyind’</l>
+          <l>inn’ ittal vaikuṇṭhēśānar kariyoḷe nile yatitati lalitapadōt-</l>
+          <l>pannaṁ vr̥ttaṁ bhinnābjākṣī kavi-vara-matadin id’ atiśaya-nutam int’</l>
+          <l>ennind’ āyt’ ī <name>mattākrīḍā</name>hvayam idan aṟivudu sarasija-vadanē</l>
+        </lg>
+        <lg n="135" met="saundaraṁ" xml:id="Cb.2.v137">
+          <l>tridaśa-candra-gaṇa-trayam ondida dhātrī-māruta-yugma-la-gaṅgaḷā</l>
+          <l>padadoḷ ondire viśramaṇaṁ dina-nātha-sthānadoḷ ā<supplied>gi</supplied> beḍaṅguve</l>
+          <l>ttodave campaka-puṣpa-vilāsada celviṁ nākiganinde jagaṅgaḷoḷ</l>
+          <l>viditam āgire <name>saundaram</name> ādudu bhinnāmbhōja-daḷāyata-lōcanē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="24">
+        <head>saṅkr̥tiy emba chandadoḷ irpattanālkakkaraṁ pādam āgi puṭṭuva 1,67,77,216 vr̥ttaṅgaḷoḷage —</head>
+        <lg n="136" met="lalitaṁ" xml:id="Cb.2.v138">
+          <l>surapura-yugaḷaṁ bare śaśi-divijar khara-kara-sura-yuga-tōyaṁ</l>
+          <l>viracise kaḍeyoḷ berasire pada-vistaradoḷe gaṇa-nivahaṅgaḷ</l>
+          <l>giriyoḷe yatigaḷ dorekoḷe lalitākṣara-pada-racanegaḷ indaṁ</l>
+          <l>paredudu <name>lalitaṁ</name> dharegidu pesar āgire sarasiruha-daḷākṣī</l>
+        </lg>
+        <lg n="137" met="tanvī" xml:id="Cb.2.v139">
+          <l>indu nabhaṅgaḷ surapura-pavanēndu-dvayam āgire kuliśa jalaṅgaḷ</l>
+          <l>mundire bāṇādrigaḷoḷe yatigaḷ nindire nīn aṟiy atiśayadindaṁ</l>
+          <l>sundara-vr̥ttaṁ druta-pada-lalitaṁ sandudu nākigan’ anumatadiṁ pū</l>
+          <l>rṇēndu-nibhāsyē dhareg’ idu pesar āyt’ alliyum udbhava-karamane <name>tanvī</name></l>
+        </lg>
+        <lg n="138" met="arkamarīci" xml:id="Cb.2.v140">
+          <l>amara-gaṇārka-candramar ōḷiya nālk’ aṟinattale dinēśa-pāvakar</l>
+          <l>sama-yutar antyadoḷ yatiy āyatiyiṁ giriyoḷ sarasam oppe nilkum a-</l>
+          <l>śramadoḷe <choice resp="#AO"><sic>nāgavarmana</sic><corr>nāgavarma-</corr></choice>mataṁ mudadiṁ pared’ att’ idu samasta-dhātrig’ ī-</l>
+          <l>kramav aṟid’ ōdu nīn idan <name>arka-marīciyan</name> amburuha-patra-lōcanē</l>
+        </lg>
+      </div>
+      <div type="chandas" n="25">
+        <head>abhikr̥tiy emba chandadoḷ irpatteydakkaraṁ pādam āgi puṭṭuva 3,35,54,532 vr̥ttaṅgaḷoḷage —</head>
+        <lg n="139" met="krauñcapadaṁ" xml:id="Cb.2.v141">
+          <l>śītakarōrvī-vāta-śaśāṅkar yugamitasurapura-nivahada kaḍeyoḷ</l>
+          <l>bhūta-gaṇēśaṁ bhūta-śarāśā-gajadoḷe yatigaṇam esedire pesariṁ</l>
+          <l>nītiyutē kēḷ sātiśayōkta-kramadoḷe negaḻdud’ id’ atiśaya-racanō</l>
+          <l>pētam aśēṣōrvī-taḷakaṁ <name>krauñcapadam</name> id’ atiśaya-pada-racanegaḷaṁ</l>
+        </lg>
+        <lg n="140" met="vidaḷitasarasijavanaṁ" xml:id="Cb.2.v142">
+          <l>aditija-purama<supplied>du</supplied> kari-gaṇa-nivahadoḷ esedoḍan ire kaḍeyoḷ</l>
+          <l>madanan anuripida haranire dinakarareḍeyoḷe yati niyataṁ</l>
+          <l>pada-racanegaḷoḷe pudidire ninag’ idu sa<supplied>ti</supplied> sulalita-lulitaṁ</l>
+          <l><name>vidaḷitasarasijavanam</name> ene negaḻdudu vidaḷita-vanaja-mukhī</l>
+        </lg>
+        <lg n="139" met="haṁsapadaṁ" xml:id="Cb.2.v143">
+          <l>divija-pura-gatiy avaṟa parad’ anilaṁ śītakar-atritayaṁ kaḍeyoḷ</l>
+          <l>bhavanire kari-giri-gaṇanegaḷoḷagaṁ taḷt’ esaguṁ pada-viśramaṇaṁ</l>
+          <l>bhuvanadoḷ atiśayataram idu hr̥dayānandakaraṁ śruti-saukhyakaraṁ</l>
+          <l>kavi-jana-hita-karam idan aṟi keḷadī haṁsa-vinirmita-<name>haṁsapadaṁ</name></l>
+        </lg>
+      </div>
+      <div type="chandas" n="26">
+        <head>utkr̥tiy emba chandadoḷ irpattāṟakkaraṁ pādam āgi puṭṭuva 6,71,08,864 vr̥ttaṅgaḷoḷage —</head>
+        <lg n="141" met="bhujaṅgavijr̥mbhitaṁ" xml:id="Cb.2.v144">
+          <l>ādi-kṣmā-yugmākāśāgraṁ pura-mita-sura-pura-sahitaṁ kr̥śānu-marul-la-gaṁ</l>
+          <l>pādāntakk’ ōrant’ opputtuṁ <supplied>ka</supplied>ri hararoḷe yati-niyamaṁ vinūta-vibhūtiyind’</l>
+          <l>ādoḷpindaṁ niltandettaṁ paredudu dhareg’ atividitaṁ kavīndra-sahāyadind’</l>
+          <l>ōdal celv’ ī vr̥ttaṁ kēḷ ā priya-vacana-vanite pesaraṁ <name>bhujaṅgavijr̥mbhitaṁ</name></l>
+        </lg>
+        <lg n="141" met="munimataṁ" xml:id="Cb.2.v145">
+          <l>animiṣa-bhānu-divija-pavanaṁ bare sura-pura-pura-gaṇa bhānu-la-gaṁ</l>
+          <l>ghana-kuce ninnaya manad’ anurāgadinire munitatiyoḷe viśramaṇaṁ</l>
+          <l>manam osed’ ōd’ idan anunayadind’ aṟi vinamita-lalita-padōktigaḷiṁ</l>
+          <l>jana-hitam int’ idu <name>munimatam</name> embudu ninag’ aṟipide keḷadī nirutaṁ</l>
+        </lg>
+        <lg n="142" met="vanalate" xml:id="Cb.2.v146">
+          <l>aditija-puram ire mada-gajad’ eḍegaḷoḷ odavire nayadoḷe band’ ā</l>
+          <l>tudigaḷoḷ udayise sad-amaḷa-guru-yugam adu yati karipatiyindaṁ</l>
+          <l>vidita<supplied>ma</supplied>davanige pudidire rasadoḷe paded’ idan atimudadindaṁ</l>
+          <l>mr̥du-pada-racaneyoḷ odavidoḍ’ adan aṟivudu <name>vanalate</name> pesarindaṁ</l>
+        </lg>
+      </div>
+      <div type="conclusion">
+        <lg n="143" xml:id="Cb.2.v147" met="kandaṁ">
+          <l>uktaṁ modal āgire pū-</l>
+          <l>rvōktadin utkr̥tiyan eyde samavr̥ttaman āṁ</l>
+          <l>vyaktataram āge mr̥du-madhu</l>
+          <l>rōktigaḷiṁ tiḷiye pēḻden ambu-javadanē</l>
+        </lg>
+      </div>
+      <trailer>idu paramēśvara-caraṇāravinda<choice resp="#AO"><sic>maranda</sic><corr>makaranda</corr></choice>-madhukarāyamāṇa-vibudha-jana-manaḥ-padminī-rāja-haṁsa-kavi-rāja-haṁsa-viracitam appa chandōmbudhiyoḷ samavr̥tta-prakaraṇaṁ dvitīyādhikāraṁ</trailer>
+    </div>
+    <div type="adhikāra" n="3">
+      <head>tr̥tīyādhikāraṁ</head>
+      <lg n="1" xml:id="Cb.3.v001">
+        <l>śrī-ramaṇan akhiḷa-sura-ni</l>
+        <l>stārakan amarēndra-makuṭa-tāṭita-caraṇām-</l>
+        <l>bhōruhan aśēṣatattvag’</l>
+        <l>āraṁ dayegeyge nāgavarmaṅg’ oḷpaṁ</l>
+      </lg>
+      <lg n="2" xml:id="Cb.3.v002">
+        <l>madavad-ibha-gamane sama-vr̥-</l>
+        <l>ttada teṟanaṁ munnam aṟipideṁ mālā-vr̥</l>
+        <l>ttada pāṅgan eyde kēḷ inn’</l>
+        <l>udātta-mati-vibudha-jana-manōrañjanamaṁ</l>
+      </lg>
+      <ab type="head">mālāvr̥ttaṅgaḷoḷage puṭṭuva —</ab>
+      <lg n="3" met="lalitavr̥ttaṁ" xml:id="Cb.3.v003">
+        <l>tāne śaśi-sūrya-pavamāna-sura-śītakara-bhānu-marud-indra-vidhu-tōyade virāma-</l>
+        <l>sthānam esaguṁ pada-vitānadoḷ anukramade nīn aṟivud’ ī <name>lalitavr̥ttaman</name> idaṁ caṁ</l>
+        <l>drānane ghana-stana-bharānate latā-lalite pīna-jaghana-dvaye vilāsavati kāvya-</l>
+        <l>śrī-nilayamaṁ vibudhamānitaman ujjvala-vacō-nicitamaṁ racitamaṁ kavigaḷindaṁ</l>
+      </lg>
+      <lg n="4" met="kusumaśaraniratiśayaṁ" xml:id="Cb.3.v004">
+        <l>surara paḍe nerediralu karigaḷ enitan itaṟoḷe khara-kara-samīraṇa-padāntaṁ</l>
+        <l>pura-mathanan ire baḻike viratiy uṟe daśamadoḷe tarataradin oppi nile santaṁ</l>
+        <l>dhareyoḷ idu negaḻva kavi-vara-matade jan-anutade parama-padav eydudan antaṁ</l>
+        <l>sarasiruha-daḷa-nayane karam eseva <name>kusumaśaraniratiśayam</name> embudu nitāntaṁ</l>
+      </lg>
+      <lg n="5" xml:id="Cb.3.v005">
+        <l>vr̥tta-stana-yuge kēḷ ir-</l>
+        <l>pattāṟuṁ chandadinde poṟagaṇa-mālā</l>
+        <l>vr̥ttaman aṟipiden inn’</l>
+        <l>utpattiyumaṁ pēḻven ardha-sama-vr̥ttamumaṁ</l>
+      </lg>
+      <ab type="head">ardhasamavr̥ttaṅgaḷoḷage puṭṭuva–</ab>
+      <lg n="6" met="acyutakaṁ" xml:id="Cb.3.v006">
+        <l>śatamakha-bhānu-yugāgra-la-gaṁ</l>
+        <l>śītakara-tritayāgraharaṁ</l>
+        <l>mati-yute bandoḍ’ id’ <name>acyutakaṁ</name></l>
+        <l>bhū-taḷadoḷ negaḻd’ ardhasamaṁ</l>
+      </lg>
+      <lg n="7" met="divijakalpalatā" xml:id="Cb.3.v007">
+        <l>pāvakāmara-gaṇānalaṁ la-gaṁ</l>
+        <l>divija-candra-kumudāri-pāvakaṁ</l>
+        <l>bhāvisuttumire kōmalāṅgi kēḷ</l>
+        <l><name>divijakalpalatey</name> āytu nāmadiṁ</l>
+      </lg>
+      <lg n="8" met="raviprabhaṁ" xml:id="Cb.3.v008">
+        <l>amara-sarōruha-mitra-gaṇōdadhi-saṅkhye candra-haraṁ</l>
+        <l>sōmagaṇaṅgaḷe nālk’ eḍeyoḷ bare pāvakaṁ marutaṁ</l>
+        <l>kramadoḷe band’ amalōmadoḷoṁ<supplied>da</supplied> pada-dvayaṁ niyataṁ</l>
+        <l>nāmam idarke <name>raviprabham</name> āgal ēvēḻkum abja-mukhī</l>
+      </lg>
+      <lg n="9" xml:id="Cb.3.v009">
+        <l>pāda-viparyāsadoḷ ī</l>
+        <l>bhēdambaḍed’ ēka-varṇa-hīnādhikadind’</l>
+        <l>ād’ and’ ardhasamaṁ peṟar</l>
+        <l>ādudidaṁ tiḷiye pēḻden ambuja-vadanē</l>
+      </lg>
+      <lg n="10" xml:id="Cb.3.v010">
+        <l>viparīta-gaṇākṣaram ā-</l>
+        <l>ge padaṅgaḷ nālkupādam ondade nilkuṁ</l>
+        <l>capalākṣi viṣama-vr̥ttaman</l>
+        <l>upadēśipen adaṟa bhēdamaṁ kramadindaṁ</l>
+      </lg>
+      <lg n="11" met="uddhataṁ" xml:id="Cb.3.v011">
+        <l>marud-arka-vāyu-laghu muṁ<supplied>te</supplied></l>
+        <l>bare sura-marud-dinēśa-gaṁ</l>
+        <l>vārija-ripu surapārka-la-gaṁ</l>
+        <l>marud-arka-vāyu-ravi-gāntam <name>uddhataṁ</name></l>
+      </lg>
+      <lg n="12" met="tripadōnnati" xml:id="Cb.3.v012">
+        <l>candra-gaṇa-tritayaṁ kaḍeyoḷ</l>
+        <l>candra-dharaṁ bare mūṟ’ eḍeyoḷ</l>
+        <l>candra-catuṣṭayam āgire bhāvisu</l>
+        <l>candramukhī <name>tripadōnnatiyaṁ</name></l>
+      </lg>
+      <lg n="13" met="padacaturūrdhvaṁ" xml:id="Cb.3.v013">
+        <l>kari-dina-parājarāvaṇa</l>
+        <l>kara-parisaṅkhyākṣaraṁ podaḷd’ eseye gaṇān-</l>
+        <l>taritaṁ <name>padacaturūrdhvaṁ</name></l>
+        <l>parisphuṭaṁ bagedu kēḷvud’ idan abjamukhī</l>
+      </lg>
+      <lg n="14" xml:id="Cb.3.v014">
+        <l>atiśaya-vāk-sampannaṁ</l>
+        <l>śata-patrōdbhava-mahānvayōtpannaṁ</l>
+        <l>catura-kavi-kula-lalāmaṁ lasad-guṇōddāmaṁ</l>
+        <l>caturānanēndra-mantri-pratimaṁ śrī nāgavarmanapratimaṁ</l>
+      </lg>
+      <ab type="head">int’ asamavr̥ttaṅgaḷ’ anēkaprakāraṅgaḷ akkum’ ad’ allad’ anuṣṭup jātiyoḷ puṭṭuva ślōkalakṣaṇamaṁ kandadiṁ pēḻveṁ—</ab>
+      <lg n="15" xml:id="Cb.3.v015">
+        <l>ayd’ āṟ’ emb’ eraḍ’ eḍeyoḷam</l>
+        <l>eyduge laghu guru karābdhi pada-saptakadoḷ</l>
+        <l>meyd’ ōṟuge laghu-lakṣaṇam</l>
+        <l>eyduge paripūrṇam aṣṭavarṇaṁ ślōkaṁ</l>
+      </lg>
+      <lg n="16" xml:id="Cb.3.v016">
+        <l>āṟaneya tāṇadoḷ laghu</l>
+        <l>tōṟidoḍaṁ ślōka-lakṣaṇaṁ kiḍadadu<supplied>vuṁ</supplied></l>
+        <l>bēṟe purātana-kavigaḷ</l>
+        <l>tōṟidar ant’ eraḍaṟoḷageyuṁ guruv ucitaṁ</l>
+      </lg>
+      <ab type="head">vaitāḷīyada lakṣaṇamaṁ pēḻveṁ—</ab>
+      <lg n="17" xml:id="Cb.3.v017">
+        <l>kharamātregaḷ akkum ōjeyoḷ</l>
+        <l>karisaṅkhyātada mātre yugmadoḷ</l>
+        <l>marud-iṣṭa-la-gaṁ tadantadoḷ</l>
+        <l>bare vaitāḷi vilōla-lōcanē</l>
+      </lg>
+      <lg n="18" xml:id="Cb.3.v018">
+        <l>ī pēḻdudu pakṣma-tōya-yugmaṁ</l>
+        <l>ā pāda-dvayak’ ante bandoḍ’ akkuṁ</l>
+        <l>cāpaḷa-nētrē virājisuttand’</l>
+	<l>aupacchandasikaṁ kavīśvarōktaṁ</l>
+      </lg>
+      <ab type="head">int’ aupacchandasikamodal āge vaitāḷīyam udīcyavr̥ttiyuṁ prācyavr̥ttiyum aparāntikeyum endu mātrāgaṇavikalpadiṁ bēṟevēṟe pesarvaḍegum adalladeyuṁ jātigāthegaḷa lakṣaṇamaṁ pēḻveṁ—</ab>
+      <lg n="19" met="jātigāthe" xml:id="Cb.3.v019">
+        <l>padam āṟ’ āgiyuṁ <supplied>mēṇ</supplied> ślō| kada lakṣaṇam āgiyuṁ</l>
+        <l>viditaṁ <name>jātigāthey</name> em | budu sand’ abhimānadiṁ</l>
+        <l>idan ōdu vilōla-ṣa | ṭpadasannibha-kuntaḷē</l>
+      </lg>
+      <ab type="head">ragaḷeya lakṣaṇamaṁ kandapadyadiṁ pēḻveṁ—</ab>
+      <lg n="20" xml:id="Cb.3.v020">
+        <l>gaṇa-niyama-viparyāsadoḷ</l>
+        <l>eṇevaḍedoḷpeseye mātre saman āge guṇā=</l>
+        <l>graṇiya matadinde tāḷada</l>
+        <l>gaṇanegoḍambaṭṭoḍ’ aduve raghaṭābandhaṁ</l>
+      </lg>
+      <ab type="head">āṟu daṇḍakaṅgaḷ int’ akkuṁ—</ab>
+      <lg n="21" met="caṇḍavr̥ṣṭiprayātaṁ" xml:id="Cb.3.v021">
+        <l>amara-yugada munde band’ agnigaḷ caṇḍavr̥ṣṭiprayātakkeyēḻ appud’ eṇṭ’ appud’ a-</l>
+        <l>ttam enisidoḍey arṇam ombattaṟind’ arṇavaṁ pattaṟiṁ vyāḷa pannondu jīmūta<supplied>m a</supplied>-</l>
+        <l>grimade baral ad’ ondu līlākaraṁ matte tāṁ <supplied>sundaraṁ</supplied> puṭṭuguṁ bhāvisal niścayaṁ</l>
+        <l>kamala-vadane kēḷ prasiddhaṅga<supplied>ḷ’ int’ āṟum ī</supplied> daṇḍakaṅgaḷ <supplied>karaṁ</supplied> kantu kāntōpamē</l>
+      </lg>
+      <lg n="22" met="pracitaṁ" xml:id="Cb.3.v022">
+        <l>racitanayuga-saptasaptārciyuṁ daṇḍakaṁ</l>
+        <l>pracitavenale<supplied>yādiyoḷ</supplied> na-dva<supplied>yaṁ bandu</supplied> ma-</l>
+        <l>tt’ ucitame <supplied>sale sapta</supplied>tōyādiyindaṁ<supplied>te</supplied> tāṁ</l>
+        <l>nicitam adu<supplied>ve sapta</supplied>vyōmādi<supplied>kaṁ kātarē</supplied></l>
+      </lg>
+      <lg n="23" xml:id="Cb.3.v023">
+        <l>int’ ī kramadind’ anit’ ā-</l>
+        <l>nuṁ teṟadiṁ sarva-viṣaya-bhāṣādiyanāṁ</l>
+        <l>bhrānt’ illad’ aṟipideṁ nīṁ</l>
+        <l>muṁ tiḷivudu kandadandamaṁ kamalamukhī</l>
+      </lg>
+      <trailer>idu paramēśvaracaraṇāravinda<choice resp="#AO"><sic>maranda</sic><corr>makaranda</corr></choice>madhukarāyamāṇa vibudhajanamanaḥpadmanīrājahaṁsa kavirājahaṁsaviracitam appa chandōmbudhiyoḷ mālāvr̥ttārdhasamaviṣamādivr̥ttaprakaraṇaṁ tr̥tīyādhikāraṁ</trailer>
+    </div>
+    <div type="adhikāra" n="4">
+      <head>kandādimātrāvr̥ttaprakaraṇaṁ</head>
+      <head type="section">caturthādhikāraṁ</head>
+      <lg n="1" xml:id="Cb.4.v001">
+        <l>kandakk’ āryege gītike</l>
+        <l>gondida saṅkīrṇak’ eseva duvayige mātrā-</l>
+        <l>vr̥ndamumaṁ gaṇa-vivaraṇe</l>
+        <l>yandamumaṁ tiḷiye pēḻven ambuja-vadanē</l>
+      </lg>
+      <lg n="2" xml:id="Cb.4.v002">
+        <l>giriśaṁ dhūrjaṭi śarvaṁ</l>
+        <l>purāri puraripuv enippavint’ aydu gaṇaṁ</l>
+        <l>bare śaśi-pura-viṣayādriyoḷ</l>
+        <l>iradirke purāriyemba gaṇam abja-mukhī</l>
+      </lg>
+      <lg n="3" xml:id="Cb.4.v003">
+        <l>int’ āda gaṇada mātrā-</l>
+        <l>santati nālk’ akkum antavarkōronda</l>
+        <l>rkant’ aydu gaṇaṅgaḷ ba</l>
+        <l>rpuṁ todal ēṁ kanda-jātiyoḷ kamala-mukhī</l>
+      </lg>
+      <ab type="head">kandakke lakṣaṇamaṁ pēḻveṁ—</ab>
+      <lg n="4" xml:id="Cb.4.v004">
+        <l>pura-bāṇa-vahni-śara-gaṇam</l>
+        <l>ire nālkuṁ padadoḷ ōjeyugmagaḷoḷ pa</l>
+        <l>nneraḍirpatt’ ōḻiya pa</l>
+        <l>nneraḍirpattarke mātregaḷ mr̥ganayanē</l>
+      </lg>
+      <ab type="head">āryege lakṣaṇamaṁ pēḻveṁ—</ab>
+      <lg n="5" xml:id="Cb.4.v005">
+        <l>modaloḷ panneraḍeraḍaney</l>
+        <l>adaṟoḷ padineṇṭu mūṟaṟoḷ panneraḍ’ ant-</l>
+        <l>tyada pādadalli padine</l>
+        <l>ydudu mātrā-niyamam āryeyoḷ vana-jamukhī</l>
+      </lg>
+      <lg n="6" xml:id="Cb.4.v006">
+        <l>migadēḻe gaṇame barkā</l>
+        <l>ryege munnaṁ tudiyoḷ onde guru tāṁ barke</l>
+        <l>nnagala<supplied>da</supplied>parārdhadoḷ śiśu-</l>
+        <l>mr̥gākṣi laghuv onde barke gaḍa rasad’ eḍeyoḷ</l>
+      </lg>
+      <ab type="head"><supplied>gītiya</supplied> lakṣaṇamaṁ pēḻveṁ—</ab>
+      <lg n="7" xml:id="Cb.4.v007">
+        <l>vipuḷāryeya pūrvārdha</l>
+        <l>dvipādadant’ āgi barke gītige kēḷ inn’</l>
+        <l>aparārdha-pādayuga<supplied>m ada</supplied>-</l>
+        <l><supplied>ṟ’ u</supplied>pameya bared’ ōdu kaltu tiḷivavoliḷeyoḷ</l>
+      </lg>
+      <ab type="head">saṅkīrṇakakke lakṣaṇaṁ—</ab>
+      <lg n="8" xml:id="Cb.4.v008">
+        <l>kandada pūrvārdhadoḷanu</l>
+        <l>sandisidāryāparārdhamadanukramadiṁ</l>
+        <l>dondirdoḍe saṅkīrṇaka</l>
+        <l>mendaṁ kavirājahaṁsanambujavadanē</l>
+      </lg>
+      <ab type="head">duvayige lakṣaṇaṁ—</ab>
+      <lg n="9" xml:id="Cb.4.v009">
+        <l>modaloḷ mātregaḷ āṟ’ a-</l>
+        <l>ppudu padam eraḍaṟoḷam ante kandada gaṇam ayd’</l>
+        <l>udayisi guruv erasirk’ ant-</l>
+        <l>yadin irpatteṇṭu mātre duvayige niyamaṁ</l>
+      </lg>
+      <lg n="10" xml:id="Cb.4.v010">
+        <l>sura-garuḍa-khacara-ravi-vidyādhara-pannaga-rāja-vanditaṁ</l>
+        <l>parama-padaṁ vinamita-janamaṁ parirakṣaṇegeydan int’ idaṁ</l>
+      </lg>
+      <trailer>idu paramēśvaracaraṇāravinda<choice resp="#AO"><sic>maranda</sic><corr>makaranda</corr></choice>madhukarāyamāṇa vibudhajanamanaḥpadmanīrājahaṁsa-kavirājahaṁsa-viracitam appa chandōmbudhiyoḷ kandādimātrāvr̥ttaprakaraṇaṁ caturthādhikāraṁ</trailer>
+    </div>
+    <div type="adhikāra" n="5">
+      <head>karṇāṭaviṣayajātivr̥ttaprakaraṇaṁ</head>
+      <head type="section">pañcamādhikāraṁ</head>
+      <lg n="1" xml:id="Cb.5.v001">
+        <l>arṇava-jātānane sam-</l>
+        <l>pūrṇateyuṁ sarva-viṣaya-bhāṣādigaḷaṁ</l>
+        <l>nirṇayam āg’ aṟipiden iṁ</l>
+        <l>karṇāṭaka-viṣaya-jātiyaṁ kēḷ pēḻveṁ</l>
+      </lg>
+      <lg n="2" xml:id="Cb.5.v002">
+        <l>eraḍuṁ mūṟuṁ nālkuṁ</l>
+        <l>guruviṁ prastarisal ambunidhi-gaja-dharaṇē-</l>
+        <l>śvara-gaṇamogum avarkaṁ</l>
+        <l>sarasija-bhava-viṣṇu-rudrasañjñegaḷ akkuṁ</l>
+      </lg>
+      <lg n="3" xml:id="Cb.5.v003">
+        <l>kara-pura-vārdhiy āgi gurupādiya tad-guruvind’ adhaḥstham āg’</l>
+        <l>ire laghu-yugmam ā kramade munte samaṁ kaḍevaṭṭa binnanoḷ</l>
+        <l>bare laghuv onde pinte guru munte samaṁ modaliṁ taguḷdu paṅ-</l>
+        <l>karuha-daḷēkṣaṇē gaṇaman int’ iḍu sarva-laghutvam appinaṁ</l>
+      </lg>
+      <lg n="4" met="piriyakkaraṁ" xml:id="Cb.5.v004">
+        <l>modaloḷ ajagaṇaṁ kundade barkattam aydugaṇaṅgaḷe viṣṇuv akkuṁ</l>
+        <l>tudiyoḷ ēḻ emba tāṇado<unclear>ḷuṁ</unclear> kandarpa-ripu-gaṇaṁ nelasi nilke</l>
+        <l>padadoḷ eraḍ’ emba saṅkhyelkoḷ <unclear>nālkaṟoḷ</unclear> ajagaṇa samavāyam appoḍ’ akkuṁ</l>
+        <l>sadamaḷēndu-nibhānane nākigan’ iṣṭadin int’ idu <name>piriyakkaraṁ</name></l>
+      </lg>
+      <lg n="5" met="doreyakkaraṁ" xml:id="Cb.5.v005">
+        <l>sarasijōdara-gaṇam eraḍ’ ajanumalli neradirke mattaṁ</l>
+        <l>sarasijōdara-gaṇam eraḍ’ ajanumakke gaṇamum āṟ’ akkuṁ</l>
+        <l>sarasija-lōcanē dorevatta gaṇadiṁ dorevatta pesaraṁ</l>
+        <l>dorey āgi sandudu <name>doreyakkaram</name> idan aṟivud’ ī teṟadiṁ</l>
+      </lg>
+      <lg n="6" met="naḍuvaṇakkaraṁ" xml:id="Cb.5.v006">
+        <l>jaḷaja-sambhava-gaṇam akke modaloḷe naḍuve mūṟuṁ</l>
+        <l>jaḷaruhōdara-gaṇam akke baḻi<supplied>ke</supplied> kāmāri-gaṇaṁ</l>
+        <l>tiḷakadantire taleyoḷe bandirke kāma-bāṇā-</l>
+        <l>vaḷiya pāṅg’ ayda gaṇam akke <name>naḍuvaṇakkarake</name> sakhī</l>
+      </lg>
+      <lg n="7" met="eḍeyakkaraṁ" xml:id="Cb.5.v007">
+        <l>vanaja-sambhava-gaṇam akke modaloḷ attal</l>
+        <l>vanaruhōdara-gaṇa-yugaḷam adakke ru-</l>
+        <l>dran adaṟ’ antyadoḷ bandirke nālke gaṇa-</l>
+        <l>vanite vanitē kēḷ <name>eḍeyakkarakk</name> enasuṁ</l>
+      </lg>
+      <lg n="8" met="kiṟiyakkaraṁ" xml:id="Cb.5.v008">
+        <l>poḍeyalaravarvar modaloḷ arke</l>
+        <l>jaḍeya śaṅkaran orvaṁ tudiyoḷ arke</l>
+        <l>maḍadi kēḷ mūṟ gaṇam esedirke</l>
+        <l>gaḍa <name>kiṟiyakkarakk</name>ide lakṣaṇaṁ</l>
+      </lg>
+      <lg n="9" met="tripadi" xml:id="Cb.5.v009">
+        <l>bisaruhōdbhava-gaṇaṁ | rasa-daśa-sthānadoḷ</l>
+        <l>bisaruha-nētra-gaṇame barp’ uḻiduvu</l>
+        <l>bisaruha-nētrē <name>tripadige</name></l>
+      </lg>
+      <lg n="10" met="citraṁ" xml:id="Cb.5.v010">
+        <l>bhuja-pakṣa-gati-śikhi | vraja-pada-gaṇadoḷ</l>
+        <l>gaja-rasa-daśadoḷ peṟav eḍeyoḷ agadhō</l>
+        <l>kṣaja-gaṇam ādoḍ’ adu <name>citraṁ</name></l>
+      </lg>
+      <lg n="11" xml:id="Cb.5.v011">
+        <l>tudiyōḷ īśvara-gaṇa|modav ire padam ellaṁ</l>
+        <l>mada-gaja-gamanē peṟagaṇa citradand’</l>
+        <l>adinirdoḍ’ adu <name>vicitra</name><supplied>m akkuṁ</supplied></l>
+      </lg>
+      <ab type="head">akkarikeya lakṣaṇaṁ pēḻveṁ —</ab>
+      <lg n="15" met="akkarike" xml:id="Cb.5.v012">
+        <l>mura-ripu bommaṁ mura-ripu bommaṁ mura-ripu śūla-dharaṁ</l>
+        <l>śiradoḷ nilku khara-gaṇam akkuṁ suruciramātregaḷiṁ</l>
+        <l>nirupama-chandaṁ parimitam appantire yati r̥tu-niyataṁ</l>
+        <l>bare taraḷākṣī dhareyoḷ id’ ettaṁ karam esev’ <name>akkarike</name></l>
+      </lg>
+      <ab type="head">madanavatiya lakṣaṇamaṁ pēḻven —</ab>
+      <lg n="16" met="madanavati" xml:id="Cb.5.v013">
+        <l>madanana tandeya gaṇam avu viṣayadoḷ ire guru mund’</l>
+        <l>odavire padadoḷam adaṟa pol appudu harapadamuṁ</l>
+	<l>viditam upēndra-catuṣṭayad’ attal abujavadanē</l><!-- abjavadanē? !-->
+        <l>madana-hara-trayadiṁ hari kaḍepaḍe <name>madanavatī</name></l>
+      </lg>
+      <lg n="17" met="gītike" xml:id="Cb.5.v014">
+        <l>eraḍaṟoḷ āṟ’ emba saṅkhyeyoḷ</l>
+        <l>bare padma-bhavan uḻiduvu maccuva teṟadiṁ</l>
+        <l>dire mundaṇa padaṁ munnin ant’</l>
+        <l>ire karaṁ gītikey int’ akkuṁ sakhī</l>
+      </lg>
+      <lg n="18" met="utsāhaṁ" xml:id="Cb.5.v015">
+        <l>bhūhitārtham enisuva jana gaṇamav eyduva saptasan-</l>
+        <l>dōham attal onde guru beḍaṅgan āḷda nile laya-</l>
+        <l>grāhiy āgi madhura-vacana-racanevettu bandoḍ’ u-</l>
+        <l>tsāham emba pesaroḷ esevud’ abja-patra-lōcanē</l>
+      </lg>
+      <lg n="19" met="utsāhadaṇḍakaṁ" xml:id="Cb.5.v016">
+        <l>mr̥du-madhurav enisuv’ utsā-</l>
+        <l>hadaṇḍakaṁ dharege nākiy emb’ aja-gaṇadiṁ</l>
+        <l>pudid’ abale kaḍeya guru celv’</l>
+        <l>odavire lakṣaṇaniyuktamane pesarvaḍeguṁ</l>
+      </lg>
+      <ab type="head">ṣaṭpadiya lakṣaṇamaṁ pēḻveṁ —</ab>
+      <lg n="20" met="ṣaṭpadi" xml:id="Cb.5.v017">
+        <l>mandara-dhara-gaṇaṁ</l>
+        <l>bandirk’ āṟ’ antyadoḷ</l>
+        <l>kundade nelasuge madana-haraṁ</l>
+        <l>indu-nibhānane</l>
+        <l>mundaṇa pada<supplied>mu</supplied>m ī</l>
+        <l>yandameyāga<supplied>lkai</supplied> <name>ṣaṭpadi</name> kēḷ</l>
+      </lg>
+      <trailer>idu paramēśvaracaraṇāravinda<choice resp="#AO"><sic>maranda</sic><corr>makaranda</corr></choice>madhukarāyamāṇa-vibudha-jana-manaḥ-padminī-rāja-haṁsa-kavi-rāja-haṁsa-viracitam appa chandōmbudhiyoḷ karṇāṭa-viṣaya-jāti-vr̥tta-prakaraṇaṁ pañcamādhikāraṁ</trailer>
+    </div>
+    <div type="adhikāra" n="6">
+      <head>ṣaṭpratyayavivaraṇaprakaraṇaṁ</head>
+      <head type="section">ṣaṣṭhādhikāraṁ</head>
+      <head type="section">prastāraṁ</head>
+      <lg n="1" xml:id="Cb.6.v001">
+        <l>jayadēvādyara chandō</l>
+        <l>nvaya-prayōgataram āduvaṁ pēḻdeṁ ni</l>
+        <l>rṇayam āgiraliṁ ṣaṭpra</l>
+        <l>tyayamaṁ celv’ āge pēḻven ambuja-vadanē</l>
+      </lg>
+      <lg n="2" xml:id="Cb.6.v002">
+        <l>gurugaḷan iṭṭ’ avaṟ’ ādiya</l>
+        <l>guruvindaṁ keḷage laghuvan iḍu munte samaṁ</l>
+        <l>gurupūraṇe pinte niran-</l>
+        <l>tara-laghugaḷan eyduvannegaṁ mr̥ga-nayanē</l>
+      </lg>
+      <ab type="head">naṣṭaṁ</ab>
+      <lg n="3" xml:id="Cb.6.v003">
+        <l>modaloḷ chandad’ īy eḍeya lekkade keṭṭudu vr̥ttam endu pē-</l>
+        <l>ḻvudu bagevandoḍ’ āgaḷ avaṟ’ aṅkaman ardhisi beḷḷaniṭṭuko-</l>
+        <l>ḻvudu samabhāgam īyadoḍe rūpayutārdhade binnaniṭṭuko-</l>
+        <l>ḻvudu gaḍa sūtram ī teṟade kāṇbudu naṣṭaman ambu-jānanē</l>
+      </lg>
+      <ab type="head">uddiṣṭaṁ</ab>
+      <lg n="4" xml:id="Cb.6.v004">
+        <l>bagedā vr̥tta-padāntam eyduvinegaṁ saṅkhyāṅkamaṁ sūtradiṁ</l>
+        <l>dviguṇaṅg’ eydu laghuvrajaṅgaḷ’ eḍeyoḷ nind’ aṅkamaṁ kūḍi me</l>
+        <l>llage matt’ ondane kūḍu binnaneḍeyoḷ nind’ aṅkamaṁ kūḍadir</l>
+        <l>negaḻd’ uddiṣṭavidhānam ī teṟanidaṁ nīṁ kalpud’ abjānanē</l>
+      </lg>
+      <ab type="head">ēkadvilagakriye</ab>
+      <lg n="5" xml:id="Cb.6.v005">
+        <l>anugatam ondaṟ’ aṅkamane chandada lekkadoḷ ūrdhvam iṭṭu me-</l>
+        <l>llane baṟikondan iṭṭadane kūḍuvud’ ondaṟoḷ ondan iṭṭu mu</l>
+        <l>nnina teṟan ant’ adaṁ taḷed’ appudu tatkramam eyduvannegaṁ</l>
+        <l>vanaja-daḷākṣi nīn aṟivud’ ēkayugatrilagakramaṅgaḷaṁ</l>
+      </lg>
+      <ab type="head">saṅkhyānaṁ</ab>
+      <lg n="6" xml:id="Cb.6.v006">
+        <l>dorekoḷ vr̥tta-saṅkhyegaḷan ōḷiy iṭṭ’ avaṟ’ ādi munnin’ ant’</l>
+        <l>ire baṟik’ akkaraṅgaḷoḷ avaṁ tarad’ ardhisi pakka vārdhiyaṁ</l>
+        <l>śaradoḷ kūḍikoṇḍu gatiyaṁ kramadindame sūtradiṣṭadoḷ</l>
+        <l>viracisu vr̥tta-varṇa-laghu-mātregaḷ ellaman ambujānanē</l>
+      </lg>
+      <ab type="head">adhvayōgaṁ</ab>
+      <lg n="7" xml:id="Cb.6.v007">
+        <l>dviguṇisi vr̥ttaman adaṟoḷ</l>
+        <l>baged’ ondaṁ kaḷedoḍ’ akkum aṅgu<supplied>la</supplied>gaṇanaṁ</l>
+        <l>migil āgal adhvayōgaṁ</l>
+        <l>negaḻd’ upadēśado<supplied>ḷ</supplied> parimitaṁ prastāraṁ</l>
+      </lg>
+      <lg n="8" xml:id="Cb.6.v008">
+        <l>aṟanaṁ pāḻiyumaṁ puduṅgoḷisi koṇḍ’ ī bhūmiyaṁ bhūmipar</l>
+        <l>neṟeyāḷgendumiḷātaḷaṁ beḷeyutirkoḷgālamakkeḻpiyuṁ</l>
+        <l>baṟimaṁ piṅguge nāgavarma-kavitā-māhātmyam ī chandadoḷ</l>
+        <l>neṟego<supplied>ḷge</supplied> kavi-rāja-haṁsana mataṁ parbirke bhū-cakradoḷ</l>
+      </lg>
+      <trailer>idu paramēśvara-caraṇāravinda-<choice resp="#AO"><sic>maranda</sic><corr>makaranda</corr></choice>-madhukarāyamāṇa- vibudha-jana-manaḥ-padminī-rāja-haṁsa-kavi-rāja-haṁsa-viracitam appa chandōmbudhiyoḷ ṣaṭ-pratyaya-vivaraṇa-prakaraṇaṁ ṣaṣṭhādhikāraṁ</trailer>
+      <trailer>chandōmbudhi sampūrṇaṁ</trailer>
+    </div>
+    </body>
+  </text>
+</TEI>
