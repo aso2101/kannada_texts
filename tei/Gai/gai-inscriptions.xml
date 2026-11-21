@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schemas/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" n="Gai">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="en">Text of the Inscriptions (of 8th, 9th and 10th centuries A.D.)</title>
+        <respStmt>
+          <resp>transcription of the page images by two independent readings (Claude subagents), merging and adjudication of the differences against the page images</resp>
+          <persName xml:id="Claude">Claude</persName>
+        </respStmt>
+        <respStmt>
+          <resp>proofreading and correction of the whole text</resp>
+          <persName xml:id="AO" ref="http://viaf.org/viaf/372149294434280521495"><forename>Andrew</forename><surname>Ollett</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>editorial intervention marked in the text by parentheses (corrections, additions, unclear letters) and the footnotes of the printed edition (placeholder: the person behind the siglum GSG is to be confirmed)</resp>
+          <persName xml:id="GSG"><surname>Gai</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Kannada Digital Texts Project</authority>
+        <availability status="restricted"><p>Placeholder: the source is a scanned book (file gai-inscriptions-text.pdf, 56 pages, printed pp. 110-165); rights to be clarified before distribution.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Text of the Inscriptions (of 8th, 9th and 10th centuries A.D.)</title>
+          <note>Chapter III of a book whose title page is not in the PDF; printed pp. 110-164 (the PDF has the text of 109 inscriptions; its last page, the beginning of an Index Verborum, is not part of this file). Editor, title, publisher and date to be filled in.</note>
+        </bibl>
+        <listBibl>
+          <bibl xml:id="RICE">B. Lewis Rice, Epigraphia Carnatica (the readings of the footnotes signed RICE) [placeholder, to be confirmed]</bibl>
+          <bibl xml:id="FLEET">J. F. Fleet, readings in the Indian Antiquary (the footnotes signed FLEET) [placeholder, to be confirmed]</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transliteration is ISO-15919 with ṟ (ಱ) and ḻ (ೞ) kept apart from r and ḷ, and e/o short, ē/ō long; vocalic r is r̥ (Gai prints ṛ). Capital letters of the print are lower-cased in the text of the inscriptions. Anusvāra is kept as printed (ṁ), also before stops (the other texts of the project write the class nasal). Headings (<gi>head</gi>) keep Gai's romanization and capitals.</p>
+        <p>Structure: <gi>group</gi> of <gi>text</gi>, one per inscription (<att>n</att> = its serial number; the numbers printed are in the <gi>head</gi>; Nos. 26 and 47-50 have none in the print), inside <gi>group</gi> type="century". <gi>head</gi> = the reference, number, date and place printed above the text. <gi>lb</gi> n = the line number printed at the left margin; <gi>lb</gi> break="no" follows a line that ends in a hyphen (the hyphen of the print is kept: it may divide a word or a compound). <gi>pb</gi> n = the page number of the print.</p>
+        <p>Word junctions: Gai writes "=" between two words that are written together on the stone (sandhi). Here "x = y" becomes "x y" when y begins with a vowel (its vowel is part of the preceding letter) or when x ends in a consonant and y begins with a consonant. A vowel-initial word that is not so joined is written with "°" before the vowel, also a vowel-initial member of a compound after a hyphen when the letter before the hyphen is a vowel (śrī-°akālavarṣa). Two words, the first ending in a consonant and the second beginning with one, that are not joined are separated by "·" (a middle dot, without spaces). A "=" in any other position is kept as printed.</p>
+        <p>Editorial interventions of the print: (1) parentheses in the Kannada text, kept as printed until each has been classified (gai_parens.py): <gi>choice</gi> resp="#GSG" with <gi>orig</gi> and <gi>reg</gi> for a correction, <gi>unclear</gi> resp="#GSG" for an addition or an unclear letter; (2) the footnotes, to be encoded as <gi>app</gi> with <gi>rdg</gi> source="#RICE" or "#FLEET"; until then each is kept in an XML comment at the place of its mark. Notes of the editor in English ("Skt. verse.", "(Other side)", "etc." ...) are <gi>note</gi> type="editorial" xml:lang="en". Square brackets, asterisks, dots for lacunae, the bars | and || and the metrical signs are as printed.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="kan-Latn">
+    <group>
+      <pb n="110"/>
+      <head xml:lang="en">TEXT OF THE INSCRIPTIONS <hi rend="italic">(of 8th, 9th and 10th centuries A.D.)</hi></head>
+      <group type="century" n="8">
+        <head xml:lang="en">8th Century A.D.</head>
+        <text n="1" xml:id="Gai.001">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">The Indian Antiquary</hi>, Vol. VIII, p. 285.</seg> <seg type="number">No. 1.</seg> <seg type="date">A.D. 709.</seg> <seg type="place">At—Aihoḷe, Bijapur Dist. (Bombay Province).</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-vijayāditya-saty[ā]śraya-śrī pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vivallabha mah<unclear resp="#GSG">ā</unclear>-r<unclear resp="#GSG">āj-ādhirāja-para</unclear>-
+              <lb n="2" break="no"/>mēśvara-bhaṭārara<unclear resp="#GSG">r</unclear>·trayōdaśa-varṣamuṁ <choice resp="#GSG"><orig>mu</orig><reg>mū</reg></choice>ṟu-tiṁgaḷ-uḷ·koṭṣāre °āśvayuja-pñ<seg type="parenthesis">(r)</seg>ṇṇamā-
+              <lb n="3" break="no"/>saduḷ·viśupaduḷ °eḻtugolugasaṇiyā °ittaddu pūravaḷagosāsigarā maṟu-
+              <lb n="4" break="no"/>dharmma-tusavanin paḍed eppaṭṭādu °oṁdu gāṇaduḷ °ondu soṁṭige <choice resp="#GSG"><orig>tē</orig><reg>tai</reg></choice>lam āge koṭṭ<unclear resp="#GSG">ā</unclear>ra<unclear resp="#GSG">r</unclear>·bhaṭārargge
+              <lb n="5"/>yā<seg type="parenthesis">(?)</seg> dattiyān kiḍipon vāraṇ<unclear resp="#GSG">ā</unclear>siyuḷ·s<unclear resp="#GSG">ā</unclear>sirvvar-pparvvaru<unclear resp="#GSG">ṁ</unclear> kaviley(u([mā*]n konda lōkakke sandon °akkum
+            </ab>
+          </body>
+        </text>
+        <text n="2" xml:id="Gai.002">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Epigraphia Indica</hi>, Vol. XIV, pp. 190-1.</seg> <seg type="number">No. 2.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 725.</seg> <seg type="place">At—Lakṣmēśvar, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>[°ōm]·svasti śrī vikramā-
+              <lb n="2" break="no"/>ditya yuvarājar·pori-
+              <lb n="3" break="no"/>geṟeyā mahājanakkuṁ na
+              <lb n="4"/>garakkuṁ padineṇṭuṁ prakr̥tigaḷguṁ
+              <lb n="5"/>koṭṭa °ācāra-vyava<choice resp="#GSG"><orig>sthi</orig><reg>sthe</reg></choice> | * rāja-
+              <lb n="6" break="no"/>puruṣar mmanegaḷoḷ·vīḍ illāda-
+              <lb n="7" break="no"/>du rāja-dattaṁ rājaśrāvitaṁ saptra-
+              <lb n="8" break="no"/>me<!--fn1: <note type="footnote" xml:lang="en">Read sat-prame-ed.</note>--> maryyāde tāṁbra-śāsanaṁ bhukt-ā-
+              <lb n="9" break="no"/>nubhōgam* *°ayduṁ dharmmadā jī-
+              <lb n="10" break="no"/>vitaṅgaḷān·kāvodu | * °idu mahājanakke
+              <lb n="11"/>nagara-maryyāde mane vīḍ illādadu
+              <lb n="12"/>°ōr-āḷke °ormme vaiśākha-māsaduḷ·
+              <lb n="13"/>dēśādhipatigaḷ apporgge kuḍuva
+              <lb n="14"/>teṟe °uttamam-appa °okkal-mi-
+              <lb n="15" break="no"/>sam·pattu paṇavuṁ madhyamam a[ppa]
+              <lb n="16"/>°okkal °ēḻuṁ paṇavuṁ kaniṣṭa<seg type="parenthesis">(ṣṭa)</seg>r ayduṁ
+              <lb n="17"/>kanīyasar·mūṟum aṁtt-appa °osage-
+              <lb n="18" break="no"/>°utsāhaṅgaḷge °ond okkal ondu puṭṭi-
+              <lb n="19" break="no"/>ge ma* cōra-pāka-daṇḍa daś-āparā-
+              <lb n="20" break="no"/>dhaṅgaḷ appav ellaṁ pūrvv-ācāraṁ °a-
+              <lb n="21" break="no"/>[pu]tra-dhanam °envodu tāne °illi s[ē]ṇig[e] kā
+              <pb n="111"/><lb n="22"/>rttika-māsaduḷ koḍuvadu guttam·rūvaṁge mā-
+              <lb n="23" break="no"/>gha-māsaduḷ·koḍuvadu pāṇḍi-seṭṭi nāl-chā-
+              <lb n="24" break="no"/>siram·tirmesagaḍeṇakko poḷalān āḷe ka-
+              <lb n="25" break="no"/>ñcagāṟa-sēṇige mane vīḍ illādadu °utta-
+              <lb n="26" break="no"/>mam-appa °okkal-ceḷade °irpattu palaṁ
+              <lb n="27"/>madhyamaṁ padinaydu kani<choice resp="#GSG"><orig>ṣṭa</orig><reg>ṣṭha</reg></choice>ṁ pattu kanī-
+              <lb n="28" break="no"/>yasaṁ °aydum °aṁtt-appa °osage-°utsāhaṅga-
+              <lb n="29" break="no"/>ḷge samūhaṁ °or-ttole telliga-sēṇige
+              <lb n="30"/>mane vīḍ illādadu kūḷ illādadu teṟeyuṁ
+              <lb n="31"/>k<unclear resp="#GSG">e</unclear>y-uḷḷār °are-vāḍa keyy-illādadu so-
+              <lb n="32" break="no"/>ṟe matt appa °osage-°utsāhaṁgaḷge °iḷti
+              <lb n="33"/>vayilamuṁ pettavī vayilamuṁ sovageyā
+              <lb n="34"/>maryāde °irpattā °ayi vaḷḷa ke-
+              <lb n="35" break="no"/>yyā viṭṭiyān keyi nā * * [g]āṟa-
+              <lb n="36" break="no"/>sēṇige °uttamaṁ °a * *
+              <lb n="37"/>madhyamaṁ sāyira * * *
+              <lb n="38"/>* * sāyira[ṁ]kaniṣṭha[ṁ] kanī[yasaṁ]
+              <lb n="39-43"/><note type="editorial" xml:lang="en">illegible</note>
+              <lb n="44"/>* * ra sēṇige * * *
+              <lb n="45"/>°aras-āḷke * * *
+              <lb n="46"/>svasti śrī kupparmad-araṁ-
+              <lb n="47" break="no"/>ge koṭṭa keyuṁ goḍi-
+              <lb n="48" break="no"/>gar-oḍam·mū<choice resp="#GSG"><orig>nu</orig><reg>nū</reg></choice>rvvaruṁ °okka-
+              <lb n="49" break="no"/>luṁ nāḷ-gāmuṇḍanuṁ °iḷdu
+              <lb n="50"/>koṭṭor | * °idaṁ koḷvoṁ vā-
+              <lb n="51" break="no"/>raṇāsivamaṁ °aḷi-
+              <lb n="52" break="no"/>dona lōkakke sandon °akkuṁ
+              <lb n="53"/>sāsirvvar·pārvaruṁ sā-
+              <lb n="54" break="no"/><unclear resp="#GSG">yira kavi</unclear> leyumaṁ ko-
+              <lb n="55" break="no"/><unclear resp="#GSG">nda lōkakke sa</unclear>n<unclear resp="#GSG">d</unclear>on akkuṁ
+            </ab>
+          </body>
+        </text>
+        <text n="3" xml:id="Gai.003">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> VIII. 286 (LVIII):</seg> <seg type="number">No. 3.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 732-3.</seg> <seg type="place">At—Aihoḷe, Bijapur Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti vi<choice resp="#GSG"><orig>kkra</orig><reg>kra</reg></choice>māditya-satyāśraya śrī-<choice resp="#GSG"><orig>pri</orig><reg>pr̥</reg></choice>thivīvallabha mahārāj-ādhirāja
+              <lb n="2"/>paramēśvara bhaṭāra<add resp="#GSG">r</add>·<choice resp="#GSG"><orig>pri</orig><reg>pr̥</reg></choice>thivirājyaṁ-geye pesadorā magan·revaḍibaddar āṭada-
+              <lb n="3" break="no"/>°āḷekomara-siṅgana dēgulala °āditya-bhaṭārage koṭṭudu [ | ] tamage suṁ<choice resp="#GSG"><orig>kkaṁ</orig><reg>kaṁ</reg></choice> bīḷdalli
+              <lb n="4"/>°ondu pēṟige °<choice resp="#GSG"><orig>o</orig><reg>oṁ</reg></choice>-mānaṁ bhaṇḍa-vēṟige °aydu visavaṁ °ele-vēṟige °ayvattu [ | ] °initum·rāja<seg type="parenthesis">(ja)</seg>-śrāvitaṁ
+              <lb n="5"/>mahājana-muṁ-na<choice resp="#GSG"><orig>ka</orig><reg>ga</reg></choice>ra-śrāvitaṁ || °idān-salisuge °āvon-ānuṁ kiḍipon-uḷḷoḍe vāraṇāsi<add resp="#GSG">ya</add> °o<unclear resp="#GSG">ṁ</unclear>d<unclear resp="#GSG">u</unclear>-
+              <lb n="6" break="no"/>sāsira kavileyuṁ sāsi<choice resp="#GSG"><orig>rba</orig><reg>rbar</reg></choice> parvarumān konda lōkakke sandon akkuṁ
+            </ab>
+          </body>
+        </text>
+        <pb n="112"/>
+        <text n="4" xml:id="Gai.004">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> X. 103 (No. XCIV).</seg> <seg type="number">No. 4.</seg> <seg type="date"><hi rend="italic">Between</hi> A.D. 696-7 &amp; 733-4.</seg> <seg type="place">At—Bādāmi (Mahākūṭa), Bijapur Dist. Bombay Pr.</seg></head>
+            <ab>
+              <lb n="1"/>svasti vijayāditya-satyāśraya-śrī-pr̥thivī-
+              <lb n="2" break="no"/>vallabha-mahārāj-ādhirāja-paramēśvara-bhaṭā-
+              <lb n="3" break="no"/>rarā prāṇavallabhe vināpoṭigaḷ envor sūḷe-
+              <lb n="4" break="no"/>yar | °ivarā mudutāyvir revamañcalgaḷ avarā
+              <lb n="5"/>magaḷdir kucipoṭigaḷ °avarā magaḷu vināpo-
+              <lb n="6" break="no"/>ṭigaḷa<unclear resp="#GSG">ḷ</unclear> °illiye hiraṇya-garbham-iḷdu °ellā dāna-
+              <lb n="7" break="no"/><choice resp="#GSG"><orig>mu</orig><reg>ma</reg></choice>ṁ-goṭṭu dēvanā pīṭhamān kisuvine kaṭṭi beḷḷiyā
+              <lb n="8"/>koḍeyān ēṟisi<choice resp="#GSG"><orig>ē</orig><reg>ye</reg></choice> maṅgaluḷḷe °aṣṭa-śatam·kṣē-
+              <lb n="9" break="no"/>tra<unclear resp="#GSG">ṁ</unclear>-goṭṭoḷ | °idān aḻidon<!--fn2: <app><rdg source="#FLEET">aḷidon</rdg></app>--> pañca-mahā-pātakan akkum
+            </ab>
+          </body>
+        </text>
+        <text n="5" xml:id="Gai.005">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> X. 165 (No. ci).</seg> <seg type="number">No. 5.</seg> <seg type="date"><hi rend="italic">Not later than</hi> A.D. 733-4.</seg> <seg type="place">At—Paṭṭdakal, Bijapur Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-vijayālitya vikramāditya
+              <lb n="2"/>śrī-pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vīvallabha mahārāj-ādhirāja
+              <lb n="3"/>paramēśvara bhaṭārarā koṭṭa datti °a[na]-
+              <lb n="4" break="no"/>ntaguṇarā dēgulakke koṭṭudu datti
+              <lb n="5"/>°añjanācārya-bhagavantarā sthā-
+              <lb n="6" break="no"/>namān dēvācārya-bhagavantargge koṭṭu
+              <lb n="7"/>śrī-lōkapālēśvarakam·pāṟe baḷḷi <unclear resp="#GSG">sva</unclear>-
+              <lb n="8"/><note type="editorial" xml:lang="en">Skt. verse.</note>
+              <lb n="9"/><note type="editorial" xml:lang="en">Skt. verse.</note>
+              <lb n="10"/>°i dharmmakke °a<unclear resp="#GSG">hitaṁ</unclear>
+              <lb n="11"/>bevvon vāra<unclear resp="#GSG">ṇā</unclear>siyā sāsi<add resp="#GSG">r</add>vva<add resp="#GSG">r</add> pārvva<unclear resp="#GSG">ruṁ</unclear>
+              <lb n="12"/>sāsirā kavileyuṁ konda lōkakke sa-
+              <lb n="13" break="no"/>n<unclear resp="#GSG">do</unclear>n akkuṁ | °i dharmmakke °ahitaṁ-brvvon·pañca-<unclear resp="#GSG">ma</unclear>-
+              <lb n="14" break="no"/>hā-pātakan-akkuṁ
+            </ab>
+          </body>
+        </text>
+        <text n="6" xml:id="Gai.006">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> X. 166 (No. cii).</seg> <seg type="number">No. 6.</seg> <seg type="date">A.D. 733-46.</seg> <seg type="place">At—Paṭṭadakal.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī vijayāditya satyāśraya śrī-pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vi-vallabha-mahā-
+              <lb n="2" break="no"/>rāj-ādhirāja-paramēśvara-bhaṭārarā gāndharvvargge niṟi-
+              <lb n="3" break="no"/>sidā pūrvva-maryyādegaḷān·śrī-vi<choice resp="#GSG"><orig>krā</orig><reg>kra</reg></choice>māditya-bhaṭā-
+              <lb n="4" break="no"/>rarā lōkama<choice resp="#GSG"><orig>ha</orig><reg>hā</reg></choice>dēviyar·gāndharvvargge nittār ||
+              <lb n="5"/>°idān aḷivon·bāraṇāsiya sāsira kavile-
+              <lb n="6" break="no"/>yuṁ sāsirvvar·pāravvarumān·konda lōkakke sa-
+              <lb n="7" break="no"/>ndon akkum || °eṟeyaḍi śrī-gppaduggadi duggamāra °idā<add resp="#GSG">n</add>·
+              <lb n="8"/>paḍedār ||
+            </ab>
+          </body>
+        </text>
+        <pb n="113"/>
+        <text n="7" xml:id="Gai.007">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> X. 167 (No. cv).</seg> <seg type="number">No.7.</seg> <seg type="date">A.D. 733-46.</seg> <seg type="place">At—Paṭṭadakal, Bijapur Dist.</seg></head>
+            <ab>
+              <lb n="1"/>svasti vi<choice resp="#GSG"><orig>kkra</orig><reg>kra</reg></choice>māditya pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vi-vallabha lōkamahādēvi-
+              <lb n="2" break="no"/>yarā lōkēśvaradā nareyaṁgalla pannāsu-
+              <lb n="3" break="no"/>gaḷān itta samayam or-mmattarge °ir-kkuḷa
+              <lb n="4"/>jōḷaṁ kuḍuvudu || tagapp-illa gōsane °illa
+              <lb n="5"/>rāja-puruṣarge pugil-illa | °i<choice resp="#GSG"><orig>da</orig><reg>dā</reg></choice>n aḻido<add resp="#GSG">n</add>·pā-
+              <lb n="6" break="no"/>rvvan akke mada-vādi °akke bāra<choice resp="#GSG"><orig>ṇa</orig><reg>nā</reg></choice>sivada sāsira kavileyaṁ kondon °akkuṁ ||
+            </ab>
+          </body>
+        </text>
+        <text n="8" xml:id="Gai.008">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> X. 164-5 (No. c).</seg> <seg type="number">No. 8.</seg> <seg type="date">A.D. 733-46.</seg> <seg type="place">At—Paṭṭadakal, Bijapur Dist.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-vikramāditya-
+              <lb n="2" break="no"/>bhaṭārar mmūme <choice resp="#GSG"><orig>ka</orig><reg>kā</reg></choice>ṁciyān mūme parā-
+              <lb n="3" break="no"/>jisidorā śrī-lōkamahādēviyarā
+              <lb n="4"/>°ī lōkēśvara māḍida sūtradhārige
+              <lb n="5"/>mūme-perjjeṟepu geyda-baḷikke °ī viṣa-
+              <lb n="6" break="no"/>yada vinnāṇigaḷā baḷḷigavārtteyan uḷi-
+              <lb n="7" break="no"/>pida °ācāriya pesar ivan aṟimi
+              <lb n="8"/>svasti śrī-sarvvasidhi-°ācāri sakala-guṇ-āśraya
+              <lb n="9"/>°anēka-rapu<seg type="parenthesis">(sc. puṭa)</seg>-vāstu-pitāmahan·sakala-niṣkala-sū-
+              <lb n="10" break="no"/>kṣm-ātibhāṣitan·<choice resp="#GSG"><orig>va</orig><reg>vā</reg></choice>stu-prāsāda-yān-āsana-<choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>ya-
+              <lb n="11" break="no"/>na-maṇimakuṭa-ratnacūḍāmaṇi te<add resp="#GSG">ṁ</add>kaṇa di-
+              <lb n="12" break="no"/>śeyā sūtradhāri ||
+            </ab>
+          </body>
+        </text>
+        <text n="9" xml:id="Gai.009">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> X. 163-4 (No. xcix).</seg> <seg type="number">No. 9.</seg> <seg type="date">A.D. 733-6.</seg> <seg type="place">At—Paṭṭadakal, Bijapur Dist.</seg></head>
+            <ab>
+              <lb n="1"/>svasti vikramāditya śrī-
+              <lb n="2" break="no"/><choice resp="#GSG"><orig>pri</orig><reg>pr̥</reg></choice>thivīvallabha-mahādēvi-
+              <lb n="3" break="no"/>yarā dēgulamān·<choice resp="#GSG"><orig>ma</orig><reg>mā</reg></choice>ḍida sūtradhāri
+              <lb n="4"/>śrī-guṇḍan °anivārit-ācāri-
+              <lb n="5" break="no"/>ge mūme-perjjeṟepu-paṭṭamu tribhuvanācāri-
+              <lb n="6" break="no"/>y endu pesar iṭṭu prasādaṅ-geydā <choice resp="#GSG"><orig>prī</orig><reg>pr̥</reg></choice><choice resp="#GSG"><orig>dhi</orig><reg>thi</reg></choice>viyā
+              <lb n="7"/>binnāṇigaḷā baḷḷigavārtte °illa dōsiga-
+              <lb n="8" break="no"/>na kavardd uḷidorge parihā<add resp="#GSG">ra</add>m || °idān °aḷi-
+              <lb n="9" break="no"/>von vāraṇāsiya sāsirā kavileyuṁ sāsirvva-
+              <lb n="10" break="no"/>r ppārvvarumān·kondo<choice resp="#GSG"><orig>na</orig><reg>rā</reg></choice> lōkakke sandon akku <add resp="#GSG">m</add> ||
+            </ab>
+          </body>
+        </text>
+        <text n="10" xml:id="Gai.010">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> XI. 125 (No. cxxii).</seg> <seg type="number">No. 10.</seg> <seg type="date">A.D. 778-9.</seg> <seg type="place">At—Paṭṭadkal, Bijapur Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti dhārāva<add resp="#GSG">r</add>ṣa <choice resp="#GSG"><orig>śri</orig><reg>śrī</reg></choice>-pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vivallabha mahārājādhirāja
+              <lb n="2"/>paramēśvara bhaṭṭāra śrī-kaliballahan·pr̥i(pr̥(<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vī-
+              <pb n="114"/><lb n="3" break="no"/>rājya<add resp="#GSG">ṁ</add>-geye lō<seg type="parenthesis">(lō)</seg>kamahādēviyara dēgu-
+              <lb n="4" break="no"/>lada sūḷe gōyinda-poḍḍiya magaḷu bādi <unclear resp="#GSG">?ḷi</unclear>-
+              <lb n="5" break="no"/>poḍḍiy emboḷ °uttama-gōsāsam-iḻdoḷ °a-
+              <lb n="6" break="no"/>śvaratha<add resp="#GSG">ṁ</add>-goṭṭoḷ hastiratham-iḻdoḷ·
+              <lb n="7"/>bhūmi-dānamuṁ °ubhayamukhiyuṁ = koṭṭāḷ ||
+            </ab>
+          </body>
+        </text>
+        <text n="11" xml:id="Gai.011">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 17-8 (I).</seg> <seg type="number">No. 11.</seg> <seg type="date">A.D. 675-720.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī || raṇa-
+              <lb n="2" break="no"/>sāgaranā <choice resp="#GSG"><orig>śaṁ</orig><reg>saṁ</reg></choice>ka-
+              <lb n="3" break="no"/>ṭaduḷ udeyapuraṁ
+              <lb n="4"/>dhareg<unclear resp="#GSG">ī</unclear>śan paḍe-po-
+              <lb n="5" break="no"/>guvalli vijaṇa-
+              <lb n="6" break="no"/>nāygarā magan kā-
+              <lb n="7" break="no"/>ltide kadan-aggha-
+              <lb n="8" break="no"/>ḷi kāḷega-kēsa-
+              <lb n="9" break="no"/>ri kariripu-vikraman
+              <lb n="10"/>°aniyu<add resp="#GSG">ḷ</add>·ḍāva-
+              <lb n="11" break="no"/>ṇam oḍḍuvon sā-
+              <lb n="12" break="no"/>hasad ari-cakra-
+              <lb n="13" break="no"/><add resp="#GSG">vyū</add> haman oḍedon
+              <lb n="14"/><add resp="#GSG">°ā</add>havad oḍe<unclear resp="#GSG">da</unclear>n·pa-
+              <lb n="15" break="no"/>ra-<unclear resp="#GSG">ba</unclear>lad-aṇi ci-
+              <lb n="16" break="no"/>travāhanarggāgi ka-
+              <lb n="17" break="no"/>li-kānti °eṟi-
+              <lb n="18" break="no"/>du svarggālayakk ē-
+              <lb n="19" break="no"/>ridon [ || * ]
+            </ab>
+          </body>
+        </text>
+        <text n="12" xml:id="Gai.012">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 18 (II).</seg> <seg type="number">No. 12.</seg> <seg type="date">A.D. 710-30.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī raṇa<unclear resp="#GSG">sā</unclear>-
+              <lb n="2" break="no"/>garanā °āḷu viñjan·
+              <lb n="3"/>pra<unclear resp="#GSG">hā</unclear>rabhūṣa-
+              <lb n="4" break="no"/>ṇanā magan·kā-
+              <lb n="5" break="no"/>makōḍan·tammuttu-
+              <lb n="6" break="no"/>mūvarā pāśu<choice resp="#GSG"><orig>pā</orig><reg>pa</reg></choice>taṁ
+              <lb n="7"/>namvrāng ōva<unclear resp="#GSG">do</unclear>rā
+              <lb n="8"/>nālageyan·<choice resp="#GSG"><orig>ki</orig><reg>kī</reg></choice>-
+              <lb n="9" break="no"/>ḻpon·paṭṭi-
+              <lb n="10" break="no"/>°oḍeyong ōā <unclear resp="#GSG">va</unclear>-
+              <lb n="11" break="no"/>doran paṭṭa-°aḻi-pā-
+              <lb n="12" break="no"/>yvon·śvētavāha-
+              <lb n="13" break="no"/>nan °udayāpu-
+              <lb n="14" break="no"/>ramān·poguva-
+              <pb n="115"/><lb n="15" break="no"/>lli °eṟidu <choice resp="#GSG"><orig>śva</orig><reg>sva</reg></choice>-
+              <lb n="16" break="no"/><choice resp="#GSG"><orig>rgga</orig><reg>rggā</reg></choice>layakk ēṟi-
+              <lb n="17" break="no"/><unclear resp="#GSG">don</unclear>
+            </ab>
+          </body>
+        </text>
+        <text n="13" xml:id="Gai.013">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 19 (III).</seg> <seg type="number">No. 13.</seg> <seg type="date">A.D. 720-30.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī pāṇḍyavi-
+              <lb n="2" break="no"/>llarasarā maga-
+              <lb n="3" break="no"/>n dēvu sā<choice resp="#GSG"><orig>du</orig><reg>dhu</reg></choice>-priyan a-
+              <lb n="4" break="no"/>sā<choice resp="#GSG"><orig>du</orig><reg>dhu</reg></choice>jana-varjitan śvē-
+              <lb n="5" break="no"/>tavāhanar udaya-
+              <lb n="6" break="no"/>puramān poguvalli
+              <lb n="7"/>°eṟidu svarggālaya-
+              <lb n="8" break="no"/>kk ēṟidon
+            </ab>
+          </body>
+        </text>
+        <text n="14" xml:id="Gai.014">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 20 (IV).</seg> <seg type="number">No. 14.</seg> <seg type="date">A.D. 730-50.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī pr̥-
+              <lb n="2" break="no"/>thivisāgara-
+              <lb n="3" break="no"/>n paṭṭaṁ gaṭṭi-
+              <lb n="4" break="no"/>si °ud[e]ya-
+              <lb n="5" break="no"/>purmān·po-
+              <lb n="6" break="no"/>gutappalli na-
+              <lb n="7" break="no"/>ndavilmuḍiya-
+              <lb n="8" break="no"/>rā magan pali-
+              <lb n="9" break="no"/>paṟe °eṟidu
+              <lb n="10"/>svarggālaya-
+              <lb n="11" break="no"/>kk ēṟidon.
+            </ab>
+          </body>
+        </text>
+        <text n="15" xml:id="Gai.015">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI.</hi> IX. 20 (V).</seg> <seg type="number">No. 15.</seg> <seg type="date">A.D. 730-50.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī || pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>visāgara
+              <lb n="2"/>śrīmad-āḷupēndra duṣṭa-bhaya-
+              <lb n="3" break="no"/>ṅkarargge °iṣṭa-bhr̥tyan appa po-
+              <lb n="4" break="no"/>lokku priyacelva [°u]da[yā]-
+              <lb n="5" break="no"/>puraman·pugutappa-
+              <lb n="6" break="no"/>lli °āha[pa](va)-ra<unclear resp="#GSG">ṅga</unclear>duḷ-uru-
+              <lb n="7" break="no"/>bhaṭara [°e]ṟidu priyace-
+              <lb n="8" break="no"/>lva celva-śanpanna <choice resp="#GSG"><orig>ka</orig><reg>kha</reg></choice>la-
+              <lb n="9" break="no"/>[ja]na-varjjitan·dhare<choice resp="#GSG"><orig>gi</orig><reg>gī</reg></choice>-
+              <lb n="10" break="no"/>[śa*]ṅge °ōvadora pata-
+              <lb n="11" break="no"/>[t]iya °aḻidu suralō-
+              <pb n="116"/><lb n="12" break="no"/>kakke °ēṟidan[ | * ]keḷeya
+              <lb n="13"/>vāḷ[e]ṟeyan·niṟisida ||
+            </ab>
+          </body>
+        </text>
+        <text n="16" xml:id="Gai.016">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 12 (VI).</seg> <seg type="number">No. 16.</seg> <seg type="date">A.D. 730-50.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī || pr̥<choice resp="#GSG"><orig>dhu</orig><reg>thi</reg></choice>visāgara
+              <lb n="2"/>śrīmad-āḷupēndra sōmavaṁśō-
+              <lb n="3" break="no"/>dbhava kulatilakan °udayāditya
+              <lb n="4"/>°uttama-pāṇḍya śrīmad-āḷuvara<unclear resp="#GSG">sa</unclear>-
+              <lb n="5" break="no"/>r b<unclear resp="#GSG">ō</unclear>ygavarmara nāṭu-mudimeyu<unclear resp="#GSG">ḷ</unclear>
+              <lb n="6"/>°udayapurada <choice resp="#GSG"><orig>nā</orig><reg>na</reg></choice>gara-sahitam·pa-
+              <lb n="7" break="no"/>ṭiya nagarakke jaladuḷam·sthala<unclear resp="#GSG">du</unclear>-
+              <lb n="8" break="no"/>ḷaṁ suṁkam ardha-dāna kādar | °udaya<unclear resp="#GSG">pu</unclear>-
+              <lb n="9" break="no"/>ranāygara magan <unclear resp="#GSG">s</unclear>iṅgadattanu<unclear resp="#GSG">ṁ</unclear> ku<unclear resp="#GSG">mā</unclear>-
+              <lb n="10" break="no"/>ra °eṟeganuṁ raṇavikrama<unclear resp="#GSG">nātha</unclear>-
+              <lb n="11" break="no"/>nu sandavaradara kaṇṇaciyu<unclear resp="#GSG">ṁ</unclear> <unclear resp="#GSG">°i</unclear>-
+              <lb n="12" break="no"/>du <choice resp="#GSG"><orig>°a</orig><reg>°ā</reg></choice>cancira<choice resp="#GSG"><orig>thā</orig><reg>tā</reg></choice>rakaṁ nilpu<unclear resp="#GSG">d a</unclear><choice resp="#GSG"><orig>ke</orig><reg>kke</reg></choice> ||*]
+              <lb n="13"/>°idan vakram illāde kādu sali<unclear resp="#GSG">po</unclear>-
+              <lb n="14" break="no"/>n aśvamēdhada <choice resp="#GSG"><orig>pa</orig><reg>pha</reg></choice>la-prāpti °a<choice resp="#GSG"><orig>ku</orig><reg>kkuṁ</reg></choice> [|*]
+              <lb n="15"/>°idan aḻivon vāra<choice resp="#GSG"><orig>ṇa</orig><reg>ṇā</reg></choice>śiyuṁ <choice resp="#GSG"><orig>si</orig><reg>śi</reg></choice>va-
+              <lb n="16" break="no"/>vaḷḷiyuman aḻida paṁca<unclear resp="#GSG">ma</unclear>-
+              <lb n="17" break="no"/><choice resp="#GSG"><orig>ha</orig><reg>hā</reg></choice>pātaka-<choice resp="#GSG"><orig>śaṁ</orig><reg>saṁ</reg></choice>yuktar appar.
+            </ab>
+          </body>
+        </text>
+        <text n="17" xml:id="Gai.017">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 22 (VII).</seg> <seg type="number">No. 17.</seg> <seg type="date">A.D. 750-70.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>[°ōm]·svasti śrī vija<unclear resp="#GSG">y</unclear>āditya °āḷu-
+              <lb n="2" break="no"/>pēndra paramēsva<unclear resp="#GSG">śva</unclear>ra °ādhir<unclear resp="#GSG">ā</unclear>-
+              <lb n="3" break="no"/>jarājan °uttama-pāṇḍyan <choice resp="#GSG"><orig>śō</orig><reg>sō</reg></choice>mavaśō-
+              <lb n="4" break="no"/>dbhava śrī-māramm-āḷvarasar <unclear resp="#GSG">°u</unclear>
+              <lb n="5"/>°udayapurada na<choice resp="#GSG"><orig>ka</orig><reg>ga</reg></choice>ra-sahitam·pombu-
+              <lb n="6" break="no"/>ḷcada na<choice resp="#GSG"><orig>ka</orig><reg>ga</reg></choice>rakke suṅka kādudu saṅku-
+              <lb n="7" break="no"/>rakke <unclear resp="#GSG">pu</unclear>ṭṭige °ondare maḷavege pa-
+              <lb n="8" break="no"/>ḷti padināṟu palaṁ °aḍakeya pē-
+              <lb n="9" break="no"/>ṟi<choice resp="#GSG"><orig>ṅga</orig><reg>ṅge</reg></choice> mūn<unclear resp="#GSG">ū</unclear>ṟu veḷasina pēṟiṅge
+              <lb n="10"/>padi<choice resp="#GSG"><orig>na</orig><reg>nā</reg></choice>ṟu pala<unclear resp="#GSG">ṁ</unclear> | °idā paḍedor·su-
+              <lb n="11" break="no"/>sēnavadiyara svarṇṇagōsasi mutta-
+              <lb n="12" break="no"/>varara °aḍiyapaseṭṭiyu maṇḍukara
+              <lb n="13"/>parasēbyan·sēnavadiyara nagakumāran
+              <lb n="14"/>°idu <choice resp="#GSG"><orig>°a</orig><reg>°ā</reg></choice>candratāraka<unclear resp="#GSG">ṁ</unclear> nilpud akke | °ida kādo
+              <lb n="15"/>°aṭṭaguṇa °a<choice resp="#GSG"><orig>sva</orig><reg>śva</reg></choice>mē<choice resp="#GSG"><orig>da</orig><reg>dha</reg></choice>da <choice resp="#GSG"><orig>pa</orig><reg>pha</reg></choice>lam °akke
+              <lb n="16"/>°idan °aḻido b<unclear resp="#GSG">ā</unclear>raṇāsiyu śivavaḷḷiyu-
+              <lb n="17" break="no"/>ma °aḷida pañcama<choice resp="#GSG"><orig>ha</orig><reg>hā</reg></choice>pātakan ak<unclear resp="#GSG">u</unclear>(kkum) |
+              <lb n="18"/>raṇadhāri-likhita.
+            </ab>
+          </body>
+        </text>
+        <pb n="117"/>
+        <text n="18" xml:id="Gai.018">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> IX. 23 (VIII).</seg> <seg type="number">No. 18.</seg> <seg type="date">A.D. 750-70.</seg> <seg type="place">At—Udiyāvara, South Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en"><hi rend="italic">First and Second Faces.</hi></note>
+              <lb n="1"/>svasti śrī vijayā<choice resp="#GSG"><orig>dhi</orig><reg>di</reg></choice>tyan
+              <lb n="2"/>°āḷupēndra paramē<choice resp="#GSG"><orig>sva</orig><reg>śva</reg></choice>ra <choice resp="#GSG"><orig>°ā</orig><reg>°a</reg></choice>-
+              <lb n="3" break="no"/><choice resp="#GSG"><orig>dhī</orig><reg>dhi</reg></choice>rājarājan °uttama-
+              <lb n="4" break="no"/>pāṇḍyan sōmavaṅśōbhavan
+              <lb n="5"/>°āḷuvarasar °arakellarā
+              <lb n="6"/>nāṭu-mudi(di)meyuḷ °udayā-
+              <lb n="7" break="no"/>purada na<choice resp="#GSG"><orig>ka</orig><reg>ga</reg></choice>ra-sahitaṁ ponvuḷca-
+              <lb n="8" break="no"/>da na<choice resp="#GSG"><orig>ka</orig><reg>ga</reg></choice>rakke suṅkadā °a<choice resp="#GSG"><orig>rdda</orig><reg>rddha</reg></choice>-<unclear resp="#GSG">dā</unclear>na
+              <lb n="9"/>kā<unclear resp="#GSG">daha</unclear> °avargge °aṭṭaguṇa
+              <lb n="10"/>°a<choice resp="#GSG"><orig>sva</orig><reg>śva</reg></choice>mē<choice resp="#GSG"><orig>da</orig><reg>dha</reg></choice>dā <choice resp="#GSG"><orig>pa</orig><reg>pha</reg></choice>lam akkuṁ | °idā
+              <lb n="11"/><add resp="#GSG">pa</add>ḍedor·muttavurera saruvigōsāsiga
+              <lb n="12"/>koḍalseṭṭiyarā madāmman·vija<unclear resp="#GSG">s</unclear>e-
+              <lb n="13" break="no"/>ṭṭigarā dharmmanāygan manugasā-
+              <lb n="14" break="no"/>ttavar·sarvvavandu puleyarmman |
+              <note type="editorial" xml:lang="en"><hi rend="italic">Third Face.</hi></note>
+              <lb n="15"/>°ī °okkal paḍed<unclear resp="#GSG">u</unclear>-
+              <lb n="16" break="no"/>vu | °idā °aḷivo
+              <lb n="17"/>sivavāḷḷiyu vā-
+              <lb n="18" break="no"/>rāṇāsiyuman
+              <lb n="19"/>°aḻida pañcama-
+              <lb n="20" break="no"/>hāpātakan °akkuṁ ||
+            </ab>
+          </body>
+        </text>
+        <text n="19" xml:id="Gai.019">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> IX-i. 403 (No. 392).</seg> <seg type="number">No. 19.</seg> <seg type="date">A.D. 710-20.</seg> <seg type="place">At—Mangalur, S. Kanara Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>maṟadu. . ndra vikramanibha śrī-kayravaṁśādhipan
+              <lb n="2"/>°eṟeddhān·pāybayana samuhabalamā niśśēṣamā
+              <lb n="3"/>yuddhaduḷ °uṟakīliccidavaṁbuvāḷ-palageyuḷ·taṭṭuḷtuva-
+              <lb n="4" break="no"/>lpandipin·maṟumōgīśvaran-uḷḷe kadi taṇida nāgammanī
+              <lb n="5"/>śūdrakan·permmakki-megire paṭṭondidoḍa kādu raṇasūgaran-pariyā-
+              <lb n="6" break="no"/>raṁ koṭṭan.
+            </ab>
+          </body>
+        </text>
+        <text n="20" xml:id="Gai.020">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> III. 360.</seg> <seg type="number">No. 20.</seg> <seg type="date">A.D. 733-6.</seg> <seg type="place">At—Conjeevaram, Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti || vikramād<unclear resp="#GSG">it</unclear>ya-satyāśraya-śr<unclear resp="#GSG">ī</unclear>-
+              <lb n="2" break="no"/>prithuvi-vallabha mahārājādhi-
+              <lb n="3" break="no"/>rāja paramēśvara-bhaṭṭāran·ka-
+              <lb n="4" break="no"/>ñciyān koṇḍu rājasi<add resp="#GSG">ṁ</add>ghēśvara-
+              <lb n="5" break="no"/>da dhanamān kaṇḍu maguḷdu dēva-
+              <lb n="6" break="no"/>rgge biṭṭār | °intu biṭṭa bhaṭārāra
+              <lb n="7"/>dharmmada sthitiyu<add resp="#GSG">m</add> °īy akṣaraṁgaḷu-
+              <pb n="118"/><lb n="8" break="no"/>mān aḻivār īy ūrā ghaṭineyā mahā-
+              <lb n="9" break="no"/>janamān kondāra lōkakke sandār appār·
+              <lb n="10"/>niravadya-śrīmad-a<unclear resp="#GSG">ni</unclear>vāritapuṇya-vallabhē-
+              <lb n="11" break="no"/>na likhitam i<unclear resp="#GSG">daṁ</unclear> vallabhadurjjayar adhikāradi<unclear resp="#GSG">ṁ</unclear> ||
+            </ab>
+          </body>
+        </text>
+        <text n="21" xml:id="Gai.021">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VI. 161 (No. A).</seg> <seg type="number">No. 21.</seg> <seg type="date">A.D. 765.</seg> <seg type="place">At—Hatti-Mattur, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-°akālavarṣa-bhaṭararā pr̥-
+              <lb n="2" break="no"/>thuvi-rājyaṅ-geye surageyurā dā-
+              <lb n="3" break="no"/>samm-eṟeyar·maḻtavurā °ūr-aḻivinoḷ
+              <lb n="4"/>°iṟidu sattu svargg-ālayake °ēṟid<unclear resp="#GSG">or</unclear> ||
+              <lb n="5"/>°ivu tammutt-irbbara kalgaḷ.
+            </ab>
+          </body>
+        </text>
+        <text n="22" xml:id="Gai.022">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VI, 163 (No. B).</seg> <seg type="number">No. 22</seg> <seg type="date">A.D. 780.</seg> <seg type="place">At—Naregal, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/><unclear resp="#GSG">°ōm</unclear>·svasti śrī-dōraṁ prithuvi-rājyaṁ-keye māra-
+              <lb n="2" break="no"/>kka-°arasar·banamā<unclear resp="#GSG">vā</unclear>si-pannir-chārasinum-āḷe nareyaṁ-
+              <lb n="3" break="no"/>galla sāsirvvara tuṟupina puyyaloḷ·
+              <lb n="4"/>dommara kāḍavaṁ sattu svargg-<unclear resp="#GSG">ā</unclear>layakk-ēridan ||
+            </ab>
+          </body>
+        </text>
+        <text n="23" xml:id="Gai.023">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VI, 166 (No. C).</seg> <seg type="number">No. 23.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 793.</seg> <seg type="place">At—Lakṣmēśvar, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/><unclear resp="#GSG">°ōm</unclear>svasti śrīballa-
+              <lb n="2" break="no"/>haṁ pr̥thuvī-rājya-
+              <lb n="3" break="no"/>ṅ-geyye purigeṟeyā
+              <lb n="4"/>mūṟṅ-kēriyā paṭṭa-
+              <lb n="5" break="no"/>gāṟaṇa sē<choice resp="#GSG"><orig>ṇī</orig><reg>ṇi</reg></choice>ya-
+              <lb n="6" break="no"/>n itta dharmma nālvattu
+              <lb n="7"/>sāmpinoḷ ondu mūva-
+              <lb n="8" break="no"/>ttaṟa keḷaguṁ °i<unclear resp="#GSG">nn</unclear>ū-
+              <lb n="9" break="no"/>ṟa mēluṁ °are-sāṁpu || °idu ni<unclear resp="#GSG">l</unclear>u-
+              <lb n="10" break="no"/>davu || °idān·kiḍisido<unclear resp="#GSG">ṁ</unclear> bāra-
+              <lb n="11" break="no"/>ṇāsiya sāsira kavileya<unclear resp="#GSG">ṁ</unclear>
+              <lb n="12"/>kondona lōkakke sandon °ak<unclear resp="#GSG">k</unclear>u<unclear resp="#GSG">m</unclear> ||
+            </ab>
+          </body>
+        </text>
+        <text n="24" xml:id="Gai.024">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. My. Ch. 63.</seg> <seg type="number">No. 24.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-koṅgaṇi-muttarasa śrīpuru-
+              <lb n="2" break="no"/>ṣa-mahārā<unclear resp="#GSG">jā</unclear>dhi-rāja-paramēśvara
+              <lb n="3"/>bhaṭar·pr̥thuvī-rājya-keye poḻmavini-
+              <lb n="4" break="no"/>tīśvararkkuṁ sarvva-parihāraṁ koṭṭar·maṇṇuṁ-mane-
+              <lb n="5" break="no"/>yuṁtōṭṭakkaṁ dēvēndra-peṁmaḍigaḷā-suṭṭegaṇa-
+              <pb n="119"/><lb n="6" break="no"/>rā<!--fn3: <app><rdg source="#RICE">dēvēndra-tammaḍigaḷā muddegaṇarā</rdg></app>-->-gōṣṭi-dharmmam-maḷtuvaruṁ dēvēndranu mē-
+              <lb n="7" break="no"/>le koṇḍu vāṇiga-toṭṭaṁ-tankaṇḍamuṁ vada-kaṇḍamum·
+              <lb n="8"/>vinītiśvarakkaṁ poydoramāṁda-teṁnandārkkaruṁ mā-
+              <lb n="9" break="no"/>rāṭṭa-tenandārkkaruṁ °āvara kuṁbu-poydāppann-irvva-
+              <lb n="10" break="no"/>rā-°ēḻvarā-poyda-dharmmam-idōn-keḍisidon·
+              <lb n="11"/>pañcamahāpā . . . nappōn-dēvēndrarāmar-kkuḍe-ra-
+              <lb n="12" break="no"/>kṣisuven.
+            </ab>
+          </body>
+        </text>
+        <text n="25" xml:id="Gai.025">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. Mys. Gu. 86.</seg> <seg type="number">No. 25.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī śrīpuruṣa-prithi-
+              <lb n="2" break="no"/>vī-rājya-geye vyeḷakaḻnāḍara-taḷgi-
+              <lb n="3" break="no"/>yūr °āḷa °āvukka °iyure
+              <lb n="4"/>paṇu-pullu °idakke sākṣi °ā-
+              <lb n="5" break="no"/>maccar·telambayar·karāsar·ragga
+              <lb n="6"/>. sar . neccōr·dhareḷe . kandatambe
+            </ab>
+          </body>
+        </text>
+        <text n="26" xml:id="Gai.026">
+          <body>
+            <head xml:lang="en"><seg type="number">No. 26.</seg> <seg type="source"><hi rend="italic">EC</hi> IV. Mys. Gu. 87.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="7"/>svasti śrī-koṅgu.
+              <lb n="8"/>rāja śrīpuruṣa pr̥ . .
+              <lb n="9"/>rājya-keye . .
+              <lb n="10"/>vinōdi-maṇaleyara-taḷiyūr-āḷva ti.
+              <lb n="11"/>ja . maṅgalada-garaḷōja °ara .
+              <lb n="12"/>koṭṭame . . teḷge kalapuve-kalave
+              <lb n="13"/>ṅgeka . . mbeya-bīmaya gaṁdakkaṁ-koṭṭa
+              <lb n="14"/>°aḷi . . te . pañcamahāpātaka
+              <lb n="15"/>. . . du. °aṭṭuveṁ . paṁ
+              <lb n="16"/>. . .
+            </ab>
+          </body>
+        </text>
+        <text n="27" xml:id="Gai.027">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. My. Gu. 88.</seg> <seg type="number">No. 27.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī śrīpuruṣa pri-[thi]
+              <lb n="2"/>vī-rājya-keye °ākka-kailūra-makandir·mā-
+              <lb n="3" break="no"/>dappanna<unclear resp="#GSG">ṁ</unclear> °ari-°urada-°aggiraver·perggaḍeta-
+              <lb n="4" break="no"/>na keya °ari-°ur-ppann-irvvaru toṟekkārāṭṭi °u-
+              <lb n="5" break="no"/>pekkaviya muvol-pōgeyu kūḍalūru °i-
+              <lb n="6" break="no"/>nettumūr·nerasāsanam °āga kudiyya ko . .
+              <lb n="7"/>lu den °iḷdu °itta maṇa °āṟalūraganā
+              <lb n="8"/>vaḻi guṇasāgara-tammaḍigalge koṭṭadā
+              <pb n="120"/><lb n="9"/>°indān °aḻuttōn·sāsirvvar·pārvaru sāsira kavile
+              <lb n="10"/>sāsirvva riṣiyam·kondaṁ mekkaḷam·mane . . .
+              <lb n="11"/>. . . pritteḷge rakṣimakku . . . .
+              <lb n="12"/>. . . koṭṭa-palam-akku . . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="28" xml:id="Gai.028">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. My. Gu. 89.</seg> <seg type="number">No. 28.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="13"/>svasti śrī °ari-°ura pann-irvvarū mū . .
+              <lb n="14"/>yyuntalamoṟamun °iṟisihe
+              <lb n="15"/>kāreyaraṁ poraḷ °anvayarutesu
+              <lb n="16"/>guṇasāgara tammaḍigaḷge koṭṭama .
+              <lb n="17"/>°inda pañcamahāpātakan-akke
+            </ab>
+          </body>
+        </text>
+        <text n="29" xml:id="Gai.029">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. My. Hg. 4.</seg> <seg type="number">No. 29.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti koṅganivarmma dharmma mahārājādhi-rājā-paramē-
+              <lb n="2" break="no"/>śvara śrīmat·śrīpuruṣa-mahārājar·pr̥thuvīrājyaṁ ge-
+              <lb n="3" break="no"/>ye kesugoḷamoḍeya bināmmaṅge dhaṇṇagavāḍiyaṁ
+              <lb n="4"/>brahmādēyaṁ-goṭṭar<!--fn4: <app><rdg source="#RICE">brahmādēyam-goṭṭaṁ</rdg></app>-->·śrīpuruṣa-mahārājar·bhaṭārara
+              <lb n="5"/>śri-nakṣatradoḷ·pannirvva-pārvvar °uṇvōr<!--fn5: <app><rdg source="#RICE">uṇvōm</rdg></app>-->·tiṁgaḷge °ēkabhōgaṁm °idaṟā
+              <lb n="6"/>paḍeyaṁ | vaṁṣakke pattu gadyāṇaṁ-teṟe tasya sīme mūḍā-
+              <lb n="7" break="no"/>y·pervvaḷḷame-poṭevāḍiya sīmeyuḷ·kūdittu pa-
+              <lb n="8" break="no"/>ḍuvay °aḷarivadiyyerb-vaḷḷagāy-nōḍi-naḍadu-
+              <lb n="9" break="no"/>du beṭṭu-poḻāga-mūḍāy-nōḍi-naḍadu °iḻdul-go-
+              <lb n="10" break="no"/>lliye °ī dharmmaman-aḻitoṁ vāraṇāsiyuṁ sā-
+              <lb n="11" break="no"/>siraṁ kavileyumaṁ sāsiram·pārvvaruṁ konda pa-
+              <lb n="12" break="no"/>ñcamahāpātakan-appom . . . <note type="editorial" xml:lang="en">(Skt. lines upto line 16).</note>
+              <lb n="16"/>. . . . mudu-koṅguṇiyadiya-
+              <lb n="17" break="no"/>rasar °āridāḷke °eḻpattu māṁta-bhūmi vri-
+              <lb n="18" break="no"/>ttiyāḷuttam-iḻdu śrīpuruṣa-mahārājargge
+              <lb n="19"/>vijñāpana-geydu kesugoḷam oḍeya -mahā-
+              <lb n="20" break="no"/>janakke pervvaṭṭiyūruṁ marddūrumaṁ brahmādē-
+              <lb n="21" break="no"/>yaṁ poydar<!--fn6: <app><rdg source="#RICE">poydam</rdg></app>--> °avaṟā paḍeyaṁ pervvaṭṭiyū-
+              <lb n="22" break="no"/>r-undu teṟe pernnandi °eraḍu teṟuvudu mardū-
+              <lb n="23" break="no"/>rā teṟe panneraḍu paṇam·ponnu pannirkhaṇḍugaṁ
+              <lb n="24"/>bhattamuṁ °asya sīmāntaraṁ-pervvaṭṭiyūra-sīme
+              <lb n="25"/>mūḍaytūḍila-pervvaḷḷamē-teṁkaykargoṭṭigū-
+              <lb n="26" break="no"/>ḍila-paḷḷamē paḍuvāy·pergolliye
+              <lb n="27"/>baḍagāy·pervvaḷḷame sīme marddūra sīme
+              <lb n="28"/>mūḍāy·beṭṭina poreyane bandattu ko-
+              <pb n="121"/><lb n="29" break="no"/>sagaveṭṭinoḷ·kuḍe °atte teṁkāy·
+              <lb n="30"/>maṇiyāla-kolliya paḷḷame paḍuvāy·perggolliye sīme ...
+              <note type="editorial" xml:lang="en">... Skt. lines ...</note>
+              <lb n="35"/>kuntācārya likhitaṁ ||
+              <lb n="36"/>nandi gundarge dānaṁ-goṭṭadu kesugoḷada mēli-
+              <lb n="37" break="no"/>naṁ °ondaḍuvu mardūroḷ
+            </ab>
+          </body>
+        </text>
+        <text n="30" xml:id="Gai.030">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. Ml. 87.</seg> <seg type="number">No. 30.</seg> <seg type="date">c. 740 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>śrīpuruṣa-maha-
+              <lb n="2" break="no"/>rāja prituvi-rā-
+              <lb n="3" break="no"/>ja-keye kuḷasatti
+              <lb n="4"/>°arasavaḍaresadu
+              <lb n="5"/>munūṟu voḷamudugontū . .
+              <lb n="6"/>singaḍi °arasa pavagame
+              <lb n="7"/>māḷdōḍiddar °attigālācavu-
+              <lb n="8" break="no"/>ttake kūṭṭipa-°ārāḻaya dē-
+              <lb n="9" break="no"/>varige kaṭṭi mēkēgaṇikeṟe
+              <lb n="10"/>koṭṭuvor·pannuvaru °ī dama-
+              <lb n="11" break="no"/>vān-<!--fn7: <app><rdg source="#RICE">i-dharmavan</rdg></app>--> °aḻidon·vāraṇāsiyoḷ·
+              <lb n="12"/>kavileyuṁ pārvaruṁ māra konda pā-
+              <lb n="13" break="no"/>pam-akka-°idak-eḍavaḻdanum-ī-pāpadi
+              <lb n="14"/>°abhō .. .. don
+            </ab>
+          </body>
+        </text>
+        <text n="31" xml:id="Gai.031">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. My. 55.</seg> <seg type="number">No. 31.</seg> <seg type="date">c. 740 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī koṅgaṇi
+              <lb n="2"/>mahārājar·siri-
+              <lb n="3" break="no"/>puruṣar·pr̥thuvi-rā-
+              <lb n="4" break="no"/>jyam-keye °araṭṭigaḷ-a-
+              <lb n="5" break="no"/>rasar·cottamman °eḍe-
+              <lb n="6" break="no"/>ttoṟenāḍu sāsiravuṁ-
+              <lb n="7" break="no"/>m-āḷuttidu-viṭṭadu °ond-a-
+              <lb n="8" break="no"/>ḍi-pāniyem-ēḻuṁ °o-
+              <lb n="9" break="no"/>nvatte-divasaṁ paḷtiṅga-
+              <lb n="10" break="no"/>ḻ || tamasi mūṟe <unclear resp="#GSG">di</unclear>
+              <lb n="11"/>vasaṁ vēsane °ī . . .
+              <lb n="12"/>re °uḻpaduvi . . .
+              <lb n="13"/>°e puṭṭige . . .
+              <lb n="14"/>lekure . . .
+              <lb n="15"/>°ūruḷ-ikkapade
+              <lb n="16"/>pōppandu °ondu di-
+              <pb n="122"/><lb n="17" break="no"/>vasaṁ vapandu °ondu-diva-
+              <lb n="18" break="no"/>saṁ °uṇvadu, °idon-keḍisi-
+              <lb n="19" break="no"/>don·pañcamahāpātaka-
+              <lb n="20" break="no"/>nakku tan-okkaluḷ·po-
+              <lb n="21" break="no"/>tti-makkaḷ-puṭṭadu ke-
+              <lb n="22" break="no"/>ḍuga ||
+            </ab>
+          </body>
+        </text>
+        <text n="32" xml:id="Gai.032">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. My. 6.</seg> <seg type="number">No. 32.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>neṟeyaṟdim-eṟdanumune ... laliyuprabhinna-
+              <lb n="2" break="no"/>vāgvibillōruguṟi . . . dume-°eḻdudave
+              <lb n="3"/>tamma kṣēmak-irad °aḻi-meccira tāḻvadu paratreya-
+              <lb n="4" break="no"/>pedēvudērū mahāprabhu gōvapayyaniṁti-
+              <lb n="5" break="no"/>ḻdapu-samādhiyoḷe muḍipi taḷdidaṁnītama-
+              <lb n="6" break="no"/>rēndra bhōgamaṁ || paḍedoṁ śrīpuruṣayyal-āmmu mē-
+              <lb n="7" break="no"/>daloḷ·kalnāḍamn-andoṁ baḻek °edeyōḷ °akkadu bhūti
+              <lb n="8"/>mūtuganō dōta dhāṇa dhīkṣe sade paḍede
+              <lb n="9"/>. . . . . . pitr̥-ka-
+              <lb n="10" break="no"/>ḷatra-mitra-janamaṁ kavyānya taḻd-appuḍi nuḍi-
+              <lb n="11" break="no"/>yal-veḻkumē peṁpan-oppa guṇate toḷam-ikiḻda
+              <lb n="12"/>gōpayyanaṁ ||
+            </ab>
+          </body>
+        </text>
+        <text n="33" xml:id="Gai.033">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. My. 25.</seg> <seg type="number">No. 33.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīpuruṣa mahā-
+              <lb n="2" break="no"/>pr̥thuvi-rājya-keye °a-
+              <lb n="3" break="no"/>raṭṣi . . .ra mmagandir·siṅgaṁ dīkṣe
+              <lb n="4"/>bīḷādu °araṭṭitūrar·kuḍalūrada
+              <lb n="5"/>goṭṭe maḍi-°oḍeyaṁbar-āḷivikaya
+              <note type="editorial" xml:lang="en">(Other side)</note>
+              <lb n="1"/>nokkajaroḍe °āggadīkaḍa . . . koṭṭa
+              <lb n="2"/>nela tenendhaka kāḷeṟuku sākṣi kuḍalū
+              <lb n="3"/>poṅgularuṁ °eḷamaḍiyaruṁ °eḷiriyaruṁ
+              <lb n="4"/>madugaruṁ kāgabbaruṁ sākṣi °āga koṭṭadu
+              <lb n="5"/>°āḷ-āḷ·kiḍiśiḍōna vāraṇāsiyā śāsira kavile
+              <lb n="6"/>śāsira-parvar·konda kole °ākkā keḍiśidōnu
+              <lb n="7"/>. . . . kaduveḍiḷonuḍi tenne
+              <lb n="8"/>. . . . ḷidasvaconu
+              <lb n="9"/>. . °araṭṭiga taḷara kuḍalūrāvvatti
+            </ab>
+          </body>
+        </text>
+        <text n="34" xml:id="Gai.034">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. TN. 113.</seg> <seg type="number">No. 34.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-pr̥thu . . . .
+              <lb n="2"/>puruṣa-pr̥thuvīrājyaṁ . . . °ūroḷu
+              <pb n="123"/><lb n="3"/>. . . vippattogeviṭṭa . . rimura sāsirada °arayū . . .
+              <lb n="4"/>tt-eraḍu madhye vadugūra . . . rakkarappa-teṟa . . .
+              <lb n="5"/>°akka °endu °aka . . . rāgi śrīmad·muttarasa . . .
+              <lb n="6"/>nīponnendu koḍagegāgi °aḻidon-vāraṇāsiyo-sā-
+              <lb n="7" break="no"/>sirvva-pārvvarum·sāsira-kavileyuman·konda pañca-
+              <lb n="8" break="no"/>mahāpātakan-akku °idān-vareḍon-kumba-kamlārar
+            </ab>
+          </body>
+        </text>
+        <text n="35" xml:id="Gai.035">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. Nj. 23.</seg> <seg type="number">No. 35.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī koṅguṇi mahārā<unclear resp="#GSG">jā</unclear>dhi-rāja-paramē-
+              <lb n="2" break="no"/>śvara śrīpuruṣa-pr̥thavī-rājyaṁ-keye °adirillaṁdigaḷge
+              <lb n="3"/>keydakapo . . . .
+              <lb n="4"/>māpoṟakalla . . . vevi
+              <lb n="5"/>kāsaseda . . . .
+              <lb n="6"/>sirvvaṟppā . . . mahāpātakan-akkuṁ
+              <lb n="7"/>suṁkaṁ-viṭṭar . . . °ivūrayellakkaṁ
+            </ab>
+          </body>
+        </text>
+        <text n="36" xml:id="Gai.036">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. TN. 53.</seg> <seg type="number">No. 36.</seg> <seg type="date">c. 760 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>śrī-pr̥thuvī-koṅgaṇi-muttarasa
+              <lb n="2"/>pr̥thvī-rajya . . . yaḷu
+              <lb n="3"/>. . . llaṇi-sollage
+              <lb n="4"/>. . . gimaṇiṭṭa
+            </ab>
+          </body>
+        </text>
+        <text n="37" xml:id="Gai.037">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IX. Bn. Bn. 36.</seg> <seg type="number">No. 37.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīmat·śrīpuruṣa mahārājaṁ pr̥thuvī-rā-
+              <lb n="2" break="no"/>jyaṁ geyye polettāḷvor °enna karika-nāḍa
+              <lb n="3"/>bidirkkallāḷda kukkara pāḻikkāṟe-nāḍiyar·turidu
+              <lb n="4"/>paḍeyuḷavar-aṣṭa-balamanna °eṟidu-biṟdu<!--fn8: <app><rdg source="#RICE">biḻdu</rdg></app>--> . . .
+              <lb n="5"/>śrī-°ambi-°ācāriyara-magan-nāgan·maḍida
+            </ab>
+          </body>
+        </text>
+        <text n="38" xml:id="Gai.038">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IX. Bn. Bn. 55.</seg> <seg type="number">No. 38.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>śrīpuruṣa-mahārājar-arasu-geye kannara . . . raḍu . . .
+              <lb n="2"/>porbākaru °āḷi posa-°ūraral-goyanu-māreyanu
+              <lb n="3"/>°uraḻisi-°iṟidu-biḻda
+            </ab>
+          </body>
+        </text>
+        <pb n="124"/>
+        <text n="39" xml:id="Gai.039">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VI. Kd. Kd. 145.</seg> <seg type="number">No. 39.</seg> <seg type="date"><hi rend="italic">About</hi> 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī śrīpuruṣama-
+              <lb n="2" break="no"/>hārāja pr̥thuvī rājyaṁ geye °a-
+              <lb n="3" break="no"/>varā<!--fn9: <app><rdg source="#RICE">avara</rdg></app>--> <choice resp="#GSG"><orig>magdanir·</orig><reg>magandir</reg></choice>·vijayādityar °ī-nā-
+              <lb n="4" break="no"/>ḍu °āḷvandu °avar-āḷ-caṇṇavūroḷe °eṟamma-
+              <lb n="5" break="no"/>n-āsandi °āḷe °ā °eṟammanuṁ °ayvadiṁbaruṁ
+              <lb n="6"/>nakaramuṁ sēṇiyuṁ baḷasuviṭṭu geldo-
+              <lb n="7" break="no"/>lli<!--fn10: <app><rdg source="#RICE">gelvalli</rdg></app>--> mūlavveḍiyakke °orvvaḷḷa ney-niṟasidā .
+              <lb n="8"/>keḍe beḷasuv-ēḷdōruṁ kiḍisidōnu-kkōṭi . . .
+              <lb n="9"/>bāraṇāsiyuḷ-sāsirvva-pārvaruṁ sā . . .
+              <lb n="10"/>vileyuṁ konda kolev-ayduge pañca . . .
+              <lb n="11"/>kaṁ-geydōna sanda gatige salvo
+            </ab>
+          </body>
+        </text>
+        <text n="40" xml:id="Gai.040">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> V. Hn. Ak. 176.</seg> <seg type="number">No. 40.</seg> <seg type="date"><hi rend="italic">About</hi> 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>śrīpa . .
+              <lb n="2"/>svasti śrīpuruṣa mahā . . . .
+              <lb n="3"/>duṟigaḷa bañcapaya °eṟidu viḻvōdu
+              <lb n="4"/>. . . la kandan·damman °eṟe . . . kam °akku
+            </ab>
+          </body>
+        </text>
+        <text n="41" xml:id="Gai.041">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IX. Bn. Ht. 21.</seg> <seg type="number">No. 41.</seg> <seg type="date">c. 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīmat·
+              <lb n="2"/>koṅgoṇi muttarasa-
+              <lb n="3" break="no"/>r-ayisade<!--fn11: <app><rdg source="#RICE">muttarasarā besade</rdg></app>--> kādu
+              <lb n="4"/>patti<!--fn12: <app><rdg source="#RICE">kāduvaṭṭi</rdg></app>--> daṇḍ-iṟidu
+              <lb n="5"/>kādaḷaladuḷa<!--fn13: <app><rdg source="#RICE">kovaḷaladuḷ</rdg></app>-->
+              <lb n="6"/>°ēṟidōr·sī-
+              <lb n="7" break="no"/>ma-vallavarasa<!--fn14: <app><rdg source="#RICE">sīya-vallavarasa</rdg></app>-->
+              <lb n="8"/>śrī-kāma-niḻasidan<!--fn15: <app><rdg source="#RICE">niṟasidan</rdg></app>-->
+            </ab>
+          </body>
+        </text>
+        <text n="42" xml:id="Gai.042">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 229.</seg> <seg type="number">No. 42.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 750.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīpurusamahārā-
+              <lb n="2" break="no"/>jādhi-rāja-paramēśvara bha-
+              <lb n="3" break="no"/>ṭaru pr̥thuvī-rājyaṁ geye puttūrā
+              <lb n="4"/>jeṭṭamugoḷuttiḻdu puttūr-attāṇi-
+              <lb n="5" break="no"/>ge °aydūṁbu-kaḻaniyuṁ °aydūṁbu-toṭṭa-
+              <pb n="125"/><lb n="6" break="no"/>ppaṭṭuṁ koṭṭar-idan-aḻivor<!--fn16: <app><rdg source="#RICE">aḻidōr</rdg></app>-->-ppañcama-
+              <lb n="7" break="no"/>hāpātakar-appar·parihāra
+            </ab>
+          </body>
+        </text>
+        <text n="43" xml:id="Gai.043">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 230.</seg> <seg type="number">No. 43.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 750.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">(Continued from the last).</note>
+              <lb n="8"/>svasti śrī puttūroḷu kaṇṇaṁ
+              <lb n="9"/>nūḷarasa<!--fn17: <app><rdg source="#RICE">gūḷarasa</rdg></app>-->-kkanakākige mū-
+              <lb n="10" break="no"/>goḷam·kaḷani bhagavatige
+              <lb n="11"/>koṭṭod-aḻivo-ppañca-mahā-
+              <lb n="12" break="no"/>pātakan-akkuṁ °ida salipage
+              <lb n="13"/>dhammaṁ<!--fn18: <app><rdg source="#RICE">dharmmaṁ</rdg></app>-->
+            </ab>
+          </body>
+        </text>
+        <text n="44" xml:id="Gai.044">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Mb. 255.</seg> <seg type="number">No. 44.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 750.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīmat·śrīpuruṣa mahā-
+              <lb n="2" break="no"/>rājādhi-rāja-parmēśvara bhaṭā-
+              <lb n="3" break="no"/>ra pr̥thuvī-rājyaṁ-geye °avarā ma-
+              <lb n="4" break="no"/>gandir-duggamāra °eṟeyappon·ko-
+              <lb n="5" break="no"/>vaḷāla-nāḍu mūnūṟum·gaṅgaṟu-
+              <lb n="6" break="no"/>sāsiramum-āḷuttire kaṁmpilige
+              <lb n="7"/>paḍevōdalli komālarā maga-
+              <lb n="8" break="no"/>n-pāṇḍappa kāḷegaḍuḷ<!--fn19: <app><rdg source="#RICE">kāḷegaḍoḷ</rdg></app>-->·sattalli
+              <lb n="9"/>°avange duggamārarā-keyda prasā-
+              <lb n="10" break="no"/>dam-appadu sāntanūraṁ °ereḍiyū-
+              <lb n="11" break="no"/>ruḷuṁ vandu-tūmba kaḻaniyuṁ °avara
+              <lb n="12"/>maneyuṁ vāḷgaḷcu prasādaṅgeydār
+              <lb n="13"/>°idu ślokam·svadattam . . . <note type="editorial" xml:lang="en">etc. (Skt. upto l. 18 illegible)</note>
+            </ab>
+          </body>
+        </text>
+        <text n="45" xml:id="Gai.045">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Mr. 74.</seg> <seg type="number">No. 45.</seg> <seg type="date"><hi rend="italic">About</hi> 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>. . . . . . .
+              <lb n="2"/>. . koṅgaṇi pr̥thivī-rājyaṁ-ge-
+              <lb n="3" break="no"/>yuttire . . .
+              <lb n="4"/>. . koṭṭōr °idan-āvan-a-
+              <lb n="5" break="no"/>ḻitōṁ pañca-pātakaṁ-saṁyukta-
+              <lb n="6" break="no"/>n-appōn·kapiḷe sāyiram-aḻi
+            </ab>
+          </body>
+        </text>
+        <text n="46" xml:id="Gai.046">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Mr. 96.</seg> <seg type="number">No. 46.</seg> <seg type="date"><hi rend="italic">About</hi> 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīmat·pr̥thivī koṅgoṇi muttarasar·śrīpuruṣa-mahārājar-kkakallidharam-akāḷakanna
+              <pb n="126"/><lb n="2"/>kalikaṅrān-iṟidōḍisi gaṇbe-nāḍar·kkalidoregaḷum·gombukki °arasaruṁ paḍeduduvāḷuvi . . . yēvūra
+              <lb n="3"/>°idān-aḻi-dō pañca-maha-pātakan-akkum·kaṇḍuga kaḻani °idān-vare-ponna koṭṭa kelamepa
+              <lb n="4"/>keṇettaccan-magan-eḷeyōn-mādattaccann-ada pesarajjan-idhān-aḻiyal·kassakekka
+            </ab>
+          </body>
+        </text>
+        <text n="47" xml:id="Gai.047">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> XII. Tm. Mi. 99.</seg> <seg type="date"><hi rend="italic">About</hi> 750 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī koṁguṇi śrīpuruṣa-mahārājar·pr̥thvī-
+              <lb n="2" break="no"/>rājyaṁ geye gaṁgavāḍiya-mēge raṭṭar-eḻa
+              <lb n="3"/>pi . . rarkkaḷ·samasta prabr̥tigaḷge kē-
+              <lb n="4" break="no"/>ḻi-vandu-jadiya muttarasaru śrī rāma-nuḍida-ne-
+              <lb n="5" break="no"/>nadada śrīnanda °eṟpattum-aydu baḻu
+              <lb n="6"/>maga. ttan °adara kalladuṁ gasa . . . mu
+              <lb n="7"/>va . . . ya . . ḻa
+              <lb n="8"/>svasāda ge-
+              <lb n="9" break="no"/>ydere
+            </ab>
+          </body>
+        </text>
+        <text n="48" xml:id="Gai.048">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 78.</seg> <seg type="date"><hi rend="italic">About</hi> 751 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīman·koṁgoṇi muttarasarkku °ippattā-
+              <lb n="2" break="no"/>°ārane varṣa du . . puli-nōḍi °āptada-vākki-
+              <lb n="3" break="no"/>luḷ·sagu . . neḍa °eḻadu-viḻdo
+            </ab>
+          </body>
+        </text>
+        <text n="49" xml:id="Gai.049">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 6.</seg> <seg type="date">A.D. 753.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-koṁguṇi-mahārāja śrīpuruṣa pr̥thuvī-rājya
+              <lb n="2"/>vijaya-vatsara °irppadā-°eṇṭaneyoḷu śivamā-
+              <lb n="3" break="no"/>ra kadambūraṁ °āḷe kadambūrkhr̥darammāḷāyō-
+              <lb n="4" break="no"/>n-kaṟu-kaṇṭēśvaraku poyta-malutte kaḻani kaṇḍugaṁ °eltūdgha
+              <lb n="5"/>pāḻu °aytu-māsē monnittiḷi °aṟidantavo kaṇṭēśva-
+              <lb n="6" break="no"/>ruṁ °āḷva-°arasanu māḍisuvor·pālisuvor·ponnila-
+              <lb n="7" break="no"/>nunni siṟusuḷḷare kānipodu °antu māḍiyu pōliye
+              <lb n="8"/>koṇḍu daḷivutukuvondu taḷikkatika porūṭṭumānuvondumu-
+              <lb n="9" break="no"/>dal-mūrkkaṇḍuga bhakta pōliye koṇḍuṭṭuvon
+              <lb n="10"/>°ī-dharmmamānn-irakṣiccidōnn-aḍi °en-tale-mēlo °ī-
+              <lb n="11" break="no"/>dharmmamānn-aḷivōn-pañcamahā-pātakan-akku
+              <lb n="12"/>°ardda-kkaṇḍuga °āyupuda poytōdu
+            </ab>
+          </body>
+        </text>
+        <text n="50" xml:id="Gai.050">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 8.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 753.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-ko . . .
+              <lb n="2"/>mahārāja-śrī . . .
+              <pb n="127"/><lb n="3"/>ṣara pr̥thivī . . .
+              <lb n="4"/>keye lōkāditya
+              <lb n="5"/>°arasar-kkadamba . . .
+              <lb n="6"/>°ettisi datti-
+              <lb n="7" break="no"/>yam-idarkke koṭṭa-
+              <lb n="8" break="no"/>vir-kkaḻani-kaṇḍugaṁ
+              <lb n="9"/>kala-kaṇḍuga-mukka-
+              <lb n="10" break="no"/>ṇḍugamicinira
+              <lb n="11"/>ṟakoṭṭumaṇṇara
+            </ab>
+          </body>
+        </text>
+        <text n="51" xml:id="Gai.051">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 11.</seg> <seg type="number">No. 51.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 753.</seg></head>
+            <ab>
+              <lb n="1"/>svasti sri koṁgoṇi-mahārāja śrīpuruṣar·pr̥thu-
+              <lb n="2" break="no"/>vī-rājya-geye lōkādity-eḷa-°arasa-kkadambūrā-
+              <lb n="3" break="no"/>ḷa lōkākhyaḷarasa-ttammā varṣanakkāttige kapuli-
+              <lb n="4" break="no"/>kkuṟukki bhaṭārarkke poyda pon-nūṟu-gadyāṇame si-
+              <lb n="5" break="no"/>kka-bbānūra . . . nūra koṭṭai-°eṇṭaṟa koṇḍa kaḻani °u-
+              <lb n="6" break="no"/>ṇḍukaratti kaḻani kabeṇḍi kaṇḍalu māḍi padinē-
+              <lb n="7" break="no"/>ḷunni moppaṭiya . . . muḷḷaroḷpaḍitūbu-mo-
+              <lb n="8" break="no"/>ṟaśalūra<!--fn20: <app><rdg source="#RICE">moṟagalūra</rdg></app>--> maltiyuḷḷaydūbu °intu tāge mūṟaḍi-
+              <lb n="9" break="no"/>tūbu dēvabhōgaṁ °ī-kaḻani phalamā koṇḍu beḷesi nā-
+              <lb n="10" break="no"/>gommeyuṁ sāle °uḷuvadu °idarkke sākṣi beḷatū-
+              <lb n="11" break="no"/>rā mahājanamuṁ kaḍatūrā mahajanamuṁ kadambū-
+              <lb n="12" break="no"/>rā nālvadinvaruṁ °ī-°artthamā<!--fn21: <app><rdg source="#RICE">dharmmamā</rdg></app>--> koṇḍu salisuvoṁ-
+              <lb n="13" break="no"/>gā pādam-enna tale-mēgaṇavu °idan-aḻi-
+              <lb n="14" break="no"/>don-pañcamahāpātakan-akku . . . rēḻu
+              <lb n="15"/>. . . beḷugeydora . . . .
+              <lb n="16"/>koṭṭutoppa . . . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="52" xml:id="Gai.052">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Kl. 7.</seg> <seg type="number">No. 52.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 760.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī śrīpuruṣa-mahārājar·
+              <lb n="2"/>pr̥thuvī-rājyaṁ-geye kūḍalūrppāḍi-
+              <lb n="3" break="no"/>°oḍeya nandikāḍavā<!--fn22: <app><rdg source="#RICE">nandikāḍanā</rdg></app>--> °eṟanāganā vyava-
+              <lb n="4" break="no"/>hārad-antaraṁ sālam-illām-ekke sākṣi lōkāditya-
+              <lb n="5" break="no"/>°eḷa-°arasar-mmagandir-mmalladiyuṁ kadambūrā nā-
+              <lb n="6" break="no"/>lpadinbaru vidattūru nāmida pandumu<!--fn23: <app><rdg source="#RICE">nāvida pandemu</rdg></app>-->
+              <lb n="7"/>°aṟiya °īreoṭṭarā paruḷtuṭṭuṟa kiḍi-
+              <lb n="8" break="no"/>v-ittu
+            </ab>
+          </body>
+        </text>
+        <pb n="128"/>
+        <text n="53" xml:id="Gai.053">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. Kl. Mb. 80.</seg> <seg type="number">No. 53.</seg> <seg type="date">42nd regnal year ; according to Editor A.D. 767.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīmat·śrī-rājya vijaya-saṁmbatsaraṁ nālva-
+              <lb n="2" break="no"/>tt-eraḍaneyandu śrīpuruṣa-mahārājādhirāja-para-
+              <lb n="3" break="no"/>mēśvara bhaṭāra prathuvī-rājyaṁ-geye °avarā magandir-du-
+              <lb n="4" break="no"/>ggamār-eṟeappō kuvaḷāla-nāḍu-mūnūṟuṁ gaṁgaṟu-sā-
+              <lb n="5" break="no"/>siramum-āḷe °avarā mahā-dēvi kañci-°abbe °āgaḷi °āḷe
+              <lb n="6"/>maduregiḻā-vellasammaṁge koṭṭōdu kaṇḍugad-ayguḷa-kaḻaniyuṁ
+              <lb n="7"/>canna-kaḻani mēle toṭṭa paṭṭe<!--fn24: <app><rdg source="#RICE">kaḷaniv ele tōṭṭa paṭṭu</rdg></app>--> samaṇpāḻin-mēle °eṇkaṇḍugaṁ °a-
+              <lb n="8" break="no"/>pūrvva pa<unclear resp="#GSG">ri</unclear>hāraṁ-°āge koṭṭōdu °idake paḍeyaṁ °aggiṣṭageyuṁ
+              <lb n="9"/>°aṟava . . . yuṁ °idan-aḻidon-bāraṇā . . . .
+              <lb n="10"/>varaṁ sāśira kavile . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="54" xml:id="Gai.054">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> V. Hn. Cn. 208.</seg> <seg type="number">No. 54.</seg> <seg type="date"><hi rend="italic">About</hi> 770 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīpuruṣa-mahārājan·
+              <lb n="2"/>pr̥thavī-rājyaṁ-geye nīrggunda-
+              <lb n="3" break="no"/>nāḍu-mūnūṟuman-nīrggundad-arsarā
+              <lb n="4"/>°āḷe °avar-āḷu vīravūra māḷvopoṭṭeyarā
+              <lb n="5"/>kuḍimuddan·mēreyuḷḷ-iṟidu viḻdan
+            </ab>
+          </body>
+        </text>
+        <text n="55" xml:id="Gai.055">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IX. Bn. Dv. 74.</seg> <seg type="number">No. 55.</seg> <seg type="date">c. 780 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī °ajjavamma kā-
+              <lb n="2" break="no"/>sarūr-āḻigeye pēlūra
+              <lb n="3"/>peṇṇandūroḷe<!--fn25: <app><rdg source="#RICE">paṇṇandūr</rdg></app>--> kīrttaṇṇan·
+              <lb n="4"/>gaṅgapuraduḷ·duggamā-
+              <lb n="5" break="no"/>ror-ppadiyu . tollagga-
+              <lb n="6" break="no"/>ra °eṟidu viḻdōr
+            </ab>
+          </body>
+        </text>
+        <text n="56" xml:id="Gai.056">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IX. Bn. Dv. 67.</seg> <seg type="number">No. 56.</seg> <seg type="date">c. 780 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-bhivomma-kū-
+              <lb n="2" break="no"/>rāḷigada °āḷarū-
+              <lb n="3" break="no"/>ḷe koṇamiru gaṅgadu-
+              <lb n="4" break="no"/>raduḷa duggamārara
+              <lb n="5"/>paḍe-°oṭṭa °eṟidu biḻda
+            </ab>
+          </body>
+        </text>
+        <pb n="129"/>
+        <text n="57" xml:id="Gai.057">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. My. Hg. 93.</seg> <seg type="number">No. 57.</seg> <seg type="date">c. 780 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī dhārāvarṣa śrīvalla . . . .
+              <lb n="2"/>. . . thuvī-rājya-keye kambharasara-tombhattaṟusāsi . . . .
+              <lb n="3"/>. . . diyarasara toṟenāḍayinūṟuṁ nā . . .
+              <lb n="4"/>. . . ṟu °āḷe dāmaṭigaṭe perggaḍe . . . .
+              <lb n="5"/>. . . ṟeyuṁ pogevogeyu pā<unclear resp="#GSG">m</unclear>ravāriyuṁ . . .
+              <lb n="6"/>. . . lavidādōnuṁ koṭṭōnuṁ koḍagūrava . . . .
+              <lb n="7"/>. . . ṇāsi sā<unclear resp="#GSG">si</unclear>ra kavileyuṁ sāsirvva madā
+              <lb n="8"/>. . . °avan-okkaluḷ·potti-makkaḷa-pu . . . .
+              <lb n="9"/>. . . pondhuge
+            </ab>
+          </body>
+        </text>
+        <text n="58" xml:id="Gai.058">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sh. Sb. 9.</seg> <seg type="number">No. 58.</seg> <seg type="date">c. 800 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti prabhutavarṣa śrī-gōindaṟasa pr̥thuvī-rājyaṁ-keye °eṟeya-
+              <lb n="2" break="no"/>mmarasar-vvanavāsi-nāḍ-āḷe mā-°ileya gāman-āridara poleyamma-
+              <lb n="3" break="no"/>gāmigar-avarim·baḻik-avara magan·rāja-puli kulamuddan·gōsahasra-
+              <lb n="4" break="no"/>pradāruṁ padaluṁ kanyādānamuṁ °algaḷiḷiyum·koṭṭu niṟi-
+              <lb n="5" break="no"/>sidam-eṇṭu beḷe mattalu
+              <lb n="6"/>bādovōja-māḍida
+            </ab>
+          </body>
+        </text>
+        <text n="59" xml:id="Gai.059">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. My. Sr. (Appendix) 160.</seg> <seg type="number">No. 59.</seg> <seg type="date">c. 800 A.D.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">Skt. lines from 1 to 10.</note>
+              <lb n="11"/>śrī-mārasing-eṟeyappoṇa<!--fn26: <app><rdg source="#RICE">eṟeyapponā</rdg></app>--> °anu-
+              <lb n="12" break="no"/>ma<choice resp="#GSG"><orig>tha</orig><reg>ta</reg></choice>duḷ <note type="editorial" xml:lang="en">SKt. . . . . . . . .</note>
+              <lb n="13"/>śrī-kali-noḻambādhirāja-śrī-kolliyarasarā tatputraḥ nija-rāmanuṁ
+              <lb n="15"/>nayadhīranuṁ °oḍan-iḻdu tipperurān·brahmadēyaṁ koṭṭam °ārppo-
+              <lb n="16" break="no"/>ḻe-°oḍeya kauśika-gōtraṁ ponnadige | °idarge sākṣi gōyi-
+              <lb n="17" break="no"/>ndayyanuṁ sandhigāl-ajjavurada kaḷḷarvāḍiya mahājanamuṁm·
+              <lb n="18"/>muduguppeya mārasiṅga-gāmuṇḍaruṁ °eṟegaṅga-gāmuṇḍa-
+              <lb n="19" break="no"/>rum·maravura °urkaṇe-gāmuṇḍaruṁ bhīma-gāmuṇḍaruṁ beḷḷimāṇiya-
+              <lb n="20" break="no"/>śrīya-gāmuṇḍaruṁ kuppāl-mādavaruṁ perbbaḻa °uttama-
+              <lb n="21" break="no"/>gāmuṇḍaruṁ kunda-gāmuṇḍaruṁ saṁgamada pr̥thuvī-gāmuṇḍaruṁ
+              <lb n="22"/>ripurāma-gāmuṇḍanuṁ °enebbaruṁ nara-sākṣiy-āgē paḍedām ||
+              <lb n="23"/>sīmāntaraṁ paḍuvāy-kānvariye<!--fn27: <app><rdg source="#RICE">kāvēriyē</rdg></app>--> seṭṭigeṟe-°e °ante bandu
+              <lb n="24"/>belgal-moṟade teṁkāy-nōḍim·koñjari puṇuse-°e<!--fn28: <app><rdg source="#RICE">puṇuseye</rdg></app>--> mūdageṟe-
+              <lb n="25" break="no"/>-e bojjegeṟeya °oḷaṁgeṟe-°e kūḍittu sīme ||
+              <note type="editorial" xml:lang="en">26 to 30 Skt. verses.</note>
+            </ab>
+          </body>
+        </text>
+        <pb n="130"/>
+        <text n="60" xml:id="Gai.060">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sh. Sb. 10.</seg> <seg type="number">No. 60.</seg> <seg type="date">c. 800 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti prabhūtavarṣa śrī-prathivī-vallabha mahārājādhirāja paramēśvarā bhaṭṭāraka śrī-gōindarasar-ccatussamudrā-
+              <lb n="2" break="no"/>nta-vasudheyā dhavaḷaika-chatra-chāyeind-āḷe | banavāsi-maṇḍalamān-ā-samudrānta rājāditayarāsar
+              <lb n="3"/>°āḷe | °āḷuvakhēḍam-aṟu-sāsiranumān·citravāhanan-āḷuttuṁ bāy-kēḷad-ire munidu kolli-palla-4 va-nolambaṁ-n·noḻambar-ādityanan·vesasal °ā-kākarāsaruṁ °eḷdu perggumjiya kōṭeyān·rōhisi biṭṭu
+              <lb n="5"/>°eraḍum-balada vīra-bhaṭarkkaḷ-ōḻdu poṟamaṭṭu bil-villaḷ·kudure kudureyoḷ-kiṭṭi °ati-tumula-
+              <lb n="6" break="no"/>kāḷega peḻci balada-keyyaṁ citravāhanan-otti pugutt-andu kādise kaṇḍu kulamudda nīn °ī-kayya pokku kād-endu
+              <lb n="7"/>besase presādam-end-aydi kiṭṭi kādi maṟuvakkadavara mey-meyyam-bāge °ecc-ōḍisi °ā-kayyaṁ geldu
+              <lb n="8"/>tānum·palavuṁ °esuvellu °ey-vodod-appidappol·kaṇe-paṁjaradoḷ °eṟagi bhīṣman·viḻdante nela-muṭṭade
+              <lb n="9"/>biḻdōnān·dēva-gaṇikkeyar °ārgham-biḍidu band-idirggoṇḍ-uye vīra-lōkakke sandōn || °ara-badddagiyara vādapuli māḍidān·
+              <lb n="10"/>parigeya bandugiyar °ī-°ūrgge bandu °āridaroḷ·chalamine nālk-eḻtina baḷana kiḍisi °āṟ-eḻtu māḍi mattaṁ nila-
+              <lb n="11" break="no"/>lāṟāde °ōḍida | °adan-vaḻike kulamudda-gāmigāge °arasar-ddaye geydu pūrvvācārada nālk-eḷtinoḷ-voḻisi gaḻdeya-
+              <lb n="12" break="no"/>n °aḷadu daye geydu biṭṭa kundagesēveya kaliyamma beḷamaṇiya padumaṇṇan·karbura sōmadimiṭṭiseya narasiṁgan·
+              <lb n="13"/>simmanūra kiḷḷamman °āṇḍugiya raṭṭigan·bedemeṭṭiy-ālammān·baḷḷiggamaya-gāmuṇḍan·gundugudeyāsāttu-gāmuṇḍa
+              <lb n="14"/>°inn-i-°enebbaru<!--fn29: <app><rdg source="#RICE">int i-enebaru</rdg></app>--> śrīkaraṇa-sahitaṁ biṭṭār-iḍan·keḍipōnuṁ keḍe bāḷvōnuṁ pañcamahāpātaka-saṁyuktan °akkuṁ
+              <lb n="15"/>bāraṇāsiyoḷ·sāsira-kavileyan·kondōna lōkakke sandōnum °akkum ||
+            </ab>
+          </body>
+        </text>
+        <text n="61" xml:id="Gai.061">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sh. Sb. 22.</seg> <seg type="number">No. 61.</seg> <seg type="date"><hi rend="italic">c.</hi> 800 A.D.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-prituvībhallava śrī-jagatuṅga pr̥tuvī-rājyaṁ-ggeye śrī-rājāditya rāja-paramēśvarā-
+              <lb n="2" break="no"/>. . . °ai-panni-°iḻcāsira-nāḍ-āḷe peṇaraimana maneya mutti-koḷva °ūr-aḻiyinoḷe . . . .
+              <lb n="3"/>. . . na magan °āṅgara-siṅga-peṇḍikkiṟumaṁ kkāḷā-°udugureyan °uḻcikoḷva pr̥ya . . . .
+              <lb n="4"/>. . . hita kolalamage maṟuvakkada jatti-bhaṭarkkaḷa palarumaṁ kondu tanuka . . . . .
+              <pb n="131"/><lb n="5"/>du tanme bhol-oppida °aṅgara | °andu kēcaraṁ sārcci tanda vimanamaṁ<!--fn30: <app><rdg source="#RICE">vimānamam</rdg></app>--> °indrana vesādi sura-vaduarkkaḷu vandara °aṅga . . .
+              <lb n="6"/>. . . naya nīne bhūmaṇaladoḷāge vildaṇḍaman °aṇiya-turagaman °āṅgarabhaṇḍan-aṅgaṇadoḷag °itti . . . .
+              <lb n="7"/>vaḷasa °ēḻu jambūdvīpa sūriya-bhimba-panneraḍaroḻag °ella-mārggaran °āṅgaja-komaraṅge . . . .
+              <lb n="8"/>. . tiratan °añjane-sutan-aṇṇa °andu kēsiniya °eḻadātan-annane °ondaṁ nurmmasila virahi . . . .
+              <lb n="9"/>. . r-aḻugi veḷiyaṁmbin °eṟagi kaḻkade taḷtu maṟuvakkam-āda-nr̥parkkaḷān °āṅgaran °eṟiven-ārada . . . .
+              <lb n="10"/>°aravaḍḍagiyara vadar·pūliyar·māḍida silākarmma malagāṟara kundavāsiya magaṁ maramma vareda(e ?) likitan·
+              <lb n="11"/>śrī-kundamma sarābhina pūliyū koṅgiyū kāliyammanū °i-
+              <lb n="12" break="no"/>ḻdu koṭṭar °ā-siṅgani-gāḻdeya vēlgavaga koḍaṅge °ida
+              <lb n="13"/>keḍisidoṁ pañcca-mahāpātakan
+            </ab>
+          </body>
+        </text>
+        <text n="62" xml:id="Gai.062">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sh. Sb. 542.</seg> <seg type="number">No. 62.</seg> <seg type="date">c. 800 A.D.</seg></head>
+            <ab>
+              <lb/>°avarā moriyam·magan·śrī-pogilli niṟisidan °ī-kalla
+              <lb n="1"/>svasti prithivī-vallabha mahārājādhirāja paramēśvara śrī-govindara-vallahan-pr̥thivī-rājyaṁ geye meḍa nāgandana va
+              <lb n="2"/>. . . . ra nāḍ-āḷe biṭṭiga °eṟega goḷḷi-nāḍa nāḻgauḍigar·vasa-v-ūruḷḷ-ā-nāḍa nāḻgāviga kali
+              <lb n="3"/>. . . reye parivalli keḷeyar-vvanḍugigaḷge kaḻbāḷa kūḍi kaḻiṟa gāḍiganni °indabaḷḷiyātan·maṟuvakka-dōri . . . .
+              <lb n="4"/>°āta. . . . . yaśaṇ·bōga-sampannan·dharmma-parāyaṇan·satya-vākyan·
+              <lb n="5"/>vasavūrā kōṭeyan·koṇḍu kali-dōranān °ōḍisi palarā-
+              <lb n="6" break="no"/>n-iṟidu kondu geludu tānuḷ<!--fn31: <app><rdg source="#RICE">tānum</rdg></app>-->-maḍidu kaḷiṟaṣ-surālaya sēṟidān<!--fn32: <app><rdg source="#RICE">kaḷiṟaṅ suralayam eṟidān</rdg></app>-->
+            </ab>
+          </body>
+        </text>
+        <text n="63" xml:id="Gai.063">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> II. SB. 35 (24).</seg> <seg type="number">No. 63.</seg> <seg type="date"><hi rend="italic">About</hi> A.D. 800.</seg></head>
+            <ab>
+              <lb n="1"/>svasti samadhigata pañca-mahā-śabda-padaḍakke-
+              <lb n="2" break="no"/>daḷi-dhvaja-sāmyā . . . mahā-mahā-samantādhipati śrī-ballabha
+              <lb n="3"/>. . . hā-rājādhirāja- . . . mēśvara-mahā-rājarā magandir·raṇāvaḷōka-śrī-kambayyan·pr̥thuvī-rājyaṁ geye
+              <lb n="4"/>ba . . . rasar-kkaḻvappu . . ḷa per-ggaḻvappinā poladin·naḍadu koṭṭadu
+              <lb n="5"/>. . ṣēna-°aḍigaḻge manasijarā . . . . ganā °arasi bēne °etti mōnam-ujjamisuvalli koṭṭadu pola-mēre taṭṭaggeṟeya kiḻkeṟe pōgi °akṣara-kalla mēge °allindā vasel·
+              <lb n="6"/>karggal-māradu sallu periya °āla- . . . vāri maraḷ·puṇusa peri . . . toṟeyu °ālare mēre duveṭṭage niṟu-kallu kovaḷḷadā periya °elavu °alliṁ kuḍittu °ara-
+              <pb n="132"/><lb n="7" break="no"/>sarā śrīkaraṇamuṁ . . . gādiyara diṇḍiga-gāmuṇḍarum °ennuvaru . . . vaṁgaru vallabha-gāmuṇḍaruṁ rundi-vaccaru ruṇḍi-māramma-nuṁ kādaḷūra śrī-vikrama-gāmuṇḍruṁ kaliḍurgga-gāmuṇḍaruṁ
+              <lb n="8"/>°agadipo . . . yarara . . . raṇapāra-gāmuṇḍaruṁ °andamāsala-°uttama-gāmuṇḍaruṁ navilūra-nālgāmuṇḍaruṁ belgoḷada gōvinda-pāḍiya °u . . . ḷḷāmanduṁ beḷgoḷadā vaḻi
+              <lb n="9"/>gōvindapāḍige koṭṭadu (bahubhirvvasudhā <note type="editorial" xml:lang="en">etc.</note>
+              <note type="editorial" xml:lang="en"><hi rend="italic">Skt. upto the end of line 10).</hi></note>
+            </ab>
+          </body>
+        </text>
+        <text n="64" xml:id="Gai.064">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Mys. Arch. Report.</hi> 1939. Inscription No. 23 (p. 121).</seg> <seg type="number">No. 64.</seg> <seg type="date">c. 740 A.D.</seg> <seg type="place">At—Hire-Madhure, Challakere Taluk.</seg></head>
+            <ab>
+              <lb n="1"/>vikramādityarasara . . .
+              <lb n="2"/>rasaru kañciyan-kkoḷvandu koṅgu-
+              <lb n="3" break="no"/>ṇi °arasara °āḷu °eṟi-
+              <lb n="4" break="no"/>du sattoṇ·
+              <lb n="5"/>śrī-dāsi-
+              <lb n="6" break="no"/>°amman·
+              <lb n="7"/>kañciyo-
+              <lb n="8" break="no"/>ḷ·pannorbba-
+              <lb n="9" break="no"/>ran °eṟi-
+              <lb n="10" break="no"/>du svarggi
+              <lb n="11"/>lādan·
+              <lb n="12"/>bhūtalado-
+              <lb n="13" break="no"/>ḷ °elliyu
+              <lb n="14"/>svōnnate pu-
+              <lb n="15" break="no"/>ge jātasya
+              <lb n="16"/>maraṇandruva-
+              <lb n="17" break="no"/>memmeda ?
+              <lb n="18"/>kketu ?
+              <lb n="19"/>kka
+            </ab>
+          </body>
+        </text>
+        <text n="65" xml:id="Gai.065">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Mys. Arch. Report,</hi> 1939, Inscription No. 22 (p. 117).</seg> <seg type="number">No. 65.</seg> <seg type="date"><hi rend="italic">Middle of 8th cent.</hi> A.D.</seg> <seg type="place">At—Hire-Madhure, Challakere Taluk.</seg></head>
+            <ab>
+              <lb n="1"/>katti °arasara koṅguṇi °a-
+              <lb n="2" break="no"/>rasara bāge-°ūroḷe °e-
+              <lb n="3" break="no"/>ṟivandu koṅguṇi °arasara
+              <lb n="4"/>°āḷu °e-
+              <lb n="5" break="no"/>ṟidu sa-
+              <lb n="6" break="no"/>tton·
+              <lb n="7"/>bhānudā-
+              <lb n="8" break="no"/>san·
+              <lb n="9"/>jayami-
+              <lb n="10" break="no"/>tran
+              <lb n="11"/>°ūnara
+              <lb n="12"/>vaiśikan
+              <pb n="133"/><lb n="13"/>°oḍivecce
+              <lb n="14"/>rāyiḷanni-
+              <lb n="15" break="no"/>ggoḷan·manu-
+              <lb n="16" break="no"/>jāgaran °a-
+              <lb n="17" break="no"/>ṇṇanavatiga-
+              <lb n="18" break="no"/>n °antakaṅg-a-
+              <lb n="19" break="no"/>ñjadon
+            </ab>
+          </body>
+        </text>
+        <text n="66" xml:id="Gai.066">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Mys. Arch. Report,</hi> 1930, Inscription No. 36 (p. 176).</seg> <seg type="number">No. 66.</seg> <seg type="date"><hi rend="italic">About</hi> 800 A.D.</seg> <seg type="place">At--Dēvarahaḷḷi, in the hobaḷi of Haṅgaḷa.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrīmatu koṅguni-mādhavaścaiva vi-
+              <lb n="2" break="no"/>ṣṇugoṭṭamaḥ mādhavoravinītaśca durvvinī-
+              <lb n="3" break="no"/><unclear resp="#GSG">ti</unclear>vikramaśca duggaśca śivamārastathaiva ca koṅgoṇi
+              <lb n="4"/>pr̥thuvī-rājyaṁ keye durvvinīt-eṟe-°appor·ko-
+              <lb n="5" break="no"/>sarupuḻk-irid-idirupayd-agid-iḍid-ir-uda-
+              <lb n="6" break="no"/>ṟin °āmandādigaḷ °upagoḷatt-eḻpadinvaru mara-
+              <lb n="7" break="no"/>mokaraman-oḍedoḍe-ppaḍettadu puṇisūr-ppola
+              <lb n="8"/>nellu pāṇḍiyu vaḷevadu sarvva-parihāra-ttoṭṭapa
+              <lb n="9"/>keḍipuvonu koḷvonu pañca-mahā-pātakanakke °okka-
+              <lb n="10" break="no"/>l °uḷid-uṇḍu kāduvoṁg-idu kaṇ-geṭṭu toḷkuttuva<unclear resp="#GSG">kke</unclear>
+            </ab>
+          </body>
+        </text>
+      </group>
+      <group type="century" n="9">
+        <head xml:lang="en">9th Century A.D.</head>
+        <text n="67" xml:id="Gai.067">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">JA</hi> XI. p. 126.</seg> <seg type="number">No. 67.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 726 = A.D. 804.</seg> <seg type="place">AT—?</seg></head>
+            <ab>
+              <lb n="1"/>svasti śaka-nr̥pa-kāḷ-ātīta-saṁvatsaraṁgaḷ °ēḻnūr <choice resp="#GSG"><orig>°ī</orig><reg>°i</reg></choice>rppatt-āṟane-
+              <lb n="2" break="no"/>yā subhānu °e<choice resp="#GSG"><orig>mbhā</orig><reg>mbā</reg></choice> varṣadā vai<choice resp="#GSG"><orig>sā</orig><reg>śā</reg></choice>kha-māsa-kr̥ṣna-pa-
+              <lb n="3" break="no"/>kṣa-pañca<choice resp="#GSG"><orig>mē</orig><reg>mī</reg></choice>-br̥haspa<choice resp="#GSG"><orig>tī</orig><reg>ti</reg></choice>vāram-ā<choice resp="#GSG"><orig>gī</orig><reg>gi</reg></choice>sva<choice resp="#GSG"><orig>stī</orig><reg>sti</reg></choice> prabhū-
+              <lb n="4" break="no"/>tavarṣa-śrīpr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vīvallabha mahārājā<choice resp="#GSG"><orig>dhī</orig><reg>dhi</reg></choice>rāja-pa<unclear resp="#GSG">ra</unclear>mē-
+              <lb n="5" break="no"/>śvara-gōyindara bhaṭārarā gāmuṇḍabbegaḷ·mahādē-
+              <lb n="6" break="no"/>vi<choice resp="#GSG"><orig>yā</orig><reg>ya</reg></choice>r °ā<choice resp="#GSG"><orig>gī</orig><reg>gi</reg></choice> rā<choice resp="#GSG"><orig>jyā</orig><reg>jye</reg></choice>pra<unclear resp="#GSG">va</unclear>rddhamāna-kāladoḷ·
+              <lb n="7"/>kañciyan-āḷvā dantiganame geḷdu kappa<unclear resp="#GSG">ṁ</unclear>-goḷa-
+              <lb n="8" break="no"/>l·bandalli tuṁgabhadreyā taḍiyoḷ-tāṇa-bīḍuga-
+              <lb n="9" break="no"/>ḷ iḻdu rāmēśvara °emba tīrtthadā modaloḷ·mepp-i-
+              <lb n="10" break="no"/>kki porada pandigaḷan iṟiyal banda<choice resp="#GSG"><orig>llī</orig><reg>lli</reg></choice> tīrttham-oḷpa-
+              <lb n="11" break="no"/>n=kaṇḍu śivadhari °emba goravargge mu (?muṁ)du(?)mbeya-
+              <lb n="12" break="no"/>manuntu kī<choice resp="#GSG"><orig>tthi</orig><reg>rtti</reg></choice>vammō<unclear resp="#GSG">rmma</unclear> rāja-parmēśvaradattamān- viṭṭā<unclear resp="#GSG">r</unclear> | l-
+              <lb n="13" break="no"/>idaṁ keḍisidaroḷ <choice resp="#GSG"><orig>a</orig><reg>ā</reg></choice>r appoḍe °int-app-āt·
+              <lb n="14-17"/>svadattāṁ <note type="editorial" xml:lang="en">etc. Skt. lines.</note>
+              <lb n="17"/>pūrvva-sthiti ku-
+              <lb n="18" break="no"/>nd °emba toṟe mēre
+              <lb n="19"/><note type="editorial" xml:lang="en">Skt. line.</note>
+            </ab>
+          </body>
+        </text>
+        <pb n="134"/>
+        <text n="68" xml:id="Gai.068">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Mys. Arch. Report,</hi> 1927, No. 44 (p. 59).</seg> <seg type="number">No. 68.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 777 = A.D. 855.</seg> <seg type="place">At—Chikka-Iṅgaḷa, hōbaḷi of Bīrūr.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śaka kāla 777 . . .
+              <lb n="2"/>svasti kiṟi-°iṅgaḷada tamma-
+              <lb n="3" break="no"/>gavuṇḍanu puliyan °iṟidu . . . .
+              <lb n="4"/>sattoḍe ganga permmāḍi me-
+              <lb n="5" break="no"/>ccugoṭṭudu °ayguḷa kaḻani °i-
+              <lb n="6" break="no"/>dān °aḻidon·vāraṇāsiya-
+              <lb n="7" break="no"/>n-aḻidōn . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="69" xml:id="Gai.069">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 8.</seg> <seg type="number">No. 69.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 784 = A.D. 862.</seg> <seg type="place">At—Hūvina-Hippargi, Bijapur Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-amōghavarṣa
+              <lb n="2"/>śrī pr̥thuvī-valla-
+              <lb n="3" break="no"/>bhaṁ mahārājā-
+              <lb n="4" break="no"/>dhirāja<unclear resp="#GSG">ṁ</unclear> pa<unclear resp="#GSG">rā</unclear>mēśva-
+              <lb n="5" break="no"/>rā bhaṭārarā rājyā-
+              <lb n="6" break="no"/>bhi-vr̥ddhi sale
+              <lb n="7"/>sakha-nr̥pa-kāl-ā-
+              <lb n="8" break="no"/>tīta-saṁvatsaraṁga-
+              <lb n="9" break="no"/>ḷ-e<unclear resp="#GSG">ḷnū</unclear>ṟu °eṇbattā-nā-
+              <lb n="10" break="no"/>lkaneya citrabhā-
+              <lb n="11" break="no"/>nu °emba varṣaṁ
+              <lb n="12"/>pravarttise kannavu-
+              <lb n="13" break="no"/>ri-viṣayē si<unclear resp="#GSG">rmma</unclear>la-
+              <lb n="14" break="no"/>ge pūrvva-digbhāgē
+              <lb n="15"/>kr̥ṣṇa-beṇṇ-ōttara pa-
+              <lb n="16" break="no"/>thē
+              <lb n="17"/>bāsurikōḍu °iṅgaḷisara
+              <lb n="18"/>bāgevāḍi sāmaḷavāḍige
+              <lb n="19"/>°oḍḍavoḍige madhyava<unclear resp="#GSG">r</unclear>tti
+              <lb n="20"/>pipparage nāma-gramō
+              <lb n="21"/>sarvva-bādha parihārē-
+              <lb n="22" break="no"/>ṇa<unclear resp="#GSG">ṁ</unclear> datti jōtiṣa-śakuna-ni-
+              <lb n="23" break="no"/>mittaṁgaḷaṁ ballahage pra-
+              <lb n="24" break="no"/>tya-geydu mahā-sāmantaru
+              <lb n="25"/>maṇḍalīkarum-aṟiye
+              <lb n="26"/>paḍedam·gōleya-bha-
+              <lb n="27" break="no"/>ṭṭam ||
+            </ab>
+          </body>
+        </text>
+        <text n="70" xml:id="Gai.070">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i, No. 11.</seg> <seg type="number">No. 70.</seg> <seg type="date"><hi rend="italic">Śaka</hi> (7)86 = A.D. 865.</seg> <seg type="place">At—Mēvuṇḍi, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-amōghavarṣa śrī-pōthuvīvalla-
+              <lb n="2" break="no"/>bha mahārājādhirājam·paramēśvara bhaṭā<unclear resp="#GSG">ra</unclear>-
+              <pb n="135"/><lb n="3" break="no"/>ka<unclear resp="#GSG">r̄</unclear> pr̥thuvī-rājyaṁ-geye svasti pracaṇḍa-ma-
+              <lb n="4" break="no"/>ṇḍalāgra khaṇḍit-ārātimaṇḍala-pratāpa<!--fn33: <note type="footnote" xml:lang="en">Some lines seem to have been lost after this.</note>-->
+              <note type="editorial" xml:lang="en">Second Face</note>
+              <lb n="5"/>[su]ḍa [gga] nuḻidōṁ saḷesu<unclear resp="#GSG">ṁ</unclear>nduḻi [vō]ṁ tandeya tāyvirā sa-
+              <lb n="6" break="no"/>ntānama<unclear resp="#GSG">ṁ</unclear>n-uḻidu bisuṭōṁ maṟuvārttegoḷḷa<unclear resp="#GSG">n</unclear>·
+              <lb n="7"/>bandiyuṁ kaḷacumāṟa[ḍi]yumāgaḷ-i-dane kādi
+              <lb n="8"/>tannan-āḷdāta saye bāḷanārttanna bēḍido-
+              <lb n="9" break="no"/>ḍe kuḍuguṁ nikkuva . . . tō [ṁṭana] mane
+              <lb n="10"/>. . nintaṟi su<unclear resp="#GSG">ṣṭhu</unclear>ra . . . (ḻdō . . <unclear resp="#GSG">n</unclear>·
+              <lb n="11"/>saṁpanna yādava vaṁśō . . . . <unclear resp="#GSG">rvva</unclear> . . .
+              <lb n="12"/>dhavaḷa ṣaḍguṇāḷaṁ . . . di . . .
+              <lb n="13"/>śrīmat-kuppeyarasara . . . . .
+              <lb n="14"/>magan-aṇḍuga raṭṭiya<unclear resp="#GSG">ṇna</unclear> . . . .
+              <lb n="15"/><unclear resp="#GSG">saṁ</unclear>beḷā<unclear resp="#GSG">va</unclear>ḍicā mēḻemaḍuvi . . .
+              <lb n="16"/>ḻdu °ara<unclear resp="#GSG">sa</unclear>na me<unclear resp="#GSG">yye</unclear> karameṁbu<unclear resp="#GSG">da</unclear>ṁ kēḷdu . . .
+              <lb n="17"/>lla munde nindu kūḻā toṟadu mūvattu gāvuda . . .
+              <lb n="18"/>devasadoḷ-eydi °arasanaṁ jāmisi
+              <lb n="19"/>nurivuttiḻduḍaṁ kaṇḍu kīḻguṇṭeyāgalku<unclear resp="#GSG">ḍa</unclear>du da-
+              <lb n="20" break="no"/>maṁ kuḍuven-endu piḍi-khaṇḍa<unclear resp="#GSG">ṁ</unclear> goṇḍu desevalige-
+              <lb n="21" break="no"/>ṟa poḻdu ka<unclear resp="#GSG">ru</unclear>ḷa bō<unclear resp="#GSG">niḍi</unclear>galloḷ-ikki °eḻdi<unclear resp="#GSG">ya</unclear>-
+              <lb n="22" break="no"/>mare pala<unclear resp="#GSG">rmmā</unclear>ḍi °ādityaṁ-getti °ittakke me-
+              <lb n="23" break="no"/>ḷgella tōṟi bērandaṟiyisi . . . to<unclear resp="#GSG">ṭṭirddu</unclear>taṁbu . . .
+              <lb n="24"/>. . . sūṟuguḷdu °ākimārivecca <unclear resp="#GSG">ḍe</unclear> rvi . sakava . . .
+              <lb n="25"/>ṟa °eṇbhatt-āḻaneya varṣaṁ pōḍa-<unclear resp="#GSG">ba</unclear>ḻikke nindudī kallu . . .
+              <lb n="26"/>purigeṟeyim·banda poleyaṇṇana śilākarmma
+              <lb n="27"/>°ara-ku-liyana kalluṁī kallu
+            </ab>
+          </body>
+        </text>
+        <text n="71" xml:id="Gai.071">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VII. p. 201.</seg> <seg type="number">No. 71.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 787 = A.D. 865.</seg> <seg type="place">At—Mantrawāḍi, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/><unclear resp="#GSG">°ōm</unclear>·svasty-amōghavarṣa śrīpr̥thivī-vallabha mahā-
+              <lb n="2" break="no"/>rājādhirāja paramēśvara bhaṭārarar<unclear resp="#GSG">ā</unclear>-
+              <lb n="3" break="no"/><unclear resp="#GSG">jy</unclear>-ābhivr̥ddhiyoḷ·śaka-nr̥pa-kāl-ātīta-saṁva-
+              <lb n="4" break="no"/>tsara-śataṁgaḷ ēḻ-nūṟ eṇbhatt-ēḻaneya pārtthi-
+              <lb n="5" break="no"/>va-saṁvatsaraṁ pravarttise purigeṟe-nāḍa<unclear resp="#GSG">ṁ</unclear> ku-
+              <lb n="6" break="no"/>ppēyan āḷe vaiśākha-māsada paurṇṇa-
+              <lb n="7" break="no"/>mā<choice resp="#GSG"><orig>se</orig><reg>si</reg></choice>y-and eḻpuṇuseya nālvadimba-
+              <lb n="8" break="no"/>r-mmahājanamu(? vu)ṁ moni-goravaruṁ mūlasthā-
+              <lb n="9" break="no"/>nada mahādēvar āḷv elaṁvaḷḷiya śāsa<unclear resp="#GSG">na</unclear>-
+              <lb n="10" break="no"/>muṁ ā dēvara mūḍa vaḍḍava
+              <lb n="11"/>ya pola mēreye teṁka dēvaṁ-geyye mēre
+              <lb n="12"/>paḍuva niṟu-gal mēre baḍaga kālabe (?)ya pola
+              <lb n="13"/>m<unclear resp="#GSG">ē</unclear>reyo mēre-māḍi °eṇbhattay-vattar·kk<unclear resp="#GSG">e</unclear>yyum āṟu
+              <lb n="14"/>tōṇṭada nelanum āditya-bhaṭārara sthānamu(? vu)vaṁ
+              <pb n="136"/><lb n="15"/>rakṣisal·peḻcisal °ivarē samartthar °endu gōka-
+              <lb n="16" break="no"/>ṇṇa-paṇḍita-bhaṭārargge sarvva-bādhā-parihāraṁ
+              <lb n="17"/>kālam·kaḻci koṭṭar °ī sthānaman °āḷva goravar °akha-
+              <lb n="18" break="no"/>ṇḍita-brahmacāriy-apudu brahmacaryya-hīnaran ī sama-
+              <lb n="19" break="no"/>yaḍa yoravarkkaḷ kaḷevor °ī paddhatiyam·śilā-lē-
+              <lb n="20" break="no"/>khe-māḍi niṟisidar-ppaṇḍita-bhṭārar °ī dharmmavaṁ kā
+              <lb n="21"/>doṁg-aśvamēdhada phala<unclear resp="#GSG">ṁ</unclear> °aḻiyal-baṁgevoṁge bra-
+              <lb n="22" break="no"/>hmātiya pāpam akkuṁ nāgadēvan °ī dharmmadoḷ·gō<choice resp="#GSG"><orig>ṣṭi</orig><reg>ṣṭhi</reg></choice> °ā(?)doṁ
+            </ab>
+          </body>
+        </text>
+        <text n="72" xml:id="Gai.072">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VI. p. 102-105.</seg> <seg type="number">No. 72.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 788 = A.D. 866.</seg> <seg type="place">At—Nīlgund, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">1 to 8 Skt. lines.</note>
+              <lb n="9"/>°ōm·svasti śrī samadhigata pañca-mahāśabda mahārājādhirāja-paramēśvara-bhaṭṭāraka catur-udadhi-
+              <lb n="10" break="no"/>valaya-vala<choice resp="#GSG"><orig>yu</orig><reg>vi</reg></choice>ta-sakala-dharātala-prātirājy-ārēka-maṇḍalikarkkaḷā kaṭaka-kaṭisūtrakku-
+              <lb n="11" break="no"/>ṇḍala-kēyūra-hārā<unclear resp="#GSG">bha</unclear>raṇ-ālaṁkr̥ta-gaṇika-sāhasra-cāmar-āndhakār-ādhō-diryya-viryyamāna-<choice resp="#GSG"><orig>śvi-</orig><reg>śvē</reg></choice>-
+              <lb n="12" break="no"/>t-ātpatra-traya-kaḷaha-kāhaḷa-śaṁkha-pāḷidhvaj-ōrukētu-paṭāk-ācchādita-digantar-ella <choice resp="#GSG"><orig>sri</orig><reg>sr̥</reg></choice>ṣṭi-
+              <lb n="13" break="no"/>sēnāpati puravara-taḷavargga-daṇḍanāyaka-sāmant-ādy-ānēka-viṣaya-vināṁ<unclear resp="#GSG">n</unclear>-ōttu<unclear resp="#GSG">ṅ</unclear>ga-<unclear resp="#GSG">ki</unclear>-
+              <lb n="14" break="no"/>rīṭa-makuṭa-ghr̥ṣṭa-pādāravindayugma nirjjita-v<unclear resp="#GSG">ai</unclear>ri ripu-nivaha-kāla-daṇḍa duṣṭa-mada-bha<unclear resp="#GSG">ṁ</unclear>janan °a-
+              <lb n="15" break="no"/>mōgha-rāmaṁ para-cakra-pañcānanaṁ sur-āsura-marddanaṁ vairi-bhaya-<unclear resp="#GSG">ka</unclear>raṁ badd<unclear resp="#GSG">e</unclear>-ma<unclear resp="#GSG">nō</unclear>haraṁ °a<unclear resp="#GSG">bh</unclear>imāna-
+              <lb n="16" break="no"/>man<unclear resp="#GSG">d</unclear>iraṁ raṭṭa-vaṁśōdbhava<unclear resp="#GSG">ṁ</unclear> garuḍa-lāñ<choice resp="#GSG"><orig>ca</orig><reg>cha</reg></choice>naṁ ṭiv<unclear resp="#GSG">i</unclear>ḷi-paṟeghōṣaṇa<unclear resp="#GSG">ṁ lattalūra-p</unclear>u<unclear resp="#GSG">ra</unclear>-paramēśvara<unclear resp="#GSG">ṁ</unclear> śrīmat
+              <lb n="17"/>°amōghavarṣa-nr̥patu<unclear resp="#GSG">n</unclear>ga-nām-ā<unclear resp="#GSG">ṁ</unclear>kita-<unclear resp="#GSG">la</unclear>kṣmīva<unclear resp="#GSG">lla</unclear>bhēndra candrāditya-kālaṁ<unclear resp="#GSG">baraṁ</unclear> <unclear resp="#GSG">ma</unclear>hā-viṣṇ<unclear resp="#GSG">u</unclear>va rājyaṁ-bol °uttar-ōttaram·
+              <lb n="18"/>rājy-ābhi<unclear resp="#GSG">vr̥</unclear>ddhi sa<unclear resp="#GSG">l</unclear>utt-ire śaka-nr̥pa-kā<unclear resp="#GSG">l-ā</unclear>tīta-samavatsara-śata<unclear resp="#GSG">ṁ</unclear>gaḷ ēḻ-n<unclear resp="#GSG">ūṟ-eṇbhatt-eṇṭa</unclear>neya vyaya-<unclear resp="#GSG">saṁva</unclear>tsara<unclear resp="#GSG">ṁ</unclear> pra-
+              <lb n="19" break="no"/><unclear resp="#GSG">va</unclear>rttise <unclear resp="#GSG">śrī</unclear>ma<unclear resp="#GSG">d-a</unclear>mōghava<unclear resp="#GSG">rṣa</unclear>-nr̥<unclear resp="#GSG">pa</unclear>tu<unclear resp="#GSG">ṁ</unclear>ga-<unclear resp="#GSG">nām-āṁkitanā vijaya-rā</unclear>jya-pravarddhamāna-saṁvatsa<unclear resp="#GSG">ra</unclear>-
+              <lb n="20" break="no"/><unclear resp="#GSG">ṅ</unclear>gaḷ °ayva<unclear resp="#GSG">tt-eraḍum °uttar-ō</unclear>ttaraṁ <unclear resp="#GSG">rājy-ābhivr̥ddhi sal</unclear>u<unclear resp="#GSG">tt-i</unclear>re °a<unclear resp="#GSG">ti</unclear>śa<unclear resp="#GSG">yadha</unclear>vaḷa narē<unclear resp="#GSG">n</unclear>d<unclear resp="#GSG">ra</unclear>-dē<unclear resp="#GSG">va-</unclear>-prasād <unclear resp="#GSG">dind a</unclear>-
+              <lb n="21" break="no"/>mōgha<unclear resp="#GSG">varr̥a</unclear>dēva-p<unclear resp="#GSG">ā</unclear>dapa<unclear resp="#GSG">ṁ</unclear>kaja-<unclear resp="#GSG">bhra</unclear>mara<unclear resp="#GSG">ṁ</unclear> viśiṣṭa-ja<unclear resp="#GSG">n-āśrayan °a</unclear>appa śrīmad·dēvaṇṇayyaṁ beḷvo<unclear resp="#GSG">la</unclear>-
+              <lb n="22" break="no"/>mūnūṟuman °āḷuttuṁ °annigeṟeyoḷ ire °ā<unclear resp="#GSG">ta</unclear>na ma<unclear resp="#GSG">y</unclear>du<unclear resp="#GSG">naṁ</unclear> kulappayya<unclear resp="#GSG">ṁ</unclear> muḷgunda-pa-
+              <lb n="23" break="no"/>neraḍuman °āḷutt-ire ta<unclear resp="#GSG">d-a</unclear>ntarggata-jyēṣṭa-māsada (kr̥ṣ<unclear resp="#GSG">ṇ</unclear>a-pakṣad-amāseyu<unclear resp="#GSG">ṁ</unclear> sūryya-graha-
+              <pb n="137"/><lb n="24" break="no"/>ṇamum-āgi ku<unclear resp="#GSG">lappa</unclear>yya<unclear resp="#GSG">ṁ</unclear> binnapa<unclear resp="#GSG">ṁ</unclear>-g<unclear resp="#GSG">e</unclear>yye dēvaṇṇayya<unclear resp="#GSG">ṁ</unclear> °amōghavarṣa-dēvaroḷ·rāja(? jā)-śrā-
+              <lb n="25" break="no"/>vitam-māḍi tad-anuma<unclear resp="#GSG">ta</unclear>dind irvvoruṁ mātā<unclear resp="#GSG">pi</unclear>tr̥ . . . m-ā<unclear resp="#GSG">r</unclear>thaṁ <unclear resp="#GSG">p</unclear>uṇyam °āg<unclear resp="#GSG">iy ā</unclear> grahaṇado<unclear resp="#GSG">ḷ</unclear>·
+              <lb n="26"/>nīrggundada nūṟ-irppadiṁkaruṁ mahājanada kā<unclear resp="#GSG">la</unclear>ṁ kaḻci tuppa-deṟeya<unclear resp="#GSG">ṁ</unclear> sabhōga-sāda<unclear resp="#GSG">dha</unclear>-
+              <lb n="27" break="no"/>kam-āgi biṭṭo<unclear resp="#GSG">r</unclear> || °i dharmmama<unclear resp="#GSG">ṁ k</unclear>ādoṁ vāraṇāsiyuḷ·sūryya-grahaṇadoḷ·sāsira kavile-
+              <lb n="28" break="no"/>yaṁ vēda-vidarkkaḷ-appa brāhmanarkkaḷge koṭa puṇya-phalaman °a(? °e)yduvon °idan-aḻid-uṇṭ-<unclear resp="#GSG">ā</unclear>vaṁ
+              <lb n="29"/>sāsira kavileyuṁ sāsi<unclear resp="#GSG">r</unclear>vvar·<unclear resp="#GSG">bbr</unclear>āhmaṇarumaṁ vāraṇā<unclear resp="#GSG">s</unclear>i-yuman °aḻida pañca-mahāpāka-
+              <lb n="30" break="no"/>takan °akkuṁ °ōm
+              <note type="editorial" xml:lang="en">Skt. upto lines 35.</note>
+              <lb n="35"/>. . . . . . . . . bhaṭṭara likhitam °ī kallaṁ nāgamuḍḍa(?)na (?)
+            </ab>
+          </body>
+        </text>
+        <text n="73" xml:id="Gai.073">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VII. p. 205-07.</seg> <seg type="number">No. 73.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 788 = A.D. 866.</seg> <seg type="place">At—Sirur, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">1 to 5 Skt. lines.</note>
+              <lb n="6"/>svasti samadhigar<choice resp="#GSG"><orig>tō</orig><reg>ta</reg></choice>pañca-
+              <lb n="7" break="no"/><choice resp="#GSG"><orig>mā</orig><reg>ma</reg></choice>hāśabda-mahārājādhirāja-paramēśvara-bhaṭṭāraka catur-udadhi-valaya-va(? vā)la<choice resp="#GSG"><orig>yu</orig><reg>yi</reg></choice>ta-sakala-dharātala-
+              <lb n="8" break="no"/>prātirājy-ānēka-maṇḍalikarkkaḷā kaṭaka-<choice resp="#GSG"><orig>kā</orig><reg>ka</reg></choice>ṭis<unclear resp="#GSG">ū</unclear>tra-kuṇḍala-kēyūra-h<unclear resp="#GSG">ā</unclear>rābharaṇāḷaṁ-kr̥ta-gaṇikā-sahasra-kaḷaha-śaṁkha-pāḷidhvaj-ōrukētu-patāk-ācchādita-
+              <lb n="9" break="no"/>cāmar-āndhakāra-vādiyya-vīyya-māna-śvēt-ātapatra-traya-
+              <lb n="10" break="no"/>digantar-ella <choice resp="#GSG"><orig>sri</orig><reg>sr̥</reg></choice>ṣ<unclear resp="#GSG">ṭ</unclear>i-sēnāpati puravara-taḷavargga-daṇḍanāyaka-sāmant-ādyānēka-viṣaya-vināmn-ō-
+              <lb n="11" break="no"/>ttuṅga-kirīṭa-makuṭa-ghr̥ṣṭa-pādāravinda-yugma nirjjita-vairi ripu-nivaha-kāla-daṇḍa-duṣṭa-mada-bhajjana-
+              <lb n="12" break="no"/>na °amōgha-rāma<unclear resp="#GSG">ṁ</unclear> paracakra-pañc<unclear resp="#GSG">ā</unclear>nanam·surāsura-marddanaṁ vairi-bhayakaraṁ badde-manōharaṁ °abhimāna-mandiraṁ
+              <lb n="13"/>raṭṭa-vaṁśōdbhava<unclear resp="#GSG">ṁ</unclear> garuḍa-lāñ<choice resp="#GSG"><orig>ca</orig><reg>cha</reg></choice>naṁ ṭiviḷi-paṟe ghōṣa-ṇaṁ lattalūra-pura-paramēśvaraṁ śrī-nr̥patuṅga-
+              <lb n="14" break="no"/>nām-āṁkita-lakṣmīvallabhēndraṁ caṇdrādityara kālaṁ-varegaṁ mahā-viṣṇuva rājyaṁ-bol °uttarōttaraṁ rājy-ābhi-
+              <lb n="15" break="no"/><choice resp="#GSG"><orig>vri</orig><reg>vr̥</reg></choice>ddhi salutt-ire śaka-nr̥pa-kāl-ātīta-saṁvatsaraṅgaḷ ēḻ-nūṟ eṇbhatt-eṇṭaneya vyayam °emba sa<unclear resp="#GSG">ṁ</unclear>vatsaraṁ prava-
+              <lb n="16" break="no"/>rttise śrīmad-amōghavarṣa-nr̥patuṅga-nām-āṅkitanā vijaya-rājya-prava<choice resp="#GSG"><orig>rdda</orig><reg>rddha</reg></choice>māna saṁvatsaraṅgaḷ °ayvatt-
+              <lb n="17" break="no"/>eraḍum-uttar-ōttaraṁ rājyābhivr̥ddhi salutt-ire °atiśaya dhavaḷa-narēndra-pras<unclear resp="#GSG">ā</unclear>dadīnd-amōghavarṣa-
+              <lb n="18" break="no"/>dēva-pādapaṁkaja-bhramara viśiṣṭa-jan-āśrayan-appa śrīmad-dēvaṇṇayya<unclear resp="#GSG">ṁ</unclear> beḷvola-mūnūṟuma-
+              <pb n="138"/><lb n="19" break="no"/>n-āḷuttum °annigeṟeyaḷ-ire jēṣṭa-māsad-amaseyum °āditya-vāra<unclear resp="#GSG">mu</unclear>m-āge sūryya-grahaṇad-andu
+              <lb n="20"/>śrivūrada ravikayyaṁ modal-āgi °iḻnūrvvoruṁ mahājanada kālaṁ kaḻci tuppa-deṟeyaṁ <choice resp="#GSG"><orig>bī</orig><reg>bi</reg></choice>ṭṭom
+              <lb n="21"/>°ī <choice resp="#GSG"><orig>sti</orig><reg>sthi</reg></choice>tiyaṁ kād-ā<choice resp="#GSG"><orig>tā</orig><reg>ta</reg></choice>ṅge vāraṇāsivadoḷ·s<unclear resp="#GSG">ā</unclear>sira kavileyaṁ koṭṭa phalam °akkuṁ
+              <lb n="22"/><unclear resp="#GSG">°ī</unclear>dan aḻidu tuppam<!--fn34: <note type="footnote" xml:lang="en">Read <hi rend="italic">tappum</hi>—Ed.</note>-->-uṇṭ-ā<choice resp="#GSG"><orig>tā</orig><reg>ta</reg></choice>ṁ bāraṇāsiyu sāsira kavile-yu<unclear resp="#GSG">ṁ</unclear> sāsirvvar-pp<unclear resp="#GSG">ā</unclear>rvvaruman-aḻidon-akkuṁ
+              <lb n="23"/><unclear resp="#GSG">ni</unclear>mbiccara-bam<unclear resp="#GSG">m</unclear>ayya besa-geysido mādhavayyana li<choice resp="#GSG"><orig>khī</orig><reg>khi</reg></choice>-taṁ nāg<unclear resp="#GSG">ā</unclear>rjjunaṁ <choice resp="#GSG"><orig>bhe</orig><reg>be</reg></choice>sa-geydo
+              <lb n="24"/><unclear resp="#GSG">si</unclear>ri-gāvuṇḍana °eḻtu-pu<choice resp="#GSG"><orig>ḍi</orig><reg>di</reg></choice>dudu
+            </ab>
+          </body>
+        </text>
+        <text n="74" xml:id="Gai.074">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 13.</seg> <seg type="number">No. 74.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 791 = A.D. 869.</seg> <seg type="place">At—Gāvaravāḍ, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">Lines 1 and 2 erased.</note>
+              <lb n="3"/>re nr̥patuṅga<unclear resp="#GSG">nāmāṁ</unclear>kita paṭṭha-gaṭṭhi . . .
+              <lb n="4"/>ttaralutt ire saka-nr̥pa-kāl-ātīta-saṁbatsara<unclear resp="#GSG">satāṅgaḷ eḻu</unclear>nū-
+              <lb n="5" break="no"/>ṟa-tombbhatta-°ondaney-andu <unclear resp="#GSG">birōdhi</unclear>y-emba variṣaṁ pravarttisutt-ire °amō-
+              <lb n="6" break="no"/>ghavariṣadēvara pāda-paṁkaja-bra<unclear resp="#GSG">mara śiṣṭha</unclear>janaśraya sa-
+              <lb n="7" break="no"/><unclear resp="#GSG">tya</unclear>śauca<unclear resp="#GSG">cāritra</unclear> saṁpannan-appa śrī <unclear resp="#GSG">dēvaṇṇa</unclear>yyaṁ beḷvōla munuṟa-
+              <lb n="8" break="no"/><unclear resp="#GSG">ma</unclear>n-sukhadin-āḷuttum-iḻda śrīmaṁ baladēvanuṁ gōvaṇṇayya-<unclear resp="#GSG">nuṁ</unclear> <unclear resp="#GSG">ca</unclear>nnayya-
+              <lb n="9" break="no"/>. . . tadiḻdu rāja-śrāvita<unclear resp="#GSG">ṁgaḷ·vai</unclear>śākha-māsa śukla-pakṣa-puṇname-dina-
+              <lb n="10" break="no"/><unclear resp="#GSG">sō</unclear>ma-grahaṇa pa<unclear resp="#GSG">rvvadoḷ-gā</unclear>vaḍivāḍada mahājana <unclear resp="#GSG">°a</unclear> °aiva<unclear resp="#GSG">di</unclear>nba-
+              <lb n="11" break="no"/>. . <unclear resp="#GSG">kā</unclear>laṁ kaḻci tuppada <unclear resp="#GSG">te</unclear>ṟeya candra-sūryya <unclear resp="#GSG">vāre</unclear>dāna-goṭṭa °i-dharmma<unclear resp="#GSG">ma</unclear>-
+              <lb n="12" break="no"/>. . dātaṅga <unclear resp="#GSG">kō</unclear>ṭi <unclear resp="#GSG">pa</unclear>śumēthada phala °idan-āḻidāta vāraṇāsi<unclear resp="#GSG">yo</unclear>ḷ-sāsi-
+              <lb n="13" break="no"/>rvvar-pā<unclear resp="#GSG">r</unclear>varuṁ sāsira kavileyuṁ konda patakan-akku svasti śrī °o . . .
+              <lb n="14"/>ru manneya maṇiya <unclear resp="#GSG">datti</unclear> <unclear resp="#GSG">hiṭhu</unclear> seṭe geṭṭoḍe °ainurbbarum-iḻdu
+              <lb n="15"/>. . . ga<unclear resp="#GSG">rasiṁ</unclear>gamaṅi <unclear resp="#GSG">khari</unclear>ta narasiṁha °amma . . . .
+              <lb n="16"/>. . . ḷa thuṅgaumarā biṭṭiga gōnātha nā<unclear resp="#GSG">guṭe</unclear>pōta bamma . . .
+              <lb n="17"/>yatenaṁgaḷin·māleyā suṭuvā ba<unclear resp="#GSG">ḍi</unclear>ga modalāg-iḻdu dēvaṇṇa . . .
+              <lb n="18"/>. . leyavam·modalāg-i<unclear resp="#GSG">ḻdu</unclear>' niṟisi . . . yanā
+              <lb n="19"/><unclear resp="#GSG">ḻi</unclear>du °udātaṁ vāraṇāsiyuma °aḻidonā lōkakke . . . . . .
+              <lb n="20"/>bahubhir . . . <note type="editorial" xml:lang="en">Skt. lines to 23.</note>
+              <lb n="24"/>svasti śrī ma<unclear resp="#GSG">ṇi-nā</unclear>gōjara likitaṁ
+            </ab>
+          </body>
+        </text>
+        <text n="75" xml:id="Gai.075">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VII. Sh. Hl. 13.</seg> <seg type="number">No. 75.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 792 = A.D. 870.</seg></head>
+            <ab>
+              <lb n="1"/>. . . vallabhā mahārājādhirāja-parmēśvarā
+              <lb n="2"/>. . . rasar·mārasatya pr̥thuvī-rājyaṁ-geyye °indaba-
+              <lb n="3" break="no"/>. . . netosipasā
+              <pb n="139"/><lb n="4"/>mmatsarat-sataṁgoḷe saka-varṣam-eḻnūṟa-tombatta °eraḍaneya va-
+              <lb n="5" break="no"/>rṣa pravarttise mādi-°ūra bī . . . hāḷa goṇḍa . . . tu-
+              <lb n="6" break="no"/>ṟugoḷoḷ·sattu sarggam-ē . . . . °ida saleluvoge °imma-
+              <lb n="7" break="no"/>ttar·maṇṇa koṭṭar °irvvagū mēṟe svasti śrī °int-ī-dharmma-rāṟavāṅa . . .
+              <lb n="8"/>rgge rāja-māna pannir-mmattagaḷ
+            </ab>
+          </body>
+        </text>
+        <text n="76" xml:id="Gai.076">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. Nj. 75.</seg> <seg type="number">No. 76.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 792 = A.D. 870.</seg></head>
+            <ab>
+              <lb n="1"/>śrī-śaka-varṣam-ēḻnūṟa tombatt-eraḍu ve . . .
+              <lb n="2"/>tya-vākya-koṅgaṇi-varmma dharmma-mahārājādhi
+              <lb n="3"/>ja kovaḷāla-puravarēśvara nandagiri-nātha śrīmā . . .
+              <lb n="4"/>rājamalla-permmānaḍigaḷ·pr̥thuvī-rājyaṁ-geye bū-
+              <lb n="5" break="no"/>tarasa yuva-rāja-pathaduḷ·nindu koṅgaḷ-nāḍu pū-nāḍa-
+              <lb n="6" break="no"/>man-āḷut-iḻdu permmāḍiya besaduḷ·būtarasar·mma .
+              <lb n="7"/>. . . ḷudirura kōṭeyuḷ-kādid-andu da . . .
+              <lb n="8"/>. . . . . na magaṁ candiyaṇṇaṅka . . .
+              <lb n="9"/>. . . kādi palaraṁ . . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="77" xml:id="Gai.077">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> XIII. p. 185. (See also SII XI-i, No. 16).</seg> <seg type="number">No. 77.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 796 = A.D. 874.</seg> <seg type="place">At—Rōṇ, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/><unclear resp="#GSG">°ōm</unclear>svasty-amōghavarṣa śrī-pr̥tuvivallabha mahā<unclear resp="#GSG">rājā</unclear>-
+              <lb n="2" break="no"/>dhirāja paramē<unclear resp="#GSG">ś</unclear>vara bha<unclear resp="#GSG">ṭā</unclear>rarā rājya<unclear resp="#GSG">d</unclear> u<unclear resp="#GSG">tta</unclear>-
+              <lb n="3" break="no"/>r-ōttharam-abhivr̥ddhi<unclear resp="#GSG">yoḷ</unclear>·<choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>ka-nr̥pa<unclear resp="#GSG">kā</unclear>-
+              <lb n="4" break="no"/>l-ā<choice resp="#GSG"><orig>ti</orig><reg>tī</reg></choice>ta-saṁvatsaraṅga<unclear resp="#GSG">ḻ ē</unclear>ḷ-nuḻa tomba<unclear resp="#GSG">ttu</unclear>
+              <lb n="5"/>variśamum āṟu va<unclear resp="#GSG">rṣam</unclear>uṁ pōd-andu ja<unclear resp="#GSG">ya</unclear>-
+              <lb n="6" break="no"/>m emba varṣada śrāvaṇa-māsada <choice resp="#GSG"><orig>su</orig><reg>sū</reg></choice>ryya-
+              <lb n="7" break="no"/>grahaṇadoḷ·ballav-arasar·rōṇada ma-
+              <lb n="8" break="no"/>hājanake . . . na <choice resp="#GSG"><orig>pu</orig><reg>pū</reg></choice>jya<unclear resp="#GSG">maṁ</unclear> koṭṭu . . ḻu
+              <lb n="9"/>tuppamuṁ kōṇamu . . . ḻidor °a(?)ddoge
+              <lb n="10"/>°idan aḻida kā . . . . <choice resp="#GSG"><orig>sa</orig><reg>sā</reg></choice>si-
+              <lb n="11" break="no"/>ra kavileyu<unclear resp="#GSG">ṁ sāsirvvar-ppārvvaruma</unclear>n-aḻi . . .
+              <lb n="12"/>da . . . . rati
+              <lb n="13"/>ppe . . . ndaṁ ni<choice resp="#GSG"><orig>ḻi</orig><reg>ṟi</reg></choice>si-
+              <lb n="14" break="no"/>doṁ
+            </ab>
+          </body>
+        </text>
+        <text n="78" xml:id="Gai.078">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sb. 85.</seg> <seg type="number">No. 78.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 799 = A.D. 876.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-amōghavarṣa-vallabha mahārājādhi-
+              <lb n="2" break="no"/>rāja paramēśva<unclear resp="#GSG">ra</unclear> bhaṭārakā pr̥thuvī-rā-
+              <lb n="3" break="no"/>jyan-ge<unclear resp="#GSG">ye</unclear> banavāsi-paṇnirccāsiramumān- °inda-
+              <lb n="4" break="no"/>ra-goḷe<!--fn35: <app><rdg source="#RICE">indaran āḷe</rdg></app>--> saka-varṣam- °ēḻ-nūṟa-tombhat-ombha-
+              <pb n="140"/><lb n="5" break="no"/>teneya saṁvatsaraṁ pravattise kumbiseyaṁ kaṭṭi-
+              <lb n="6" break="no"/>ṅg-indaranum-māramayyanu kīḻalasuṁ-
+              <lb n="7" break="no"/>godoḷ- rājamāram °ay-maṭṭal-keyyaṁ
+              <lb n="8"/>koṭṭar-ada-māridara śiripuruṣana
+              <lb n="9"/>maga dēvāti paḍi-salisiy-uṇbo-
+              <lb n="10" break="no"/>n-idaṁ kādōṅg-aśvamēdhada phalaṁ kiḍi-
+              <lb n="11" break="no"/>sidoṅge brahmēti-sārggu °ī-kallaṁ kanvillam-māḍido
+            </ab>
+          </body>
+        </text>
+        <text n="79" xml:id="Gai.079">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Hyd. Arch. Series</hi>, No. 12, <hi rend="italic">Kan. Inscriptions of Kopbal</hi>, p. 7, No. 2.</seg> <seg type="number">No. 79.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 803 = A.D. 881.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī-śaka-variṣa °eṇṭu-nūṟa-mūṟaneya varisa-
+              <lb n="2" break="no"/>dandu kuṇḍakund-ānvayada °ēkacaṭṭugada-bhaṭārara śiṣyar·
+              <lb n="3"/>śrī-sarvvanandi-bhaṭārar °ill iḻdu <unclear resp="#GSG">°ū</unclear>rggan tirtthakkam upakā-rigaḷ-āgi
+              <lb n="4"/>pala-kālan·tapaṁgeydu sanyāsanan·nōtntu muḍipidar
+              <note type="editorial" xml:lang="en">Lines 5 to 6 Skt. verse.</note>
+            </ab>
+          </body>
+        </text>
+        <text n="80" xml:id="Gai.080">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i, No. 20(12) (Also <hi rend="italic">EI</hi> XXI. p. 208 A.)</seg> <seg type="number">No. 80.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 805 = A.D. 883.</seg> <seg type="place">At—Soraṭūr, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śrī °akālavariṣā pr̥thuvī-vāllava mārajādi<unclear resp="#GSG">rāja</unclear>-
+              <lb n="2" break="no"/>paramēśvara śrīmat-kannara-bhaṭarara rajy-ābhi-vr̥ddhi saluttum-ire
+              <lb n="3"/>śaka-nr̥pa-kāl-ātīta saṁbātsaraṁgaḷ °eṇṭu-nūṟ-āydāne sō-
+              <lb n="4" break="no"/>bhakr̥t °embha saṁbhatsaraṁ pra<unclear resp="#GSG">va</unclear>rttise °indāpāyyā nāḍān °āḷutt-i
+              <lb n="5"/>re purigeṟe-nāda saraṭavurad-āyvadiṁ<unclear resp="#GSG">ba</unclear>rum iḻdu nāḍayise mā-
+              <lb n="6" break="no"/>sigara cidāṇṇa gōsā-
+              <lb n="7" break="no"/>sa<unclear resp="#GSG">ṁ</unclear>m iḻdōṁ
+              <lb n="8"/>stan-ābhivr̥ddhi
+              <lb n="9"/>nama
+            </ab>
+          </body>
+        </text>
+        <text n="81" xml:id="Gai.081">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 19, (p. 12). (Also <hi rend="italic">EI</hi> XXI. p. 208 'B').</seg> <seg type="number">No. 81.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 805 = A.D. 883.</seg> <seg type="place">At—Siruṁja, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-akā<unclear resp="#GSG">la</unclear>va<unclear resp="#GSG">rṣa</unclear> śrī-pr̥thuvī-vallabha mahārājādhirāja paramēśvara bhaṭara-
+              <lb n="2" break="no"/>r-sakala-<unclear resp="#GSG">rā</unclear>jya<unclear resp="#GSG">m</unclear> °abhi-vr̥ddhige saluttum °ire śaka-varṣa °eṇṭu-nūṟa-
+              <lb n="3" break="no"/>°aydāneya varṣaṁ pravarttisuṭt-ire kiḍalegadhiphāṇnan °eṟe-yammaṁ<unclear resp="#GSG">ni</unclear>vudi-toṟugoḷoḷ-kā-
+              <lb n="4" break="no"/>di sattōn °ī kalla śrī butēṁ<unclear resp="#GSG">dra</unclear> gāvuṇḍaṁ <unclear resp="#GSG">ko</unclear>mmaguṟeyammaṁ niṟi<unclear resp="#GSG">si</unclear>dō<unclear resp="#GSG">r</unclear>
+            </ab>
+          </body>
+        </text>
+        <text n="82" xml:id="Gai.082">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> IX-i. <hi rend="italic">No.</hi> 18 (p. 8).</seg> <seg type="number">No. 82.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 805 = A.D. 883-4.</seg> <seg type="place">At—Kambaduru, Anantapur Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti sam-adhi-
+              <lb n="2" break="no"/>gatha-pañca-mahā-sabda
+              <pb n="141"/><lb n="3"/>pallav-ānvaya śrī-pr̥thuvī-
+              <lb n="4" break="no"/>vallavā pallava-kula-ti-
+              <lb n="5" break="no"/>laka śrīman-noḻambharāja ma-
+              <lb n="6" break="no"/>hē<unclear resp="#GSG">ṁ</unclear>dra tribhuvana-dhīraṁ rā-
+              <lb n="7" break="no"/>jyaṁ-geye saka-nr̥pa-kāl-ā-
+              <lb n="8" break="no"/>tīta-saṁvatsara<unclear resp="#GSG">ṁ</unclear>gaḷ eṇṭu-
+              <lb n="9" break="no"/>nūṟ-aydane varṣam-ā-
+              <lb n="10" break="no"/>ge sale beḷdugondeya
+              <lb n="11"/>gāmuṇḍaru pārvaru tamma
+              <lb n="12"/>keṟeya maṇṇoḷ-ir-kkaṇḍu-
+              <lb n="13" break="no"/>ga maṇṇum-piḍi bhattamu
+              <lb n="14"/>kuragā . . . . .
+              <lb n="15"/>grihakke candra-sū-
+              <lb n="16" break="no"/>rya-kālambharaṁ sa-
+              <lb n="17" break="no"/>lvante koṭṭar·madagi-
+              <lb n="18" break="no"/>na maṇṇa-mēge °ondu
+              <lb n="19"/>koli mege °orkka-
+              <lb n="20" break="no"/>ṇḍuga maṇṇu kuragā-
+              <lb n="21" break="no"/>muṇḍar·sarvvādhikāri
+              <lb n="22"/>pergghedetana-geyyu-
+              <lb n="23" break="no"/>ttum-aditygriyakke
+              <lb n="24"/>koṭṭar °i maṇṇu-nūruṁ
+              <lb n="25"/>salippor
+              <lb n="26"/>°ajja-parvvara daṇḍigā<unclear resp="#GSG">vu</unclear>-
+              <lb n="27" break="no"/>ṇḍaru mayila-pārva-
+              <lb n="28" break="no"/>ra madeṅgeṟeyaru <unclear resp="#GSG">no</unclear>-
+              <lb n="29" break="no"/>ḻambha-doḍḍaru nāga<unclear resp="#GSG">pā</unclear>-
+              <lb n="30" break="no"/>rvvaru lōpāda-pā<unclear resp="#GSG">rvvaru gā</unclear>-
+              <lb n="31" break="no"/>muṇḍa-sāmiyu <unclear resp="#GSG">noḻa</unclear>-
+              <lb n="32" break="no"/>mbha gā<unclear resp="#GSG">vu</unclear>ṇḍaru ba . . . . .
+              <lb n="33"/>°aycaṇṇanu °iva . . . . .
+              <lb n="34"/>ya sanmatade bhare . . . .
+              <lb n="35"/>kke jana jarataṁ mu . . . .
+              <lb n="36"/>kaṇḍōvaja °idakke bha . . .
+              <lb n="37"/>ppo bhāraṇāsiyu pa
+              <lb n="38"/>vu pārvaru keṟeyu <unclear resp="#GSG">po</unclear>-
+              <lb n="39" break="no"/>lamu °ārameyun-a<unclear resp="#GSG">ḻi</unclear>-
+              <lb n="40" break="no"/>da pañca-mahā-pā<unclear resp="#GSG">ta</unclear>-
+              <lb n="41" break="no"/>kan-akku
+            </ab>
+          </body>
+        </text>
+        <text n="83" xml:id="Gai.083">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> I. No. 2 (p. 74). (Also <hi rend="italic">IA</hi> VI. p. 102, No. II).</seg> <seg type="number">No. 83.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 809 = A.D. 887.</seg> <seg type="place">At—Biḷiūr, Coorg.</seg></head>
+            <ab>
+              <lb n="1"/>bhadraṁ-°astu jina-śāsanāya saka-nr̥p-a-
+              <lb n="2" break="no"/>tītā-kāla saṁvatsaraṁgaḷ °eṇṭu-nūṟ-ombattaneya varṣa-
+              <lb n="3" break="no"/>m-pravarttisutt-ire svasti satyavākya koṁguṇivarmma-dharmma-ma-
+              <lb n="4" break="no"/>hārājādhirāja kovaḷāla-puravarēśvara nadagiri-nātha śrīma-
+              <pb n="142"/><lb n="5" break="no"/>t-permmanaḍiya rājyābhiṣēkaṁ geyda padineṇṭaneya varṣad-andu pā-
+              <lb n="6" break="no"/>lguṇa-māsada śrī-pañcamey-andu śivaṇandi-siddhāntada-bhaṭāra-
+              <lb n="7" break="no"/>ra śiṣyar-ssarvbaṇandi-dēvargge peṇṇi<!--fn36: <note type="footnote" xml:lang="en"><hi rend="italic">Peṇṇe</hi>—the sign for subscript. <hi rend="italic">ṇa</hi> is the same as for <hi rend="italic">na</hi>, as usual at this period.—Ed.</note>-->-gaḍaṅgada satyavākya-jināla-
+              <lb n="8" break="no"/>yakke peddoṟegareya biḷiūr-ppannir-ppaḷḷiyumaṁ sarvba-bādā-pari-
+              <lb n="9" break="no"/>hāra permmanaḍi koṭṭo<!--fn37: <app><rdg source="#RICE">koṭṭō</rdg></app>--> tombhattaṟu-sāsirvbarum-aysāmantaruṁ beddo-
+              <lb n="10" break="no"/>ṟegareya °eḻpadimbaruṁ °eṇṭ-okkaluṁ °idakke sākṣi male-sāsi-
+              <lb n="11" break="no"/>rvbarum °aymūrvbarumm<!--fn38: <note type="footnote" xml:lang="en">read <hi rend="italic">ayūrvbarum</hi>—Ed.</note>-->-ay-dāmarigaruṁ °idakke kāpu °idan-aḻidom·
+              <lb n="12"/>bāraṇāsiyumaṁ sāsirvbar-ppārvbarumaṁ sāsira-kavileyumaṁ °a-
+              <lb n="13" break="no"/>ḻidoṁ pañca-mahāpātakan-akkum·sejōjana<!--fn39: <app><rdg source="#RICE">seḍōjana</rdg></app>--> likhittaṁ
+              <lb n="14"/>beḷiūru °eṅbattu-gadyāṇa ponnuṁ °eṇṭu-nūṟ·batta
+              <lb n="15"/>muṁ taṟuvoṁ<!--fn40: <app><rdg source="#RICE">teruvoṁ</rdg></app>-->
+            </ab>
+          </body>
+        </text>
+        <text n="84" xml:id="Gai.084">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 21 (p. 12-3).</seg> <seg type="number">No. 84.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 814 = A.D. 893.</seg> <seg type="place">At—Beṭigēri, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-akāḷavarṣa śrī pr̥thvī-vallabhaṁ mahārājādhirājaṁ paramēśva-
+              <lb n="2" break="no"/>raṁ parama-bhaṭṭarakar-uttarōttarābhivr̥ddhi pravadramāna vijaya kalyāṇa-rājyābhyudayajā<unclear resp="#GSG">bhyu</unclear>daya-
+              <lb n="3" break="no"/>m-āge sale śaka-nr̥pa-kāḷ-ātīta saṁvatsara sataṅga<unclear resp="#GSG">ḷ e</unclear>ṇṭu-nūṟa padinālkaneya prabha<unclear resp="#GSG">vādi pa</unclear>-
+              <lb n="4" break="no"/>rāvarttana saṁvarttita gha<unclear resp="#GSG">ṭa</unclear>naghaṭīyaṁtraṁ śrī-maṁgatōra-ṇan·pramādiyemba saṁvatsarad-ā<unclear resp="#GSG">ṣāḍdha</unclear>
+              <lb n="5"/>suddha saptamī °ādityavārad-andu beḷvola nāḍan-āḷdirke <unclear resp="#GSG">nā</unclear>gadhōran-eṁbō baṭṭekeṟeya
+              <lb n="6"/><unclear resp="#GSG">dhāḻige</unclear> muṟiyavaḍa polana koḷven-endu band-oḍḍi nindān-eṁba mātaṁ kēḷdu koḷtūba-
+              <lb n="7" break="no"/><unclear resp="#GSG">na</unclear> pola<unclear resp="#GSG">mana</unclear> kāduvem-endu paricchēdisi naḍavāgaḷde baṭṭa-geṟe neṟemme kaligaḷḷan °eṁbō . . . .
+              <lb n="8"/><unclear resp="#GSG">ṟi</unclear>ya bāḻen-endu paricchēdisi peṇḍiran-uḻidoḍevuṭṭido . . rade . . . dēgulake-vandu dēva<unclear resp="#GSG">rgge</unclear> . . . .
+              <lb n="9"/>. . . rudrākṣamaṁ baḷi koṇṭu kaṭṭi <unclear resp="#GSG">tri</unclear>śū<unclear resp="#GSG">la</unclear>man-iṭṭu koḻ-tūba<unclear resp="#GSG">na</unclear>nediṟci . . . .
+              <lb n="10"/>. . . . ḍivaki . . . kādi sattōṁ polana koḷvem-e<unclear resp="#GSG">ndu</unclear> . . . ndu . . . bēḻda dhōraṁ . . .
+              <lb n="11"/>. . . <unclear resp="#GSG">ḻtege</unclear> . . . . . . kāla . . . . . . . .
+              <lb n="12"/>yabbe māḍisidōḷ·kāśyapagōtra . . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="85" xml:id="Gai.085">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> IX-i. No. 55 (p. 31).</seg> <seg type="number">No. 85.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 815 = A.D. 893-94.</seg> <seg type="place">At—Manchala, Bellary Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śaka-nr̥pa-kāl-ātī-
+              <lb n="2" break="no"/>ta saṁvatsara-śataṅgaḷ-eṇṭu-nūṟa-padi-
+              <lb n="3" break="no"/>nāydaneya pramāthiy-emba saṁvatsara
+              <pb n="143"/><lb n="4"/>pravarti<unclear resp="#GSG">se</unclear> svasty-akālavariṣa śrī-pr̥ituvī-
+              <lb n="5" break="no"/>vallabha mahārājādhirāja paramēśvara
+              <lb n="6"/>śubhatuṁga-bhaṭārar·prithivī-rājyaṁ-ge-
+              <lb n="7" break="no"/>yyutt-ire tan-mahāsāmantaṁ svasti samasta-gu-
+              <lb n="8" break="no"/>ṇāśraya śrīmatu kaṇṇaṁ sindevāḍi sā-
+              <lb n="9" break="no"/>yiramuman-āḷuttu maṁcāḷa koṭṭa stithi
+              <lb n="10"/>°āvud-end-oḍe baḻiyu sollageyuman °uḻi-
+              <lb n="11" break="no"/>du baḻi sivenāyakaṁge °ara mānama . .
+              <lb n="12"/>ppe kūḻge °ōrbbaḷḷa °ara<unclear resp="#GSG">mānaṁ</unclear> sūryya-grahaṇa-
+              <lb n="13" break="no"/><unclear resp="#GSG">do</unclear>ḷ-koṭṭa stithi<unclear resp="#GSG">y-akku</unclear> svadattām . . . <note type="editorial" xml:lang="en">Skt. verse to line 15.</note>
+            </ab>
+          </body>
+        </text>
+        <text n="86" xml:id="Gai.086">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> III. My. Md. 13.</seg> <seg type="number">No. 86.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 817 = A.D. 895.</seg></head>
+            <ab>
+              <lb n="1"/>svasti saka-nr̥pa-kā-
+              <lb n="2" break="no"/>l-ātīta-saṁbatsaraṅga-
+              <lb n="3" break="no"/>ḷ-eṇṭu-nūṟa-padinēḻane-
+              <lb n="4" break="no"/>ya variṣaṁ pravaṭṭise
+              <lb n="5"/>noḻamādhirāja pr̥thu-
+              <lb n="6" break="no"/>vī-rājyaṁ geye tairūra
+              <lb n="7"/>kauṇḍilya-gōtrada gāmu-
+              <lb n="8" break="no"/>ṇḍa-sāmigaḷa magan·nā-
+              <lb n="9" break="no"/>gammayya kalla-dēgu-
+              <lb n="10" break="no"/>lamam-māḍisidaḍe
+              <lb n="11"/>salisal-endu koṭṭa
+              <lb n="12"/>maṇṇu °or-kkaṇḍuga
+              <lb n="13"/>°aydu varisakke
+              <lb n="14"/>śote °ikkade sva-
+              <lb n="15" break="no"/>naman °āḷdōru . .
+              <lb n="16"/>ḷsida nālva-di . .
+              <lb n="17"/>ru pañca-mahā-
+              <lb n="18" break="no"/>pātakar-appōr
+            </ab>
+          </body>
+        </text>
+        <text n="87" xml:id="Gai.087">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII.</hi> XI-i. No. 23 (p. 14).</seg> <seg type="number">No. 87.</seg> <seg type="date"><hi rend="italic">Śaka</hi> (8)18 = A.D. 896.</seg> <seg type="place">At—Harlāpūr, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-akāḷavarṣa śrī-pr̥thuvī-vallabha mahārājā-
+              <lb n="2" break="no"/>dhirāja paramēśvara bhaṭṭāra<unclear resp="#GSG">ra</unclear> rājyam-uttar-ōttaraṁ sa-
+              <lb n="3" break="no"/>lutt-ire śaka-nr̥pa-kāl-ātīta saṁvatsara <unclear resp="#GSG">śata</unclear> . <unclear resp="#GSG">ḷ-eṇṭu-nū</unclear>-
+              <lb n="4" break="no"/>ṟa padineṇṭane <unclear resp="#GSG">ya nala-saṁva</unclear> . . . . .
+              <note type="editorial" xml:lang="en">(The inscription is completely worn out after this).</note>
+            </ab>
+          </body>
+        </text>
+        <text n="88" xml:id="Gai.088">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> V. Hn. 28.</seg> <seg type="number">No. 88</seg> <seg type="date"><hi rend="italic">Śaka</hi> 818 = A.D. 896.</seg></head>
+            <ab>
+              <lb n="1"/>śrī svasti śakha-variṣa-kāl-ātīta śaṁvatsaraṁ-
+              <lb n="2" break="no"/>gaḷ-eṁṭu-nūṟa-padineṁta-variṣa sale satyavā-
+              <pb n="144"/><lb n="3" break="no"/>kya permmāḍi . . . . mā. pr̥tivī-rājyaṁ geytire svasti sa-
+              <lb n="4" break="no"/>. . . . di . . . . guṇe-gaṇāḷaṁkāra
+              <lb n="5"/>. . . . . tilaka
+            </ab>
+          </body>
+        </text>
+        <text n="89" xml:id="Gai.089">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 24 (p. 15).</seg> <seg type="number">No. 89.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 819 = A.D. 897.</seg> <seg type="place">At—Chiñchli, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">Lines 1 to 8 are in Skt.</note>
+              <lb n="9"/><unclear resp="#GSG">kanna</unclear>ran-akāla-vari-
+              <lb n="10" break="no"/>ṣa-pravarddhamāna rājyābhivr̥ddhi salutt-ire saka-nr̥pa-kāl-ātīta saṁvatsara śataṁgaḷ °eṇṭu-
+              <lb n="11" break="no"/>nūṟa-pattombhattaneya piṁgaḷan-emba varṣam·pravarttise tad-variṣābhyantaradoḷ·<unclear resp="#GSG">śrī</unclear>-
+              <lb n="12" break="no"/>ciṁcila<unclear resp="#GSG">da</unclear> °ayvattaṟuvarum·mahājanaṁ nerad-iralu . . . .
+              <lb n="13"/>vurudaṁṇḍa<unclear resp="#GSG">lgolle</unclear>yara magaḷ·kāḷabbe . . .
+              <lb n="14"/>yde bīḷisi kallaṁ niṟisidōr °idaṁ <unclear resp="#GSG">kā</unclear>dōrgge <unclear resp="#GSG">sā</unclear>sira kavile <unclear resp="#GSG">yuṁ</unclear> sūryya-grahā-
+              <lb n="15" break="no"/>ṇaḍoḷ·kurukṣētradoḷ·koṭṭa phalam-akk-idaṁ . . . . .
+              <lb n="16"/>yumaṁ vāraṇāsiyuman-aḻida pāpam . . .
+              <lb n="17"/><unclear resp="#GSG">yvu</unclear> °idaṁ °ārum·kā<unclear resp="#GSG">vōm</unclear>·svadattam . . . <note type="editorial" xml:lang="en">etc. (Skt. verse).</note>
+              <lb n="18"/>. . . . koḻpōkara gi<unclear resp="#GSG">ri</unclear>. yyēna likhitaṁ
+            </ab>
+          </body>
+        </text>
+        <text n="90" xml:id="Gai.090">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sh. Nr. 60.</seg> <seg type="number">No. 90.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 820 = A.D. 897 (898).</seg></head>
+            <ab>
+              <lb n="1"/>svasty-anavadya-darśana mahōgra ku-
+              <lb n="2" break="no"/>la-tilaka naya-pratāpa-saṁpannaṁ para-
+              <lb n="3" break="no"/>cakra-gaṇḍaṁ-goṇḍaṁ ballātaṁ kārmmuka-rāma śrī-
+              <lb n="4" break="no"/>mat-tolāpuruṣa-vikramāditya-śāntaram·śaka-varṣam °e-
+              <lb n="5" break="no"/>ṇṭu-nūṟ-ippataneya varṣaṁ pravarttisutt-ire śrīmat-
+              <lb n="6" break="no"/>koṁḍakundānvayada mōnisiddhāntada-bhaṭārargge kalla
+              <lb n="7"/>basadiya māḍisiy-adakke pombuḷcadambaḷḷaṇo-
+              <lb n="8" break="no"/>ḍege<unclear resp="#GSG">ṟ</unclear>eya keḻagaṇa kumbhārara bayalaṁ
+              <lb n="9"/>mēgaṇa piriya paravariya poṟago
+              <lb n="10"/>mahā-pātakamumaṁ geydōn . . .
+              <lb n="11"/>doḷ-biḻdu baḷika pañcavaṭadoḷ·puḷuvāgi name-
+              <lb n="12" break="no"/>guṁ °iṣṭan-orvvan-adhidēvateg-end-osad<!--fn41: <app><rdg source="#RICE">osed</rdg></app>-->-ittudaṁ
+              <lb n="13"/>duṣṭan-orvvan-aḍaṟa palamam<!--fn42: <app><rdg source="#RICE">phalavaṁ</rdg></app>-->·tave tiṁbavaṁ
+              <lb n="14"/>siṣṭi mēle paramātmane band-oḍagāvoḍam·
+              <lb n="15"/>kaṣṭev<!--fn43: <app><rdg source="#RICE">kastav</rdg></app>-->iṟda bidirante kula-kṣyam °āguguṁ
+            </ab>
+          </body>
+        </text>
+      </group>
+      <pb n="145"/>
+      <group type="century" n="10">
+        <head xml:lang="en">10th Century A.D.</head>
+        <text n="91" xml:id="Gai.091">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> XII. Si. 39.</seg> <seg type="number">No. 91.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 841 = A.D. 920.</seg></head>
+            <ab>
+              <lb n="1"/>svasti sakha-nr̥pa-
+              <lb n="2" break="no"/>kāḷ-ātīta saṁvatsa-
+              <lb n="3" break="no"/>raṁgaḻ eṇṭu nūṟa-nā-
+              <lb n="4" break="no"/>lvatt-ondaneya
+              <lb n="5"/>vikrama saṁvatsaraṁ
+              <lb n="6"/>pravarttise tad-varṣā-
+              <lb n="7" break="no"/>bhyāntara kārttika mā-
+              <lb n="8" break="no"/>sada para-pakṣada
+              <lb n="9"/>°amāvāseyu
+              <lb n="10"/>v-ādityavārav-āge
+              <lb n="11"/>svasti samadhiga-
+              <lb n="12" break="no"/>ta pañca-mahā-
+              <lb n="13" break="no"/>śabda pallavānya-
+              <lb n="14" break="no"/>ya śri-pr̥thuvī-
+              <note type="editorial" xml:lang="en">(South face)</note>
+              <lb n="15" break="no"/>vallabha pa-
+              <lb n="16" break="no"/>llava kula-
+              <lb n="17" break="no"/>tilakaṁ nanni-
+              <lb n="18" break="no"/>gāśrayam·
+              <lb n="19"/>śrīmad-ayya-
+              <lb n="20" break="no"/>pa-dēvaṁ pr̥-
+              <lb n="21" break="no"/>thuvī-rājyaṁ
+              <lb n="22"/>geyuttaṁ
+              <lb n="23"/>sūryya-gra-
+              <lb n="24" break="no"/>haṇad-andu
+              <lb n="25"/>tanna manō
+              <lb n="26"/>nayana
+              <lb n="27"/>vallabhe-
+              <lb n="28" break="no"/>yar °appa
+              <note type="editorial" xml:lang="en">(East face)</note>
+              <lb n="29"/>nāgiyabbegaṁ hele-
+              <lb n="30" break="no"/>yabega baragura mū-
+              <lb n="31" break="no"/>la-sthānada °eraḍu dē-
+              <lb n="32" break="no"/>gulakk-endu nagiya-
+              <lb n="33" break="no"/>bbegaḷ-abbe nāraṇabbe-
+              <lb n="34" break="no"/>ya kaṭṭisida nairati-
+              <lb n="35" break="no"/>bhāgada muḷtada-keṟe-
+              <lb n="36" break="no"/>ya °eraḍu kaḍe-gōḍi-
+              <lb n="37" break="no"/>na nippariya mēre-
+              <lb n="38" break="no"/>y-āgi piriya keṟe-
+              <lb n="39" break="no"/>ya dēgulada keḻa-
+              <pb n="146"/><lb n="40" break="no"/>gaṇa muvattu guḷa-ga-
+              <lb n="41" break="no"/>ḻdeyum °oḷag-āgi mu-
+              <lb n="42" break="no"/>ḍana-maṭada vimaḷa-
+              <lb n="43" break="no"/>mati-bhaṭarara kālaṁ ka-
+              <lb n="44" break="no"/>ḻci peṁjeṟuvina pañca-ma-
+              <lb n="45" break="no"/>ṭa sthānamuṁ mahā-nakha-
+              <lb n="46" break="no"/>rama saki-y-āgi bara-
+              <lb n="47" break="no"/>gūra mahēndrēśvaradoḷa-
+              <lb n="48" break="no"/>g-endu koṭṭudu
+              <lb n="49"/>svadattaṁ paradattam <note type="editorial" xml:lang="en">etc. Skt. lines upto line 68.</note>
+            </ab>
+          </body>
+        </text>
+        <text n="92" xml:id="Gai.092">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> XIII. pp. 329-33.</seg> <seg type="number">No. 92.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 851 = A.D. 930.</seg> <seg type="place">At—Kaḷas, Dharwar Dist. Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>jayaty-āviṣkr̥taṁ viṣṇōr vārāhaṁ kṣōbhit-ārṇṇavaṁ [1*] dakṣiṇ-ōnnata-daṁṣṭr̥-°āgra-viśrāṁta-bhuvanaṁ vapuḥ || [1*] mattēbhavikrīḍitaṁ || jagatī-cakradoḷ [e]-
+              <lb n="2" break="no"/>yde varttisida bhūpa[r*] mmunnaṁ int ār vvirōdhigaḷaṁ sādhisi vīramaṁ taḷedar int ārvvirar int ar ppogartte-<unclear resp="#GSG">ḻte</unclear>g aḍarpp āda mahā-mahar bbagevoḍ eṁb oḷpaṁ nijaṁ-māḍi
+              <lb n="3"/>gojjigadēvaṁ negaḻdaṁ dharādhipa-lalāmaṁ rāṣṭrakūṭ-ōttamaṁ [2*] page-goṇḍ āḍuva śatru-bhūpatigaḷaṁ dōr-ggarvvadiṁd ēṟid ugra-gajēṁdraṁ be-
+              <lb n="4" break="no"/>ras ōvad antakana bāyoḷ·tūnti mattaṁ śaraṇ-bugal eṁd-irpp avanīśvara-pratatiyaṁ kai-koṇḍu kād eyde gojjiga-dēvaṁ <choice resp="#GSG"><orig>nr̥i</orig><reg>nr̥</reg></choice>patuṁgan eṁb aḷavan old aṁ-
+              <lb n="5" break="no"/>gīkr̥taṁ-māḍida [3*] śaraṇ-āyātaran eyde munisiṁ māṟāntaraṁ koṁdu bērppa<unclear resp="#GSG">ḻpa</unclear>ran utsāhadin āvagaṁ taṇipi balpuṁ kūrppum ā-
+              <lb n="6" break="no"/>rppuṁ nirantaram oppal·rajatācaḷēndra-hara hās-ākāśa-gaṁgā-sudhākara-sat-kīrttiyan appu-keydan adhikaṁ śrī-vīra-nārāyaṇa [4*]
+              <lb n="7"/>naga-rājaṁ dhairyyad old ēḷgeyan avanitaḷaṁ kṣāntiy ond urvvan aṁbhōdhi gabhīr-ōddāniy ond unnatiyan esevinaṁ tāḷdidatt oḷpiniṁ gojji-
+              <lb n="8" break="no"/>gadēvaṁ ko<choice resp="#GSG"><orig>ṭṭū</orig><reg>ṭṭo</reg></choice>ḍ end uttama vibudha janaṁ tammad ond arka<unclear resp="#GSG">ḻka</unclear>ṟimdaṁ pogaḷal·bāpp appu-keydaṁ nr̥pa-guṇa-gaṇamaṁ raṭṭa-kandarppa-dēvaṁ [5*]
+              <lb n="9"/>°ibha-pariṇa<choice resp="#GSG"><orig>te</orig><reg>ti</reg></choice>yoḷ amān<unclear resp="#GSG">u</unclear>ṣa-vibhavadoḷ audāryya-vr̥ttiyoḷ·sāhasadoḷ·subhaṭateyoḷ·gojjiga-vallabhanaṁ migal u-
+              <lb n="10" break="no"/>r<unclear resp="#GSG">vvi</unclear>-nr̥paran āṁ kaṇḍ aṟiye [6*] munid idir-āge śaraṇ-buge manam oldudan ereye phalguṇa<unclear resp="#GSG">na</unclear>ṁ dhātraṁ karṇṇan-enal·gojjiga-bhūpāḷanan eyduva bhūmipā-
+              <pb n="147"/><lb n="11" break="no"/>[ḷaka]r kkelar oḷarē [7*] besedoḍ osedaḍe kolal·rakṣisal antakarājan abjasaṁbhavan enal-ḷ·vasudhā-taḷdoḷ·kōpa-prasādamaṁ pogaḷal ārppar ār gojjigana [8*|
+              <lb n="12"/>[svasti] tat-pāda-padm-ōpajīvi || kaṁ || śaṭapatrabhav-ānvaya-bhū-nutar enisida rēvadāsa-vīsōttara dīkṣitara guṇaṁgaḷan eṇisuva matimantaran ān ad-elliyuṁ
+              <lb n="13"/>[kaṇḍ-a]ṟiye [9*] vr̥ || guḍi śaṁkhaṁ cāmaraṁ beḷ-goḍe ghaḷige vicitr-ātapatra-vrajaṁ per-vviḍi saudhaṁ citradaṇḍaṁ paḷiy eseva jhaḷaṁbaṁ gajēṁdraṁ turaṁgaṁ naḍe-māḍaṁ daṇḍanāth-ō-
+              <lb n="14" break="no"/>[tta]ma-padavi-mahā-tūryyam eṁb int iv aṁtuṁ paḍedaṁ celviṁde vīsōttara-vidita-dharādēvan iṣṭa-prabhāva [10*] kaṁ || dharaṇīśara kāruṇyaṁ-dore-koṇḍaḍe ke ** ṟ urvvar dda-
+              <lb n="15" break="no"/>ṇḍādhīśvara-rēvadāsa-vīsōttara-dīkṣitar atipadasthar ati-mārggasthar [11*] vr̥ || marttina marttyar ēnan aṟidar·vvibudh-āḷige vipra-saṁkuḷakk uttama-darppaṇaṁgaḷan apū-
+              <lb n="16" break="no"/>r[vva]-suraṁga-nav-āṁbaraṁgaḷaṁ vr̥ttiyan ittu yajñamane māḍe guṇ-āgraṇi-rēvadāsa-vīsōttara-sōmayājigaḷin ūrjjitaṁ āytu dharāmar-ānvayaṁ [12*]
+              <lb n="17"/>dharaṇīnātha-prasādaṁ samanis-ire mahā-yajñamaṁ māḍi śiṣṭ-ōtkarmaṁ miṣṭ-ānnadin<unclear resp="#GSG">d</unclear>aṁ taṇipi nija-<unclear resp="#GSG">ku</unclear>ḷakkaṁ viśiṣṭ-ōttamaṁ tāḷd-ire (- - -)māḷdam·ke<unclear resp="#GSG">re</unclear>yan anati (-)-
+              <lb n="18" break="no"/><unclear resp="#GSG">-gu</unclear>ṇ-āṁbhōdhi vīsōttara-bhaṭṭaṁ vipra-vaṁśa-prabaḷa-rucimay-ānargghya-māṇikya-paṭṭaṁ [13*] °ant enisida rēvadāsa-vīsōttara-sōmaya * * svasti sama-
+              <lb n="19" break="no"/>[sta-ma]ṁgaḷ-ānuṣṭhāna-parāyaṇaṁ | vīra-nārāyaṇaṁ | nija-bhuja-vajra-paṁjar-āntarggata-śaraṇ-āgat-ōr-ūrvvī-nr̥pāḷakaṁ | sa-nay-ā * * ḷōkana-nava-<choice resp="#GSG"><orig>raṁ</orig><reg>ra</reg></choice>śmi-<add resp="#GSG">jā</add>-ḷakaṁ | <add resp="#GSG">kaṇa</add>t-kanaka = dhārā-
+              <lb n="20" break="no"/>[varaṁ] | sa<unclear resp="#GSG">ṁ</unclear>bhāṣita-sudhā-rasa-pravāha-prakarṣaṁ | nay-ānīka-prayukta-mahā-maṁtra-nicaya-camatkāra-mati-vivēka-bud<unclear resp="#GSG">dh</unclear>y-ājīvi | pr̥thvī-rājīvaṁ [1]
+              <lb n="21"/>[gaṇḍaroḷ]-gaṇḍaṁ | gaṇḍa-mārttaṇḍaṁ | vihaṁgarāja-dhvaj-<choice resp="#GSG"><orig>ū</orig><reg>ō</reg></choice>ttuṁga<unclear resp="#GSG">ṁ</unclear> mada-gaj-ārū<choice resp="#GSG"><orig>ḍa</orig><reg>ḍha</reg></choice>-mataṁgaṁ | raṭṭa-vidyādharaṁ | kōpa-prasāda-gaṁgādharaṁ śrīmad-gojjiga-valla-
+              <lb n="22" break="no"/>[bhaṁ śa]ka-varṣa 851neya vikr̥ta-saṁvatsarada māghada puṇṇamey ādityavāram āślēṣ<add resp="#GSG">ā</add>-nakṣatradoḷ·sōmagraha-ṇaṁ samanise tuḷā-pu-
+              <lb n="23" break="no"/>[ruṣam-i]ḻdu tat-samayadoḷ·bhūmi-dānaṁ kalpa-pādapa-dānam °āhāra-dānaṁ bhaiṣajya-dānam eṁb initumaṁ māḍi tad-anantaraṁ daṇḍādhipati-rēva-
+              <lb n="24" break="no"/>dāsa-vīsōttara-sōmayājigaḷan argghisi sarvva-nama<choice resp="#GSG"><orig>śya</orig><reg>sya</reg></choice>m āg-irppud eṁd-eṟeyana-kāḍiyūraṁ * * * bharata-mahī-maṇḍaḷa<choice resp="#GSG"><orig>kk</orig><reg>k</reg></choice> ābharaṇaṁ kūṁ-
+              <pb n="148"/><lb n="25" break="no"/>taḷa-dharātaḷam·tad-viṣayakk eraḍ aṟu = nūṟu lal[ā]maṁ purikara-janapadam adakke nava-pavi-mukuraṁ <add resp="#GSG">14</add> °ā pūligeṟe-nāḍ oḷag<unclear resp="#GSG">e</unclear> śrī-puṁjaṁ dēvatā-
+              <lb n="26" break="no"/>nivāsa-viḷāsa-vyāpāra-kr̥taṁ negaḷda mahā-paṭṭaṇam oḷpan āḷda puligeṟey eseguṁ <add resp="#GSG">15</add> va || °ā purikara-nagaradda paścima-pradēśadoḷ “ vr̥ ||
+              <lb n="27"/>poṟa-voḷaloḷ podaḷda nava-nandana-br̥ndadin oḷpan-āḷda per-ggeṟegaḷin onde gāvarisut-irppa mad-āḷiyin eyde pūda kikkiṟi nimird-irdda pādariyi-
+              <lb n="28" break="no"/>n ūduva teṁb-elariṅ·beḍamgu-vett ereyana-kāḍiyūr vvayasi nō<choice resp="#GSG"><orig>rppa</orig><reg>lpa</reg></choice>ra kaṇg esed oppi tōṟugu<add resp="#GSG">ṁ</add> || <add resp="#GSG">16</add> tuṟugi kavaldu kaṭṭalipa cūta-kujaṁ-
+              <lb n="29" break="no"/>[ga]ḷoḷ °ondi kaṁpinoḷ neṟedu rasaṁgaḷaṁ taḷeda paṇ-goleyaṁ giḷi-viṇḍu cumcuviṁd iṟidaḍe sōre sōneyoḷe dāṁ-guḍi mind esed-irppuv oḷpinind eṟe-
+              <lb n="30" break="no"/>[ya]na-kāḍiyūra late-vaḷḷiyum-alliya nāga-vaḷḷiyuṁ || <add resp="#GSG">17</add> kam || ( ˘ ˘ ) nīra-pūra * * * goḷe nend avagāham iḻdu pāṟuva haṁsa <unclear resp="#GSG">ṁ</unclear>-
+              <lb n="31" break="no"/>[ga]ḷey esev eṟaṁke-vaṁ bal-maḷeya vol <choice resp="#GSG"><orig>ū</orig><reg>o</reg></choice>rppuvudu kāḍiyūr ārameyoḷ || <add resp="#GSG">18</add> vr̥ || peṟ ( ˘ ˘ ˘ - ˘ ) °entu <choice resp="#GSG"><orig>nī</orig><reg>no</reg></choice>na(-)ḍe poga<choice resp="#GSG"><orig>rtte</orig><reg>ḻte</reg></choice>g aḷuṁbam-o<choice resp="#GSG"><orig>rḷpu</orig><reg>ḷpu</reg></choice>-
+              <lb n="32" break="no"/>vett-eṟeyan aḷurkkeyim·nelasidaṁ nelas-irddudaṟinde kāḍiyūr eṟeyana-kāḍiyūr enisi rūḍiyin āvagam appug āyud ār aṟivaro baṇṇisa-
+              <lb n="33" break="no"/>[1] bhuvana-sāram enal-negaḻd °agrahārama || <add resp="#GSG">19</add> kula-giri-bhittiyinde maṟe-vokkaḍe koṁḍa saroruh-ādharaṁ nelasidan abjavāhanan enal dinarā-
+              <lb n="34" break="no"/>[ja]-nivāsam āda bhūta<choice resp="#GSG"><orig>ḷa</orig><reg>la</reg></choice>-satig oḷpan āḷdu nava-mēkhaḷey eṁba samudrad ante koṇḍaligeṟey oppi tōṟuvud ene biṇpinoḷ āvaris-irdda
+              <lb n="35"/>peṁpinoḷ || <add resp="#GSG">20</add> kaṁ || visaruha-mivāseyuṁ kumuda-sahāyanuṁ muḍiy- ant eseva * karōkara ** suḷisida *** °irppar ā
+              <lb n="36"/>kāḍiyūra koṇḍaligeṟeya || (21)*) kalidēva-svāmiya siva-niḷayaṁ vr̥jin-āpaharaṇam ārgg ābharaṇaṁ *** noḷe po-
+              <lb n="37" break="no"/>gaḷ aridu sarasijabhavaṁgam ahirājaṁgam || <add resp="#GSG">22</add> sakaḷa-jaḷa-caraman oḷa-koṇḍu karaṁ beḷ-valis iḍegaḷa mūrttiy aḷake kuḷam[u]-
+              <lb n="38" break="no"/>m oppal atibhuṁbhukam enisida kōṣṭha-kōṭi-vidhadiṁd esegu[ṁ*] || <add resp="#GSG">23</add> vr̥ || kramadin aḷurke-vettu nibiḍ-ōnnatam āgi bedaṁgis ēṁ catus-sa-
+              <lb n="39" break="no"/>mayada dēvatā-niḷayam oppugum alliya pū<choice resp="#GSG"><orig>jye</orig><reg>je</reg></choice>y alliy uttama-muni-nāthar alliya mahā-maha-saṁpa-
+              <pb n="149"/><lb n="40" break="no"/>dam alliy oḷpan āḷd esed ama<choice resp="#GSG"><orig>rdd</orig><reg>rd</reg></choice> ettaluṁ miḷirda kētana-rāji karaṁ virājisal || <add resp="#GSG">24</add> baḷasida dēvālayamuṁ ghaḷigeyuṁ āhāra-dhāniyuṁ pra-
+              <lb n="41" break="no"/>peyuṁ beḷ-vaḷis iḷda śāstra-dānamum aḷa-vaṭṭavo kāḍiyūroḷ ār ṇṇōḍuvaḍe || <add resp="#GSG">25</add> vaca || mattam alli baḍivuduṁ biḍuvuduṁ cāpa-vide-
+              <lb n="42" break="no"/>yoḷ | kittr̥mamum anityamum iṁdrajāladoḷ | kaḍaṁguvuduṁ ** °isuvudum abhra-paṭaḷadoḷ | saraḷateyuṁ baḍatanamum °a-
+              <lb n="43" break="no"/>baḷā-madhyadoḷ | naḍukamuṁ māṟaḍiyuṁ cūta-maṁjariyoḷ | kuṁduṁ kaḷaṁkamuṁ hariṇāṁkanoḷ | °urkkumaṁ kaṁpa-
+              <lb n="44" break="no"/>muṁ maṇḍaḷāgradoḷ . seṟeyum ērum·nettam °āḍuvaroḷ | lōbhamuṁ °eḷe-kone °eḷe-kone <unclear resp="#GSG">y o</unclear>ḷpinōḷ·nirōdharmum·niḥparigrahamuṁ
+              <lb n="45"/>tapō-vr̥ttiyoḷ | peṟat ond eḍeyoḷ ill enisiḍa tārkṣya-pakṣad ant aikya-pakṣa-pāḷaneyumaṁ makarakētad- ante maryyādeyuṁmuṁ
+              <lb n="46"/>parvvatarājan ante pratipannateyuma- | n urvvarey ante kṣāntiyumaṁ | kavi-rāja-rāja-vacaḥ-prabhāvad ant aḷaṁkāramuma-
+              <lb n="47" break="no"/>n oḷa-koṇḍa janaṁgaḷim manaṁ goḷisuttam-irppudu || vr̥ || °udadhi-vr̥t-āvanītaḷadoḷ ēḷ-voḍe(?)-vāḷise kāḍiyūran eydid-apuve ma-
+              <lb n="48" break="no"/>ttin ūr | vibudhar allidar anvita-sattva-vīdhrar allidar abhidhīnar allidar udārigaḷ allida [r ā] gama-jnar allidar anavadya-ta-
+              <lb n="49" break="no"/>t<add resp="#GSG">t</add>va-vi<choice resp="#GSG"><orig>dha</orig><reg>da</reg></choice>r allidar oḷḷida<unclear resp="#GSG">r</unclear> ellam allidar || <add resp="#GSG">26</add> kaṁ || niravadya-vēda-vidyā-pariṇatar ativiṣama-śabda-vidy-āgama-sat-pa-
+              <lb n="50" break="no"/>riṇatar enis-irdd i<choice resp="#GSG"><orig>ṇṇō</orig><reg>rnnū</reg></choice>r vvara-caraṇa-vipra = kuḷaṁ vicitr-ābharaṇaṁ || <add resp="#GSG">27</add> śaradhi-vyāvēṣṭit-ōrvvītaḷadoḷ eseyu-
+              <lb n="51" break="no"/>t-irpp agrahāraṁgaḷaṁ dhikkarisal sāldattu nānā-phaḷa-viḷasanadiṁ kāḍiyūr alliy iṇṇūrvvara vidyābhyāsam iṇṇūrvvara vidhi-lasad °ā-
+              <lb n="52" break="no"/>cāra-saṁpattiy iṇṇūvvara dān-ōdāriy i<choice resp="#GSG"><orig>ṇṇō</orig><reg>rnnū</reg></choice>rvvāra-vimaḷa-yaśaḥ-śrī vicitraṁ pavitra || <add resp="#GSG">28</add> neṟeye beḍaṁgan āvarisi tōrppa mahā-padakakke padma-
+              <lb n="53" break="no"/>jaṁ miṟuguva ratnamaṁ racane-māḍida vol·naḍe nō<choice resp="#GSG"><orig>rppu</orig><reg>lpu</reg></choice>vargge kikkiṟg iṟi-dontan ondu miguv end oḍak otti virājisuttam-irpp eṟeyana-kāḍiyū-
+              <lb n="54" break="no"/>rum esev alliya viprarum oppi tōṟuguṁ || <add resp="#GSG">29</add> vyākaraṇam arttha-śāstr-ānēkaṁ sāhitya-vidyey itihāsaṁ mikk-ekākṣara-<choice resp="#GSG"><orig>mi</orig><reg>mu</reg></choice>ni-tarkkaṁ ṭīkaṁ-bareyal-sa-
+              <lb n="55" break="no"/>magrarābhyā [sisuva]r || <add resp="#GSG">30</add> vēdaṁ pramāṇam agni mahā-<choice resp="#GSG"><orig>day</orig><reg>dai</reg></choice>vaṁ tamag enal·parīkṣā-kṣama-sad-vēda-vi<choice resp="#GSG"><orig>dha</orig><reg>da</reg></choice>r akhiḷa-śāstra-payōdadhigaḷ·kāḍiyūra vipra-vidagdha-
+              <pb n="150"/><lb n="56" break="no"/>r || <add resp="#GSG">31</add> vr̥ || °aṟi ( ˘ ˘ -)bam eyde hr̥dayaṁ-bugaḍ arttham °udātta-vr̥ttiyoḷ neṟeyada vēdam ill enisi mikk amaḷ-āgamad ōje mikku tōrpp aṟitad aḷurkke
+              <lb n="57"/>mikka kuḷa(- ˘ ˘ - )da nega<choice resp="#GSG"><orig>rtte</orig><reg>ḻte</reg></choice> kūḍe mikk eṟeyana-kāḍiyūra kamuḷōrdbhava-vaṁśa-jar oppi tōṟuvar || <add resp="#GSG">32</add> piriyar mmē-
+              <lb n="58" break="no"/>ruvinim·dharā ( ˘ ˘ ˘) diṁ vārāśiyiṁ biṇpinoḷ·nirahaṁkārateyoḷ·gabhīrateyoḷ end atyuttamar vvaṇṇisutt-ire peṁpaṁ kṣameyaṁ
+              <lb n="59"/>s[th]iratvman udāttam-māḍi sat-kīrttig-āgaram āg-irdda mahā-mahar ddvijaroḷ oḷpaṁ tāḷdid iṇṇūrvvaruṁ || <add resp="#GSG">33</add> jasamam·tēḷdid iḷā-
+              <lb n="60" break="no"/><unclear resp="#GSG">ma</unclear>ra-pracayam atyutsāhadiṁ geyd[u*] baṇṇise tamma unnati tamma satyad esakam·tamm ōje tamm ārppu tamma sad-ācārate
+              <lb n="61"/>tamma nirmmaḷate tamm- aucitya-saṁpatti tamma samagr-āspadam oppe varttisutam-irddar iṇṇōrppoḍ iṇṇūrvvaruṁ || <add resp="#GSG">34</add> niyamaṁ tammoḷ upā-
+              <lb n="62" break="no"/>śrayam-baḍeye ṣat-karmma-kramaṁ tammoḷ ōjeyin ud·[ḍ*]·yōtiṣe pauruṣēya-karaṇīyaṁ tammoḷ ant o<choice resp="#GSG"><orig>nte</orig><reg>nde</reg></choice> nirṇṇayam āguttina kīrtti ta-
+              <lb n="63" break="no"/>mmoḷ eseyuttuṁ belpu-taḷp-oydu vārddhiyan eydutt-ire dhātriyoḷ negaḻdar int oḷpiṁdam iṇṇūrvvaruṁ || [35*] matimanta-stuti nirmmada-
+              <lb n="64" break="no"/>stuti kavīṁdr-ānīka-nānāvidha-stuti vipra-stuti tamma[-]ḷ·guṇa-mahā-ratna-brajakk eyde saṁgati-vett oppida sūtrad ant esevinaṁ sat-kīrttiyaṁ t[ā]-
+              <lb n="65" break="no"/>ḷdi bhū-nutar ādar-kr̥ta-kr̥tyar or-vvaḻak-oḍaṁ mikk oḷpin iṇṇūrvvarum || [36*] pratipannatvam anūnam āytu kr̥ta-kr̥ty-ācāra-saṁpatti bhū-nutam āyt anvita-vēda-śāstra-vividh-ā[bh]yā[sa]-kra-
+              <lb n="66" break="no"/>maṁ mikk a<choice resp="#GSG"><orig>nī</orig><reg>dhī</reg></choice>gatiy āyt ā<choice resp="#GSG"><orig>śr̥i</orig><reg>śri</reg></choice>ta-pakṣam akṣaya-guṇa-prōddāmam āyt [e]ṁdu saṁtatam anyar ppogaḷal·nega<choice resp="#GSG"><orig>rt[t]e</orig><reg>ḻte</reg></choice>-vaḍed iḻdar·śrīmad-iṇṇūrvvaruṁ || [37*] va || °a[nt enisid ** svādhyā-
+              <lb n="67" break="no"/>ya-dhyāna-dhāraṇa-<choice resp="#GSG"><orig>mō</orig><reg>mau</reg></choice>n-ānuṣṭhana-saṁpannaruṁ vēda-śāstra-vyutpannaruṁ śrī-ramaṇī-nātha-nābhi-kūp-ōdita-[vara]-kana [kagarbbha-ja]ruṁ * * * * *
+              <lb n="68"/><choice resp="#GSG"><orig>kr̥</orig><reg>kri</reg></choice>yā-sadarttharuṁ | pratipāḷita-viśva-dharmma-saujanya śīla-samarttharuṁ | śāntyartth-ādi-mahā-guṇa-saṁdōharuṁ | maṁtr-ārtha-siddhi-mahā--maharu[ṁ] * * mahā-
+              <lb n="69" break="no"/>janav iṇṇūrvvarum eyde samacchāyeyoḷ iḻdu bharaṇaṁ-geyva tat-samayadoḷ·brah<unclear resp="#GSG">m</unclear>ēśvarapura * * r-agi koṇḍaligeṟege * * * * * rjja-
+              <lb n="70" break="no"/>prāyaścitta-dakṣiṇey aṁka-vaṇaṁ pasuṁbe-vaṇam eṁb inita<choice resp="#GSG"><orig>ṟū</orig><reg>ṟo</reg></choice>ḷ·mārdd utpattiyaṁ salisuve * * sāviniyo[ḷ ā]caṁdr-ārkka-sthāyi * * * * * * *
+              <pb n="151"/><lb n="71"/>t*·veṟehayya-dēvana pārāyaṇakke 12 gadyāṇa[ṁ]bhaṭṭa-vr̥ttige 12 gadyāṇa | ghaḷigege [2] gadyāṇaṁ °int ē[ṟ]e gadyā[ṇam*] 26* siddh-āya<choice resp="#GSG"><orig>ḍa</orig><reg>da</reg></choice> ponnu *** vā ****
+              <lb n="72"/>* su pratipāḷisuvudu maṁgaḷa || °aḷipaḍ idaṁ pūrvva-kramadoḷe naḍeyise kō[ṭi]-kavileyaṁ * śu*** °argghyatīrtthadoḷ·poṁgaḷin arccisi dāna *
+              <lb n="73"/>* <choice resp="#GSG"><orig>pa</orig><reg>pha</reg></choice>ḷamaṁ paḍeguṁ || °idan ollaḍ aḷipan ā tīrtthadoḷ ant ā kōṭi-kavileyaṁ dvija ** kōṭiyan aḷidu narakama[ṁ] puruṣa ** °ānanta-pāpa-phaḷamaṁ paḍeguṁ ||
+              <lb n="74"/>kavirājarāja-vibudha-pravaraṁ śrī-kāḍiyūran alliye kamaḷōdbhava-vaṁśa-prōttamaraṁ navīna-varṇṇaneyin eseyal abhivarṇṇisidam || sva-dattāṁ para-dattāṁ
+              <lb n="75"/>vā yō harēta vasundharāṁ | ṣaṣṭir vvarṣa-sahasrāṇi viṣṭhāyāṁ jā[yatē kri|mi[ḥ*] || sāmānyō = yaṁ dharmma-sētur-nr̥pāṇāṁ kā-
+              <lb n="76" break="no"/>lē kālē pālanīyō bhavadbhiḥ [1*] sarvvān ētān-bhāginaḥ pārtthivēṁ [drān·bhūyō bhūy|ō yācatē rāmacaṁdraḥ || maṁgaḷa mahā śrī
+            </ab>
+          </body>
+        </text>
+        <text n="93" xml:id="Gai.093">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> IX-i. No. 60 (p. 34).</seg> <seg type="number">No. 93.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 852 = A.D. 931</seg> <seg type="place">At—Doddimakala, Bellary Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti || saka-nr̥pa-kāl-ātīta-saṁvatsara-
+              <lb n="2" break="no"/>sataṅgaḷ-eṇṭu-nūṟ-ayvatt-eraḍaneya kharam-emba
+              <lb n="3"/>saṁvatsarada phālguṇa-māsa śuddha-pañcami śukaravāraṁ
+              <lb n="4"/>śrī-gōyindara-ballahan ā-śamudra-paryya-
+              <lb n="5" break="no"/>nta sukhadin āḷe tat-pāda-padmōpa-jīvita-nivāsi samadhigata-pañca-
+              <lb n="6" break="no"/>mahāśabda mahāsāmanta kannaraṁ sindavāḍi-sāyiramu-
+              <lb n="7" break="no"/>man °uttar-ōttaraṁ sukhadin āḷe muṟunuyyaṁ jñānaśiva-bhaṭār[r̥]-ddē[va*]bhōgam āḷe
+              <lb n="8"/>°āycaṇa-gāvuṇḍan-āge śrīmat-vasya-kula-tilakaṁ baḷagāra-mahōda-
+              <lb n="9" break="no"/>dhi kuruḷa-kāmaseṭṭiya kāmēsvarada dharma-śāsanada dattiyaṁ
+              <lb n="10"/>°ereya keyya °irppatt-aydu kisukāḍu °irppatt-aydu °antu-rāja-
+              <lb n="11" break="no"/>māna °ayvattu mattaradaṟoḷage kāsigaṁge °ere °āṟu mattar·
+              <lb n="12"/>kisukāḍu °āṟu-mattar-antu koṇḍōjaṅge pannir-mmattaṟ-paṟekā-
+              <lb n="13" break="no"/>ṟaṅge °ere pannor-mmattar-hāḍuvoṅge kisukāḍ-āṟu mattar
+              <lb n="14"/>°īśāna-śivaṁge °ere pannir-mmtta jōtiṣabha cāvuṇḍayyaṅge
+              <lb n="15"/>nālku mattar-tōṇṭigaḷge nālku mattar-nnivēdyakke nella-maḍi °eraḍu ke-
+              <lb n="16" break="no"/>rege maḍi °eraḍu nāḻ-gāmuṇḍana °odtaḷivana °āycaṇana puddhana
+              <lb n="17"/>nāḍ-adhyakṣade māḍida śāsana °idan-aḻidoṁ vāraṇāsiya
+              <lb n="18"/>karu kanṟan °aṟidoṁ maṅgaḷa | || *]
+            </ab>
+          </body>
+        </text>
+        <pb n="152"/>
+        <text n="94" xml:id="Gai.094">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> XI. Cd. 76.</seg> <seg type="number">No. 94.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 859 = A.D. 937.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-amōghavarṣa-dēva-śrī-pr̥thvī-vallabha-mahārājādhi-rāja paramēśvara-parama-bhaṭṭārakara
+              <lb n="2"/>vijaya-rājyam °ā-candrārkka-tāraṁ-baraṁ salutt-irr·saka-nr̥pa-kāḷ-ātīta saṁvatsara-śataṁga 859 ya
+              <lb n="3"/>hēmaḷaṁbi saṁvatsaraṁ pravarttise tad-varṣābhyantara-bhādrapada-bahuḷad-amāvāsye-br̥haspati-
+              <lb n="4" break="no"/>vārad-andu raṭṭa-bhūpara vaṁśāvaḷi || °aja-sutan °atri-y °atriya sutaṁ śaśi sōma-sutaṁ budhaṁ
+              <lb n="5"/>budhānvajan-ajitaṁ purūravan °udāra-purūrava-nandanaṁ jagad-vijita-mahā-baḷan·nahuṣan °ā-nahuṣaṁ-
+              <lb n="6" break="no"/>ge magaṁ yayāti-bhūbhujan °amaḷaṁ yayātige magaṁ yadu yādavar-ātan-anvajar || yādava-
+              <lb n="7" break="no"/>kuladoḷ-palaruṁ mēdiniyaṁ sukhadin °āḷdar °avariṁ baḻiyaṁ śrī-daytan·dantigan °udit-ōditam °ātani-
+              <lb n="8" break="no"/>ndan-akhiḷa-rājya-śrīyoḷ || dantigana putraraṁ rājyāntaram °ādandu kannaraṁ kiṟiyammaṁ santānadoḷ °iḻda
+              <lb n="9"/>baḻik-ant-ātana tanayan-oppe-nirupama-dēvam || °ā-nirupamaṁge puṭṭidan °ānata-ripu-nr̥pa-kadaṁbakaṁ
+              <lb n="10"/>jagatuṁgaṁ tān °ā-jagatuṁgana magan-ī-neladoḷ·negaḻd °amōgha-varṣa-mahīśaṁ | negaḻd-iṟd-amōghavarṣana magan °entuṁ dēvan-enisid-ā-dēvana
+              <lb n="11"/>per-mmagan °indaran °ātaṁ kaliyugadoḷ·kali cāgi-y-enisidam·vikramadiṁ || °indarana magan·dēvan·tandeya vo-
+              <lb n="12" break="no"/>l·negaḻda dēva-rāja-sutaṁ gabhīndaran °ātaṁna magan °abhivandita-pādan °iṟiva-kannaraṁ dharmma-paraṁ
+              <lb n="13"/>manu-mārggaṁ caritaṁ dviṣat-kuḷa-haraṁ śauryyaṁ jagad-vyāpi śāsana-baddhaṁ nuḍi kalpa-vr̥kṣam-e-
+              <lb n="14" break="no"/>nikuṁ san-māna-dānaṁ śāsaṁka-nibhaṁ kīrtti samant-ananta-guṇadind-iṁ kannaraṁn·dharmma-nandananim·rāghavaniṁ
+              <lb n="15"/>diḷīpa-nr̥panim·māṁdhatanind °aggaḷam || svasti samadhigata-pañca-mahā-śabda-mahā-sāmantādhi-
+              <lb n="16" break="no"/>pati raṇa-raṁga-bhūriśramaṁ kayvora javaṁ prati-balad °aggaḷi ripuge-nippasaraṁ kali-yuga-rā-
+              <lb n="17" break="no"/>maṁ jayad-uttaraṁgan °atiratha-mallaṁ prati-pakṣa sūdrakaṁ śrīmat-kannayyaṁ kadaṁbaḷige-sāyira-
+              <lb n="18" break="no"/>mumaṁ nidhi-nidhāna-nikṣēpa-sahasra-daṇḍaṁm-modalāge duṣṭa-nigraha-viśiṣṭapratipāḷaṇaṁ
+              <lb n="19"/>geyd-āḷutt-ire kākaṁbāḻa pañca-maṭa-sthānamuṁ gāvuṇḍaṁ kaṁbhayyanuṁ keṟeyūr-ayyapa-dē-
+              <lb n="20" break="no"/>vanuṁ cimmacanūra mahāṟājayyanuṁ modiyanūra dēvayyanuṁ paṁpayyanuṁ kaḷḷabuṇu-
+              <pb n="153"/><lb n="21" break="no"/>seya ponnavāra-gāvuṇḍanuṁ °int-inibarum °adhyakṣadoḷ·goggiya dēgulaḍa dharmmarāśi-
+              <lb n="22" break="no"/>bhaṭārara kālaṁ karcci koṭṭa sthiti-y-āvud-endoḍe hedarigaṭṭavuṁ kārimgeṟeyuṁ sirigeṟeyum
+              <lb n="23"/>°iṭṭageyum °aṁtu nālkuṁ bāḍavumaṁ sarvva-bādhā-parihāraṁ kṣudrōpadrava-bādhegaḷ °onduvaṁ
+              <lb n="24"/>geyya salla °akṣata-mātraman °appoḍaṁ koḷa salla °ī maryādeyaṁn·tappade naḍeyi-
+              <lb n="25" break="no"/>sidātaṁ srīparbbadoḷ·tapaṁ geydoṁ vāraṇāsiyoḷ·tuḷāpuruṣam °iṟ(ḻ?)doṁ kurukṣētradoḷ-dānaṁ
+              <lb n="26"/>geydoṁ gayeyoḷ·piṇḍavan °iṭṭoṁ °ī-lōkadoḷ °uḷḷa dharmmam °ellamaṁ geydoṁ °ī-maryyādeya-
+              <lb n="27" break="no"/>n °aḷidu-koṇḍātaṁ śrīparbbatadoḷ·tapōdhanaram·prayāgeyoḷ·brāhmaṇaraṁ kurukṣētra-
+              <lb n="28" break="no"/>doḷ·kavileyan °ant-inituman °aḻida-pātakan °ī-lōkadoḷ °uḷḷa brahmāti-y-ellamaṁ
+              <lb n="29"/>geydoṁ °anneyam °endu pokkātaṁgam °ī-sthitiye ||
+              <note type="editorial" xml:lang="en">Skt. verses upto lines 34.</note>
+              <lb n="35"/>kannaran-abhimathadoḷe śāsanamaṁ baredoṁ sēnabovaṁ
+              <lb n="36"/>kācayyam °ī-śāsanam °ā-candrārkka-tāraṁ baraṁ-salge paḷayāṟoḷ·dēvan-āṭand-iṟidu
+              <lb n="37"/>maḍipidoṁ pāṇḍyanan·dēva-putraṁgaḷa kondaṁ vīranaṁ śrīpuradoḷ °iṟidon °indrātmajaṁ pallavēśarkkaḷa-
+              <lb n="38" break="no"/>n °indraṁ geldan °ī-kannaran °adhika-baḷaṁ gaṁga-permmāḷiyaṁ kond-eḷeyaṁ bhū-vallabhaṁg-itt-i-
+              <lb n="39" break="no"/>ṟidu neggḻdar °ī-rāṣṭrakūṭānvayarkkaḷ ||
+            </ab>
+          </body>
+        </text>
+        <text n="95" xml:id="Gai.095">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> XI. Cd. 77.</seg> <seg type="number">No. 95.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 861 = A.D. 940.</seg></head>
+            <ab>
+              <note type="editorial" xml:lang="en">Lines 1 and 2 are in Sanskrit.</note>
+              <lb n="3"/>svasty-amōghavarṣa-dēva-śrī-pr̥thvi-vallabha-mahārājādhi-rāja paramēśvara-parama-bhaṭṭāraka-vi-
+              <lb n="4" break="no"/>jaya-rājyam-uttarōttarābhivr̥ddhi pravarddhamānam °ā-candrārkka-tāraṁ salutta-
+              <lb n="5" break="no"/>m-ire tat-pāda-padmōpajīvi samadhigata pañca-mahā-śabda mahā-sāmanta vīra-lakṣmī-kānta
+              <lb n="6"/>raṇa-raṁga-bhūriśrama kāyvara javaṁ prati-balad-aggaḷi ripuge-nippasaraṁ kaliyuga-rāva-
+              <lb n="7" break="no"/>jayad-uttaraṁgan °atiratha-mallaṁ prati-pakṣa-sūdrakaṁ srīman-mahā-sāmaṁta kannarasa
+              <lb n="8"/>kadaṁbaḷige-sāyiramumaṁ nidhi-nidhāna-nikṣēpa-shaśra-daṇḍaṁ-modalāge duṣṭa-nigraha-
+              <pb n="154"/><lb n="9" break="no"/>viśiṣṭa-pratipāḷanadin °āḷutt-ire saka-nr̥pa-kāḷ-ātīta-saṁvatsara śataṁga 861 neya vikāri saṁvatsaraṁ pra-varttise tad-va-
+              <lb n="10" break="no"/>rṣābhyaṁtarad-uttarāyaṇa saṁkramaṇad-andu kākambaḷa kaṁba-gavuṇḍana sannidhiyoḷ || svasti yama-niyama-
+              <lb n="11" break="no"/>svādhyāya-dhyāna-dhāraṇa-mōnānuṣṭhāna-japa-samādhi-saṁpannar-appa śrīmad-bāḷacandra-paṇḍita-dēvara kālaṁ ka-
+              <lb n="12" break="no"/>rcci dhārā-pūrbbakaṁ māḍi bhōgēśvara-dēvara-dēgulada khaṇḍa-sphuṭita-jīrṇṇōddharaṇakkaṁ maṭhadal °ōduva vidyārtthi-
+              <lb n="13" break="no"/>tapōdhanarggaṁ vidyārtthi-māṇiyarggaṁ biṭṭa gaḻde piriya-keṟeya bayalalu, mattar °eraḍu munnūṟu-baḷḷiya tōṁ-
+              <lb n="14" break="no"/>ṭav-ondu || svadattam . . . . . . . <note type="editorial" xml:lang="en">Skt. . . . . . . .</note>
+            </ab>
+          </body>
+        </text>
+        <text n="96" xml:id="Gai.096">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 36 (p. 22).</seg> <seg type="number">No. 96.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 864 = A.D. 942.</seg> <seg type="place">At—Rōṇ, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti | samasta-bhuvanāśraya śrī-prithuvī-vallabha māhārājā-
+              <lb n="2" break="no"/>dhirāja paramēśvara parama-bha<unclear resp="#GSG">ṭṭā</unclear>raka śrīmat·kanmara-dē<unclear resp="#GSG">va</unclear>na rā-
+              <lb n="3" break="no"/>jyōdayā kāladoḷ·kannara-dēvana bhāvaṁ mahāmaṇḍalika permmā-
+              <lb n="4" break="no"/>ḍi būtāryyaṁ gaṁgavāḍi toṁbhattaṟu-sāsiraṁ bēḷvola mūnūṟuma<unclear resp="#GSG">n-āḷu</unclear>
+              <note type="editorial" xml:lang="en"><hi rend="italic">Second section.</hi></note>
+              <lb n="5"/>puligeṟe mūnūṟuman-āḷutt-ire svasti saka-nripa-kāḷ-ākrānta saṁvatsaraṁga <unclear resp="#GSG">8</unclear>64 ne
+              <lb n="6"/>subhakrit-saṁvatsaraṁ pravarttise tad-varṣā<unclear resp="#GSG">bhya</unclear>ntarada vaiśākha-suddha <unclear resp="#GSG">6</unclear> °ādityavārad-andu
+              <lb n="7"/><unclear resp="#GSG">ka</unclear>ṇamaṁ perō<unclear resp="#GSG">hiyaṁbha</unclear>tāyamanīyavēḻkum-endu kiḍisi-d-āgaḷa paṁpayyaṁ
+              <lb n="8"/>nān °ondakṣateyan-appaṁdam-īyen-endu taṟisalā mā<unclear resp="#GSG">ṁ</unclear>nya-diṭṭha mahājanamaṁ nama-
+              <lb n="9" break="no"/>skāraṁ ge-
+              <lb n="10" break="no"/>ydu rā-
+              <lb n="11" break="no"/>jābhi-
+              <lb n="12" break="no"/>mukha<unclear resp="#GSG">ṁ</unclear>
+              <lb n="13"/>nāgiḻdu
+              <lb n="14"/>kaṭṭida
+              <lb n="15"/>poḻala-
+              <lb n="16" break="no"/>lage <unclear resp="#GSG">kkī</unclear>
+              <lb n="17"/>ṟke . . . .
+              <lb n="18"/>. . . . . . . . .
+              <lb n="19"/>vrtta || taṟesandeṁ<unclear resp="#GSG">moḍe</unclear> rōṇamaṁ kiḍisitā būtāryya permāḍi . .
+              <pb n="155"/><lb n="20"/>. <unclear resp="#GSG">rvva</unclear>ṟi suttiṟdoḍe tanna nandiridu mēṇ-utsāhadiṁ rōṇama<unclear resp="#GSG">ṇniṟe</unclear> kādu-
+              <lb n="21" break="no"/>. . . ve<unclear resp="#GSG">ttu</unclear> sattan-adhikaṁ paṁpayyan-uddāmasad·guṟukaṁ vāji-kuḷō-
+              <lb n="22" break="no"/><unclear resp="#GSG">dayaṁ</unclear> budhanutaṁ <unclear resp="#GSG">ko</unclear>ṇḍilya-gōtrōnnataṁ || kanda || dhare-y-ellaṁ pogaḻvant-ire
+              <lb n="23"/><unclear resp="#GSG">puri</unclear>geṟeyoḷ-agurtu rōṇamaṁ kād-amarēśvara puraman °eydidōṁ <unclear resp="#GSG">pesariṁ</unclear> kīrtti-
+              <lb n="24" break="no"/>śrī-patākan-abhinutaṁ paṁpayyaṁ || °intu rōṇa kādu sa<unclear resp="#GSG">tture</unclear> suralō-
+              <lb n="25" break="no"/>kaṁ praptan-ādo<unclear resp="#GSG">n</unclear> ||
+            </ab>
+          </body>
+        </text>
+        <text n="97" xml:id="Gai.097">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> XII. p. 257 ff. (also <hi rend="italic">SII</hi> XI-i. No. 39).</seg> <seg type="number">No. 97.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 873 = A.D. 951.</seg> <seg type="place">At—Soraṭur, Dharwar Dist., Bombay Presidency.</seg></head>
+            <ab>
+              <lb n="1"/>°ōm·svasty °akāḷavariṣadēva śrīpr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vīvallabha mahārājādhirājan °ānē-ve<choice resp="#GSG"><orig>ḍe</orig><reg>da</reg></choice>ṅgaṁ
+              <lb n="2"/>mada-gaja-mallaṁ dhālake nallātaṁ śrī-kannaradēvana rājyam uttarō-
+              <lb n="3" break="no"/>ttaraṁ salutt-ire | saraṭavuraman °aṁgarakaṁ śrī-ruddapayyan °āḷutt-ire
+              <lb n="4"/><choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>ka-nr̥pa-kāḷ-ākrānta-saṁvatsara-<choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>taṁga<unclear resp="#GSG">ḷ</unclear>* 873 virōdhi<add resp="#GSG">kr̥t</add>-saṁvatsarada mārgga-
+              <lb n="5" break="no"/>sira-māsada puṇṇameyum °ādityavāramum·rōhi<choice resp="#GSG"><orig>ṇi</orig><reg>ṇī</reg></choice>-nakṣatramuṁ <choice resp="#GSG"><orig>śō</orig><reg>sō</reg></choice>-
+              <lb n="6" break="no"/>ma-grahaṇad-andu | ruddapayyana perggaḍe °ācapayyanuṁ gāmuṇḍa sāmi-
+              <lb n="7" break="no"/>kaḻteyammanuṁ bhīmarāśi-bhaṭṭarara kālaṁ karchi sāyira baḷḷiya
+              <lb n="8"/>tōṁṭamaṁ dēvargge koṭṭar °ayvadiṁbaruṁ °ekkad °ire grahaṇada tat-kāla-
+              <lb n="9" break="no"/>ḍoḷ °āyaṁ taḷiṟ-ele-sose | siddh-āyam °ellaṁ dēvargge barisakke
+              <lb n="10"/>°arasargge nibaddhaṁ mūvattu kariya drarmma (mma) maṁ goravar ttīruva-
+              <lb n="11" break="no"/>r ī sthitiyaṁ tappad-antu °ūroḍeya piṭṭayyaṁ kālg-eṟeye gā-
+              <lb n="12" break="no"/>muṇḍa sāmi-kaḻteyammanuṁ °ācapayyanuṁ kālam·kaḻce mattaṁ
+              <lb n="13"/>ma<choice resp="#GSG"><orig>ṭa</orig><reg>ṭha</reg></choice>kke vidyā-dāna<add resp="#GSG">kka</add>ṁ pannir-mmattar·keyyaṁ koṭṭar·kkeyi siddh-ā-
+              <lb n="14" break="no"/>yaṁ barisakke °āṟu kariya dra<choice resp="#GSG"><orig>rmma</orig><reg>mma</reg></choice>maṁ tīṟuvar °ivaṟiṁ mē-
+              <lb n="15" break="no"/>g °aḻidu ko(?kō)ḷal °aḻi(?)d °ayvadiṁbaruṁ kā<choice resp="#GSG"><orig>pū</orig><reg>pā</reg></choice>ḍuvar·bhavāni-seṭṭi pēṟin<add resp="#GSG">o</add> o-
+              <pb n="156"/><lb n="16" break="no"/>ndu paṇamaṁ dēvargge māḍidan idan tappade naḍeyisidātaṁ
+              <lb n="17"/>sāsiraṁ kavileya kōḍuṁ koḷaga<unclear resp="#GSG">gumaṁ</unclear> ponnuṁ beḷḷiyumaṁ kaṭṭi
+              <lb n="18"/>sāyi<unclear resp="#GSG">si</unclear>rbbar·ppārvvargge dānaṁ-goṭṭa phalaṁ °ēḻ-kōṭi tapōjanakkaṁ
+              <lb n="19"/>vāraṇāsiyoḷaṁ prayāgryoḷaṁ <choice resp="#GSG"><orig>gu</orig><reg>ku</reg></choice>-rukṣētradoḷaṁ
+              <lb n="20"/>saha<choice resp="#GSG"><orig>śra</orig><reg>sra</reg></choice>-bhōjanaṁ-māḍida = phaḷam °akkuṁ | °idan °aḻidātaṁ vāra-
+              <lb n="21" break="no"/>nāsivoḷaṁ prayāgeyoḷaṁ sēsiraṁ kavileyuṁ sāsi-
+              <lb n="22" break="no"/>rbbar·brāhmaṇaran °ēḻ-kōṭi tapōjana<add resp="#GSG">mu</add>man °aḻida paṁcamahā-
+              <lb n="23" break="no"/>pātakana pōda lōkakke pōkum || * svadatt[ā*]m . . . <note type="editorial" xml:lang="en">Skt.</note>
+              <note type="editorial" xml:lang="en">upto lines 27.</note>
+              <lb n="27"/>°āroḷu vēdaṁ bājisal app-ant akkarama-
+              <lb n="28" break="no"/>n-ayvadiṁbara besadiṁ gūḷigaveṟe-nāgaṁ dharey u-
+              <lb n="29" break="no"/>ḷḷinegan·negaḻe baredan ī <choice resp="#GSG"><orig>sā</orig><reg>śā</reg></choice>sanama<add resp="#GSG">m</add> ||
+            </ab>
+          </body>
+        </text>
+        <text n="98" xml:id="Gai.098">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> XI. Hk. 135.</seg> <seg type="number">No. 98.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 884 = A.D. 962.</seg></head>
+            <ab>
+              <lb n="1"/>śrīmat·saka-nr̥pa-kāḷ-ātīta saṁvatsara sa-
+              <lb n="2" break="no"/>taṁgaḷ eṇṭu-nūṟ-eṇbhatta-nāḻkaneya du-
+              <lb n="3" break="no"/>ṁdubhi saṁva . . . srāvaṇa-māsada paṁca-
+              <lb n="4" break="no"/>mi br̥ha . . . vād-andu kāduvaṭṭi
+              <lb n="5"/>. . . jaga-
+              <lb n="6" break="no"/>tuṁge
+              <lb n="7"/>gāvu-
+              <lb n="8" break="no"/>ṇḍana
+              <lb n="9"/>tamma
+              <lb n="10"/>kādi sura-
+              <lb n="11" break="no"/>lōka
+            </ab>
+          </body>
+        </text>
+        <text n="99" xml:id="Gai.099">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">Mys. Arch. Report.</hi> 1929. No. 78, (p. 150).</seg> <seg type="number">No. 99.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 886 = A.D. 964.</seg> <seg type="place">At—Beḷagi in the Hobli of Kuppagaḍḍe.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-akālavarṣa śrī-pr̥thuvī-valla-
+              <lb n="2" break="no"/>bha mahārājādhirāja paramēsvara parama-bha-
+              <lb n="3" break="no"/>ṭṭāraka śrī kannaradēvaṁ pr̥thuvī-rājyaṁ ge-
+              <lb n="4" break="no"/>yye bappavvaṁ banavāsi-pannirccāsira-
+              <lb n="5" break="no"/>da paṭṭa(?)man °āḷe śrī biṭṭigaṁ mauḷi kōsiga-
+              <lb n="6" break="no"/>r-āṇmaṁ negarppin-aṇuvaṁ jiḍḍū-
+              <lb n="7" break="no"/>r-āḷge-y-eḻpattarkkaṁ baḷḷigāmeya bāḷige sahita
+              <lb n="8"/>nāḻgāvuṇḍu-geyye giṁgiti-y-ūr-ggāmuṇḍu-geyye sva-
+              <lb n="9" break="no"/>sti saka-nr̥pa-kāḷ-ātīta saṁvatsara-sataṁgaḷ °eṁṭu nūṟe-
+              <lb n="10" break="no"/>ṇbatt-āṟaneya raktākṣi-saṁvatsara pauṣya-māsa bahuḷa
+              <lb n="11"/>bidigryuṁ sukravāram °uttarāyaṇa-saṁkrāntiya-
+              <lb n="12" break="no"/>ndu kōsigara. kōṭeyammaṁ gōsahasram °ā(i ?)ḻdam °elase-
+              <pb n="157"/><lb n="13" break="no"/>ya mahājanakke koṭṭa poṁ-gadyāṇav-ayvattaydu
+              <lb n="14"/>bāviyuman °agaḻisidam·maṅgaḷa kali-viṭṭayya-
+              <lb n="15" break="no"/>na likhita biṭōjana silā-karmma maṅgaḷa
+            </ab>
+          </body>
+        </text>
+        <text n="100" xml:id="Gai.100">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i. No. 40 (p. 25).</seg> <seg type="number">No. 100.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 886 = A.D. 965.</seg> <seg type="place">At—Narsalgi, Bijapur Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasty-akāḷavarṣa-dēva śri-pr̥thvī-valla<unclear resp="#GSG">bha</unclear> mahārājādhi-rāja paramēśvara . . . . .
+              <lb n="2"/>ma bhaṭṭāra<unclear resp="#GSG">karu</unclear>ttar-ōttar-ābhivr̥ddhi pravarddhamāna vijaya-rājyōdayam °ā-ca<unclear resp="#GSG">ndrā</unclear>rkka<unclear resp="#GSG">ṁ</unclear>
+              <lb n="3"/><unclear resp="#GSG">sa</unclear>luttaṁ °ire tat-pāda-°admōpajīvi samadhigata-pa<unclear resp="#GSG">ñca</unclear>-mahā-śabda mahāsāmantādhi-
+              <lb n="4" break="no"/><unclear resp="#GSG">pa</unclear>ti cāḷukya-rāman °āhavama<unclear resp="#GSG">lla</unclear> . . . ma<unclear resp="#GSG">rāgha</unclear>vaṁ sa-
+              <lb n="5" break="no"/><unclear resp="#GSG">tyā</unclear>śraya kulatilaka <unclear resp="#GSG">śrī</unclear>mat·tailaparasa<unclear resp="#GSG">r</unclear> . . . . . . <unclear resp="#GSG">tardda</unclear>vāḍi-
+              <lb n="6" break="no"/><unclear resp="#GSG">sā</unclear>siramuman °aṇuṁgajīvitam °āḷutta . . . saka-varṣa 88<unclear resp="#GSG">6</unclear> neya raktākṣi <unclear resp="#GSG">saṁvatsa</unclear>raṁ pra-
+              <lb n="7" break="no"/><unclear resp="#GSG">vartti</unclear>se tad-varṣābhyantarada phālguṇa-māsada sūryya-grahaṇadoḷ·śrīmat·tailapa . . . .
+              <lb n="8"/>. . . vinirggata khacara-kula<unclear resp="#GSG">lamala</unclear> . . . . .
+              <lb n="9"/>. . . di vāsta<unclear resp="#GSG">vya śrīmannā</unclear> . . . murttage mūva <unclear resp="#GSG">tta</unclear>ṟoḷagaṇa . . .
+              <lb n="10"/>. . . lageya . . . . . .
+              <lb n="11"/>. . . maṁ nālcaṭṭa . . . . poṅga-
+              <lb n="12" break="no"/><unclear resp="#GSG">dyāṇa</unclear>m-aydu <unclear resp="#GSG">perggaḍe</unclear> gadyāṇamai . . . . kiṟu-<unclear resp="#GSG">deṟe da</unclear>ṇḍāyam-embivu modalāge <unclear resp="#GSG">te</unclear>ṟa . .
+              <lb n="13"/>. . . ma<unclear resp="#GSG">mondu</unclear>m-illada <unclear resp="#GSG">va</unclear> rggamādu . . . . ruva<unclear resp="#GSG">gadyā</unclear>ṇa sahaṇi kā<unclear resp="#GSG">ṭi</unclear> . . . . kūḻu
+              <lb n="14"/>. . . tuppa-mānam-ondu mosa . . . raḍu . . . dēvara . . . vaṇige ya- kū<unclear resp="#GSG">ḻu</unclear> . . . .
+              <lb n="15"/>. . . <unclear resp="#GSG">va</unclear>rjja °int-ī sthitiyam·ta<unclear resp="#GSG">ppa</unclear> salla tappidāta vāraṇāsiyoḷ °uttarāyaṇa sa-
+              <lb n="16" break="no"/>. . . . <unclear resp="#GSG">ḷ</unclear>·pannirbbar·cau<unclear resp="#GSG">vē</unclear>rarumaṁ pe<unclear resp="#GSG">ṇḍa</unclear><unclear resp="#GSG">raṁ</unclear> kavileyuman °aḻida mahāpātakamā-
+              <lb n="17" break="no"/>. . . . da<unclear resp="#GSG">nte</unclear>yalte purā<unclear resp="#GSG">ṇa</unclear> . . . svadattāṁ . . <note type="editorial" xml:lang="en">etc. Skt. upto lines 20.</note>
+            </ab>
+          </body>
+        </text>
+        <text n="101" xml:id="Gai.101">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> IV. Ch. 48.</seg> <seg type="number">No. 101.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 887 = A.D. 965.</seg></head>
+            <ab>
+              <lb n="1"/>svasti śaka-variṣam-eṇṭa-nūṟa-°e-
+              <lb n="2" break="no"/>ṇbhatt-ēḻaneya krōdhana saṁ-
+              <lb n="3" break="no"/>vatsarada mārggaśira-māsa-
+              <lb n="4" break="no"/>da puṇṇame tale-divasam-ā-
+              <lb n="5" break="no"/>ge satyavākhya mārasiṁgha-
+              <lb n="6" break="no"/>dēvaṁ prithivī-rājyaṁ geyyu-
+              <lb n="7" break="no"/>tt-ire perggaḍe mācayyaṁ maṁ-
+              <pb n="158"/><lb n="8" break="no"/>galada gāvuṇḍagaṟiya medd-iḻdaḍe
+              <lb n="9"/>bāḻi . . . sthiti-kramam °avud-e-
+              <lb n="10" break="no"/>ndhoḍe °e . . °ārukiga baḻiya
+              <lb n="11"/>pu . . ppaṇṇaradu paḷḷigam °ī-
+              <lb n="12" break="no"/>sthitiyoḷ·salvudu candrāditya . . .
+              <lb n="13"/>. . . bara naḍevudu °ī sthitiya-
+              <lb n="14" break="no"/>n-āru tappal·salla °idan °aḻivaruṁ °aḻi-
+              <lb n="15" break="no"/>ye baḻdōruṁ vāraṇāsiyumaṁ kavi-
+              <lb n="16" break="no"/>leyuman-aḻida paṁca-mahā-pā-
+              <lb n="17" break="no"/>takam-appam ||
+            </ab>
+          </body>
+        </text>
+        <text n="102" xml:id="Gai.102">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> VIII. Sb. 465.</seg> <seg type="number">No. 102.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 890 = A.D. 968.</seg></head>
+            <ab>
+              <lb n="1"/>svasti . . . śrī-pr̥thvī-vallabha mahārājādhirāja
+              <lb n="2"/>paramēśvara parama-bhaṭṭāraka śrīmaccaṭṭigadēvaṁ pri-thuvī rā-
+              <lb n="3" break="no"/>jyaṁ geyye svasti kadamba-kuḷa-tiḷaka-bhāskara . . . nr̥pati-makuṭa-
+              <lb n="4" break="no"/>ghaṭṭita caraṇārvinda-yugaḷam·banavāsi . . . varēśvaraṁ vānara-
+              <lb n="5" break="no"/>dhvaja . . . ṣaṇṇavatsaṁ rā-
+              <lb n="6" break="no"/>ja . . . ta . . . sthāpita lalāṭa-lōcanana
+              <lb n="7"/>maṁḍaḷī kr̥ita kuḷaka . . nā . dēvanahita . .
+              <lb n="8"/>. . . tta kadana-mārttaṇḍan °arasaṁkaka . śrīmanma . . .
+              <lb n="9"/>. . . . pannircchāsiramuman °ēkacchatracchāyeyin °āḷdu
+              <lb n="10"/>. . . . nirūpita-mahāmātya-guṇa-saṁpannan °appa . . .
+              <lb n="11"/>. . . nēka-cchāyeyoḷ·perggaḍetana geyyuttam·maṅgaḷavū
+              <lb n="12"/>. . . ḍisidan °ā-dēvargge śaka-nr̥pa-kāḷ-ātīta saṁvatsara śa-
+              <lb n="13" break="no"/>. . . tombhattaneya vibhava saṁvatsaraṁ pravarttisutta
+              <lb n="14"/>. . . mārggaśirad-amavāseyu maṁgaḷvāramuṁ sūryya-
+              <lb n="15" break="no"/>vyatīpātamuṁ °uttarāyaṇa saṁkrāntiy-andu caṭṭayya-dēva
+              <lb n="16"/>. . . rada mahājanada kāḷaṁ karcci doṟavaleya dēvargge koṭṭan
+              <lb n="17"/>. . . pu °irppatta-nālk-agrahāramu davagrāmeyuṁ jaraguruvuṁ
+              <lb n="18"/>. . . ba vaḷḷiyuṁ kantarōjeyu gōsiriyum °int-īy-agrahārada brā . . .
+              <note type="editorial" xml:lang="en">(further portion broken).</note>
+            </ab>
+          </body>
+        </text>
+        <text n="103" xml:id="Gai.103">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> XI-i No. 44 (p. 30).</seg> <seg type="number">No. 103.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 893 = A.D. 971.</seg> <seg type="place">At—Aihoḷe, Bijapur Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/><unclear resp="#GSG">saka</unclear> kāḷ-ātīta-
+              <lb n="2" break="no"/>saṁvatsara<unclear resp="#GSG">da</unclear>
+              <lb n="3"/>saṁgaḷ eṇṭu-
+              <lb n="4" break="no"/>nūṟa-toṁ-
+              <lb n="5" break="no"/>bhatta mūrene-
+              <lb n="6" break="no"/>ya prajāpati sa-
+              <pb n="159"/><lb n="7" break="no"/>ṁvatsaraṁ pravartthise śrīmat·ko-
+              <lb n="8" break="no"/>ṭṭiga-dēvaṁ prithuvīrājyaṁ geyye
+              <lb n="9"/>pauṣya-māsada suddham-ēkā
+              <lb n="10"/>dasi . . . . .
+              <lb n="11"/>yoḷ . . . . .
+              <lb n="12"/>. . . . . . . .
+              <lb n="13"/>śāṁta-gāvuṇḍaṁ dēgu-
+              <lb n="14" break="no"/>laṁ-mmāḍisi gōsa-
+              <lb n="15" break="no"/>haśram °iḻdaṁ
+              <lb n="16"/>candramauḷi-bhaḷārara
+              <lb n="17"/>likhitaṁ | maṅgaḷa
+              <lb n="18"/>mahāśrī ||
+            </ab>
+          </body>
+        </text>
+        <text n="104" xml:id="Gai.104">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">IA</hi> XII. p. 255 ff.</seg> <seg type="number">No. 104.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 893 = A.D. 971.</seg> <seg type="place">At—Adarguñchi, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>°ōm·svasti nityavarṣa-
+              <lb n="2" break="no"/>dēva śrī-pr̥thvi-va-
+              <lb n="3" break="no"/>llabha mah<unclear resp="#GSG">ā</unclear>rājā-
+              <lb n="4" break="no"/>dhirāja paramēśvara parama-bhaṭṭārakaṁ rāja-
+              <lb n="5" break="no"/>mārttaṇḍam·raṭṭa-kanda-
+              <lb n="5A" break="no"/>rppaṁ citra-ve<choice resp="#GSG"><orig>ḍe</orig><reg>da</reg></choice>ṁga<add resp="#GSG">ṁ</add> śrīmat·koṭṭigadēva<unclear resp="#GSG">ṁ</unclear> catu<unclear resp="#GSG">ḥ</unclear>-samu-
+              <lb n="6" break="no"/>dra-payyā<unclear resp="#GSG">ryya</unclear>ntam °ā-candr-ārkka-tāraṁ-baraṁ rājy-ābhivr̥ddhige salu<unclear resp="#GSG">tta</unclear>-
+              <lb n="7" break="no"/>y<unclear resp="#GSG">m</unclear>-ire | <choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>ka-nr̥pa-kāḷ-ātīta-samva<choice resp="#GSG"><orig>cch</orig><reg>tsa</reg></choice>ra-<choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>taṅgaḷ °eṇṭu = nū-
+              <lb n="8" break="no"/>ṟa tombhatta-mūṟaneya prajāpati-sa<add resp="#GSG">ṁ</add>va<choice resp="#GSG"><orig>chcha</orig><reg>tsa</reg></choice>raṁ
+              <lb n="9"/>saluttam-ire tad<unclear resp="#GSG">d-</unclear>va<unclear resp="#GSG">-va</unclear>rṣ-ā<choice resp="#GSG"><orig>bhyā</orig><reg>bhya</reg></choice>ntarad ā<choice resp="#GSG"><orig>shva</orig><reg>śva</reg></choice>yuja-
+              <lb n="10" break="no"/>d amavāse °ādityavāra sūryya-grahaṇa | śrīma-
+              <lb n="11" break="no"/>t·<choice resp="#GSG"><orig>pa</orig><reg>pe</reg></choice>rmmānaḍi-mārasi<add resp="#GSG">ṁ</add><choice resp="#GSG"><orig>ggha</orig><reg>gha</reg></choice>dēva<add resp="#GSG">ṁ</add> gangavāḍi-tombhatta-
+              <lb n="12" break="no"/>ṟusāsiramumaṁ purigeṟe-mūnū<choice resp="#GSG"><orig>ṟa</orig><reg>ṟu</reg></choice>maṁ beḷvala-
+              <lb n="13" break="no"/>mūnūṟumaṁ sukhadaṟin-āḷuttam-ire | śrīmat·
+              <lb n="14"/>pañcaladēva<add resp="#GSG">ṁ</add> sebbi mūvattam °āḷutta<add resp="#GSG">m</add> °eṇbhatta-nālva-
+              <lb n="15" break="no"/>rggaṁ kāla<add resp="#GSG">ṁ</add> kaḻci koṭṭa sthiti rōṇa<add resp="#GSG">da</add> hannirvvaṟu-gadyāṇaṁ
+              <lb n="16"/>siddh-āye °uppu tuppa kāṇaṁ rasaṁ vajjaniyuṁ |
+              <lb n="17"/>°eṇbhatta-<choice resp="#GSG"><orig>na</orig><reg>nā</reg></choice>lvara kayyal·malliga-gādayya<add resp="#GSG">ṁ</add> ma-
+              <lb n="18" break="no"/>lligēśvarakke koṇḍu biṭṭa mattar āṟu °aruvaṇaṁ rōṇa-
+              <lb n="19" break="no"/>da poṁ-dharaṇaṁ | bahubhir- . . . <note type="editorial" xml:lang="en">etc. Skt. upto line 23.</note>
+            </ab>
+          </body>
+        </text>
+        <pb n="160"/>
+        <text n="105" xml:id="Gai.105">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EI</hi> VI. p. 259.</seg> <seg type="number">No. 105.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 897 = A.D. 975.</seg> <seg type="place">At—Muḷgund, Dharwar Dist., Bombay Province.</seg></head>
+            <ab>
+              <lb n="1"/>[°ōm]·svasti satyavākya-koṁguṇivarmma dharmma-mahārājā-dh<unclear resp="#GSG">i</unclear>rāja kuvaḷāla-puravar-ēśva-
+              <lb n="2" break="no"/>ra nandagiri-nāthaṁ caladuttaraṁga-jagadēkavīra-śrīman-noḻa<unclear resp="#GSG">ṁ</unclear>bakuḷāntakadēva-pādapa-
+              <lb n="3" break="no"/>dm-ōpajīvi paḍe-nōḍe-gaṇḍaṁ gaṇḍara-siṁghan asahāya-sāhasaṁ komaraka-bīmaṁ bīra-
+              <lb n="4" break="no"/>da-seḷevoṁ cāḷukya-pañcānana<unclear resp="#GSG">ṁ</unclear> śrīmat-pañcala-dēvar pūrvv-āpara-dakṣiṇ-ārṇṇav-āva<unclear resp="#GSG">dh</unclear>i-
+              <lb n="5" break="no"/>yi<unclear resp="#GSG">ṁ</unclear>peḻḍoṟe maryyādey āge nirākuḷam °āḷutt-ire || svasti <choice resp="#GSG"><orig>sa</orig><reg>śa</reg></choice>ka-varṣam eṇṭu-nūṟa tombhatt-<unclear resp="#GSG">ē</unclear>-
+              <lb n="6" break="no"/>ḻaneya yuva-saṁvatsarada bhādrapada bahuḷa bidiye br̥haspativāram·kanyā-saṁkrāntiyu<unclear resp="#GSG">ṁ</unclear>
+              <lb n="7"/>. . . . . <unclear resp="#GSG">nagara</unclear>-mahājana-pramukham ayd<unclear resp="#GSG">uṁ</unclear>-baḷanuv iḍ eleya-bhoja
+            </ab>
+          </body>
+        </text>
+        <text n="106" xml:id="Gai.106">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">EC</hi> X. CB 45.</seg> <seg type="number">No. 106.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 899 = A.D. 977.</seg></head>
+            <ab>
+              <lb n="1"/>svasti saka-nr̥pa-kāḷ-ātīta-sa-
+              <lb n="2" break="no"/>ṁvatsaraṁgaḷ eṇṭu-nūṟa-toṁbha-
+              <lb n="3" break="no"/>ttoṁbhattaneya °īśvara-saṁva-
+              <lb n="4" break="no"/>tsara pravarttise tad-variṣana-
+              <lb n="5" break="no"/>bhyantarada caitra-suddha-pañcami
+              <lb n="6"/>sōmavārad-andu svasti sama-
+              <lb n="7" break="no"/>dhigata-pañca-mahā . . . . . .
+              <lb n="8"/>pallav-ānvaya śrī-pr̥thuvī-va-
+              <lb n="9" break="no"/>llabha pallava-kula-tilaka
+              <lb n="10"/>. . . ., . śrīmad·ma . . . .
+              <lb n="11"/>ḻambādhirāja . . . kesadamāda
+              <lb n="2"/>ya baṁdaraṇa koṭane
+              <lb n="13"/>keṟegī batta
+              <lb n="14"/>gadyāṇada . . . . .
+              <lb n="15"/>ge . . . . .
+            </ab>
+          </body>
+        </text>
+        <text n="107" xml:id="Gai.107">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">ṢII</hi> IX-i. No. 74 (p. 45).</seg> <seg type="number">No. 107.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 903 = A.D. 980.</seg> <seg type="place">At—Kanchagara-Belagallu, Bellary Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti samasta bhuvanāśraya śrī pr̥thvi-vallabha mahārā-jādhirāja
+              <lb n="2"/>paramēśvara parama-bhaṭṭāralaṁ satyāśraya-kuḷa-tiḷakaṁ cāḷukyābharaṇaṁ
+              <lb n="3"/>śrīmad āhavamalla-dēvara vijayarājyam-uttarōttar-ābhividdhi pravarddhamāna-
+              <pb n="161"/><lb n="4" break="no"/>m ā-caṁdrārkka-tāraṁ saluttam-ire saka-varṣa 903 neya vikrama-saṁvatsarada
+              <lb n="5"/>vaiśākha suddha 5 brihaspativāraṁ °agrahāraṁ kañcagāra-beḷgaliya
+              <lb n="6"/>pūṟvvada sthānamānyaṁ mūṟuṁ śivālayakke naḍeva piri-ya-kōla kariya
+              <lb n="7"/>matta 18 paṁcikēśvarakke matta 6 bhaḷārige matta 6 bhaṭṭageyi matta 6 caṭṭa-
+              <lb n="8" break="no"/>geyi matta 6 perggeḍegeyi matta 8 °aṁbigageyi matta 8 taḷāṟageyi ma-
+              <lb n="9" break="no"/>tta 12 °aṁt-initumaṁ svadharmmadiṁ pratipāḷippar ||
+              <note type="editorial" xml:lang="en">Skt. verses upto l. 12.</note>
+              <lb n="13"/>svasti samadhigata pañca-mahā-śabda pallav-ānvayaṁ śrī-pr̥thvī-va-
+              <lb n="14" break="no"/>llabha pallava-kuḷa-tiḷak-anēkavākyaṁ kāṁcī-purava-rēśvaraṁ śrīman-vīra-no-
+              <lb n="15" break="no"/>ḷaṁba pallava permānaḍī-dēvara mahādēvi śrīmadu rēvala-dēviyar-kkā-
+              <lb n="16" break="no"/>ḷapriya-dēvargge biṭṭa matta 6 °eraḍuṁ viṣṇu-dēvargge biṭṭa matta 12 ||
+            </ab>
+          </body>
+        </text>
+        <text n="108" xml:id="Gai.108">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> IX-i. No. 77 (p. 47).</seg> <seg type="number">No. 108.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 914 = A.D. 992.</seg> <seg type="place">At—Kogali, Bellary Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>svasti samasta-bhuvanāśraya śrī pr̥thvī-vallabha mahā-rājādhirāja paramēśvara parama-bhaṭṭāraka satyāśraya-kuḷa-tiḷa-
+              <lb n="2" break="no"/>kaṁ cāḷukyābharaṇaṁ śrīmad-āhavamalladēvar·cōrārimāri-ḍāmarōpasarggaṁgaḷam-aḷgisi nā-
+              <lb n="3" break="no"/>nā-dēsādhīsaraṁ vasagata<unclear resp="#GSG">ṁ</unclear>mmāḍi duṣṭaraṁ nigrahisi visiṣṭaraṁ pratipāḷisi mahādānaṁ geydu cōḷiya-
+              <lb n="4" break="no"/>keyan-olagisida nūṟ-ayvatt-āneyumaṁ roddada bīḍinoḷ-koṇḍ-uttarōttar-ābhivr̥iddhi pravarddhamāna vijaya-
+              <lb n="5" break="no"/>rājyam °ā-candrārkka-tāraṁ saluttam-ire tat-pāda-padmōpa-śēvitaṁ samadhigata pañca-mahā-śabda-mahā-sāma-
+              <lb n="6" break="no"/>ntan-anēkar·praṇutōnnata lalāṭanirīkṣanōpalakṣita kadaṁba-kuḷācaḷōditādityaṁ paramēsvara makuṭa-
+              <lb n="7" break="no"/>ghaṭṭita caraṇāravindaṁ śākhā-mr̥ga-dhvajan-uttuṁga siṁgha-lāṁchanaṁ mahāpaṭu-paṭaharavapra pūrṇṇa-di-
+              <lb n="8" break="no"/>gantarāḷa virājamāna caturāśīti nagarādhiṣṭhitaṁ hima-vanta sakti-sthāpitan-appa daśāśvamēdhā dīkṣita-kuḷa-pra-
+              <lb n="9" break="no"/>sūtaṁ banavāsi-puravarēsvaram °aṇiyaṁkakāṟa<unclear resp="#GSG">ṁ</unclear>nāha<unclear resp="#GSG">vādi</unclear>tyaṁ sāhasabhīmaṁ śauca-veḍaṁga-guṇa-pūrṇṇa mēru
+              <pb n="162"/><lb n="10"/>bhr̥tya cintāmaṇi śrīmad-ādityavarmarasar·kōgaḷiy-ay-nūṟuvaṁ sundavatti panneraḍuvann-aḷuttam-ire ||
+              <lb n="11"/>saka-nr̥pa-kāḷ-ātita saṁvatsara sataṁga 914 neya naṁdana saṁvatsaraṁ pravartise tadvarṣābhyaṁtara pauṣya bahuḷa bā-
+              <lb n="12" break="no"/>rasi sukravārav-uttarāyaṇa saṁkrāntiy-andu || saṁsāra-jaḷadhi-jaḷa-vaḷaya vēlā . . . nupamakara-kṣōbhita va-
+              <lb n="13" break="no"/>rttāgarttāntaṟ<unclear resp="#GSG">ḥ</unclear>-patita-bhavya-jīvōttaraṇa-karaṇa-sāmar-tthyōpētar-appa śrīmat·kōgaḷiya sthānādhipatigaḷ °appa gaṇa-
+              <lb n="14" break="no"/>dharadēva-bhaṭṭārakar-pramukhaṁ-°āgi nālkuṁ yugada poḻal-kōgaḷiya kāḷayya-seṭṭiya kōṭi-seṭṭi °ajavarmma-seṭṭi °āyca-
+              <lb n="15" break="no"/>seṭṭi baddiyamma-seṭṭi pōcayya-seṭṭi pācayya-seṭṭi kāḷi-seṭṭi °int-ī seṭṭiyarggaṁ māḷimayyaṁ jōgimayyaṁ māramayyaṁ
+              <lb n="16"/>nāgavarmmayyaṁ °āytavarmmayyaṁ maruḷayyaṁ gōvindayyaṁ nāgimayyaṁ °int-ī pannasigarggaṁ kaliyammaṁ caṭṭayya kō-
+              <lb n="17" break="no"/>gaḷivārayya °eḍavāycayya °eṟejōgayyaṁ baṁkayyaṁ kēkayyaṁ °āyca-gāvuṇḍa kannayyaṁ °int-ī gāvuṇḍuga-
+              <lb n="18" break="no"/>ḷgaṁ pañca-maṭa-sthānakkaṁ koṭṭa vyayasthey-ent-end-eḍe °eḻu-nūṟ-ayvattu mattar-ereyu mūnūṟayvattu mattar-kkisukāḍum-antu baḷa-
+              <lb n="19" break="no"/>kke sāyirada nūṟu mattar-āgi seṭṭiyargge mattar °eṇchāsi-raṁ °avargge mānyaṁ mattar °eṁṭu nūṟu tōṁṭav-eṁṭu °aṁgaḍiy-eṁṭu pannasi<add resp="#GSG">ga</add>rgge
+              <lb n="20"/>mattar °eṇchāsiram °avargge mānyam °eṁṭu-nūṟu toṁṭam-eṁṭu gāvuṇḍugaḷgaṁ mattar-ppannir-cchāsiram °avargge mānyaṁ mattar-ssāsi-
+              <lb n="21" break="no"/>rad-iḻnūṟu tōṁṭaṁ panneraḍu °ant-avaravara baḷada perggaḍrgalge mānyaṁ mattar-mūvattu tōṁṭavandu kuttaṁgiya gāvuṇḍugaḷa pāda-
+              <lb n="22" break="no"/>mūlaṁ basadiy-aḻiviṁge muṁde nilvar | °ekkala-gāvuṇḍan-oḷav-āgi panneraḍu gāvuṇḍara nellavāḻgi-gāvuṇḍana jīyamānasadiṁ baḷike kāḍā-
+              <lb n="23" break="no"/>yamaṁ nōḍiyuṁ kīḻ-okkal·pasugege mūvattu mattarum-ondu tōṁṭamum-āge baḻikke patti mūvatt-eraḍum-ante pattigaravaṇaṁ
+              <lb n="24"/>mūṟu gadyāṇaṁ maḻta porisaṁ biṭṭa maryāde | °eṁṭaneya śrāhege pattige mūṟu dharaṇaṁ mūṟeneya śrāhege teṟe ne-
+              <lb n="25" break="no"/>ṟedu mūṟu gadyāṇmaṁ pattige tiṟuvar °ellā kālakkam-iduve maryyāde pancārasa-varjjitaṁ seṭṭiyarggaṁ pannasigarggaṁ gā-
+              <lb n="26" break="no"/>vuṇḍagaḷgaṁ biṭṭi koṭṭaṇaṁ bīḍu besaṁ poṟagu phala-vāda maṇge-y-āṟuvaṇaṁ °eleya baḷḷi 1000 ragge mūṟu
+              <lb n="27"/>gadyāṇaṁ karvvina tōṁṭa mattariṁge gadyāṇa gaḻde mattargge dharaṇaṁ kāḷkeyge mattariṁge paṇaṁ | phalav-āgada maṇge °aruvaṇa-
+              <pb n="163"/><lb n="28" break="no"/>villa | kṅgaḻiya caturāghāṭṭadoḷ-āda maṇṇa-nīra sāmyakkaṁ daṇḍa-dōsam °ella basadige seṭṭiyar-ppannasigar-ggāvu-
+              <lb n="29" break="no"/>ṇḍagaḷ-modalāgi mānya-kāṟar·mūṟu śrāhege pariyara gadyāṇavan·tiṟuvar °avara kīḻ-okkaluḷta barisaṁ peṭṭi-ma-
+              <lb n="30" break="no"/>ryyāde °eraḍaneya śrāhege padinaydarave mūṟeneya śrāhege pūrbba-sthitiyoḷkore basadige-ttiṟuvar·basadige taḷa vr̥tti
+              <lb n="31"/>sāyira mattar<unclear resp="#GSG">ṁ</unclear>m-irppattu nālku mattaru-gaḻdeyuṁ | pattu tōṁṭavuṁ | nandanavanamuṁ sarbba-bādhā-parihāraṁ | pañca-maṭha-sthānavaṁ
+              <lb n="32"/>pūrvva-maryyādeyoḷ-pratipāḷisuvudu | mūṟu baravuv-illa mū-rmmanevārtegara mane pokkaḍe panneraḍu gadyāṇa daṇḍa haradarakka-
+              <lb n="33" break="no"/>naṁgadoḷ·pāradarigeya paccavaṁ koṇḍu pādarigeya mūgan-aridu pādariganaṁ kolvaru | poydaṁg-eṁṭu paṇaṁ °āṇeyaṁ mikkaṁge panne-
+              <lb n="34" break="no"/>raḍu paṇaṁ mīṟidaṁge panneraḍu gadyāṇaṁ daṇḍaṁ paradan-ār-bbandaḍav-aṁgaḍiya pājikadiṁdiḷiyan °anyāyadoḷ·paradhanaṁ poydaḍe sā-
+              <lb n="35" break="no"/>vu sālvar | nakarakkaṁ | mahājanakkaṁ gāvuṇḍagaḷgaṁ | pañca-maṭa-sthānakkaṁ biṭṭiy-illa | baṭṭala taṁbulaṁ baḍeva<unclear resp="#GSG">ṁ</unclear>ntī maryyādey-ella<unclear resp="#GSG">ṁ</unclear>m -ā-
+              <lb n="36" break="no"/>yta-varmarasara māḍisid-eraḍum·dēgulaṁ kōgaḷiya prajev-erasi mūṟeneya dēgulaṁ °idan-aḻidoṁ prayāgevuvaṁ kurukṣētra-
+              <lb n="37" break="no"/>vuvaṁ| bāṇarāsiyuvaṁ kaḻbappuvaṁ sāsira-kavileyuvaṁ sāsirbbarppārvvaruvaṁ | sāsirbbar·riṣiyaruvan °aḻiḍa pātakanu
+              <lb n="38"/>brahmātikāranum °akkuṁ | svadattam <note type="editorial" xml:lang="en">etc.</note>
+              <note type="editorial" xml:lang="en">Skt. verses to line 39.</note>
+            </ab>
+          </body>
+        </text>
+        <text n="109" xml:id="Gai.109">
+          <body>
+            <head xml:lang="en"><seg type="source"><hi rend="italic">SII</hi> IX-i. No. 78 (p. 49).</seg> <seg type="number">No. 109.</seg> <seg type="date"><hi rend="italic">Śaka</hi> 918 = A.D. 996.</seg> <seg type="place">At—Kudatini, Bellary Dist., Madras Province.</seg></head>
+            <ab>
+              <lb n="1"/>. . . bhuvanāśraya
+              <lb n="2"/>. . . llabha mahārājādhirā-
+              <lb n="3" break="no"/>. . . . rama bhaṭṭārakaṁ satyā-
+              <lb n="4" break="no"/>. . . ḷakaṁ cāḷukyābharaṇaṁ
+              <lb n="5"/>. . . havamalladēvara rājyadoḷ
+              <lb n="6"/>. . . pañcamahāśabda vrata
+              <lb n="7"/>. . . saṁyukta śrī svāmi
+              <lb n="8"/>. . tapovanādhipatigaḷ °appa
+              <lb n="9"/>. . . viraḍigaḷa koṭṭi
+              <pb n="164"/><lb n="10"/>. . . sthāna<unclear resp="#GSG">d-aydu</unclear>varggada sa-bāla
+              <lb n="11"/>. . . °eḻpattaṟa gā
+              <lb n="12"/>. sannidhānadoḷ | saka-varṣa-vom-
+              <lb n="13" break="no"/><unclear resp="#GSG">bhai nū</unclear>ṟa-padin-eṁṭaneya durmukhi
+              <lb n="14"/>. . . tsarada śrāvaṇa suddha pañcami
+              <lb n="15"/>. . . spativāra . . . daḷavāra gaṁgarāmnā
+              <lb n="16"/>| ḷpaḍeda <unclear resp="#GSG">tō</unclear>ṁṭa bōle . sāyaravu
+              <lb n="17"/>. . . me ciṭṭayyana magaṁ kāruka
+              <lb n="18"/>vāyavyada kōṇa mai
+              <lb n="19"/>. . vana keṟeya muggudḍe mā . .
+              <lb n="20"/>. ṭṭaṁ || °idan °aḻidoṁ kavilryaṁ vāraṇā-
+              <lb n="21" break="no"/>siyuman-aḻidaṁ || maṁgaḷaṁ ||
+            </ab>
+          </body>
+        </text>
+      </group>
+    </group>
+  </text>
+</TEI>
