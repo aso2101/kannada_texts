@@ -89,9 +89,12 @@
     <body>
       <div type="sandhi" n="1">
 	<head>oṁdaneya saṁdhi</head>
-	sū|| bhūvalayadoḷaguḷḷa sarvajīvāḷigaḷa 
-	pāvanaṁ māḍaleṁdanugeyda śivasiddha 
-	jāvaḷane dēvakulakarta martyadoḷudisidanu surarughēyenutire
+	<lg>
+	  <label>sū||</label>
+	  <l>bhūvalayadoḷaguḷḷa sarvajīvāḷigaḷa</l>
+	  <l>pāvanaṁ māḍaleṁdanugeyda śivasiddha</l>
+	  <l>jāvaḷane dēvakulakarta martyadoḷudisidanu surarughēyenutire</l>
+	</lg>
 	<lg n="1">
 	  <l>śrī mahāguru billōdagra vigrahanacaḷa</l>
 	  <l>sōmadhāmāvr̥ta jaṭāpaṭkalavēṣanā</l>
@@ -579,9 +582,11 @@
       </div>
       <div type="sandhi" n="2">
 	<head>eraḍaneya saṁdhi</head>
-	sū॥bhūmiya carācaravanuddharisi palakelavu 
-	sāmarthyamaṁ tōrpeneṁdumēśaṁ siddha 
-	rāmayyanāgi sonnaligeyoḷagudayavādaṁ śaśikaḷājūṭanu
+	<lg>
+	  <l>sū॥bhūmiya carācaravanuddharisi palakelavu</l>
+	  <l>sāmarthyamaṁ tōrpeneṁdumēśaṁ siddha</l>
+	  <l>rāmayyanāgi sonnaligeyoḷagudayavādaṁ śaśikaḷājūṭanu</l>
+	</lg>
 	<lg n="1">
 	  <l>āninnegaṁ kaṁḍa saṁbhramaṁ kaḍege kana</l>
 	  <l>sō nirutavō niddegaidenō illavo i</l>
@@ -918,12 +923,11 @@
 	  <l>mmoḍane bā tōrpavene hai baṁdapeṁ tōṟi</l>
 	  <l>koḍirayya eṁdu poḍamaṭṭu naṁbugegoṁḍu hōdanā paruṣeyoḍane</l>
 	</lg>
-	attalātaṁ paruṣeyoḍanoḍane naḍeye hiṁ 
 	<lg n="43">
+	  <l>attalātaṁ paruṣeyoḍanoḍane naḍeye hiṁ</l>
 	  <l>dittalūroḷageṁdinaṁte kaṟugaḷu bappa</l>
 	  <l>hottāge suggavve magana baravaṁ pārdu hoṟage bāgila hudiyanu</l>
 	  <l>hattiniṁdirdu bappavaranaḍigaḍige kē</l>
-	  <l></l>
 	  <l>ḷutta nōḍutta neneyutta suyyutta maṟu</l>
 	  <l>guttamiralā satiya haruṣavastamisuvaṁtinanastagirigiḷidanu</l>
 	</lg>
@@ -1170,9 +1174,11 @@
       </div>
       <div type="sandhi" n="3">
 	<head>mūraneya saṁdhi</head>
-	sū॥dēva majha bhāpu sāmarthya sāgaraveṁdu 
-	bhūvalayavaide kīrtise mallikārjunana 
-	nōvi sirigiriverasi sonnaligeyoḷu nillisidanu siddhakulatilakanu
+	<lg>
+	  <l>sū॥dēva majha bhāpu sāmarthya sāgaraveṁdu</l>
+	  <l>bhūvalayavaide kīrtise mallikārjunana</l>
+	  <l>nōvi sirigiriverasi sonnaligeyoḷu nillisidanu siddhakulatilakanu</l>
+	</lg>
 	<lg n="1">
 	  <l>udayatāḷina mōhinīgajada śailōda</l>
 	  <l>kada vajralēpada kumāradhāregaḷanē</l>
@@ -1577,9 +1583,12 @@
       </div>
       <div type="sandhi" n="4">
 	<head>nālkaneya saṁdhi</head>
-	sū || śāpahatarāda gaṁdharvarge nijavittu 
-	kōpadiṁ baṁda madanana billa bisuḍisida 
-	bhāpurē śivasiddharāmayya martyada mahādēvanaṁ naṁbarē	
+	<lg>
+	  <label>sū ||</label>
+	  <l>śāpahatarāda gaṁdharvarge nijavittu</l>
+	  <l>kōpadiṁ baṁda madanana billa bisuḍisida</l>
+	  <l>bhāpurē śivasiddharāmayya martyada mahādēvanaṁ naṁbarē</l>
+	</lg>
 	<lg n="1">
 	  <l>maraḷi varamallikārjunaneḍege naḍetaṁdu</l>
 	  <l>toreva kaṇṇiṁda kaṁpisuva kaiyiṁdavaṁ</l>
@@ -2207,9 +2216,12 @@
       </div>
       <div type="sandhi" n="5">
 	<head>aidaneya saṁdhi</head>
-	sū||	girije naḍasuva yōgamajjanada caukamaṁ 
-	puradoḷage mallināthaṁge nēmadi naḍasi 
-	haraniṁ viṣaprasādava māḍi ekkaviṁḍige koṭṭa siddhēṁdranu
+	<lg>
+	  <label>sū||</label>
+	  <l>girije naḍasuva yōgamajjanada caukamaṁ</l>
+	  <l>puradoḷage mallināthaṁge nēmadi naḍasi</l>
+	  <l>haraniṁ viṣaprasādava māḍi ekkaviṁḍige koṭṭa siddhēṁdranu</l>
+	</lg>
 	<lg n="1">
 	  <l>ottarisi tavaka tanuvettaṁdadiṁ vyagri</l>
 	  <l>suttaṁdu naṁdi naḍetaṁdu vaṁdisi niṁdu</l>
@@ -2349,9 +2361,12 @@
       </div>
       <div type="sandhi" n="6">
 	<head>āraneya saṁdhi</head>
-	sū || mēdiniyoḷiradadhō daityaṁge taṇivittu 
-	ā dinaṁ viśvatōmukhava śiva tōṟidoḍe 
-	ādiliṁgavanu bijayaṁgaisi taṁda bhūdēvi puḷakise siddhanu ||
+	<lg>
+	  <label>sū ||</label>
+	  <l>mēdiniyoḷiradadhō daityaṁge taṇivittu</l>
+	  <l>ā dinaṁ viśvatōmukhava śiva tōṟidoḍe</l>
+	  <l>ādiliṁgavanu bijayaṁgaisi taṁda bhūdēvi puḷakise siddhanu</l>
+	</lg>
 	<lg n="1">
 	  <l>tōragivi keṁgaṇṇu biḍuvāyi niḍudāḍe</l>
 	  <l>sīṟudale baḷitaṁgavaṟata mole sugida toga</l>
@@ -2812,9 +2827,12 @@
       </div>
       <div type="sandhi" n="7">
 	<head>ēḷaneya saṁdhi</head>
-	sū||	dēśavellaṟiye śiradiṁ pāḷamaṁ gelidu 
-	rōṣadiṁ baṁda kharparana kr̥peyiṁdetti 
-	tā surigeyiṁ siḍiliniṟiyadugheya kāḷanaṁ salahidaṁ siddhēṁdranu ||	
+	<lg>
+	  <label>sū||</label>
+	  <l>dēśavellaṟiye śiradiṁ pāḷamaṁ gelidu</l>
+	  <l>rōṣadiṁ baṁda kharparana kr̥peyiṁdetti</l>
+	  <l>tā surigeyiṁ siḍiliniṟiyadugheya kāḷanaṁ salahidaṁ siddhēṁdranu</l>
+	</lg>
 	<lg n="1">
 	  <l>hasivilladippa taṇiveveyikkadiha kaṁga</l>
 	  <l>ḷusurikkadiha jīva hejjeyillada padaṁ</l>
@@ -3266,9 +3284,12 @@
       </div>
       <div type="sandhi" n="8">
 	<head>eṁṭaneya saṁdhi</head>
-	sū||	dhātrītaḷada jīvigaḷa narakadiṁ tegedu 
-	nētratrayādhipage tuppadabhiṣēkamaṁ 
-	kṣētrapūjeyali maduvegaḷa māḍida jagada guru siddharāmayyanu
+	<lg>
+	  <label>sū||</label>
+	  <l>dhātrītaḷada jīvigaḷa narakadiṁ tegedu</l>
+	  <l>nētratrayādhipage tuppadabhiṣēkamaṁ</l>
+	  <l>kṣētrapūjeyali maduvegaḷa māḍida jagada guru siddharāmayyanu</l>
+	</lg>
 	<lg n="1">
 	  <l>baḍatanaṁ hecci sālaṁ hatti dāyāda</l>
 	  <l>roḍaveyellavaniṟikikoṁḍaravaruravaṇisi</l>
@@ -4034,10 +4055,12 @@
       </div>
       <div type="sandhi" n="9">
 	<head>oṁbhattaneya saṁdhi</head>
-	sū||	satta prāṇigaḷu paḍeyutire jagavu
-	citramuṭṭeṟaguttamiralu siddhēṁdraṁge
-	uttama jñāniyallamaprabhu baṁdanā siddhakula tilakaneḍege
-	
+	<lg>
+	  <label>sū||</label>
+	  <l>satta prāṇigaḷu paḍeyutire jagavu</l>
+	  <l>citramuṭṭeṟaguttamiralu siddhēṁdraṁge</l>
+	  <l>uttama jñāniyallamaprabhu baṁdanā siddhakula tilakaneḍege</l>
+	</lg>
 	<lg n="1">
 	  <l>sr̥ṣṭiyellavanāḷva sthirapaṭṭavaṁ tanage</l>
 	  <l>kaṭṭalike śivasiddharāmanāthana tara</l>

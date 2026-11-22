@@ -34,8 +34,12 @@
   - *Rāmadhānyacaritre* (ರಾಮಧಾನ್ಯಚರಿತ್ರೆ)
 - Ratnākaravarṇi
   - *Aparājitēśvaraśatakaṁ* (ಅಪರಾಜಿತೇಶ್ವರಶತಕಂ)
+- Anonymous (the author is unknown, despite the traditional attribution to Śivakōṭyācārya)
+  - *Vaḍḍārādhane* (ವಡ್ಡಾರಾಧನೆ)
 
 Plus the corpus of inscriptions included in G. S. Gai’s *Historical Grammar of Old Kannada*. 
+
+The six texts of Harihara (*Pampāśatakaṁ*, *Rakṣāśatakaṁ*), Rāghavāṅka, Honnamma and Kanakadāsa (*Naḷacaritre*, *Rāmadhānyacaritre*) were contributed by Gil Ben-Herut. The editions they were typed from are still to be identified in the `sourceDesc` of their TEI headers.
 
 ## Directory structure
 
@@ -58,10 +62,24 @@ The `scripts` folder contains python and XSLT scripts used for either restructur
 
 The TEI files are validated against the `tei_all.rnc` schema in the `schemas` folder.
 
+## AI-assisted processing and OCR
+
+Five of the files in `tei` were made from scanned books or PDFs with the help of an AI model (Claude, by Anthropic). The tools and the method are documented in `docs/ocr`, and each file's `teiHeader` says what was done to it and how far it has been proofread.
+
+- *Chandōmbudhi*: OCR of the page images (not proofread).
+- *Karṇāṭa-kādambari*: OCR of the page images, from two independent readings that were merged; proofread only in part.
+- *Vaḍḍārādhane*: the text was extracted from a PDF by decoding its legacy Kannada font (this is not OCR); transliteration and TEI structure were produced with AI assistance (not proofread).
+- *Cāvuṇḍarāyapurāṇaṁ*: OCR of the page images of two scans, from two independent readings per page that were merged; not proofread.
+- The inscriptions of G. S. Gai (`tei/Gai`): OCR of the page images, from two independent readings per page whose differences were decided against the page images; the whole text was then proofread by Andrew Ollett, and the conversion to ISO-15919 and to TEI was done with scripts.
+
+The OCR output of these texts should be treated as a draft wherever the header does not say that it has been checked.
+
 ## Acknowledgements and license
 
 Unless specified otherwise, the data provided in this repository is made available under a [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). This means that you are free to use the data however you’d like, **as long as you acknowledge the original creators of the file.**
 
 The people involved with this project have been:
 - [Andrew Ollett](http://prakrit.info) (text processing)
+- Claude (Anthropic): AI-assisted OCR and processing of the five files listed above
 - Krishnaprasada G and [Adishila Publications](https://adishila.com/) (text entry and correction)
+- Gil Ben-Herut (contributor of the texts of Harihara, Rāghavāṅka, Honnamma and Kanakadāsa)

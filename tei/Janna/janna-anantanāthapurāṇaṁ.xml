@@ -5001,7 +5001,7 @@
 	<l>harinīlōpalapaṭṭi kāghaṭitasōpānaṅgaḷoḷ tīramaṁ</l>
 	<l>darakallōlavilōlamālikegaḷoḷ kāntāpraticchāye ta</l>
 	<pb n="151"/>
-	<head>saptamāśvāsaṁ</head>
+	<!--<head>saptamāśvāsaṁ</head>!-->
 	<l>ḷvare kāsāravidalladalladu manōjabrahmanirmāṇanaṁ</l>
 	<l>taruṇīratnamahānidānamene kaṇṇimbāytu padmākaraṁ</l>
       </lg>
@@ -5505,10 +5505,8 @@
       <lg n="3">
 	<l>suratassēdalavādrrabhāvabharamuṁ tannandanōpāntadoḷ</l>
 	<l>virahāsaktaviṭīviṭaścasitakīlāpītamāgurvarē</l>
-      </lg>
-      <pb n="167"/>
-      <head>aṣṭamāśvāsaṁ</head>
-      <lg n="3">
+	<pb n="167"/>
+      <!--<head>aṣṭamāśvāsaṁ</head>!-->
 	<l>śvaradivyāṅgada śaitya saurabhavananturparapārāvata</l>
 	<l>svaradiṁ bēḷvavolāytu vāravanitāprāgāracārānilaṁ</l>
       </lg>
@@ -9087,7 +9085,7 @@
 	<l>arasana karataḷalīlā</l>
 	<l>sarōjamaṁ bēḍi kuḍadoḍīsi kuḍalmā</l>
 	<pb n="279"/>
-	<head>dvādaśāśvāsaṁ</head>
+	<!--<head>dvādaśāśvāsaṁ</head>!-->
 	<l>turisi piḍidenna tōḷaṁ</l>
 	<l>baretegeva kumāranendu toḍeyēṟidapaṁ</l>
       </lg>

@@ -87,10 +87,6 @@
   </teiHeader>
   <text xml:lang="kan-Latn">
     <body>
-      <head>
-	<author></author>
-	<title></title>
-      </head>
       <div type="sandhi" n="1">
 	<head>oṁdaneya saṁdhi</head>
 	<lg n="1">
@@ -448,9 +444,11 @@
       </div>
       <div type="sandhi" n="2">
 	<head>eraḍaneya saṁdhi</head>
-	halavu nayanītiyali haṁseya
-	kaḷuhalaṁdina rāyabhāradi
-	naḷanr̥page satiyādaḷā damayaṁti manavolidu	
+	<lg>
+	  <l>halavu nayanītiyali haṁseya</l>
+	  <l>kaḷuhalaṁdina rāyabhāradi</l>
+	  <l>naḷanr̥page satiyādaḷā damayaṁti manavolidu</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷu kuṁtītanaya bhīmanr̥</l>
 	  <l>pālatanujege viraha balidu vi</l>
@@ -847,9 +845,11 @@
       </div>
       <div type="sandhi" n="3">
 	<head>mūraneya saṁdhi</head>
-	rājisuva varabhīmapuradali 
-	rāja naḷanr̥pa maduveyāgi sa 
-	rājatējadi baṁdu hokkanu purava satisahita
+	<lg>
+	  <l>rājisuva varabhīmapuradali</l>
+	  <l>rāja naḷanr̥pa maduveyāgi sa</l>
+	  <l>rājatējadi baṁdu hokkanu purava satisahita</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷu dharmaja naḷana rūpanu</l>
 	  <l>kēḷalī hadanāytu satige nr̥</l>
@@ -1449,9 +1449,11 @@
       </div>
       <div type="sandhi" n="4">
 	<head>nālkaneya saṁdhi</head>
-	maruge purajana jūjinali pu 
-	ṣkarage rājyava sōtu naḷabhū 
-	varanu nijasatisahita horavaṁṭanu vanāṁtarake
+	<lg>
+	  <l>maruge purajana jūjinali pu</l>
+	  <l>ṣkarage rājyava sōtu naḷabhū</l>
+	  <l>varanu nijasatisahita horavaṁṭanu vanāṁtarake</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷidai rājēṁdra dharmanr̥</l>
 	  <l>pāla naiṣadhanatuḷasaṁpada</l>
@@ -1808,9 +1810,11 @@
       </div>
       <div type="sandhi" n="5">
 	<head>aidaneya saṁdhi</head>
-	aḍaviyali pati kaḷedu biḍe phaṇi 
-	yoḍaligiḷiyade muṁde karigaḷa 
-	paḍegeragi damayaṁti hokkaḷu caidyanagariyanu
+	<lg>
+	  <l>aḍaviyali pati kaḷedu biḍe phaṇi</l>
+	  <l>yoḍaligiḷiyade muṁde karigaḷa</l>
+	  <l>paḍegeragi damayaṁti hokkaḷu caidyanagariyanu</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷu kuṁtītanaya naḷanr̥pa</l>
 	  <l>bīḷukoṭṭanu puravanalliṁ</l>
@@ -2302,9 +2306,11 @@
       </div>
       <div type="sandhi" n="6">
 	<head>āraneya saṁdhi</head>
-	iṁduvadaneyanagali tā mana
-	no0du kārkōṭakana deseyali
-	baṁdu hokkanu niṣadhapati r̥tuparṇanagariyanu
+	<lg>
+	  <l>induvadaneyanagali tā mana</l>
+	  <l>nondu kārkōṭakana deseyali</l>
+	  <l>bandu hokkanu niṣadhapati r̥tuparṇanagariyanu</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷu kuṁtītanaya niṣadhanr̥</l>
 	  <l>pālanittalu maredu malagida</l>
@@ -2512,11 +2518,10 @@
 	  <l>halavu gōpuraśikharadagaṇita</l>
 	  <l>neleya varṇisalaridayōdhyāpuravu raṁjisitu</l>
 	</lg>
-	arasugaḷu bhūsuraru mige vai 
 	<lg n="27">
+	  <l>arasugaḷu bhūsuraru mige vai </l>
 	  <l>śyaru caturtharu nāgarikada</l>
 	  <l>purajanaru saṁdaṇisitagaṇita rājavīdhiyali</l>
-	  <l></l>
 	  <l>kari turaga ratha pāyadaḷa gō</l>
 	  <l>carisitaṁgaḍi navavidhānadi</l>
 	  <l>merevayōdhyāpurava kaṁḍanu tūgidanu śirava</l>
@@ -2532,9 +2537,11 @@
       </div>
       <div type="sandhi" n="7">
 	<head>ēḷaneya saṁdhi</head>
-	magaḷa kāṇade bhīmanr̥pa mū 
-	jagava bhēdisi caidyabhūpana
-	nagaradallire kaṁḍu karesida tanna nijasuteya
+	<lg>
+	  <l>magaḷa kāṇade bhīmanr̥pa mū</l>
+	  <l>jagava bhēdisi caidyabhūpana</l>
+	  <l>nagaradallire kaṁḍu karesida tanna nijasuteya</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷu dharmaja ratna nirmita</l>
 	  <l>dālayada sobaginaliyōlaga</l>
@@ -2871,11 +2878,10 @@
 	  <l>dhavaru saṁtōṣisidaranibaru</l>
 	  <l>yuvatiyaru nijatanayarāliṁgisidaraṁganeya</l>
 	</lg>
-	magana nōḍidaḷiṁdrasēnana 
 	<lg n="43">
+	  <l>magana nōḍidaḷiṁdrasēnana</l>
 	  <l>tegedu takkaisidaḷu karedaḷu</l>
 	  <l>magaḷa caṁdrāsyaḷanu toḍeyoḷagiṭṭu mamateyali</l>
-	  <l></l>
 	  <l>mogavanīkṣisi molegaḷali tore</l>
 	  <l>duguva hālina janani mige nī</l>
 	  <l>roguva kaṇṇīrinali saṁtaisidaḷu nijasutara</l>
@@ -2891,9 +2897,11 @@
       </div>
       <div type="sandhi" n="8">
 	<head>eṁṭaneya saṁdhi</head>
-	surara duṁdubhi moḷage dharaṇī 
-	suraruliye muraharana karuṇadi
-	taruṇi damayaṁtiyaḷanoḍagūḍidanu naḷanr̥pati
+	<lg>
+	  <l>surara duṁdubhi moḷage dharaṇī</l>
+	  <l>suraruliye muraharana karuṇadi</l>
+	  <l>taruṇi damayaṁtiyaḷanoḍagūḍidanu naḷanr̥pati</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷidai rājēṁdra dharmanr̥</l>
 	  <l>pāla toredaḷu sakala vibhavava</l>
@@ -3053,12 +3061,11 @@
 	  <l>pativratavanācarisuvaḷu nija</l>
 	  <l>patiya guṇadōṣagaḷaneṇipaḷe</l>
 	  <l>gatige kāraṇa satyavē tanageṁdanava naguta</l>
-	</lg>
-	patiya tappeṇisuva sati pati 
+	</lg> 
 	<lg n="21">
+	  <l>patiya tappeṇisuva sati pati</l>
 	  <l>vrateye dharaṇiya pālisuva jana</l>
 	  <l>patiya niṁdisuvāta sēvakanē nidhānisalu</l>
-	  <l></l>
 	  <l>pitana vākyavanatigaḷevavanu</l>
 	  <l>sutane guruvina mātaneṇisada</l>
 	  <l>patita pātaki śiṣyanē tāneṁda bāhukanu</l>
@@ -3419,9 +3426,11 @@
       </div>
       <div type="sandhi" n="9">
 	<head>oṁbattaneya saṁdhi</head>
-	kadanadali puṣkarana balavanu
-	sadedu jūjiṁ gelidu rājyava
-	mudadi pālisutirdanā satisahita naḷanr̥pati
+	<lg>
+	  <l>kadanadali puṣkarana balavanu</l>
+	  <l>sadedu jūjiṁ gelidu rājyava</l>
+	  <l>mudadi pālisutirdanā satisahita naḷanr̥pati</l>
+	</lg>
 	<lg n="1">
 	  <l>kēḷu pāṁḍukumāra naḷabhū</l>
 	  <l>pālanabhyudayavanu maṁgaḷa</l>
