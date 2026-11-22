@@ -52,11 +52,11 @@
           <body>
             <head xml:lang="en"><seg type="source"><hi rend="italic">The Indian Antiquary</hi>, Vol. VIII, p. 285.</seg> <seg type="number">No. 1.</seg> <seg type="date">A.D. 709.</seg> <seg type="place">At—Aihoḷe, Bijapur Dist. (Bombay Province).</seg></head>
             <ab>
-              <lb n="1"/>svasti śrī-vijayāditya-saty[ā]śraya-śrī pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vivallabha mah<unclear resp="#GSG">ā</unclear>-r<unclear resp="#GSG">āj-ādhirāja-para</unclear>-
-              <lb n="2" break="no"/>mēśvara-bhaṭārara<unclear resp="#GSG">r</unclear>·trayōdaśa-varṣamuṁ <choice resp="#GSG"><orig>mu</orig><reg>mū</reg></choice>ṟu-tiṁgaḷ-uḷ·koṭṣāre °āśvayuja-pñ<seg type="parenthesis">(r)</seg>ṇṇamā-
+              <lb n="1"/>svasti śrī-vijayāditya-saty<unclear>ā</unclear>śraya-śrī pr̥<choice resp="#GSG"><orig>thu</orig><reg>thi</reg></choice>vivallabha mah<unclear resp="#GSG">ā</unclear>-r<unclear resp="#GSG">āj-ādhirāja-para</unclear>-
+              <lb n="2" break="no"/>mēśvara-bhaṭārara<unclear resp="#GSG">r</unclear>·trayōdaśa-varṣamuṁ <choice resp="#GSG"><orig>mu</orig><reg>mū</reg></choice>ṟu-tiṁgaḷ-uḷ·koṭṣāre °āśvayuja-pñ(r)ṇṇamā-
               <lb n="3" break="no"/>saduḷ·viśupaduḷ °eḻtugolugasaṇiyā °ittaddu pūravaḷagosāsigarā maṟu-
               <lb n="4" break="no"/>dharmma-tusavanin paḍed eppaṭṭādu °oṁdu gāṇaduḷ °ondu soṁṭige <choice resp="#GSG"><orig>tē</orig><reg>tai</reg></choice>lam āge koṭṭ<unclear resp="#GSG">ā</unclear>ra<unclear resp="#GSG">r</unclear>·bhaṭārargge
-              <lb n="5"/>yā<seg type="parenthesis">(?)</seg> dattiyān kiḍipon vāraṇ<unclear resp="#GSG">ā</unclear>siyuḷ·s<unclear resp="#GSG">ā</unclear>sirvvar-pparvvaru<unclear resp="#GSG">ṁ</unclear> kaviley(u([mā*]n konda lōkakke sandon °akkum
+              <lb n="5"/><unclear>yā</unclear> dattiyān kiḍipon vāraṇ<unclear resp="#GSG">ā</unclear>siyuḷ·s<unclear resp="#GSG">ā</unclear>sirvvar-pparvvaru<unclear resp="#GSG">ṁ</unclear> kaviley(u([mā*]n konda lōkakke sandon °akkum
             </ab>
           </body>
         </text>
@@ -78,13 +78,13 @@
               <lb n="12"/>°ōr-āḷke °ormme vaiśākha-māsaduḷ·
               <lb n="13"/>dēśādhipatigaḷ apporgge kuḍuva
               <lb n="14"/>teṟe °uttamam-appa °okkal-mi-
-              <lb n="15" break="no"/>sam·pattu paṇavuṁ madhyamam a[ppa]
-              <lb n="16"/>°okkal °ēḻuṁ paṇavuṁ kaniṣṭa<seg type="parenthesis">(ṣṭa)</seg>r ayduṁ
+              <lb n="15" break="no"/>sam·pattu paṇavuṁ madhyamam a<unclear>ppa</unclear>
+              <lb n="16"/>°okkal °ēḻuṁ paṇavuṁ kani<choice><orig>ṣṭa</orig><reg>ṣṭha</reg></choice>r ayduṁ
               <lb n="17"/>kanīyasar·mūṟum aṁtt-appa °osage-
               <lb n="18" break="no"/>°utsāhaṅgaḷge °ond okkal ondu puṭṭi-
               <lb n="19" break="no"/>ge ma* cōra-pāka-daṇḍa daś-āparā-
               <lb n="20" break="no"/>dhaṅgaḷ appav ellaṁ pūrvv-ācāraṁ °a-
-              <lb n="21" break="no"/>[pu]tra-dhanam °envodu tāne °illi s[ē]ṇig[e] kā
+              <lb n="21" break="no"/>[pu]tra-dhanam °envodu tāne °illi s<unclear>ē</unclear>ṇig<unclear>e</unclear> kā
               <pb n="111"/><lb n="22"/>rttika-māsaduḷ koḍuvadu guttam·rūvaṁge mā-
               <lb n="23" break="no"/>gha-māsaduḷ·koḍuvadu pāṇḍi-seṭṭi nāl-chā-
               <lb n="24" break="no"/>siram·tirmesagaḍeṇakko poḷalān āḷe ka-
@@ -340,7 +340,7 @@
               <lb n="3" break="no"/>ṅkarargge °iṣṭa-bhr̥tyan appa po-
               <lb n="4" break="no"/>lokku priyacelva [°u]da[yā]-
               <lb n="5" break="no"/>puraman·pugutappa-
-              <lb n="6" break="no"/>lli °āha[pa](va)-ra<unclear resp="#GSG">ṅga</unclear>duḷ-uru-
+              <lb n="6" break="no"/>lli °āha<unclear><choice><orig>pa</orig><reg>va</reg></choice></unclear>-ra<unclear resp="#GSG">ṅga</unclear>duḷ-uru-
               <lb n="7" break="no"/>bhaṭara [°e]ṟidu priyace-
               <lb n="8" break="no"/>lva celva-śanpanna <choice resp="#GSG"><orig>ka</orig><reg>kha</reg></choice>la-
               <lb n="9" break="no"/>[ja]na-varjjitan·dhare<choice resp="#GSG"><orig>gi</orig><reg>gī</reg></choice>-
@@ -395,7 +395,7 @@
               <lb n="14"/>°idu <choice resp="#GSG"><orig>°a</orig><reg>°ā</reg></choice>candratāraka<unclear resp="#GSG">ṁ</unclear> nilpud akke | °ida kādo
               <lb n="15"/>°aṭṭaguṇa °a<choice resp="#GSG"><orig>sva</orig><reg>śva</reg></choice>mē<choice resp="#GSG"><orig>da</orig><reg>dha</reg></choice>da <choice resp="#GSG"><orig>pa</orig><reg>pha</reg></choice>lam °akke
               <lb n="16"/>°idan °aḻido b<unclear resp="#GSG">ā</unclear>raṇāsiyu śivavaḷḷiyu-
-              <lb n="17" break="no"/>ma °aḷida pañcama<choice resp="#GSG"><orig>ha</orig><reg>hā</reg></choice>pātakan ak<unclear resp="#GSG">u</unclear>(kkum) |
+              <lb n="17" break="no"/>ma °aḷida pañcama<choice resp="#GSG"><orig>ha</orig><reg>hā</reg></choice>pātakan a<choice><orig>k<unclear resp="#GSG">u</unclear></orig><reg>kkum</reg></choice> |
               <lb n="18"/>raṇadhāri-likhita.
             </ab>
           </body>
@@ -1876,7 +1876,7 @@
               <lb n="33" break="no"/>[1] bhuvana-sāram enal-negaḻd °agrahārama || <add resp="#GSG">19</add> kula-giri-bhittiyinde maṟe-vokkaḍe koṁḍa saroruh-ādharaṁ nelasidan abjavāhanan enal dinarā-
               <lb n="34" break="no"/>[ja]-nivāsam āda bhūta<choice resp="#GSG"><orig>ḷa</orig><reg>la</reg></choice>-satig oḷpan āḷdu nava-mēkhaḷey eṁba samudrad ante koṇḍaligeṟey oppi tōṟuvud ene biṇpinoḷ āvaris-irdda
               <lb n="35"/>peṁpinoḷ || <add resp="#GSG">20</add> kaṁ || visaruha-mivāseyuṁ kumuda-sahāyanuṁ muḍiy- ant eseva * karōkara ** suḷisida *** °irppar ā
-              <lb n="36"/>kāḍiyūra koṇḍaligeṟeya || (21)*) kalidēva-svāmiya siva-niḷayaṁ vr̥jin-āpaharaṇam ārgg ābharaṇaṁ *** noḷe po-
+              <lb n="36"/>kāḍiyūra koṇḍaligeṟeya || <add resp="#GSG">21</add> kalidēva-svāmiya siva-niḷayaṁ vr̥jin-āpaharaṇam ārgg ābharaṇaṁ *** noḷe po-
               <lb n="37" break="no"/>gaḷ aridu sarasijabhavaṁgam ahirājaṁgam || <add resp="#GSG">22</add> sakaḷa-jaḷa-caraman oḷa-koṇḍu karaṁ beḷ-valis iḍegaḷa mūrttiy aḷake kuḷam[u]-
               <lb n="38" break="no"/>m oppal atibhuṁbhukam enisida kōṣṭha-kōṭi-vidhadiṁd esegu[ṁ*] || <add resp="#GSG">23</add> vr̥ || kramadin aḷurke-vettu nibiḍ-ōnnatam āgi bedaṁgis ēṁ catus-sa-
               <lb n="39" break="no"/>mayada dēvatā-niḷayam oppugum alliya pū<choice resp="#GSG"><orig>jye</orig><reg>je</reg></choice>y alliy uttama-muni-nāthar alliya mahā-maha-saṁpa-
@@ -1974,7 +1974,7 @@
               <lb n="22" break="no"/>bhaṭārara kālaṁ karcci koṭṭa sthiti-y-āvud-endoḍe hedarigaṭṭavuṁ kārimgeṟeyuṁ sirigeṟeyum
               <lb n="23"/>°iṭṭageyum °aṁtu nālkuṁ bāḍavumaṁ sarvva-bādhā-parihāraṁ kṣudrōpadrava-bādhegaḷ °onduvaṁ
               <lb n="24"/>geyya salla °akṣata-mātraman °appoḍaṁ koḷa salla °ī maryādeyaṁn·tappade naḍeyi-
-              <lb n="25" break="no"/>sidātaṁ srīparbbadoḷ·tapaṁ geydoṁ vāraṇāsiyoḷ·tuḷāpuruṣam °iṟ(ḻ?)doṁ kurukṣētradoḷ-dānaṁ
+              <lb n="25" break="no"/>sidātaṁ srīparbbadoḷ·tapaṁ geydoṁ vāraṇāsiyoḷ·tuḷāpuruṣam °i<choice><orig>ṟ</orig><reg cert="low">ḻ</reg></choice>doṁ kurukṣētradoḷ-dānaṁ
               <lb n="26"/>geydoṁ gayeyoḷ·piṇḍavan °iṭṭoṁ °ī-lōkadoḷ °uḷḷa dharmmam °ellamaṁ geydoṁ °ī-maryyādeya-
               <lb n="27" break="no"/>n °aḷidu-koṇḍātaṁ śrīparbbatadoḷ·tapōdhanaram·prayāgeyoḷ·brāhmaṇaraṁ kurukṣētra-
               <lb n="28" break="no"/>doḷ·kavileyan °ant-inituman °aḻida-pātakan °ī-lōkadoḷ °uḷḷa brahmāti-y-ellamaṁ
@@ -2054,12 +2054,12 @@
               <lb n="7" break="no"/>kaḻteyammanuṁ bhīmarāśi-bhaṭṭarara kālaṁ karchi sāyira baḷḷiya
               <lb n="8"/>tōṁṭamaṁ dēvargge koṭṭar °ayvadiṁbaruṁ °ekkad °ire grahaṇada tat-kāla-
               <lb n="9" break="no"/>ḍoḷ °āyaṁ taḷiṟ-ele-sose | siddh-āyam °ellaṁ dēvargge barisakke
-              <lb n="10"/>°arasargge nibaddhaṁ mūvattu kariya drarmma (mma) maṁ goravar ttīruva-
+              <lb n="10"/>°arasargge nibaddhaṁ mūvattu kariya dra<choice><orig>rmma</orig><reg>mma</reg></choice> maṁ goravar ttīruva-
               <lb n="11" break="no"/>r ī sthitiyaṁ tappad-antu °ūroḍeya piṭṭayyaṁ kālg-eṟeye gā-
               <lb n="12" break="no"/>muṇḍa sāmi-kaḻteyammanuṁ °ācapayyanuṁ kālam·kaḻce mattaṁ
               <lb n="13"/>ma<choice resp="#GSG"><orig>ṭa</orig><reg>ṭha</reg></choice>kke vidyā-dāna<add resp="#GSG">kka</add>ṁ pannir-mmattar·keyyaṁ koṭṭar·kkeyi siddh-ā-
               <lb n="14" break="no"/>yaṁ barisakke °āṟu kariya dra<choice resp="#GSG"><orig>rmma</orig><reg>mma</reg></choice>maṁ tīṟuvar °ivaṟiṁ mē-
-              <lb n="15" break="no"/>g °aḻidu ko(?kō)ḷal °aḻi(?)d °ayvadiṁbaruṁ kā<choice resp="#GSG"><orig>pū</orig><reg>pā</reg></choice>ḍuvar·bhavāni-seṭṭi pēṟin<add resp="#GSG">o</add> o-
+              <lb n="15" break="no"/>g °aḻidu <choice><orig>ko</orig><reg cert="low">kō</reg></choice>ḷal °aḻi(?)d °ayvadiṁbaruṁ kā<choice resp="#GSG"><orig>pū</orig><reg>pā</reg></choice>ḍuvar·bhavāni-seṭṭi pēṟin<add resp="#GSG">o</add> o-
               <pb n="156"/><lb n="16" break="no"/>ndu paṇamaṁ dēvargge māḍidan idan tappade naḍeyisidātaṁ
               <lb n="17"/>sāsiraṁ kavileya kōḍuṁ koḷaga<unclear resp="#GSG">gumaṁ</unclear> ponnuṁ beḷḷiyumaṁ kaṭṭi
               <lb n="18"/>sāyi<unclear resp="#GSG">si</unclear>rbbar·ppārvvargge dānaṁ-goṭṭa phalaṁ °ēḻ-kōṭi tapōjanakkaṁ
