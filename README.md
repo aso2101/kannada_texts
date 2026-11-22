@@ -2,15 +2,40 @@
 
 ## Texts included so far
 
-- *Ādipurāṇaṁ* of Pampa (ಪಂಪನ ಆದಿಪುರಾಣಂ), 941
-- *Vikramārjunavijayaṁ* of Pampa (ಪಂಪನ ವಿಕ್ರಮಾರ್ಜುನವಿಜಯಂ), 941
-- *Śāntipurāṇaṁ* of Ponna (ಪೊನ್ನನ ಶಾಂತಿಪುರಾಣಂ), 953
-- *Sāhasabhīmavijayaṁ* of Ranna (ರನ್ನ, ಸಾಹಸಭೀಮವಿಜಯಂ)
-- *Rannanighaṇṭu* of Ranna (ರನ್ನನ ನಿಘಂಟು)
-- *Vardhamānapurāṇaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನ ವರ್ಧಮಾನಪುರಾಣಂ), ca. 1042
-- *Kāvyāvalōkanaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನ ಕಾವ್ಯಾವಲೋಕನಂ), ca. 1042
-- *Karṇāṭakabhāṣābhūṣaṇaṁ* of Nāgavarman II (ಎರಡನೆಯ ನಾಗವರ್ಮನ ಕರ್ಣಾಟಕಭಾಷಾಭೂಷಣಂ), ca. 1042 (note that this text is in *Sanskrit* with Kannada examples)
-- *Anantanāthapurāṇaṁ* of Janna (ಜನ್ನ, ಅನಂತನಾಥಪುರಾಣಂ)
+- Pampa
+  - *Ādipurāṇaṁ* (ಪಂಪನ ಆದಿಪುರಾಣಂ), 941
+  - *Vikramārjunavijayaṁ* (ಪಂಪನ ವಿಕ್ರಮಾರ್ಜುನವಿಜಯಂ), 941
+- Ponna
+  - *Śāntipurāṇaṁ* (ಪೊನ್ನನ ಶಾಂತಿಪುರಾಣಂ), 953
+- Cāvuṇḍarāya
+  - *Cāvuṇḍarāyapurāṇaṁ* (ಚಾವುಂಡರಾಯಪುರಾಣಂ/ತ್ರಿಷಷ್ಟಿಶಲಾಕಪುರುಷಚರಿತಂ), ca. 990
+- Nāgavarma (I)
+  - *Chandōmbudhi* (ಛಂದೋಂಬುಧಿ), ca. 995
+- Ranna
+  - *Sāhasabhīmavijayaṁ* (ರನ್ನ, ಸಾಹಸಭೀಮವಿಜಯಂ), ca. 1000
+  - *Rannanighaṇṭu* (ರನ್ನನ ನಿಘಂಟು), ca. 1000
+- Nāgavarma (II)
+  - *Vardhamānapurāṇaṁ* (ಎರಡನೆಯ ನಾಗವರ್ಮನ ವರ್ಧಮಾನಪುರಾಣಂ), ca. 1042
+  - *Kāvyāvalōkanaṁ* (ಎರಡನೆಯ ನಾಗವರ್ಮನ ಕಾವ್ಯಾವಲೋಕನಂ), ca. 1042
+  - *Karṇāṭakabhāṣābhūṣaṇaṁ* (ಎರಡನೆಯ ನಾಗವರ್ಮನ ಕರ್ಣಾಟಕಭಾಷಾಭೂಷಣಂ), ca. 1042 (note that this text is in *Sanskrit* with Kannada examples)
+- Nāgavarma (III)
+  - *Karṇāṭa-kādambari* (ಕರ್ಣಾಟಕಾದಂಬರಿ)
+- Harihara
+  - *Pampāśatakaṁ* (ಪಂಪಾಶತಕಂ)
+  - *Rakṣāśatakaṁ* (ರಕ್ಷಾಶತಕಂ)
+- Rāghavāṅka
+  - *Siddharāmacaritraṁ* (ಸಿದ್ಧರಾಮಚರಿತ್ರಂ)
+- Janna 
+  - *Anantanāthapurāṇaṁ* (ಅನಂತನಾಥಪುರಾಣಂ), ca. 1230
+- Honnamma
+  - *Hadibadeya Dharma* (ಹದಿಬದೆಯ ಧರ್ಮ)
+- Kanakadāsa
+  - *Naḷacaritre* (ನಳಚರಿತ್ರೆ)
+  - *Rāmadhānyacaritre* (ರಾಮಧಾನ್ಯಚರಿತ್ರೆ)
+- Ratnākaravarṇi
+  - *Aparājitēśvaraśatakaṁ* (ಅಪರಾಜಿತೇಶ್ವರಶತಕಂ)
+
+Plus the corpus of inscriptions included in G. S. Gai’s *Historical Grammar of Old Kannada*. 
 
 ## Directory structure
 
